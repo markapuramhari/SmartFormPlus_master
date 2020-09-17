@@ -1,0 +1,576 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="1" passed="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Enter the value into  EmployeeID Text box]]>
+    </line>
+    <line>
+      <![CDATA[Enter the value into  Password Text box]]>
+    </line>
+    <line>
+      <![CDATA[Clicking on  Login button]]>
+    </line>
+    <line>
+      <![CDATA[Verify Login button is Clickable or Not]]>
+    </line>
+    <line>
+      <![CDATA[Clicking on  New Requisition option]]>
+    </line>
+    <line>
+      <![CDATA[Verify New Requisition option is Clickable or Not]]>
+    </line>
+    <line>
+      <![CDATA[Clear the Text Present inProject name text box]]>
+    </line>
+    <line>
+      <![CDATA[Enter the value into Project name text box]]>
+    </line>
+    <line>
+      <![CDATA[Clicking on  RequestType dropdown]]>
+    </line>
+    <line>
+      <![CDATA[Verify RequestType dropdown is Clickable or Not]]>
+    </line>
+    <line>
+      <![CDATA[Clicking on  New Position options]]>
+    </line>
+    <line>
+      <![CDATA[Verify New Position options is Clickable or Not]]>
+    </line>
+    <line>
+      <![CDATA[Clicking on  Id skill text box]]>
+    </line>
+    <line>
+      <![CDATA[Verify Id skill text box is Clickable or Not]]>
+    </line>
+    <line>
+      <![CDATA[Enter the value into SkillDetail text box]]>
+    </line>
+    <line>
+      <![CDATA[Clicking on  Plus button under skills]]>
+    </line>
+    <line>
+      <![CDATA[Verify Plus button under skills is Clickable or Not]]>
+    </line>
+    <line>
+      <![CDATA[Element is not visible---------Primary Radio Button]]>
+    </line>
+    <line>
+      <![CDATA[Click on Element Primary Radio Button]]>
+    </line>
+    <line>
+      <![CDATA[Clicking on  Done button ]]>
+    </line>
+    <line>
+      <![CDATA[Verify Done button  is Clickable or Not]]>
+    </line>
+    <line>
+      <![CDATA[Clicking on  Job tex box detail ]]>
+    </line>
+    <line>
+      <![CDATA[Verify Job tex box detail  is Clickable or Not]]>
+    </line>
+    <line>
+      <![CDATA[Enter the value into Job text box ]]>
+    </line>
+    <line>
+      <![CDATA[Clicking on  SelectJob tick icon]]>
+    </line>
+    <line>
+      <![CDATA[Verify SelectJob tick icon is Clickable or Not]]>
+    </line>
+    <line>
+      <![CDATA[Clicking on  Save button ]]>
+    </line>
+    <line>
+      <![CDATA[Verify Save button  is Clickable or Not]]>
+    </line>
+    <line>
+      <![CDATA[Clicking on  Employe group name dropdown]]>
+    </line>
+    <line>
+      <![CDATA[Verify Employe group name dropdown is Clickable or Not]]>
+    </line>
+    <line>
+      <![CDATA[Clicking on  Band element dropdown]]>
+    </line>
+    <line>
+      <![CDATA[Verify Band element dropdown is Clickable or Not]]>
+    </line>
+    <line>
+      <![CDATA[Clicking on  SubBand Element dropdown]]>
+    </line>
+    <line>
+      <![CDATA[Verify SubBand Element dropdown is Clickable or Not]]>
+    </line>
+    <line>
+      <![CDATA[Clicking on  Secondary PSA dropdown]]>
+    </line>
+    <line>
+      <![CDATA[Verify Secondary PSA dropdown is Clickable or Not]]>
+    </line>
+    <line>
+      <![CDATA[Clicking on  ENOI option ]]>
+    </line>
+    <line>
+      <![CDATA[Verify ENOI option  is Clickable or Not]]>
+    </line>
+    <line>
+      <![CDATA[Enter the value into Number of Position text box]]>
+    </line>
+    <line>
+      <![CDATA[Clicking on  Submit button ]]>
+    </line>
+    <line>
+      <![CDATA[Verify Submit button  is Clickable or Not]]>
+    </line>
+    <line>
+      <![CDATA[Enter the value into Location dropdown]]>
+    </line>
+    <line>
+      <![CDATA[Enter the value into Secondary Location dropdown]]>
+    </line>
+    <line>
+      <![CDATA[Clicking on  State drop drown]]>
+    </line>
+    <line>
+      <![CDATA[Verify State drop drown is Clickable or Not]]>
+    </line>
+    <line>
+      <![CDATA[Clicking on  City dropdown ]]>
+    </line>
+    <line>
+      <![CDATA[Verify City dropdown  is Clickable or Not]]>
+    </line>
+    <line>
+      <![CDATA[Click on Element Radio Button ]]>
+    </line>
+    <line>
+      <![CDATA[Clicking on  Save Draft button]]>
+    </line>
+    <line>
+      <![CDATA[Verify Save Draft button is Clickable or Not]]>
+    </line>
+    <line>
+      <![CDATA[Clicking on  Interviewer one text box]]>
+    </line>
+    <line>
+      <![CDATA[Verify Interviewer one text box is Clickable or Not]]>
+    </line>
+    <line>
+      <![CDATA[Enter the value into Interviewer 1 text box]]>
+    </line>
+    <line>
+      <![CDATA[Clicking on  Interviewer Two TextBox]]>
+    </line>
+    <line>
+      <![CDATA[Verify Interviewer Two TextBox is Clickable or Not]]>
+    </line>
+    <line>
+      <![CDATA[Enter the value into Interviewer two text box]]>
+    </line>
+    <line>
+      <![CDATA[Clicking on  Submit button ]]>
+    </line>
+    <line>
+      <![CDATA[Verify Submit button  is Clickable or Not]]>
+    </line>
+    <line>
+      <![CDATA[Clicking on  Submit button ]]>
+    </line>
+    <line>
+      <![CDATA[Verify Submit button  is Clickable or Not]]>
+    </line>
+    <line>
+      <![CDATA[Navigating to the URL]]>
+    </line>
+    <line>
+      <![CDATA[Enter the value into  EmployeeID Text box]]>
+    </line>
+    <line>
+      <![CDATA[ User is not able to type nullinto  EmployeeID Text box]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="248434" started-at="2020-09-15T13:11:57Z" finished-at="2020-09-15T13:16:06Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="248434" started-at="2020-09-15T13:11:57Z" finished-at="2020-09-15T13:16:06Z">
+      <class name="com.hcl.smartrecruit.testscripts.ApproveAllRequisition">
+        <test-method status="PASS" signature="createFiles()[pri:0, instance:com.hcl.smartrecruit.testscripts.ApproveAllRequisition@7331196b]" name="createFiles" is-config="true" duration-ms="188" started-at="2020-09-15T13:11:57Z" finished-at="2020-09-15T13:11:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createFiles -->
+        <test-method status="PASS" signature="launchApp(java.lang.String)[pri:0, instance:com.hcl.smartrecruit.testscripts.ApproveAllRequisition@7331196b]" name="launchApp" is-config="true" duration-ms="5423" started-at="2020-09-15T13:11:57Z" finished-at="2020-09-15T13:12:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApp -->
+        <test-method status="PASS" signature="setExtentReport(java.lang.reflect.Method)[pri:0, instance:com.hcl.smartrecruit.testscripts.ApproveAllRequisition@7331196b]" name="setExtentReport" is-config="true" duration-ms="2" started-at="2020-09-15T13:12:03Z" finished-at="2020-09-15T13:12:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public synchronized void com.hcl.smartrecruit.testscripts.ApproveAllRequisition.TC_CreateNewRequisitionForm(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String) throws java.lang.InterruptedException,java.awt.AWTException,java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setExtentReport -->
+        <test-method status="FAIL" signature="TC_CreateNewRequisitionForm(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.hcl.smartrecruit.testscripts.ApproveAllRequisition@7331196b]" name="TC_CreateNewRequisitionForm" duration-ms="242016" started-at="2020-09-15T13:12:03Z" description="Approve Requisition" data-provider="TestDataProvider" finished-at="2020-09-15T13:16:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[BNP Paribas Chennai - Staff Aug(C/092091)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[business]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[ Requirement analysis]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[analyst]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[[Infrastructure-Technical] - Business ]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Full time FTE]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[E2]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[E2.1]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[ENOI]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[1-3 Years]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[4]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[Senior Analyst]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[Noida-Sec-16, A-11]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[CLIENT LOCATION]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[Andhra Pradesh]]>
+              </value>
+            </param>
+            <param index="15">
+              <value>
+                <![CDATA[Krishna]]>
+              </value>
+            </param>
+            <param index="16">
+              <value>
+                <![CDATA[Billable]]>
+              </value>
+            </param>
+            <param index="17">
+              <value>
+                <![CDATA[HARDIK MUKESH SHAH(40203957)]]>
+              </value>
+            </param>
+            <param index="18">
+              <value>
+                <![CDATA[Abdul Khazi (90003171)]]>
+              </value>
+            </param>
+            <param index="19">
+              <value>
+                <![CDATA[Approved]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Unable to type in  EmployeeID Text box]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Unable to type in  EmployeeID Text box
+at org.testng.Assert.fail(Assert.java:96)
+at com.hcl.smartrecruit.util.WebActionUtil.typeText(WebActionUtil.java:239)
+at com.hcl.smartrecruit.pages.Login_Page.signToApplication(Login_Page.java:46)
+at com.hcl.smartrecruit.testscripts.ApproveAllRequisition.TC_CreateNewRequisitionForm(ApproveAllRequisition.java:39)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[Enter the value into  EmployeeID Text box]]>
+            </line>
+            <line>
+              <![CDATA[Enter the value into  Password Text box]]>
+            </line>
+            <line>
+              <![CDATA[Clicking on  Login button]]>
+            </line>
+            <line>
+              <![CDATA[Verify Login button is Clickable or Not]]>
+            </line>
+            <line>
+              <![CDATA[Clicking on  New Requisition option]]>
+            </line>
+            <line>
+              <![CDATA[Verify New Requisition option is Clickable or Not]]>
+            </line>
+            <line>
+              <![CDATA[Clear the Text Present inProject name text box]]>
+            </line>
+            <line>
+              <![CDATA[Enter the value into Project name text box]]>
+            </line>
+            <line>
+              <![CDATA[Clicking on  RequestType dropdown]]>
+            </line>
+            <line>
+              <![CDATA[Verify RequestType dropdown is Clickable or Not]]>
+            </line>
+            <line>
+              <![CDATA[Clicking on  New Position options]]>
+            </line>
+            <line>
+              <![CDATA[Verify New Position options is Clickable or Not]]>
+            </line>
+            <line>
+              <![CDATA[Clicking on  Id skill text box]]>
+            </line>
+            <line>
+              <![CDATA[Verify Id skill text box is Clickable or Not]]>
+            </line>
+            <line>
+              <![CDATA[Enter the value into SkillDetail text box]]>
+            </line>
+            <line>
+              <![CDATA[Clicking on  Plus button under skills]]>
+            </line>
+            <line>
+              <![CDATA[Verify Plus button under skills is Clickable or Not]]>
+            </line>
+            <line>
+              <![CDATA[Element is not visible---------Primary Radio Button]]>
+            </line>
+            <line>
+              <![CDATA[Click on Element Primary Radio Button]]>
+            </line>
+            <line>
+              <![CDATA[Clicking on  Done button ]]>
+            </line>
+            <line>
+              <![CDATA[Verify Done button  is Clickable or Not]]>
+            </line>
+            <line>
+              <![CDATA[Clicking on  Job tex box detail ]]>
+            </line>
+            <line>
+              <![CDATA[Verify Job tex box detail  is Clickable or Not]]>
+            </line>
+            <line>
+              <![CDATA[Enter the value into Job text box ]]>
+            </line>
+            <line>
+              <![CDATA[Clicking on  SelectJob tick icon]]>
+            </line>
+            <line>
+              <![CDATA[Verify SelectJob tick icon is Clickable or Not]]>
+            </line>
+            <line>
+              <![CDATA[Clicking on  Save button ]]>
+            </line>
+            <line>
+              <![CDATA[Verify Save button  is Clickable or Not]]>
+            </line>
+            <line>
+              <![CDATA[Clicking on  Employe group name dropdown]]>
+            </line>
+            <line>
+              <![CDATA[Verify Employe group name dropdown is Clickable or Not]]>
+            </line>
+            <line>
+              <![CDATA[Clicking on  Band element dropdown]]>
+            </line>
+            <line>
+              <![CDATA[Verify Band element dropdown is Clickable or Not]]>
+            </line>
+            <line>
+              <![CDATA[Clicking on  SubBand Element dropdown]]>
+            </line>
+            <line>
+              <![CDATA[Verify SubBand Element dropdown is Clickable or Not]]>
+            </line>
+            <line>
+              <![CDATA[Clicking on  Secondary PSA dropdown]]>
+            </line>
+            <line>
+              <![CDATA[Verify Secondary PSA dropdown is Clickable or Not]]>
+            </line>
+            <line>
+              <![CDATA[Clicking on  ENOI option ]]>
+            </line>
+            <line>
+              <![CDATA[Verify ENOI option  is Clickable or Not]]>
+            </line>
+            <line>
+              <![CDATA[Enter the value into Number of Position text box]]>
+            </line>
+            <line>
+              <![CDATA[Clicking on  Submit button ]]>
+            </line>
+            <line>
+              <![CDATA[Verify Submit button  is Clickable or Not]]>
+            </line>
+            <line>
+              <![CDATA[Enter the value into Location dropdown]]>
+            </line>
+            <line>
+              <![CDATA[Enter the value into Secondary Location dropdown]]>
+            </line>
+            <line>
+              <![CDATA[Clicking on  State drop drown]]>
+            </line>
+            <line>
+              <![CDATA[Verify State drop drown is Clickable or Not]]>
+            </line>
+            <line>
+              <![CDATA[Clicking on  City dropdown ]]>
+            </line>
+            <line>
+              <![CDATA[Verify City dropdown  is Clickable or Not]]>
+            </line>
+            <line>
+              <![CDATA[Click on Element Radio Button ]]>
+            </line>
+            <line>
+              <![CDATA[Clicking on  Save Draft button]]>
+            </line>
+            <line>
+              <![CDATA[Verify Save Draft button is Clickable or Not]]>
+            </line>
+            <line>
+              <![CDATA[Clicking on  Interviewer one text box]]>
+            </line>
+            <line>
+              <![CDATA[Verify Interviewer one text box is Clickable or Not]]>
+            </line>
+            <line>
+              <![CDATA[Enter the value into Interviewer 1 text box]]>
+            </line>
+            <line>
+              <![CDATA[Clicking on  Interviewer Two TextBox]]>
+            </line>
+            <line>
+              <![CDATA[Verify Interviewer Two TextBox is Clickable or Not]]>
+            </line>
+            <line>
+              <![CDATA[Enter the value into Interviewer two text box]]>
+            </line>
+            <line>
+              <![CDATA[Clicking on  Submit button ]]>
+            </line>
+            <line>
+              <![CDATA[Verify Submit button  is Clickable or Not]]>
+            </line>
+            <line>
+              <![CDATA[Clicking on  Submit button ]]>
+            </line>
+            <line>
+              <![CDATA[Verify Submit button  is Clickable or Not]]>
+            </line>
+            <line>
+              <![CDATA[Navigating to the URL]]>
+            </line>
+            <line>
+              <![CDATA[Enter the value into  EmployeeID Text box]]>
+            </line>
+            <line>
+              <![CDATA[ User is not able to type nullinto  EmployeeID Text box]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TC_CreateNewRequisitionForm -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.hcl.smartrecruit.testscripts.ApproveAllRequisition@7331196b]" name="closeBrowser" is-config="true" duration-ms="219" started-at="2020-09-15T13:16:06Z" finished-at="2020-09-15T13:16:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="killTask(java.lang.String)[pri:0, instance:com.hcl.smartrecruit.testscripts.ApproveAllRequisition@7331196b]" name="killTask" is-config="true" duration-ms="31" started-at="2020-09-15T13:16:06Z" finished-at="2020-09-15T13:16:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- killTask -->
+      </class> <!-- com.hcl.smartrecruit.testscripts.ApproveAllRequisition -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

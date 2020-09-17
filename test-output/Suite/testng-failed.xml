@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="com.hcl.smartrecruit.listners.TestListener"/>
+  </listeners>
+  <test thread-count="2" name="Test(failed)">
+    <parameter name="browserName" value="chrome"/>
+    <classes>
+      <class name="com.hcl.smartrecruit.testscripts.ApproveAllRequisition">
+        <methods>
+          <include name="TC_CreateNewRequisitionForm" invocation-numbers="0"/>
+          <include name="launchApp"/>
+          <include name="closeBrowser"/>
+          <include name="killTask"/>
+          <include name="setExtentReport"/>
+          <include name="createFiles"/>
+        </methods>
+      </class> <!-- com.hcl.smartrecruit.testscripts.ApproveAllRequisition -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

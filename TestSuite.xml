@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" configfailurepolicy="continue" name="SmartRecruit" parallel="tests">
+  <listeners>
+    <listener class-name="com.hcl.smartrecruit.listners.TestListener"/>
+  </listeners>
+  <test thread-count="1" name="POC_Test1" parallel="tests">
+    <parameter name="browserName" value="Chrome"/>
+    <classes>
+      <class name="com.hcl.smartrecruit.testscripts.CreateRequisition"/>
+    </classes>
+  </test> <!-- POC_Test1 -->
+<!--   <test thread-count="1" name="POC_Test2" parallel="tests">
+    <parameter name="browserName" value="Edge"/>
+    <classes>
+      <class name="com.hcl.smartrecruit.testscripts.CreateRequisition"/>
+    </classes>
+  </test> POC_Test2 -->
+</suite> <!-- SmartRecruit -->
