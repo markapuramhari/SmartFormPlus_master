@@ -107,30 +107,42 @@
       <![CDATA[Verify Submit button  is Clickable or Not]]>
     </line>
     <line>
-      <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"(//span[text()='Senior Analyst'])[1]"}
+      <![CDATA[Clear the Text Present inJob description text area ]]>
+    </line>
+    <line>
+      <![CDATA[Enter the value into JOB description text area]]>
+    </line>
+    <line>
+      <![CDATA[Enter the value into Location dropdown]]>
+    </line>
+    <line>
+      <![CDATA[Enter the value into Secondary Location dropdown]]>
+    </line>
+    <line>
+      <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"(//ul[@class='dropdown-menu inner'])[7]/descendant::span[text()='CLIENT LOCATION']"}
   (Session info: chrome=85.0.4183.102)
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
 System info: host: 'HCLT-PC5929-1', ip: '10.98.101.172', os.name: 'Windows Server 2016', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_151'
 Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\gupta.ami\AppData\...}, goog:chromeOptions: {debuggerAddress: localhost:53766}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true, webdriver.remote.sessionid: 76082ae06e351f69de3976d0997...}
-Session ID: 76082ae06e351f69de3976d09970539c
-*** Element info: {Using=xpath, value=(//span[text()='Senior Analyst'])[1]}]]>
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\gupta.ami\AppData\...}, goog:chromeOptions: {debuggerAddress: localhost:55137}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true, webdriver.remote.sessionid: c8bcf5e6e5ef2c8f95768acf09c...}
+Session ID: c8bcf5e6e5ef2c8f95768acf09cfd122
+*** Element info: {Using=xpath, value=(//ul[@class='dropdown-menu inner'])[7]/descendant::span[text()='CLIENT LOCATION']}]]>
     </line>
     <line>
-      <![CDATA[Unable to performe action Additional Job Details ]]>
+      <![CDATA[Unable to performe action on Joining Details]]>
     </line>
   </reporter-output>
-  <suite name="SmartRecruit" duration-ms="112260" started-at="2020-09-18T20:51:22Z" finished-at="2020-09-18T20:53:15Z">
+  <suite name="SmartRecruit" duration-ms="124160" started-at="2020-09-18T21:15:20Z" finished-at="2020-09-18T21:17:24Z">
     <groups>
     </groups>
-    <test name="POC_Test1" duration-ms="112260" started-at="2020-09-18T20:51:22Z" finished-at="2020-09-18T20:53:15Z">
+    <test name="POC_Test1" duration-ms="124160" started-at="2020-09-18T21:15:20Z" finished-at="2020-09-18T21:17:24Z">
       <class name="com.hcl.smartrecruit.testscripts.CreateNewRequisition">
-        <test-method status="PASS" signature="createFiles()[pri:0, instance:com.hcl.smartrecruit.testscripts.CreateNewRequisition@528c868]" name="createFiles" is-config="true" duration-ms="156" started-at="2020-09-18T20:51:22Z" finished-at="2020-09-18T20:51:22Z">
+        <test-method status="PASS" signature="createFiles()[pri:0, instance:com.hcl.smartrecruit.testscripts.CreateNewRequisition@ab7395e]" name="createFiles" is-config="true" duration-ms="187" started-at="2020-09-18T21:15:20Z" finished-at="2020-09-18T21:15:20Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createFiles -->
-        <test-method status="PASS" signature="launchApp(java.lang.String)[pri:0, instance:com.hcl.smartrecruit.testscripts.CreateNewRequisition@528c868]" name="launchApp" is-config="true" duration-ms="5063" started-at="2020-09-18T20:51:22Z" finished-at="2020-09-18T20:51:27Z">
+        <test-method status="PASS" signature="launchApp(java.lang.String)[pri:0, instance:com.hcl.smartrecruit.testscripts.CreateNewRequisition@ab7395e]" name="launchApp" is-config="true" duration-ms="5191" started-at="2020-09-18T21:15:20Z" finished-at="2020-09-18T21:15:25Z">
           <params>
             <param index="0">
               <value>
@@ -141,7 +153,7 @@ Session ID: 76082ae06e351f69de3976d09970539c
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchApp -->
-        <test-method status="PASS" signature="setExtentReport(java.lang.reflect.Method)[pri:0, instance:com.hcl.smartrecruit.testscripts.CreateNewRequisition@528c868]" name="setExtentReport" is-config="true" duration-ms="2" started-at="2020-09-18T20:51:28Z" finished-at="2020-09-18T20:51:28Z">
+        <test-method status="PASS" signature="setExtentReport(java.lang.reflect.Method)[pri:0, instance:com.hcl.smartrecruit.testscripts.CreateNewRequisition@ab7395e]" name="setExtentReport" is-config="true" duration-ms="2" started-at="2020-09-18T21:15:25Z" finished-at="2020-09-18T21:15:25Z">
           <params>
             <param index="0">
               <value>
@@ -152,7 +164,7 @@ Session ID: 76082ae06e351f69de3976d09970539c
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setExtentReport -->
-        <test-method status="FAIL" signature="TC_CreateNewRequisitionForm(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.hcl.smartrecruit.testscripts.CreateNewRequisition@528c868]" name="TC_CreateNewRequisitionForm" duration-ms="106525" started-at="2020-09-18T20:51:28Z" description="Create Requisition" data-provider="TestDataProvider" finished-at="2020-09-18T20:53:14Z">
+        <test-method status="FAIL" signature="TC_CreateNewRequisitionForm(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.hcl.smartrecruit.testscripts.CreateNewRequisition@ab7395e]" name="TC_CreateNewRequisitionForm" duration-ms="118291" started-at="2020-09-18T21:15:25Z" description="Create Requisition" data-provider="TestDataProvider" finished-at="2020-09-18T21:17:24Z">
           <params>
             <param index="0">
               <value>
@@ -221,7 +233,7 @@ Session ID: 76082ae06e351f69de3976d09970539c
             </param>
             <param index="13">
               <value>
-                <![CDATA[Senior Analyst]]>
+                <![CDATA[(ETS) SPECIALIST]]>
               </value>
             </param>
             <param index="14">
@@ -267,13 +279,13 @@ Session ID: 76082ae06e351f69de3976d09970539c
           </params>
           <exception class="java.lang.AssertionError">
             <message>
-              <![CDATA[Unable to performe action on Additional Job Details ]]>
+              <![CDATA[Unable to performe action on Joinign Details ]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: Unable to performe action on Additional Job Details 
+              <![CDATA[java.lang.AssertionError: Unable to performe action on Joinign Details 
 at org.testng.Assert.fail(Assert.java:96)
-at com.hcl.smartrecruit.pages.RequisitionRequest_Page.additionaJobDetails(RequisitionRequest_Page.java:457)
-at com.hcl.smartrecruit.testscripts.CreateNewRequisition.TC_CreateNewRequisitionForm(CreateNewRequisition.java:33)
+at com.hcl.smartrecruit.pages.RequisitionRequest_Page.joiningDetails(RequisitionRequest_Page.java:507)
+at com.hcl.smartrecruit.testscripts.CreateNewRequisition.TC_CreateNewRequisitionForm(CreateNewRequisition.java:34)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -409,26 +421,38 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
               <![CDATA[Verify Submit button  is Clickable or Not]]>
             </line>
             <line>
-              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"(//span[text()='Senior Analyst'])[1]"}
+              <![CDATA[Clear the Text Present inJob description text area ]]>
+            </line>
+            <line>
+              <![CDATA[Enter the value into JOB description text area]]>
+            </line>
+            <line>
+              <![CDATA[Enter the value into Location dropdown]]>
+            </line>
+            <line>
+              <![CDATA[Enter the value into Secondary Location dropdown]]>
+            </line>
+            <line>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"(//ul[@class='dropdown-menu inner'])[7]/descendant::span[text()='CLIENT LOCATION']"}
   (Session info: chrome=85.0.4183.102)
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
 System info: host: 'HCLT-PC5929-1', ip: '10.98.101.172', os.name: 'Windows Server 2016', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_151'
 Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\gupta.ami\AppData\...}, goog:chromeOptions: {debuggerAddress: localhost:53766}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true, webdriver.remote.sessionid: 76082ae06e351f69de3976d0997...}
-Session ID: 76082ae06e351f69de3976d09970539c
-*** Element info: {Using=xpath, value=(//span[text()='Senior Analyst'])[1]}]]>
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\gupta.ami\AppData\...}, goog:chromeOptions: {debuggerAddress: localhost:55137}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true, webdriver.remote.sessionid: c8bcf5e6e5ef2c8f95768acf09c...}
+Session ID: c8bcf5e6e5ef2c8f95768acf09cfd122
+*** Element info: {Using=xpath, value=(//ul[@class='dropdown-menu inner'])[7]/descendant::span[text()='CLIENT LOCATION']}]]>
             </line>
             <line>
-              <![CDATA[Unable to performe action Additional Job Details ]]>
+              <![CDATA[Unable to performe action on Joining Details]]>
             </line>
           </reporter-output>
         </test-method> <!-- TC_CreateNewRequisitionForm -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.hcl.smartrecruit.testscripts.CreateNewRequisition@528c868]" name="closeBrowser" is-config="true" duration-ms="109" started-at="2020-09-18T20:53:14Z" finished-at="2020-09-18T20:53:15Z">
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.hcl.smartrecruit.testscripts.CreateNewRequisition@ab7395e]" name="closeBrowser" is-config="true" duration-ms="125" started-at="2020-09-18T21:17:24Z" finished-at="2020-09-18T21:17:24Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method status="PASS" signature="killTask(java.lang.String)[pri:0, instance:com.hcl.smartrecruit.testscripts.CreateNewRequisition@528c868]" name="killTask" is-config="true" duration-ms="47" started-at="2020-09-18T20:53:15Z" finished-at="2020-09-18T20:53:15Z">
+        <test-method status="PASS" signature="killTask(java.lang.String)[pri:0, instance:com.hcl.smartrecruit.testscripts.CreateNewRequisition@ab7395e]" name="killTask" is-config="true" duration-ms="453" started-at="2020-09-18T21:17:24Z" finished-at="2020-09-18T21:17:25Z">
           <params>
             <param index="0">
               <value>

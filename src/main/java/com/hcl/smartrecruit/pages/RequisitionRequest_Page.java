@@ -455,7 +455,7 @@ public class RequisitionRequest_Page {
 			WebActionUtil.waitForThePresenceOfElement(4);
 			WebActionUtil.clickElementByUsingJS(taJobDescription, "Job description");
 			WebActionUtil.clearText(taJobDescription, "Job description text area ");
-			WebActionUtil.typeText(taJobDescription, "Admin Role", "JOB description text area");
+			WebActionUtil.typeText(taJobDescription, "Admin Role", "Job description text area ");
 			WebActionUtil.clickElementByUsingJS(desgination, "Desgination dropdown");
 			WebActionUtil.waitForThePresenceOfElement(4);
 			desginationdropdown(desiginationType);
@@ -485,12 +485,14 @@ public class RequisitionRequest_Page {
 			WebActionUtil.waitForThePresenceOfElement(2);
 			selectCWLlocation(joinigLocation);
 			WebActionUtil.waitForThePresenceOfElement(2);
-			WebActionUtil.actionClick(cwlSecondaryJoiningLocation, "Cwl Secondary location");
-			WebActionUtil.waitForThePresenceOfElement(2);
-			WebActionUtil.typeText(txtSelectSceondaryJoiningLocation, secondaryJoiningLocation,
-					"Secondary Location dropdown");
-			WebActionUtil.waitForThePresenceOfElement(2);
-			selectSecondaryCWLlocation(secondaryJoiningLocation);
+			/*
+			 * WebActionUtil.actionClick(cwlSecondaryJoiningLocation,
+			 * "Cwl Secondary location"); WebActionUtil.waitForThePresenceOfElement(2);
+			 * WebActionUtil.typeText(txtSelectSceondaryJoiningLocation,
+			 * secondaryJoiningLocation, "Secondary Location dropdown");
+			 * WebActionUtil.waitForThePresenceOfElement(2);
+			 * selectSecondaryCWLlocation(secondaryJoiningLocation);
+			 */
 
 			WebActionUtil.clickOnElement(ddState, "State drop drown");
 			selectState(selectState);
