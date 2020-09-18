@@ -11,8 +11,11 @@ import org.testng.Assert;
 
 import com.hcl.smartrecruit.baseutil.BaseTest;
 import com.hcl.smartrecruit.util.WebActionUtil;
+
 /**
- * Description: This class implements the methods for creation of new Requisition form.
+ * Description: This class implements the methods for creation of new
+ * Requisition form.
+ * 
  * @author Aatish Slathia
  * 
  */
@@ -192,19 +195,31 @@ public class RequisitionRequest_Page {
 	/* Primary Radio Button */
 	@FindBy(xpath = "//input[@name='primary']/../label")
 	private WebElement rdbtnprimary;
-	
-	/*Entity Name*/
+
+	/* Entity Name */
 	@FindBy(xpath = "//select[@id='EntityName']")
 	private WebElement ddentity;
 
-	/* Entity Submit button*/
+	/* Entity Submit button */
 	@FindBy(id = "btnEntitySubmit")
 	private WebElement btnEntitySubmit;
-	
-	/*Entity Name*/
-	@FindBy(xpath = "")
+
+	/* Entity Name */
+	@FindBy(xpath = "//button[@class='btn dropdown-toggle btn-default bs-placeholder']")
 	private WebElement ddpsa;
-	
+
+	/* Entity Name */
+	@FindBy(xpath = "//button[@class='btn dropdown-toggle btn-default bs-placeholder']/following-sibling::div/div/input")
+	private WebElement txtpsa;
+
+	/* Search job element */
+	public void selectPSA(String psa) {
+		driver.findElement(
+				By.xpath("(//li[@class='dropdown-header ng-scope'])[1]/following-sibling::li/descendant::span[text()='"
+						+ psa + "']"))
+				.click();
+	}
+
 	/* Search job element */
 	public void searchJob(String job) {
 		driver.findElement(By.xpath("//div[text()='" + job + "']")).click();
@@ -268,34 +283,33 @@ public class RequisitionRequest_Page {
 				.click();
 
 	}
+
 	/* PSA location */
 	public void selectPSAlocation(String psaLocation) {
-		driver.findElement(
-				By.xpath("((//span[text()='"+psaLocation+"'])[3]"))
-				.click();
+		driver.findElement(By.xpath("((//span[text()='" + psaLocation + "'])[3]")).click();
 
 	}
+
 	/* Secondary PSA location */
 	public void selectSecondaryPSAlocation(String secPsaLocation) {
-		driver.findElement(
-				By.xpath("(//span[text()='"+secPsaLocation+"'])[2]"))
-				.click();
+		driver.findElement(By.xpath("(//span[text()='" + secPsaLocation + "'])[2]")).click();
 
 	}
-	
+
 	/**
 	 * Description Fills the project details in Requisition Form.
+	 * 
 	 * @author Aatish Slathia
-	 * @param projectName           
+	 * @param projectName
 	 */
 
 	public synchronized void projectDetail(String projectName, String entityname) {
 		try {
 			WebActionUtil.actionMouseHover(ddinitiatorActions, "Initiator Action dropdown");
 			WebActionUtil.clickOnElement(createaNewRequisitionOption, "New Requisition option");
-			//WebActionUtil.selectByText(ddentity, entityname);
-			//WebActionUtil.clickOnElement(btnEntitySubmit, "Entity Submit button");
-			
+			// WebActionUtil.selectByText(ddentity, entityname);
+			// WebActionUtil.clickOnElement(btnEntitySubmit, "Entity Submit button");
+
 			WebActionUtil.clearText(txtProjectName, "Project name text box");
 			WebActionUtil.typeText(txtProjectName, projectName, "Project name text box");
 			WebActionUtil.clickOnElement(ddRequestType, "RequestType dropdown");
@@ -309,19 +323,20 @@ public class RequisitionRequest_Page {
 	}
 
 	/**
-	 *  Description : Fills the job Details in Requisition form
+	 * Description : Fills the job Details in Requisition form
+	 * 
 	 * @author Aatish Slathia
-	 * @param  skillValue
+	 * @param skillValue
 	 * @param skill
-	 * @param  jobValue
+	 * @param jobValue
 	 * @param groupName
-	 * @param  subBand
+	 * @param subBand
 	 * @param job
 	 * @param secondaryPsa
 	 */
 
 	public synchronized void jobDetails(String skillValue, String skill, String jobValue, String groupName, String band,
-			String subBand, String job, String secondaryPsa,String psa) {
+			String subBand, String job, String secondaryPsa, String psa) {
 		try {
 			WebActionUtil.clickOnElement(txtSkill, "Id skill text box");
 			WebActionUtil.typeText(txtSkillDetails, skillValue, "SkillDetail text box");
@@ -354,9 +369,12 @@ public class RequisitionRequest_Page {
 			WebActionUtil.waitForThePresenceOfElement(2);
 			selectSubBandOption(subBand);
 			WebActionUtil.waitForThePresenceOfElement(2);
-			selectPSAlocation(psa);
-			WebActionUtil.waitForThePresenceOfElement(5);
-			selectSecondaryPSAlocation(secondaryPsa);
+			WebActionUtil.actionClick(ddpsa, "PSA Drop down");
+			WebActionUtil.waitForThePresenceOfElement(2);
+			WebActionUtil.typeText(txtpsa, psa, "PSA Text box");
+			WebActionUtil.waitForThePresenceOfElement(2);
+			selectPSA(psa);
+			
 		} catch (Exception e) {
 			WebActionUtil.error(e.getMessage());
 			WebActionUtil.info("Unable to performe action on Job Details ");
@@ -366,6 +384,7 @@ public class RequisitionRequest_Page {
 
 	/**
 	 * Description : Fills the Position and Location details in Requisition Form
+	 * 
 	 * @author Aatish Slathia
 	 * @param value
 	 */
@@ -417,7 +436,7 @@ public class RequisitionRequest_Page {
 		try {
 			WebActionUtil.waitForThePresenceOfElement(4);
 			WebActionUtil.waitForElement(ddExperience, "Experience dropdown", 10);
-			WebActionUtil.actionClick(ddExperience,"Experience drop down");
+			WebActionUtil.actionClick(ddExperience, "Experience drop down");
 			selectExperience(experience);
 			WebActionUtil.waitForElement(txtQualification, "Qualification drop down", 10);
 			WebActionUtil.clickElementByUsingJS(txtQualification, "Qualification dropdown");
@@ -436,6 +455,7 @@ public class RequisitionRequest_Page {
 
 	/**
 	 * Description Fills the Joining Details in Requisition Form
+	 * 
 	 * @author Aatish Slathia
 	 * @param selectState
 	 * @param city
@@ -447,12 +467,12 @@ public class RequisitionRequest_Page {
 			String secondaryJoiningLocation) {
 		try {
 			WebActionUtil.waitForThePresenceOfElement(2);
-			WebActionUtil.actionClick(ddCwlJoiningLocation,"Cwl joining Location");
+			WebActionUtil.actionClick(ddCwlJoiningLocation, "Cwl joining Location");
 			WebActionUtil.typeText(txtSelectCwlLoaction, joinigLocation, "Location dropdown");
 			WebActionUtil.waitForThePresenceOfElement(2);
 			selectCWLlocation(joinigLocation);
 			WebActionUtil.waitForThePresenceOfElement(2);
-			WebActionUtil.actionClick(cwlSecondaryJoiningLocation,"Cwl Secondary location");
+			WebActionUtil.actionClick(cwlSecondaryJoiningLocation, "Cwl Secondary location");
 			WebActionUtil.waitForThePresenceOfElement(2);
 			WebActionUtil.typeText(txtSelectSceondaryJoiningLocation, secondaryJoiningLocation,
 					"Secondary Location dropdown");
@@ -477,8 +497,8 @@ public class RequisitionRequest_Page {
 
 	/**
 	 * Description Fills Billing details in the Requisition form.
-	 * @author Aatish Slathia 
-	 *         Form
+	 * 
+	 * @author Aatish Slathia Form
 	 * @param interviewer1
 	 * @param interviewer2
 	 * @param billableType
