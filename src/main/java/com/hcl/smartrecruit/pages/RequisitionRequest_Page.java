@@ -531,9 +531,9 @@ public class RequisitionRequest_Page {
 			WebActionUtil.waitForThePresenceOfElement(2);
 			selectBillType(billableType);
 			WebActionUtil.typeText(txtonboarding,"25-Dec-2020", "On boarding date");
-			WebActionUtil.clickOnElement(interviewerOne, "Interviewer one text box");
+			WebActionUtil.actionClick(interviewerOne, "nterviewer one TextBox");
 			WebActionUtil.typeText(interviewerOne, interviewer1, "Interviewer 1 text box");
-			WebActionUtil.clickOnElement(interviewerTwo, "Interviewer Two TextBox");
+			WebActionUtil.actionClick(interviewerTwo, "nterviewer Two TextBox");
 			WebActionUtil.typeText(interviewerTwo, interviewer2, "Interviewer two text box");
 			WebActionUtil.waitForThePresenceOfElement(3);
 			WebActionUtil.clickOnElement(btnSubmit, "Submit button ");

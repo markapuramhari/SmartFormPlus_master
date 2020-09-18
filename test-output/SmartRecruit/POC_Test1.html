@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>POC_Test1</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>0/1/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>1/0/0</td>
 </tr><tr>
-<td>Started on:</td><td>Sat Sep 19 02:45:20 IST 2020</td>
+<td>Started on:</td><td>Sat Sep 19 03:20:38 IST 2020</td>
 </tr>
-<tr><td>Total time:</td><td>124 seconds (124160 ms)</td>
+<tr><td>Total time:</td><td>169 seconds (169357 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,8 +67,8 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
-<table width='100%' border='1' class='invocation-failed'>
-<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
 <td width="30%"><b>Exception</b></td>
 <td width="10%"><b>Time (seconds)</b></td>
@@ -116,56 +116,31 @@ Enter the value into Number of Position text box<br/>
 Clicking on  Submit button <br/>
 Verify Submit button  is Clickable or Not<br/>
 Clear the Text Present inJob description text area <br/>
-Enter the value into JOB description text area<br/>
+Enter the value into Job description text area <br/>
 Enter the value into Location dropdown<br/>
-Enter the value into Secondary Location dropdown<br/>
-no such element: Unable to locate element: {"method":"xpath","selector":"(//ul[@class='dropdown-menu inner'])[7]/descendant::span[text()='CLIENT LOCATION']"}
-  (Session info: chrome=85.0.4183.102)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
-System info: host: 'HCLT-PC5929-1', ip: '10.98.101.172', os.name: 'Windows Server 2016', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_151'
-Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\gupta.ami\AppData\...}, goog:chromeOptions: {debuggerAddress: localhost:55137}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true, webdriver.remote.sessionid: c8bcf5e6e5ef2c8f95768acf09c...}
-Session ID: c8bcf5e6e5ef2c8f95768acf09cfd122
-*** Element info: {Using=xpath, value=(//ul[@class='dropdown-menu inner'])[7]/descendant::span[text()='CLIENT LOCATION']}<br/>
-Unable to performe action on Joining Details<br/>
+Clicking on  State drop drown<br/>
+Verify State drop drown is Clickable or Not<br/>
+Clicking on  City dropdown <br/>
+Verify City dropdown  is Clickable or Not<br/>
+Click on Element Radio Button <br/>
+Clicking on  Save Draft button<br/>
+Verify Save Draft button is Clickable or Not<br/>
+Enter the value into On boarding date<br/>
+Clicking on  Interviewer one text box<br/>
+Verify Interviewer one text box is Clickable or Not<br/>
+Unable to click on Interviewer one text box<br/>
+Enter the value into Interviewer 1 text box<br/>
+Clicking on  Interviewer Two TextBox<br/>
+Verify Interviewer Two TextBox is Clickable or Not<br/>
+Enter the value into Interviewer two text box<br/>
+Clicking on  Submit button <br/>
+Verify Submit button  is Clickable or Not<br/>
+Clicking on  Submit button <br/>
+Verify Submit button  is Clickable or Not<br/>
 </div>
 </td>
-<td><div><pre>java.lang.AssertionError: Unable to performe action on Joinign Details 
-	at com.hcl.smartrecruit.pages.RequisitionRequest_Page.joiningDetails(RequisitionRequest_Page.java:507)
-	at com.hcl.smartrecruit.testscripts.CreateNewRequisition.TC_CreateNewRequisitionForm(CreateNewRequisition.java:34)
-... Removed 26 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace269458366", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace269458366'><pre>java.lang.AssertionError: Unable to performe action on Joinign Details 
-	at org.testng.Assert.fail(Assert.java:96)
-	at com.hcl.smartrecruit.pages.RequisitionRequest_Page.joiningDetails(RequisitionRequest_Page.java:507)
-	at com.hcl.smartrecruit.testscripts.CreateNewRequisition.TC_CreateNewRequisitionForm(CreateNewRequisition.java:34)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-	at org.testng.TestRunner.privateRun(TestRunner.java:648)
-	at org.testng.TestRunner.run(TestRunner.java:505)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-	at org.testng.TestNG.runSuites(TestNG.java:1049)
-	at org.testng.TestNG.run(TestNG.java:1017)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
-</pre></div></td>
-<td>118</td>
+<td></td>
+<td>164</td>
 <td>com.hcl.smartrecruit.testscripts.CreateNewRequisition@ab7395e</td></tr>
 </table><p>
 </body>

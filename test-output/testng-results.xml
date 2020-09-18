@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="1" ignored="0" total="1" passed="0">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
     <line>
       <![CDATA[Enter the value into  EmployeeID Text box]]>
@@ -110,39 +110,79 @@
       <![CDATA[Clear the Text Present inJob description text area ]]>
     </line>
     <line>
-      <![CDATA[Enter the value into JOB description text area]]>
+      <![CDATA[Enter the value into Job description text area ]]>
     </line>
     <line>
       <![CDATA[Enter the value into Location dropdown]]>
     </line>
     <line>
-      <![CDATA[Enter the value into Secondary Location dropdown]]>
+      <![CDATA[Clicking on  State drop drown]]>
     </line>
     <line>
-      <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"(//ul[@class='dropdown-menu inner'])[7]/descendant::span[text()='CLIENT LOCATION']"}
-  (Session info: chrome=85.0.4183.102)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
-System info: host: 'HCLT-PC5929-1', ip: '10.98.101.172', os.name: 'Windows Server 2016', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_151'
-Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\gupta.ami\AppData\...}, goog:chromeOptions: {debuggerAddress: localhost:55137}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true, webdriver.remote.sessionid: c8bcf5e6e5ef2c8f95768acf09c...}
-Session ID: c8bcf5e6e5ef2c8f95768acf09cfd122
-*** Element info: {Using=xpath, value=(//ul[@class='dropdown-menu inner'])[7]/descendant::span[text()='CLIENT LOCATION']}]]>
+      <![CDATA[Verify State drop drown is Clickable or Not]]>
     </line>
     <line>
-      <![CDATA[Unable to performe action on Joining Details]]>
+      <![CDATA[Clicking on  City dropdown ]]>
+    </line>
+    <line>
+      <![CDATA[Verify City dropdown  is Clickable or Not]]>
+    </line>
+    <line>
+      <![CDATA[Click on Element Radio Button ]]>
+    </line>
+    <line>
+      <![CDATA[Clicking on  Save Draft button]]>
+    </line>
+    <line>
+      <![CDATA[Verify Save Draft button is Clickable or Not]]>
+    </line>
+    <line>
+      <![CDATA[Enter the value into On boarding date]]>
+    </line>
+    <line>
+      <![CDATA[Clicking on  Interviewer one text box]]>
+    </line>
+    <line>
+      <![CDATA[Verify Interviewer one text box is Clickable or Not]]>
+    </line>
+    <line>
+      <![CDATA[Unable to click on Interviewer one text box]]>
+    </line>
+    <line>
+      <![CDATA[Enter the value into Interviewer 1 text box]]>
+    </line>
+    <line>
+      <![CDATA[Clicking on  Interviewer Two TextBox]]>
+    </line>
+    <line>
+      <![CDATA[Verify Interviewer Two TextBox is Clickable or Not]]>
+    </line>
+    <line>
+      <![CDATA[Enter the value into Interviewer two text box]]>
+    </line>
+    <line>
+      <![CDATA[Clicking on  Submit button ]]>
+    </line>
+    <line>
+      <![CDATA[Verify Submit button  is Clickable or Not]]>
+    </line>
+    <line>
+      <![CDATA[Clicking on  Submit button ]]>
+    </line>
+    <line>
+      <![CDATA[Verify Submit button  is Clickable or Not]]>
     </line>
   </reporter-output>
-  <suite name="SmartRecruit" duration-ms="124160" started-at="2020-09-18T21:15:20Z" finished-at="2020-09-18T21:17:24Z">
+  <suite name="SmartRecruit" duration-ms="169357" started-at="2020-09-18T21:50:38Z" finished-at="2020-09-18T21:53:28Z">
     <groups>
     </groups>
-    <test name="POC_Test1" duration-ms="124160" started-at="2020-09-18T21:15:20Z" finished-at="2020-09-18T21:17:24Z">
+    <test name="POC_Test1" duration-ms="169357" started-at="2020-09-18T21:50:38Z" finished-at="2020-09-18T21:53:28Z">
       <class name="com.hcl.smartrecruit.testscripts.CreateNewRequisition">
-        <test-method status="PASS" signature="createFiles()[pri:0, instance:com.hcl.smartrecruit.testscripts.CreateNewRequisition@ab7395e]" name="createFiles" is-config="true" duration-ms="187" started-at="2020-09-18T21:15:20Z" finished-at="2020-09-18T21:15:20Z">
+        <test-method status="PASS" signature="createFiles()[pri:0, instance:com.hcl.smartrecruit.testscripts.CreateNewRequisition@ab7395e]" name="createFiles" is-config="true" duration-ms="156" started-at="2020-09-18T21:50:38Z" finished-at="2020-09-18T21:50:38Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createFiles -->
-        <test-method status="PASS" signature="launchApp(java.lang.String)[pri:0, instance:com.hcl.smartrecruit.testscripts.CreateNewRequisition@ab7395e]" name="launchApp" is-config="true" duration-ms="5191" started-at="2020-09-18T21:15:20Z" finished-at="2020-09-18T21:15:25Z">
+        <test-method status="PASS" signature="launchApp(java.lang.String)[pri:0, instance:com.hcl.smartrecruit.testscripts.CreateNewRequisition@ab7395e]" name="launchApp" is-config="true" duration-ms="5029" started-at="2020-09-18T21:50:38Z" finished-at="2020-09-18T21:50:43Z">
           <params>
             <param index="0">
               <value>
@@ -153,7 +193,7 @@ Session ID: c8bcf5e6e5ef2c8f95768acf09cfd122
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchApp -->
-        <test-method status="PASS" signature="setExtentReport(java.lang.reflect.Method)[pri:0, instance:com.hcl.smartrecruit.testscripts.CreateNewRequisition@ab7395e]" name="setExtentReport" is-config="true" duration-ms="2" started-at="2020-09-18T21:15:25Z" finished-at="2020-09-18T21:15:25Z">
+        <test-method status="PASS" signature="setExtentReport(java.lang.reflect.Method)[pri:0, instance:com.hcl.smartrecruit.testscripts.CreateNewRequisition@ab7395e]" name="setExtentReport" is-config="true" duration-ms="1" started-at="2020-09-18T21:50:44Z" finished-at="2020-09-18T21:50:44Z">
           <params>
             <param index="0">
               <value>
@@ -164,7 +204,7 @@ Session ID: c8bcf5e6e5ef2c8f95768acf09cfd122
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setExtentReport -->
-        <test-method status="FAIL" signature="TC_CreateNewRequisitionForm(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.hcl.smartrecruit.testscripts.CreateNewRequisition@ab7395e]" name="TC_CreateNewRequisitionForm" duration-ms="118291" started-at="2020-09-18T21:15:25Z" description="Create Requisition" data-provider="TestDataProvider" finished-at="2020-09-18T21:17:24Z">
+        <test-method status="PASS" signature="TC_CreateNewRequisitionForm(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.hcl.smartrecruit.testscripts.CreateNewRequisition@ab7395e]" name="TC_CreateNewRequisitionForm" duration-ms="164027" started-at="2020-09-18T21:50:44Z" description="Create Requisition" data-provider="TestDataProvider" finished-at="2020-09-18T21:53:28Z">
           <params>
             <param index="0">
               <value>
@@ -277,43 +317,6 @@ Session ID: c8bcf5e6e5ef2c8f95768acf09cfd122
               </value>
             </param>
           </params>
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[Unable to performe action on Joinign Details ]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: Unable to performe action on Joinign Details 
-at org.testng.Assert.fail(Assert.java:96)
-at com.hcl.smartrecruit.pages.RequisitionRequest_Page.joiningDetails(RequisitionRequest_Page.java:507)
-at com.hcl.smartrecruit.testscripts.CreateNewRequisition.TC_CreateNewRequisitionForm(CreateNewRequisition.java:34)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-at java.lang.reflect.Method.invoke(Unknown Source)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
-at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-at org.testng.TestNG.runSuites(TestNG.java:1049)
-at org.testng.TestNG.run(TestNG.java:1017)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
             <line>
               <![CDATA[Enter the value into  EmployeeID Text box]]>
@@ -424,35 +427,75 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
               <![CDATA[Clear the Text Present inJob description text area ]]>
             </line>
             <line>
-              <![CDATA[Enter the value into JOB description text area]]>
+              <![CDATA[Enter the value into Job description text area ]]>
             </line>
             <line>
               <![CDATA[Enter the value into Location dropdown]]>
             </line>
             <line>
-              <![CDATA[Enter the value into Secondary Location dropdown]]>
+              <![CDATA[Clicking on  State drop drown]]>
             </line>
             <line>
-              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"(//ul[@class='dropdown-menu inner'])[7]/descendant::span[text()='CLIENT LOCATION']"}
-  (Session info: chrome=85.0.4183.102)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
-System info: host: 'HCLT-PC5929-1', ip: '10.98.101.172', os.name: 'Windows Server 2016', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_151'
-Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\gupta.ami\AppData\...}, goog:chromeOptions: {debuggerAddress: localhost:55137}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true, webdriver.remote.sessionid: c8bcf5e6e5ef2c8f95768acf09c...}
-Session ID: c8bcf5e6e5ef2c8f95768acf09cfd122
-*** Element info: {Using=xpath, value=(//ul[@class='dropdown-menu inner'])[7]/descendant::span[text()='CLIENT LOCATION']}]]>
+              <![CDATA[Verify State drop drown is Clickable or Not]]>
             </line>
             <line>
-              <![CDATA[Unable to performe action on Joining Details]]>
+              <![CDATA[Clicking on  City dropdown ]]>
+            </line>
+            <line>
+              <![CDATA[Verify City dropdown  is Clickable or Not]]>
+            </line>
+            <line>
+              <![CDATA[Click on Element Radio Button ]]>
+            </line>
+            <line>
+              <![CDATA[Clicking on  Save Draft button]]>
+            </line>
+            <line>
+              <![CDATA[Verify Save Draft button is Clickable or Not]]>
+            </line>
+            <line>
+              <![CDATA[Enter the value into On boarding date]]>
+            </line>
+            <line>
+              <![CDATA[Clicking on  Interviewer one text box]]>
+            </line>
+            <line>
+              <![CDATA[Verify Interviewer one text box is Clickable or Not]]>
+            </line>
+            <line>
+              <![CDATA[Unable to click on Interviewer one text box]]>
+            </line>
+            <line>
+              <![CDATA[Enter the value into Interviewer 1 text box]]>
+            </line>
+            <line>
+              <![CDATA[Clicking on  Interviewer Two TextBox]]>
+            </line>
+            <line>
+              <![CDATA[Verify Interviewer Two TextBox is Clickable or Not]]>
+            </line>
+            <line>
+              <![CDATA[Enter the value into Interviewer two text box]]>
+            </line>
+            <line>
+              <![CDATA[Clicking on  Submit button ]]>
+            </line>
+            <line>
+              <![CDATA[Verify Submit button  is Clickable or Not]]>
+            </line>
+            <line>
+              <![CDATA[Clicking on  Submit button ]]>
+            </line>
+            <line>
+              <![CDATA[Verify Submit button  is Clickable or Not]]>
             </line>
           </reporter-output>
         </test-method> <!-- TC_CreateNewRequisitionForm -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.hcl.smartrecruit.testscripts.CreateNewRequisition@ab7395e]" name="closeBrowser" is-config="true" duration-ms="125" started-at="2020-09-18T21:17:24Z" finished-at="2020-09-18T21:17:24Z">
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.hcl.smartrecruit.testscripts.CreateNewRequisition@ab7395e]" name="closeBrowser" is-config="true" duration-ms="75" started-at="2020-09-18T21:53:28Z" finished-at="2020-09-18T21:53:28Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method status="PASS" signature="killTask(java.lang.String)[pri:0, instance:com.hcl.smartrecruit.testscripts.CreateNewRequisition@ab7395e]" name="killTask" is-config="true" duration-ms="453" started-at="2020-09-18T21:17:24Z" finished-at="2020-09-18T21:17:25Z">
+        <test-method status="PASS" signature="killTask(java.lang.String)[pri:0, instance:com.hcl.smartrecruit.testscripts.CreateNewRequisition@ab7395e]" name="killTask" is-config="true" duration-ms="31" started-at="2020-09-18T21:53:28Z" finished-at="2020-09-18T21:53:28Z">
           <params>
             <param index="0">
               <value>
