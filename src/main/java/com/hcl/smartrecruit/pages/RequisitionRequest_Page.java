@@ -57,7 +57,7 @@ public class RequisitionRequest_Page {
 	private WebElement txtNewPosition;
 	
 	/* New Position */
-	@FindBy(xpath = "//a[text()='New Resource Request']")
+	@FindBy(xpath = "(//a[text()='New Resource Request'])[2]")
 	private WebElement txtNewResourceRequest;
 
 	/* Skill text box */
@@ -346,7 +346,8 @@ public class RequisitionRequest_Page {
 			WebActionUtil.typeText(txtSkillDetails, skillValue, "SkillDetail text box");
 			skillSelectOption(skill);
 			WebActionUtil.clickOnElement(btnPlusUnderSkill, "Plus button under skills");
-			WebActionUtil.waitForElement(rdbtnprimary, "Primary Radio Button", 10);
+			//WebActionUtil.waitForElement(rdbtnprimary, "Primary Radio Button", 10);
+			WebActionUtil.waitForThePresenceOfElement(2);
 			WebActionUtil.clickByJs(rdbtnprimary, "Primary Radio Button");
 			WebActionUtil.clickOnElement(btnDoneUnderSkill, "Done button ");
 			WebActionUtil.clickOnElement(txtJob, "Job tex box detail ");
