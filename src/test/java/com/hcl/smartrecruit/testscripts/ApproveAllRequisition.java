@@ -10,7 +10,7 @@ import com.hcl.smartrecruit.baseutil.InitializePages;
 import com.hcl.smartrecruit.commonutils.ExcelUtil;
 import com.hcl.smartrecruit.dataproviders.ApproveAllRequisitionDataProvider;
 /**
- * Description:This class implements the scenario of Approving the created requisition request by all approvers.
+ * Description:This class implements the scenario of approving the created requisition request by all approvers.
  * @author : Shreya U ,Vivek Dogra,Aatish Slatia  
  */
 public class ApproveAllRequisition extends BaseTest {
@@ -18,7 +18,7 @@ public class ApproveAllRequisition extends BaseTest {
 	@Test(description = "Approve Requisition", dataProvider = "TestDataProvider", dataProviderClass = ApproveAllRequisitionDataProvider.class)
 
 	public synchronized void TC_CreateNewRequisitionForm(String projectName, String skillvalue, String skill,
-			String jobvalue, String job, String employeeGroup, String band, String subBand, String secondaryPSA,
+			String jobvalue, String job, String employeeGroup, String band, String subBand,String psa, String secondaryPSA,
 			String experience, String noOfPosition, String designationType, String joiningLocation,
 			String secondaryJoiningLocation, String state, String city, String billtype, String interviewer1,
 			String interviewer2, String statusRemarks) throws InterruptedException, AWTException, IOException {
@@ -30,7 +30,7 @@ public class ApproveAllRequisition extends BaseTest {
 		pages.loginPage.signToApplication(userData[indexUserName], userPass[indexPassword]);
 		pages.requistionRequest.projectDetail(projectName);
 		pages.requistionRequest.jobDetails(skillvalue, skill, jobvalue, employeeGroup, band, subBand, job,
-				secondaryPSA);
+				secondaryPSA,psa);
 		pages.requistionRequest.positionAndLocationDetail(noOfPosition);
 		pages.requistionRequest.submisitionOfThePage();
 		pages.requistionRequest.additionaJobDetails(designationType, experience);

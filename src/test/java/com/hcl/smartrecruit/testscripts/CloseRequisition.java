@@ -10,17 +10,17 @@ import com.hcl.smartrecruit.baseutil.InitializePages;
 import com.hcl.smartrecruit.commonutils.ExcelUtil;
 import com.hcl.smartrecruit.dataproviders.CloseRequisitionDataProvider;
 import com.hcl.smartrecruit.dataproviders.CreateRequisitionDataProvider;
-
+/**
+ * Description:This class implements the scenario of closing the Requisition form.
+ * @author : Shreya U ,Vivek Dogra,Aatish Slatia  
+ */
 public class CloseRequisition extends BaseTest{
 
-	/**
-	 * Description:This class implements the scenario of closing the requisition.
-	 * @author : Shreya U ,Vivek Dogra,Aatish Slatia  
-	 */
+
 	@Test(description = "Close Requisition", dataProvider = "TestDataProvider", dataProviderClass = CloseRequisitionDataProvider.class)
 
 	
-	public synchronized void TC_CloseRequisitionForm(String projectName,String skillvalue,String skill,String jobvalue,String job,String employeeGroup,String band,String SubBand,String secondaryPSA,String experience,String noOfPosition,String designationType,
+	public synchronized void TC_CloseRequisitionForm(String projectName,String skillvalue,String skill,String jobvalue,String job,String employeeGroup,String band,String SubBand,String psa,String secondaryPSA,String experience,String noOfPosition,String designationType,
 			String joiningLocation,String secondaryJoiningLocation,String state
 			,String city,String billtype,String interviewer1,String interviewer2,String statusRemarks) throws Exception, Exception, AWTException {
 		InitializePages pages = new InitializePages(driver, ETO, WebActionUtil);
@@ -30,7 +30,7 @@ public class CloseRequisition extends BaseTest{
 		String[] userPass = ExcelUtil.toReadExcelData(EXCELPATH, "Credentials", "Approver_1");
 		pages.loginPage.signToApplication(userData[indexUserName],userPass[indexPassword]);
 		pages.requistionRequest.projectDetail( projectName);
-		pages.requistionRequest.jobDetails(skillvalue, skill, jobvalue, employeeGroup, band, SubBand, job, secondaryPSA);
+		pages.requistionRequest.jobDetails(skillvalue, skill, jobvalue, employeeGroup, band, SubBand, job, secondaryPSA,psa);
 		pages.requistionRequest.positionAndLocationDetail(noOfPosition);
 		pages.requistionRequest.submisitionOfThePage();
 		pages.requistionRequest.additionaJobDetails(designationType, experience);

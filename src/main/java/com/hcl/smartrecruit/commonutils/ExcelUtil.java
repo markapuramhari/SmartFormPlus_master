@@ -17,10 +17,11 @@ import com.hcl.smartrecruit.baseutil.BaseTest;
 
 /**
  * @author: Shreya U,Vivek Dogra,Aatish Slathia
- * @description : Implemented all the generic method for excel.
+ * @description : Implements generic methods to perform operations on Excel Workbook.
  */
 
 public class ExcelUtil {
+	/* Private constructor*/
 	private ExcelUtil() {
 
 	}
@@ -64,7 +65,7 @@ public class ExcelUtil {
 	}
 
 	/**
-	 * Description:Fetches the data from the cell
+	 * Description:Fetches the data from the specified cell
 	 * @author:Shreya U
 	 * @param xlPAth 
 	 * @param sheetName 
@@ -94,7 +95,7 @@ public class ExcelUtil {
 	}
 
 	/**
-	 * Description : Fetch the row data from the excel sheet
+	 * Description : Fetches the specified row data from the Excel sheet
 	 * @author:Aatish Slathia
 	 * @param sFilePath 
 	 * @param sSheet 
@@ -121,7 +122,7 @@ public class ExcelUtil {
 	}
 
 	/**
-	 * Description :Fetches  the column data from the specified sheet
+	 * Description :Fetches the specified column data from the Excel  sheet
 	 * @author:Vivek Dogra
 	 * @param sFilePath 
 	 * @param sSheet 
@@ -148,7 +149,7 @@ public class ExcelUtil {
 	}
 
 	/**
-	 * Description Fetches the column index
+	 * Description Fetches the column index for a given value of a cell value from the first/header row.
 	 * @author:Shreya U
 	 * @param sFilePath 
 	 * @param sSheet 
@@ -167,7 +168,7 @@ public class ExcelUtil {
 	}
 
 	/**
-	 * Description: Checks if an array contains blank
+	 * Description: Checks if an array contains blank/default value.
 	 * @author:Aatish Slathia
 	 * @param data 
 	 * @return blank
@@ -185,7 +186,7 @@ public class ExcelUtil {
 	}
 
 	/**
-	 * Description :Reads the excel data
+	 * Description :Reads the Excel data from a specified Excel sheet based on TestCaseId.
 	 * @author:Vivek D
 	 * @param sFilePath
 	 * @param sSheet
@@ -221,7 +222,7 @@ public class ExcelUtil {
 	}
 
 	/**
-	 * Description :Fetches the column index
+	 * Description :Fetches the column index 
 	 * @author:Shreya U
 	 * @param sFilePath
 	 * @param sSheet
@@ -241,7 +242,7 @@ public class ExcelUtil {
 	}
 
 	/**
-	 * Description: Fetches  the cell count
+	 * Description: Fetches  the cell count in the specified row.
 	 * @author:Shreya U
 	 * @param sPath
 	 * @param sSheet
@@ -262,48 +263,5 @@ public class ExcelUtil {
 		return colnum;
 	}
 
-	/**
-	 * Description : Creates a new cell.
-	 * @author:Vivek D
-	 * @param sPath
-	 * @param sSheet
-	 * @param sSheeet
-	 * @param row 
-	 */
-	public static synchronized  void createCell(String sPath, String sSheeet, int row) {
-		try {
-			FileInputStream fis = new FileInputStream(sPath);
-			Workbook wb = (Workbook) WorkbookFactory.create(fis);
-			Sheet sht = wb.getSheet(sSheeet);
-			sht.getRow(row).createCell(6).setCellValue(" ");
-		} catch (Exception e) {
-			e.printStackTrace();
-		}
-	} 
 	
-	/**
-	 * Description: Writes to the excel cell
-	 * @author:Aatish Slathia 
-	 * @param sPath,
-	 * @param sSheet
-	 * @param sSheeet
-	 * @param row
-	 * @param result
-	 * @param count
-	 * @throws InvalidFormatException 
-	 * @throws EncryptedDocumentException  
-	 */
-	public synchronized static void writeResult(String sheet, String result,String path,int row,int count) throws IOException, EncryptedDocumentException, InvalidFormatException {
-		File f = new File(path);
-		FileInputStream fi = new FileInputStream(f);
-		Workbook Book = (Workbook) WorkbookFactory.create(fi);
-		Book.getSheet(sheet).getRow(row).createCell(count).setCellValue(result);
-		FileOutputStream fo = new FileOutputStream(f);
-		fo.flush();
-		Book.write(fo);
-		fo.close();
-		Book.close();
-	
-		}
-
 }

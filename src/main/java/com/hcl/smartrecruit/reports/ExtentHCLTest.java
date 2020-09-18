@@ -4,7 +4,7 @@ import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;
 import com.hcl.smartrecruit.baseutil.BaseTest;
 /**
- * Description : Creates the HTML report based on the name specified
+ * Description : Creates the HTML report based on the name specified.
  * @author shreya U,Vivek Dogra
  * 
  */

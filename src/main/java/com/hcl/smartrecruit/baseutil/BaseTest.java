@@ -33,9 +33,9 @@ import com.hcl.smartrecruit.util.WebActionUtil;
 /***********************************************************************
  * Description : Implements Application Precondition and Postcondition.
  * @author : Shreya U ,Vivek Dogra, Aatish Slathia
- * @BeforeSuite: Creates all the folder structure for extent Reports
+ * @BeforeSuite: Creates all the folder structure for Extent Reports
  * @BeforeClass : Launches the browser according to the browser name specified.
- * @AfterClass : Close the browser after completion of execution 
+ * @AfterClass : Closes the browser after completion of execution 
  * @AfterSuite:  Kills the driver (example chromedriver.exe) according to browser specified.
  */
 
@@ -58,7 +58,7 @@ public class BaseTest {
 	public String username = ExcelUtil.getCellData(EXCELPATH, "SystemUserName", 1, 0);
 
 	/**
-	 * Description : Creates folder structure for extent reports.
+	 * Description : Creates folder structure for Extent reports.
 	 * @author:Shreya U 
 	 */
 	@BeforeSuite(alwaysRun = true)
@@ -74,7 +74,7 @@ public class BaseTest {
 	}
 
 	/**
-	 * Description: Launches  the browser as specified in parameter
+	 * Description: Launches  the browser as specified in the parameter
 	 * @author:Shreya U,Vivek Dogra
 	 * @param :browserName
 	 */
@@ -90,6 +90,9 @@ public class BaseTest {
 			   cap.setBrowserName(BrowserType.FIREFOX);
 				  
 				  } else if (browserName.equalsIgnoreCase("edge")) { 
+					  
+					  /*Since Edge Options is not supported in Selenium 3.141.59 hence following
+					   * lines are commented will be removed in Selenium 4 alpha and above version*/
 //					
 //				  cap.setBrowserName(BrowserType.EDGE);
 					  //System.setProperty("webdriver.edge.driver", "./drivers/msedgedriver.exe");
@@ -113,7 +116,8 @@ public class BaseTest {
 // 					 logger.info("The given HUB URL is not proper"); }
 				  
 				 } else if(browserName.equalsIgnoreCase("chrome")) { 
-
+                  /*user-data-dir is the standard path for storing the user data and the name parameter is passed to
+                   * to support portability*/
 					ChromeOptions chromeOpt = new ChromeOptions(); 
 					 chromeOpt.addArguments("user-data-dir=" +
 					 "C:\\Users\\"+name+"\\AppData\\Local\\Google\\Chrome\\UserData");
@@ -125,12 +129,10 @@ public class BaseTest {
 						 driver = new RemoteWebDriver(new URL(LOCAL_HUB_URL),chromeOpt); } catch
 					  (MalformedURLException e) {
 					  
-					 logger.info("The given HUB URL is not proper"); }
+					 logger.info("The given HUB URL is Malformed"); }
 					
 				 }
 				 
-	
-
 		driver.manage().timeouts().implicitlyWait(ITO, TimeUnit.SECONDS);
 		WebActionUtil = new WebActionUtil(driver, ETO);
 		driver.manage().window().maximize();
@@ -186,7 +188,7 @@ public class BaseTest {
 	}
 
 	/**
-	 * Description: Creates nodes for the test methods in report.
+	 * Description: Creates nodes for the test methods in Extent report.
 	 * @author:Shreya U              
 	 * @param: methodName
 	 */

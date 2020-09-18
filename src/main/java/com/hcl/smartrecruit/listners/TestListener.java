@@ -31,10 +31,12 @@ import com.hcl.smartrecruit.reports.ExtentHCLTest;
 import com.hcl.smartrecruit.util.WebActionUtil;
 
 /**
- * Description:Implementations of some of the ItestListener methods ,adding 
- *             screenshots on failure flush the extent report.
+ * Description: This class implements ITestListener and overrides methods like
+ * onFinish, onTestFailure,onTestSkipped,onTestSuccess which are used in Extent
+ * report and Emailable report.
+ * 
  * @author Shreya U,Aatish S
- *              
+ * 
  */
 public class TestListener implements ITestListener {
 	public static ArrayList sTestName = new ArrayList<String>();
@@ -67,9 +69,10 @@ public class TestListener implements ITestListener {
 	File pdfReports = new File(PDFREPORTPATH);
 
 	/**
-	 * Description :Flush the extent report and send an email
+	 * Description :Flushes the Extent report and sends an email of the report.
+	 * 
 	 * @author Aatish Slathia,shreya Ugavekar
-	 * @paran  context
+	 * @paran context
 	 * 
 	 */
 	public void onFinish(ITestContext context) {
@@ -79,7 +82,9 @@ public class TestListener implements ITestListener {
 		int iTotal_Executed = iPassCount + iFailCount + iSkippedCount;
 		totalTimeTaken = totPassedTime + totFailedTime + totSkippedTime;
 		tot_Time = WebActionUtil.formatDuration(totalTimeTaken);
-		//sendMail(iPassCount, iFailCount, iSkippedCount, iTotal_Executed, pdfReports, profile);
+		/* Its not working in HCL environment will be implemented in the future */
+		// sendMail(iPassCount, iFailCount, iSkippedCount, iTotal_Executed, pdfReports,
+		// profile);
 		ExtentHCLTest.getExtent().flush();
 
 	}
@@ -93,10 +98,12 @@ public class TestListener implements ITestListener {
 	}
 
 	/**
-	 * Description :Increase the fail count and add fail result in extent report,add  screenshot to report
+	 * Description :Increases the fail count and add fail result in Extent
+	 * report,adds screenshots to the  Extent report on Test case failure.
+	 * 
 	 * @author Aatish Slathia,shreya Ugavekar
-	 * @param result 
-	 *             
+	 * @param result
+	 * 
 	 */
 	public void onTestFailure(ITestResult result) {
 		iFailCount = iFailCount + 1;
@@ -122,7 +129,8 @@ public class TestListener implements ITestListener {
 	}
 
 	/**
-	 * Description : Increase the skip count and add skip result in extent report
+	 * Description :Increases the skip count and adds the skip result in Extent report.
+	 * 
 	 * @author Aatish Slathia,shreya Ugavekar
 	 * @param result
 	 * 
@@ -148,10 +156,11 @@ public class TestListener implements ITestListener {
 	}
 
 	/**
-	 * Description:Increase the pass count and add pass result in extent report
+	 * Description:Increases the pass count and adds the pass result in Extent report
+	 * 
 	 * @author Aatish Slathia,shreya Ugavekar
 	 * @param result
-	 *  
+	 * 
 	 */
 	public void onTestSuccess(ITestResult result) {
 		iPassCount = iPassCount + 1;
@@ -168,12 +177,14 @@ public class TestListener implements ITestListener {
 	}
 
 	/**
-	 * Description Send email of the execution as per the receipient specified in the property file.
+	 * Description :Sends email of the test execution as a report to the recipient specified in
+	 * the property file.
+	 * 
 	 * @author Aatish Slathia
-	 * @param iPassCount 
-	 * @param iFailCount 
-	 * @param skippedCount 
-	 * @param iTotal_Executed profile 
+	 * @param iPassCount
+	 * @param iFailCount
+	 * @param skippedCount
+	 * @param iTotal_Executed profile
 	 */
 	public static void sendMail(int iPassCount, int iFailCount, int skippedCount, int iTotal_Executed, File pdfReports,
 			String profile) {
@@ -186,7 +197,7 @@ public class TestListener implements ITestListener {
 			e.printStackTrace();
 		}
 		final String InternetAddress = prop.getProperty("InternetAddress");
-		 final String PasswordAuthentication = prop.getProperty("PasswordAuthentication");
+		final String PasswordAuthentication = prop.getProperty("PasswordAuthentication");
 		String RecipientType = prop.getProperty("RecipientType");
 		String RecipientType2 = prop.getProperty("RecipientType2");
 		String SmtpUser = prop.getProperty("SmtpUser");
@@ -283,12 +294,14 @@ public class TestListener implements ITestListener {
 		}
 
 	}
+
 	/**
-	 * Description :Set the status of the execution in the mail report. 
+	 * Description :Sets the status of the test execution in the mail report.
+	 * 
 	 * @author Aatish Slathia
-	 * @param sName 
-	 * @param sResult 
-	 * @param sTestName 
+	 * @param sName
+	 * @param sResult
+	 * @param sTestName
 	 * @param sStatus
 	 * 
 	 */

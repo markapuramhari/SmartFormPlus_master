@@ -8,14 +8,11 @@ import org.testng.Assert;
 
 import com.hcl.smartrecruit.util.WebActionUtil;
 /**
- * Description: This class implements the method for Log in to the application.
+ * Description: This class implements the method for Login in to the application.
  * @author Aatish Slathia
  * 
  */
 public class Login_Page {
-	/**
-	 * @author shreya.u@testyantra.com
-	 */
 	public WebDriver driver;
 	public WebActionUtil WebActionUtil;
 	public long ETO = 10;

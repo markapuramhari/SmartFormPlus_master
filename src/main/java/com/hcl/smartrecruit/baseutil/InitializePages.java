@@ -11,7 +11,8 @@ import com.hcl.smartrecruit.util.WebActionUtil;
 
 
 /**
- *Description: Initializes all pages with driver,ETO, WebAactionUtil
+ *Description: Initializes all pages with driver instance ,Explicit Time out, WebAactionUtility
+ *             using variables driver,ETO,WebactionUtil
  *@author  :   Shreya U,Vivek Dogra,Aatish Slathia 
  */
 

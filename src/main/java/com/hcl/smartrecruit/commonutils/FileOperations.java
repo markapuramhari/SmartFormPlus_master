@@ -9,14 +9,14 @@ import com.hcl.smartrecruit.reports.ExtentHCLTest;
 import com.hcl.smartrecruit.util.WebActionUtil;
 
 /**
- * Description : Implements creation of the folder structure of extent reports,screenshot,deletion of the folder.
+ * Description : Implements creation of the folder structure for Extent reports,screenshots,deletion of the previously created folder.
  * @author: Shreya U,Vivek Dogra
  */
 public class FileOperations {
 	FileVariables fileVariables = new FileVariables();
      
 	/**
-	 * Description:Implements setting of the path,creation of the folder structure of extent reports,screenshot,deletion of the folder.
+	 * Description:Implements setting of the path,creation of the folder structure for Extent reports,screenshot,deletion of the folder.
 	 * @author: Shreya U,Vivek Dogra
 	 */
 	public void createFiles() {
@@ -36,7 +36,7 @@ public class FileOperations {
 
 		BaseTest.logger.info("ExtentDir:-" + fileVariables.getExtentDir());
 
-		/* Delete extent folder if it exists before running suite */
+		/* Deletes Extent folder if it exists before running suite */
 		WebActionUtil.deleteDir(fileVariables.getExtentReportFolderPath());
 
 		try {
@@ -49,7 +49,7 @@ public class FileOperations {
 				}
 
 				else
-					BaseTest.logger.info("--> Extent Folder not Created");
+					BaseTest.logger.info("Extent Folder not Created");
 			}
 
 		} catch (Exception e) {
@@ -57,7 +57,7 @@ public class FileOperations {
 			e.printStackTrace();
 		}
 
-		/* Setting ScreenShot Location*/
+		/* Sets ScreenShot Location*/
 		try {
 			File screenShot = new File(FileVariables.getScreenShotPath());
 			if (!(screenShot.exists())) {
@@ -66,7 +66,7 @@ public class FileOperations {
 					BaseTest.logger.info("Screenshot Folder Created");
 
 				else
-					BaseTest.logger.info("Screenshot Folder Not Created");
+					BaseTest.logger.info("Screenshot Folder is Not Created");
 			}
 		} catch (Exception e) {
 			e.printStackTrace();

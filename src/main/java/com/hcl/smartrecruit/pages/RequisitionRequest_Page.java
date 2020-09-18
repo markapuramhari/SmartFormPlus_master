@@ -10,7 +10,7 @@ import org.testng.Assert;
 import com.hcl.smartrecruit.baseutil.BaseTest;
 import com.hcl.smartrecruit.util.WebActionUtil;
 /**
- * Description: This class implements the methods for approval of the requisition.
+ * Description: This class implements the methods for creation of new Requisition form.
  * @author Aatish Slathia
  * 
  */
@@ -31,7 +31,7 @@ public class RequisitionRequest_Page {
 	@FindBy(xpath = "//a[contains(text(),'Initiator Actions')]")
 	private WebElement ddinitiatorActions;
 
-	/* Create new requisiton */
+	/* Create new requisition */
 	@FindBy(xpath = "//a[contains(text(),'Create New Requisition')]")
 	private WebElement createaNewRequisitionOption;
 
@@ -99,7 +99,7 @@ public class RequisitionRequest_Page {
 	@FindBy(xpath = "(//span[text()='--Select Sub-Band--'])[1]")
 	private WebElement ddSubBand;
 
-	/* Scendory Psa Dropdown */
+	/* Secondary Psa Dropdown */
 	@FindBy(xpath = "(//span[text()='Noida'])[3]")
 	private WebElement secondaryPSA;
 
@@ -247,16 +247,29 @@ public class RequisitionRequest_Page {
 
 	}
 
-	/* Seconadry location */
+	/* Secondary location */
 	public void selectSecondaryCWLlocation(String seccwllocation) {
 		driver.findElement(
 				By.xpath("(//ul[@class='dropdown-menu inner'])[7]/descendant::span[text()='" + seccwllocation + "']"))
 				.click();
 
 	}
+	/* PSA location */
+	public void selectPSAlocation(String psaLocation) {
+		driver.findElement(
+				By.xpath("((//span[text()='"+psaLocation+"'])[3]"))
+				.click();
 
+	}
+	/* Secondary PSA location */
+	public void selectSecondaryPSAlocation(String secPsaLocation) {
+		driver.findElement(
+				By.xpath("(//span[text()='"+secPsaLocation+"'])[2]"))
+				.click();
+
+	}
 	/**
-	 * Description Filling the project details in Requisition Form.
+	 * Description Fills the project details in Requisition Form.
 	 * @author Aatish Slathia
 	 * @param projectName           
 	 */
@@ -278,7 +291,7 @@ public class RequisitionRequest_Page {
 	}
 
 	/**
-	 *  Description : Filling the job Details in Requisition form
+	 *  Description : Fills the job Details in Requisition form
 	 * @author Aatish Slathia
 	 * @param  skillValue
 	 * @param skill
@@ -290,7 +303,7 @@ public class RequisitionRequest_Page {
 	 */
 
 	public synchronized void jobDetails(String skillValue, String skill, String jobValue, String groupName, String band,
-			String subBand, String job, String secondaryPsa) {
+			String subBand, String job, String secondaryPsa,String psa) {
 		try {
 			WebActionUtil.clickOnElement(txtSkill, "Id skill text box");
 			WebActionUtil.typeText(txtSkillDetails, skillValue, "SkillDetail text box");
@@ -323,11 +336,9 @@ public class RequisitionRequest_Page {
 			WebActionUtil.waitForThePresenceOfElement(2);
 			selectSubBandOption(subBand);
 			WebActionUtil.waitForThePresenceOfElement(2);
-			/* WebActionUtil.scrollDown(driver); */
-
-			WebActionUtil.clickOnElement(secondaryPSA, "Secondary PSA dropdown");
+			selectPSAlocation(psa);
 			WebActionUtil.waitForThePresenceOfElement(5);
-			WebActionUtil.clickOnElement(selectSecondaryPSA, "ENOI option ");
+			selectSecondaryPSAlocation(secondaryPsa);
 		} catch (Exception e) {
 			WebActionUtil.error(e.getMessage());
 			WebActionUtil.info("Unable to performe action on Job Details ");
@@ -336,7 +347,7 @@ public class RequisitionRequest_Page {
 	}
 
 	/**
-	 * Description : Filling the Position and Location Details in Requisition Form
+	 * Description : Fills the Position and Location details in Requisition Form
 	 * @author Aatish Slathia
 	 * @param value
 	 */
@@ -354,7 +365,7 @@ public class RequisitionRequest_Page {
 	}
 
 	/**
-	 * Description Submiting the First Page of the Requisition Form
+	 * Description Submits the first page of the Requisition Form
 	 * 
 	 * @author Aatish Slathia
 	 */
@@ -369,12 +380,6 @@ public class RequisitionRequest_Page {
 			WebActionUtil.checkForAlert(10);
 			WebActionUtil.acceptAlert();
 			WebActionUtil.waitForThePresenceOfElement(5);
-
-			/*
-			 * WebActionUtil.waitForElement(btnYes, "Yes button", 10);
-			 * WebActionUtil.waitForElement1(btnYes, "Yes button ", 700);
-			 * WebActionUtil.clickOnElement(btnYes, "Yes button ");
-			 */
 		} catch (Exception e) {
 			WebActionUtil.error(e.getMessage());
 			WebActionUtil.info("Unable to performe action on Submit The Page ");
@@ -383,7 +388,7 @@ public class RequisitionRequest_Page {
 	}
 
 	/**
-	 * Description Filling the Additional JobDetails in Requisition Form
+	 * Description Fills the Additional JobDetails in Requisition Form
 	 * 
 	 * @author Aatish Slathia
 	 * @param desiginationType
@@ -453,8 +458,8 @@ public class RequisitionRequest_Page {
 	}
 
 	/**
-	 * Description Fill Billing details 
-	 * @author Aatish Slathia description Filling the Billing Details in Requisition
+	 * Description Fills Billing details in the Requisition form.
+	 * @author Aatish Slathia 
 	 *         Form
 	 * @param interviewer1
 	 * @param interviewer2

@@ -10,7 +10,9 @@ import com.hcl.smartrecruit.baseutil.BaseTest;
 import com.hcl.smartrecruit.util.WebActionUtil;
 
 /**
- * Description: This class implements the methods for approval of the requisition.
+ * Description: This class implements the methods for approval of the
+ * Requisition.
+ * 
  * @author Aatish Slathia
  * 
  */
@@ -75,7 +77,8 @@ public class ApproveAllRequisition_Page {
 	private WebElement txtapprovedstatus;
 
 	/**
-	 * Description :Method to approve the requisition for first approver
+	 * Description :Method to approve the Requisition for first approver
+	 * 
 	 * @author Aatish Slathia
 	 * @param statusRemarks
 	 * 
@@ -104,7 +107,8 @@ public class ApproveAllRequisition_Page {
 	}
 
 	/**
-	 * Description : Method to approve the requisition for Second approver
+	 * Description : Method to approve the Requisition for second approver
+	 * 
 	 * @author Aatish Slathia
 	 * @param statusRemarks
 	 */
@@ -132,9 +136,10 @@ public class ApproveAllRequisition_Page {
 	}
 
 	/**
-	 * Description : Method to approve the requisition for Third approver
+	 * Description : Method to approve the Requisition for third approver
+	 * 
 	 * @author Aatish Slathia
-	 * @param statusRemarks 
+	 * @param statusRemarks
 	 */
 
 	public synchronized void approveRequistionStage3(String statusRemarks) {
@@ -154,8 +159,10 @@ public class ApproveAllRequisition_Page {
 		}
 
 	}
+
 	/**
-	 * Description : Method to check the pending approvals
+	 * Description : Method to check the Pending approvals
+	 * 
 	 * @author Aatish Slathia
 	 */
 
@@ -174,6 +181,7 @@ public class ApproveAllRequisition_Page {
 
 	/**
 	 * Description : Method to verify the approval text
+	 * 
 	 * @author Aatish Slathia
 	 * @param value
 	 */

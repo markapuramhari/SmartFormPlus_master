@@ -57,7 +57,7 @@ public class WebActionUtil {
 	}
 
 	/**
-	 * Description Method for the pass updation in extent Report,Log file,TestNG
+	 * Description : Method for the pass updation in extent Report,Log file,TestNG
 	 * Report
 	 * 
 	 * @author Shreya U
@@ -69,7 +69,7 @@ public class WebActionUtil {
 	}
 
 	/**
-	 * Description Method to provide info in the log,extent reports,testNg reports
+	 * Description: Method to provide info in the log,extent reports,testNg reports
 	 * 
 	 * @author Shreya U
 	 * @param message
@@ -178,7 +178,7 @@ public class WebActionUtil {
 	}
 
 	/**
-	 * Description : Implements Wait for a element to be visible
+	 * Description :This method  Implements Wait for a element to be visible
 	 * 
 	 * @author Shreya U
 	 * @param element
@@ -199,7 +199,7 @@ public class WebActionUtil {
 	}
 
 	/**
-	 * Description : Delete a previously existing directory
+	 * Description : Deletes a previously existing directory
 	 * 
 	 * @author Shreya U
 	 * @param pathToDeleteFolder
@@ -231,7 +231,7 @@ public class WebActionUtil {
 	}
 
 	/**
-	 * Description Capture the screenshot of the complete screen
+	 * Description Captures the screenshot of the complete screen
 	 * 
 	 * @author Shreya U
 	 * @param path
@@ -252,7 +252,7 @@ public class WebActionUtil {
 	}
 
 	/**
-	 * Description To Enter the Text to the Text filed
+	 * Description  Enters the Text to the Text field
 	 * 
 	 * @author Shreya U
 	 * @param element
@@ -274,7 +274,7 @@ public class WebActionUtil {
 	}
 
 	/**
-	 * DescriptionTo Select the value by the Visible Text
+	 * Description :Selects the value by the Visible Text
 	 * 
 	 * @author Shreya U
 	 * @param element
@@ -295,7 +295,7 @@ public class WebActionUtil {
 	}
 
 	/**
-	 * Description: Click on the check box
+	 * Description: Clicks on the check box
 	 * 
 	 * @author Shreya U
 	 * @param element
@@ -313,7 +313,7 @@ public class WebActionUtil {
 	}
 
 	/**
-	 * Description Scroll to the Element
+	 * Description :Scrolls to the Element
 	 * 
 	 * @author Shreya U
 	 * @param elementName
@@ -331,7 +331,7 @@ public class WebActionUtil {
 	}
 
 	/**
-	 * Description Click on the Element using JavaSCript
+	 * Description Clicks on the Element using JavaSCript
 	 * 
 	 * @author Shreya U
 	 * @param element
@@ -350,7 +350,7 @@ public class WebActionUtil {
 	}
 
 	/**
-	 * Description :Double Click On Element
+	 * Description :Double Clicks On Element
 	 * 
 	 * @author Shreya U
 	 * @param element
@@ -367,7 +367,7 @@ public class WebActionUtil {
 	}
 
 	/**
-	 * ' Description :Clear the Text
+	 * ' Description :Clears the Text present in the text field.
 	 * 
 	 * @author Shreya U
 	 * @param element
@@ -404,7 +404,7 @@ public class WebActionUtil {
 	}
 
 	/**
-	 * Description Wait for an element
+	 * Description Waits for an element
 	 * 
 	 * @author Aatish Slathia
 	 * @param element
@@ -420,7 +420,7 @@ public class WebActionUtil {
 	}
 
 	/**
-	 * Description Highlight the validation points on the extent report
+	 * Description Highlights the validation points on the extent report
 	 * 
 	 * @author Aatish Slathia
 	 * @param message
@@ -432,7 +432,7 @@ public class WebActionUtil {
 	}
 
 	/**
-	 * Description Check whether an element is visible
+	 * Description :Checks whether an element is visible
 	 * 
 	 * @author Aatish Slathia
 	 * @param element
@@ -469,7 +469,7 @@ public class WebActionUtil {
 	}
 
 	/**
-	 * Description:Press Tab using action class
+	 * Description:Presses Tab using action class
 	 * 
 	 * @author Aatish Slathia
 	 */
@@ -484,10 +484,10 @@ public class WebActionUtil {
 
 	}
 
-	/**
+	/**Description :Clicks on the ement 
 	 * @author Aatish Slathia
-	 * @param element elementName
-	 * @return
+	 * @param element
+	 * @param  elementName
 	 */
 	public void clickOnElement(WebElement element, String elementName) {
 
@@ -505,7 +505,7 @@ public class WebActionUtil {
 	}
 
 	/**
-	 * Description Switch to tab
+	 * Description Switches to tab
 	 * 
 	 * @author Aatish Slathia
 	 * @param tabindex
@@ -540,7 +540,7 @@ public class WebActionUtil {
 	}
 
 	/**
-	 * Description :Press tab
+	 * Description :Presses  tab key with Robot class 
 	 * 
 	 * @author Aatish Slathia
 	 */
@@ -557,7 +557,7 @@ public class WebActionUtil {
 	}
 
 	/**
-	 * Description Scroll down the page
+	 * Description Scrolls down the page
 	 * 
 	 * @author Aatish Slathia
 	 * @param element
@@ -592,7 +592,7 @@ public class WebActionUtil {
 	}
 
 	/**
-	 * Description Scroll down the page
+	 * Description Scrolls down the page
 	 * 
 	 * @author Aatish Slathia
 	 * @param driver
@@ -627,7 +627,7 @@ public class WebActionUtil {
 	}
 
 	/**
-	 * Description : Check whether Element Displayed Or Not
+	 * Description : Checks whether Element Displayed Or Not
 	 * 
 	 * @author Aatish Slathia
 	 * @param element
@@ -640,6 +640,7 @@ public class WebActionUtil {
 	}
 
 	/**
+	 * Description :Waits for an element
 	 * @author Aatish Slathia
 	 * @param seconds
 	 */
@@ -652,7 +653,7 @@ public class WebActionUtil {
 	}
 
 	/**
-	 * Description Select Drop Down
+	 * Description Selects Drop Down
 	 * 
 	 * @author Aatish Slathia
 	 * @param element
@@ -673,7 +674,7 @@ public class WebActionUtil {
 	}
 
 	/**
-	 * Description: Wait for the Page Title
+	 * Description: Waits for the Page Title
 	 * 
 	 * @author Aatish Slathia
 	 * @param seconds
@@ -691,7 +692,7 @@ public class WebActionUtil {
 	}
 
 	/**
-	 * Description :Wait for the Page To Load using the Expected Conditions
+	 * Description :Waits for the Page To Load using the Expected Conditions
 	 * 
 	 * @author Aatish Slathia
 	 * @param seconds
@@ -736,7 +737,7 @@ public class WebActionUtil {
 	}
 
 	/**
-	 * Description Check for the Alert
+	 * Description Checks for the Alert
 	 * 
 	 * @author Aatish Slathia
 	 * @param seconds
@@ -752,7 +753,7 @@ public class WebActionUtil {
 	}
 
 	/**
-	 * Description Accept alert
+	 * Description: Accepts an  alert
 	 * 
 	 * @author Aatish Slathia
 	 */
@@ -767,7 +768,7 @@ public class WebActionUtil {
 	}
 
 	/**
-	 * Description Switch the Tab
+	 * Description Switches the Tab
 	 * 
 	 * @author Aatish Slathia
 	 * @param tabindex
@@ -785,7 +786,7 @@ public class WebActionUtil {
 	}
 
 	/**
-	 * Description Get text of requisition
+	 * Description Gets text of requisition
 	 * 
 	 * @author Aatish Slathia
 	 * @return text
@@ -813,7 +814,7 @@ public class WebActionUtil {
 	}
 
 	/**
-	 * Description :Navigate to URL
+	 * Description :Navigates to the URL specified
 	 * 
 	 * @author Aatish Slathia
 	 * @param path
@@ -829,7 +830,7 @@ public class WebActionUtil {
 	}
 
 	/**
-	 * Description :Get the approver Id
+	 * Description :Gets the approver Id
 	 * 
 	 * @author Aatish Slathia
 	 * @param element
@@ -844,7 +845,7 @@ public class WebActionUtil {
 	}
 
 	/**
-	 * Description Verify the Text
+	 * Description Verifies  the Text
 	 * 
 	 * @author Aatish Slathia
 	 * @param expected
@@ -881,7 +882,7 @@ public class WebActionUtil {
 	}
 
 	/**
-	 * Description :Get Text from Alert
+	 * Description :Gets Text from Alert
 	 * 
 	 * @author Aatish Slathia
 	 */
@@ -914,7 +915,7 @@ public class WebActionUtil {
 	}
 
 	/**
-	 * Description Click on element using action class
+	 * Description Clicks on element using action class
 	 * 
 	 * @author Aatish Slathia
 	 * @param element

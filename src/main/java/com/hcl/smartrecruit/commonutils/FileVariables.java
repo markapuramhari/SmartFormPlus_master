@@ -4,7 +4,7 @@ package com.hcl.smartrecruit.commonutils;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 /**
- * Description : Implements creation of file variables
+ * Description : Implements creation of file variables required to perform various file operations.
  * @author: Shreya U,Vivek Dogra
  *  
  */
@@ -52,7 +52,7 @@ public class FileVariables {
 		this.sStartTime = sStartTime;
 	}
 	/**
-	 * Description:Gets extent report
+	 * Description:Gets Extent report folder path
 	 * @author:Shreya U,Vivek Dogra
 	 * @return extentReportFolderPath
 	 */

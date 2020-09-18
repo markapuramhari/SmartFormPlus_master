@@ -7,17 +7,17 @@ import com.hcl.smartrecruit.baseutil.InitializePages;
 import com.hcl.smartrecruit.commonutils.ExcelUtil;
 import com.hcl.smartrecruit.dataproviders.CreateRequisitionDataProvider;
 
-
+/**
+ * Description:This class implements the scenario of creating new  Requisition form.
+ * @author : Shreya U ,Vivek Dogra,Aatish Slatia  
+ */
 public class CreateNewRequisition extends BaseTest{
-	/**
-	 * Description:This class implements the scenario of creating new  requisition.
-	 * @author : Shreya U ,Vivek Dogra,Aatish Slatia  
-	 */
+
 
 	@Test(description = "Create Requisition", dataProvider = "TestDataProvider", dataProviderClass = CreateRequisitionDataProvider.class)
 
 	
-	public void TC_CreateNewRequisitionForm(String projectName,String skillvalue,String skill,String jobvalue,String job,String employeeGroup,String band,String subBand,String secondaryPSA,String experience,String noOfPosition,String designationType,
+	public void TC_CreateNewRequisitionForm(String projectName,String skillvalue,String skill,String jobvalue,String job,String employeeGroup,String band,String subBand,String psa,String secondaryPSA,String experience,String noOfPosition,String designationType,
 			String joiningLocation,String secondaryJoiningLocation,String state
 			,String city,String billtype,String interviewer1,String interviewer2,String statusRemarks)  {
 		InitializePages pages = new InitializePages(driver, ETO, WebActionUtil);
@@ -27,7 +27,7 @@ public class CreateNewRequisition extends BaseTest{
 		String[] userPass = ExcelUtil.toReadExcelData(EXCELPATH, "Credentials", "Approver_1");
 		pages.loginPage.signToApplication(userData[indexUserName],userPass[indexPassword]);
 		pages.requistionRequest.projectDetail( projectName);
-		pages.requistionRequest.jobDetails(skillvalue, skill, jobvalue, employeeGroup, band, subBand, job, secondaryPSA);
+		pages.requistionRequest.jobDetails(skillvalue, skill, jobvalue, employeeGroup, band, subBand, job, secondaryPSA,psa);
 		pages.requistionRequest.positionAndLocationDetail(noOfPosition);
 		pages.requistionRequest.submisitionOfThePage();
 		pages.requistionRequest.additionaJobDetails(designationType, experience);

@@ -5,13 +5,13 @@ import org.testng.annotations.DataProvider;
 import com.hcl.smartrecruit.baseutil.BaseTest;
 import com.hcl.smartrecruit.commonutils.ExcelUtil;
 /**
- * Description : Data Provider to fetch the data from excel file.
+ * Description : Data Provider to fetch the data from Excel workbook.
  * @author Shreya U
  */
 public class CloseRequisitionDataProvider {
 
 	/**
-	 * Description :Data Provider with excel file.
+	 * Description :Data Provider to fetch data from  Excel file according to specified sheet name.
 	 * @author Shreya Ugavekar
 	 * 
 	 */

@@ -6,14 +6,13 @@ import com.hcl.smartrecruit.baseutil.BaseTest;
 import com.hcl.smartrecruit.commonutils.ExcelUtil;
 
 /**
+ * Description :Implements Data Provider required to fetch data from excel
  * @author shreya U
- * @description :Implementation of the Data Provider required to fetch data from
- *              excel
  */
 public class CreateRequisitionDataProvider {
 
 	/**
-	 * Description   Data Provider with excel file.
+	 * Description   Data Provider to fetch data from  Excel file according to specified sheet name.
 	 * @author Shreya Ugavekar
 	 *
 	 */

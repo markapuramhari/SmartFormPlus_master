@@ -13,7 +13,7 @@ import org.testng.Assert;
 import com.hcl.smartrecruit.baseutil.BaseTest;
 import com.hcl.smartrecruit.util.WebActionUtil;
 /**
- * Description: This class implements the methods for closing the requisition.
+ * Description: This class implements the methods for closing the created Requisition.
  * @author Aatish Slathia
  * 
  */
@@ -34,7 +34,7 @@ public class CloseRequisition_Page {
 	@FindBy(xpath = "//a[text()='Approver Role']")
 		private WebElement txtapprover;
 
-	/*Pending for my approvel */
+	/*Pending for my approval */
 	@FindBy(xpath = "//div[@class='small-box bg-tile cardTile']/descendant::p[text()='Pending for My Approvals']")
 		private WebElement pendingActions;
 
@@ -103,7 +103,7 @@ public class CloseRequisition_Page {
 	}
 	
 	/**
-	 * Description : Method for login the Application to get approver data
+	 * Description : Method to get approver data
 	 * @author Aatish Slathia 
 	 */
 	

@@ -3,14 +3,14 @@ package com.hcl.smartrecruit.reports;
 import com.aventstack.extentreports.ExtentTest;
 /**
  * Description Implements creation of the node,or parent block  in the extent report 
- * @author shreya.u@testyantra.com,Vivek Dogra
+ * @author Shreya U,Vivek Dogra
  *
  */
 public class ExtentHCLManager {
 	
 	private static ThreadLocal<ExtentTest> extentReportForTestMethod = new ThreadLocal<ExtentTest>();
 	/**
-	 * Description : Fetching the object of Extent reports for the test methods.
+	 * Description : Fetches the object of Extent reports for the test methods.
 	 * @author shreya U,Vivek Dogra
 	 * @return ExtentTest
 	 */
@@ -18,7 +18,7 @@ public class ExtentHCLManager {
 		return extentReportForTestMethod.get();
 	}
 	/**
-	 * Description :Set the Extent Test for the test methods.
+	 * Description :Sets the Extent Test for the test methods.
 	 * @author shreya U,Vivek Dogra
 	 * @param ExtentTest
 	 */
@@ -28,7 +28,7 @@ public class ExtentHCLManager {
 
 	private static ThreadLocal<ExtentTest> extentReportForClassMethod = new ThreadLocal<ExtentTest>();
 	/**
-	 * Description : Fetching the object of Extent Test for precondition
+	 * Description : Fetches the object of Extent Test for precondition
 	 * @author shreya U,Vivek Dogra
 	 * @return ExtentTest
 	 */
@@ -36,7 +36,7 @@ public class ExtentHCLManager {
 		return extentReportForClassMethod.get();
 	}
 	/**
-	 * Description :Set the Extent Test for the class method
+	 * Description :Sets the Extent Test for the class method
 	 * @author shreya U,Vivek Dogra
 	 * @param ExtentTest
 	 */
@@ -46,7 +46,7 @@ public class ExtentHCLManager {
 
 	private static ThreadLocal<ExtentTest> extentReportForPrecondition = new ThreadLocal<ExtentTest>();
 	/**
-	 * Description : Fetching the object of Extent Test for precondition
+	 * Description : Fetches the object of Extent Test for precondition
 	 * @author shreya U,Vivek Dogra
 	 * @return ExtentTest
 	 */
@@ -54,7 +54,7 @@ public class ExtentHCLManager {
 		return extentReportForPrecondition.get();
 	}
 	/**
-	 * Description :Set the Extent Test with the precondition
+	 * Description :Sets the Extent Test with the precondition
 	 * @author shreya U,Vivek Dogra
 	 * @param ExtentTest
 	 */
@@ -64,7 +64,7 @@ public class ExtentHCLManager {
 
 	private static ThreadLocal<ExtentTest> parentReport = new ThreadLocal<ExtentTest>();
 	/**
-	 * Description :Set the Extent Test for Parent node in report.
+	 * Description :Sets the Extent Test for Parent node in report.
 	 * @author shreya U,Vivek Dogra
 	 * @param ExtentTest
 	 */
@@ -72,7 +72,7 @@ public class ExtentHCLManager {
 		parentReport.set(extentTest);
 	}
 	/**
-	 * Description : Fetching the object of Extent Test for parent node in Report.
+	 * Description : Fetches the object of Extent Test for parent node in Report.
 	 * @author shreya U,Vivek Dogra
 	 * @return ExtentTest
 	 */
@@ -82,7 +82,7 @@ public class ExtentHCLManager {
 
 	private static ThreadLocal<ExtentTest> testReport = new ThreadLocal<ExtentTest>();
 	/**
-	 * Description : Fetching the object of Extent Test for Test Report.
+	 * Description : Fetches the object of Extent Test for Test Report.
 	 * @author shreya U,Vivek Dogra
 	 * @return ExtentTest
 	 */
@@ -90,7 +90,7 @@ public class ExtentHCLManager {
 		return testReport.get();
 	}
 	/**
-	 * Description :Set the Extent Test for Report.
+	 * Description :Sets the Extent Test for Report.
 	 * @author shreya U,Vivek Dogra
 	 * @param ExtentTest
 	 */
@@ -100,7 +100,7 @@ public class ExtentHCLManager {
 	private static ThreadLocal<ExtentTest> exteReport = new ThreadLocal<ExtentTest>();
 	
 	/**
-	 * Description :Set the Extent Test for Report.
+	 * Description :Sets the Extent Test for Report.
 	 * @author shreya U,Vivek Dogra
 	 * @param ExtentTest
 	 */
@@ -108,7 +108,7 @@ public class ExtentHCLManager {
 		exteReport.set(extentTest);
 	}
 	/**
-	 * Description : Fetching the object of Extent Test for Report.
+	 * Description : Fetches the object of Extent Test for Report.
 	 * @author shreya U,Vivek Dogra
 	 * @return ExtentTest
 	 */
