@@ -2736,3 +2736,54 @@ Session ID: c164032fd2bc445345594076a4238ec0
 [INFO ] 2020-09-19 02:02:45.399 [main] BaseTest - Clicking on  SubBand Element dropdown
 [INFO ] 2020-09-19 02:02:45.400 [main] BaseTest - Verify SubBand Element dropdown is Clickable or Not
 [INFO ] 2020-09-19 02:03:02.323 [main] BaseTest - Enter the value into PSA Text box
+[INFO ] 2020-09-19 02:21:22.435 [main] BaseTest - 
+[INFO ] 2020-09-19 02:21:22.440 [main] BaseTest - Running locally HCL Poc 
+[INFO ] 2020-09-19 02:21:22.659 [main] BaseTest - Folder creation for Extent
+[INFO ] 2020-09-19 02:21:22.674 [main] BaseTest - ExtentDir:-C:\Users\aatish.s\Desktop\Tysspoc\HCL_SmartRecruit_POC/reports/HCLAutomation Report- 09_19_2020_02_21_22/HCL Report/09_19_2020_02_21_22
+[INFO ] 2020-09-19 02:21:22.799 [main] BaseTest - Report Initiated
+[INFO ] 2020-09-19 02:21:22.815 [main] BaseTest - Screenshot Folder Created
+[INFO ] 2020-09-19 02:21:28.266 [main] BaseTest - Enter the value into  EmployeeID Text box
+[INFO ] 2020-09-19 02:21:28.446 [main] BaseTest - Enter the value into  Password Text box
+[INFO ] 2020-09-19 02:21:28.642 [main] BaseTest - Clicking on  Login button
+[INFO ] 2020-09-19 02:21:28.642 [main] BaseTest - Verify Login button is Clickable or Not
+[INFO ] 2020-09-19 02:21:44.483 [main] BaseTest - Clicking on  New Requisition option
+[INFO ] 2020-09-19 02:21:44.483 [main] BaseTest - Verify New Requisition option is Clickable or Not
+[INFO ] 2020-09-19 02:21:46.223 [main] BaseTest - Clicking on  RequestType dropdown
+[INFO ] 2020-09-19 02:21:46.223 [main] BaseTest - Verify RequestType dropdown is Clickable or Not
+[INFO ] 2020-09-19 02:21:50.766 [main] BaseTest - Clicking on  New resource request
+[INFO ] 2020-09-19 02:21:50.766 [main] BaseTest - Verify New resource request is Clickable or Not
+[INFO ] 2020-09-19 02:21:51.425 [main] BaseTest - Clicking on  Id skill text box
+[INFO ] 2020-09-19 02:21:51.425 [main] BaseTest - Verify Id skill text box is Clickable or Not
+[INFO ] 2020-09-19 02:21:52.239 [main] BaseTest - Enter the value into SkillDetail text box
+[INFO ] 2020-09-19 02:21:57.582 [main] BaseTest - Clicking on  Plus button under skills
+[INFO ] 2020-09-19 02:21:57.582 [main] BaseTest - Verify Plus button under skills is Clickable or Not
+[INFO ] 2020-09-19 02:22:00.188 [main] BaseTest - Click on Element Primary Radio Button
+[INFO ] 2020-09-19 02:22:00.276 [main] BaseTest - Clicking on  Done button 
+[INFO ] 2020-09-19 02:22:00.276 [main] BaseTest - Verify Done button  is Clickable or Not
+[INFO ] 2020-09-19 02:22:00.822 [main] BaseTest - Clicking on  Job tex box detail 
+[INFO ] 2020-09-19 02:22:00.822 [main] BaseTest - Verify Job tex box detail  is Clickable or Not
+[INFO ] 2020-09-19 02:22:01.337 [main] BaseTest - Enter the value into Job text box 
+[INFO ] 2020-09-19 02:22:04.151 [main] BaseTest - Clicking on  SelectJob tick icon
+[INFO ] 2020-09-19 02:22:04.159 [main] BaseTest - Verify SelectJob tick icon is Clickable or Not
+[INFO ] 2020-09-19 02:22:07.025 [main] BaseTest - Clicking on  Save button 
+[INFO ] 2020-09-19 02:22:07.033 [main] BaseTest - Verify Save button  is Clickable or Not
+[INFO ] 2020-09-19 02:22:09.932 [main] BaseTest - Clicking on  Employe group name dropdown
+[INFO ] 2020-09-19 02:22:09.936 [main] BaseTest - Verify Employe group name dropdown is Clickable or Not
+[INFO ] 2020-09-19 02:22:12.936 [main] BaseTest - Clicking on  Band element dropdown
+[INFO ] 2020-09-19 02:22:12.936 [main] BaseTest - Verify Band element dropdown is Clickable or Not
+[INFO ] 2020-09-19 02:22:15.904 [main] BaseTest - Clicking on  SubBand Element dropdown
+[INFO ] 2020-09-19 02:22:15.920 [main] BaseTest - Verify SubBand Element dropdown is Clickable or Not
+[INFO ] 2020-09-19 02:22:23.032 [main] BaseTest - Enter the value into PSA Text box
+[INFO ] 2020-09-19 02:22:30.611 [main] BaseTest - Enter the value into Number of Position text box
+[INFO ] 2020-09-19 02:22:38.050 [main] BaseTest - Clicking on  Submit button 
+[INFO ] 2020-09-19 02:22:38.057 [main] BaseTest - Verify Submit button  is Clickable or Not
+[ERROR] 2020-09-19 02:23:14.566 [main] BaseTest - no such element: Unable to locate element: {"method":"xpath","selector":"(//span[text()='Senior Analyst'])[1]"}
+  (Session info: chrome=85.0.4183.102)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'HCLT-PC5929-1', ip: '10.98.101.172', os.name: 'Windows Server 2016', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_151'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\gupta.ami\AppData\...}, goog:chromeOptions: {debuggerAddress: localhost:53766}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true, webdriver.remote.sessionid: 76082ae06e351f69de3976d0997...}
+Session ID: 76082ae06e351f69de3976d09970539c
+*** Element info: {Using=xpath, value=(//span[text()='Senior Analyst'])[1]}
+[INFO ] 2020-09-19 02:23:14.567 [main] BaseTest - Unable to performe action Additional Job Details 

@@ -57,9 +57,9 @@ function toggleAllBoxes() {
 <tr>
 <td>Tests passed/Failed/Skipped:</td><td>0/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Sat Sep 19 02:01:52 IST 2020</td>
+<td>Started on:</td><td>Sat Sep 19 02:21:22 IST 2020</td>
 </tr>
-<tr><td>Total time:</td><td>80 seconds (80055 ms)</td>
+<tr><td>Total time:</td><td>112 seconds (112260 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -111,21 +111,30 @@ Clicking on  Band element dropdown<br/>
 Verify Band element dropdown is Clickable or Not<br/>
 Clicking on  SubBand Element dropdown<br/>
 Verify SubBand Element dropdown is Clickable or Not<br/>
-Unable to click on PSA Drop down<br/>
 Enter the value into PSA Text box<br/>
- User is not able to type ENOIinto PSA Text box<br/>
+Enter the value into Number of Position text box<br/>
+Clicking on  Submit button <br/>
+Verify Submit button  is Clickable or Not<br/>
+no such element: Unable to locate element: {"method":"xpath","selector":"(//span[text()='Senior Analyst'])[1]"}
+  (Session info: chrome=85.0.4183.102)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'HCLT-PC5929-1', ip: '10.98.101.172', os.name: 'Windows Server 2016', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_151'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\gupta.ami\AppData\...}, goog:chromeOptions: {debuggerAddress: localhost:53766}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true, webdriver.remote.sessionid: 76082ae06e351f69de3976d0997...}
+Session ID: 76082ae06e351f69de3976d09970539c
+*** Element info: {Using=xpath, value=(//span[text()='Senior Analyst'])[1]}<br/>
+Unable to performe action Additional Job Details <br/>
 </div>
 </td>
-<td><div><pre>java.lang.AssertionError: Unable to type in PSA Text box
-	at com.hcl.smartrecruit.util.WebActionUtil.typeText(WebActionUtil.java:272)
-	at com.hcl.smartrecruit.pages.RequisitionRequest_Page.jobDetails(RequisitionRequest_Page.java:379)
-	at com.hcl.smartrecruit.testscripts.CreateNewRequisition.TC_CreateNewRequisitionForm(CreateNewRequisition.java:30)
+<td><div><pre>java.lang.AssertionError: Unable to performe action on Additional Job Details 
+	at com.hcl.smartrecruit.pages.RequisitionRequest_Page.additionaJobDetails(RequisitionRequest_Page.java:457)
+	at com.hcl.smartrecruit.testscripts.CreateNewRequisition.TC_CreateNewRequisitionForm(CreateNewRequisition.java:33)
 ... Removed 26 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace215478702", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace215478702'><pre>java.lang.AssertionError: Unable to type in PSA Text box
+<div class='stack-trace' id='stack-trace215478702'><pre>java.lang.AssertionError: Unable to performe action on Additional Job Details 
 	at org.testng.Assert.fail(Assert.java:96)
-	at com.hcl.smartrecruit.util.WebActionUtil.typeText(WebActionUtil.java:272)
-	at com.hcl.smartrecruit.pages.RequisitionRequest_Page.jobDetails(RequisitionRequest_Page.java:379)
-	at com.hcl.smartrecruit.testscripts.CreateNewRequisition.TC_CreateNewRequisitionForm(CreateNewRequisition.java:30)
+	at com.hcl.smartrecruit.pages.RequisitionRequest_Page.additionaJobDetails(RequisitionRequest_Page.java:457)
+	at com.hcl.smartrecruit.testscripts.CreateNewRequisition.TC_CreateNewRequisitionForm(CreateNewRequisition.java:33)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -152,7 +161,7 @@ Enter the value into PSA Text box<br/>
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
 </pre></div></td>
-<td>74</td>
+<td>106</td>
 <td>com.hcl.smartrecruit.testscripts.CreateNewRequisition@528c868</td></tr>
 </table><p>
 </body>

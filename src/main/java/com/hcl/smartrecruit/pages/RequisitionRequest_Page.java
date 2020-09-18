@@ -215,7 +215,12 @@ public class RequisitionRequest_Page {
 	/* Entity Name */
 	@FindBy(xpath = "(//div[@class='dropdown-menu open'])[9]/div[@class='bs-searchbox']/input")
 	private WebElement txtpsa;
-
+	
+	
+	/* Entity Name */
+	@FindBy(id = "TxtjobDesription")
+	private WebElement taJobDescription;
+	
 	/* Search job element */
 	public void selectPSA(String psa) {
 		driver.findElement(
@@ -439,7 +444,7 @@ public class RequisitionRequest_Page {
 
 	public synchronized void additionaJobDetails(String desiginationType, String experience) {
 		try {
-			WebActionUtil.waitForThePresenceOfElement(4);
+			WebActionUtil.waitForThePresenceOfElement(2);
 			WebActionUtil.waitForElement(ddExperience, "Experience dropdown", 10);
 			WebActionUtil.actionClick(ddExperience, "Experience drop down");
 			selectExperience(experience);
@@ -448,6 +453,9 @@ public class RequisitionRequest_Page {
 			WebActionUtil.waitForElement(selectQualification, "Select qualification", 10);
 			WebActionUtil.clickElementByUsingJS(selectQualification, "Select Qualification");
 			WebActionUtil.waitForThePresenceOfElement(4);
+			WebActionUtil.clickElementByUsingJS(taJobDescription, "Job description");
+			WebActionUtil.clearText(taJobDescription, "Job description text area ");
+			WebActionUtil.typeText(taJobDescription, "Admin Role", "JOB description text area");
 			WebActionUtil.clickElementByUsingJS(desgination, "Desgination dropdown");
 			WebActionUtil.waitForThePresenceOfElement(4);
 			desginationdropdown(desiginationType);

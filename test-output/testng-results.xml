@@ -95,25 +95,42 @@
       <![CDATA[Verify SubBand Element dropdown is Clickable or Not]]>
     </line>
     <line>
-      <![CDATA[Unable to click on PSA Drop down]]>
-    </line>
-    <line>
       <![CDATA[Enter the value into PSA Text box]]>
     </line>
     <line>
-      <![CDATA[ User is not able to type ENOIinto PSA Text box]]>
+      <![CDATA[Enter the value into Number of Position text box]]>
+    </line>
+    <line>
+      <![CDATA[Clicking on  Submit button ]]>
+    </line>
+    <line>
+      <![CDATA[Verify Submit button  is Clickable or Not]]>
+    </line>
+    <line>
+      <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"(//span[text()='Senior Analyst'])[1]"}
+  (Session info: chrome=85.0.4183.102)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'HCLT-PC5929-1', ip: '10.98.101.172', os.name: 'Windows Server 2016', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_151'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\gupta.ami\AppData\...}, goog:chromeOptions: {debuggerAddress: localhost:53766}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true, webdriver.remote.sessionid: 76082ae06e351f69de3976d0997...}
+Session ID: 76082ae06e351f69de3976d09970539c
+*** Element info: {Using=xpath, value=(//span[text()='Senior Analyst'])[1]}]]>
+    </line>
+    <line>
+      <![CDATA[Unable to performe action Additional Job Details ]]>
     </line>
   </reporter-output>
-  <suite name="SmartRecruit" duration-ms="80055" started-at="2020-09-18T20:31:52Z" finished-at="2020-09-18T20:33:12Z">
+  <suite name="SmartRecruit" duration-ms="112260" started-at="2020-09-18T20:51:22Z" finished-at="2020-09-18T20:53:15Z">
     <groups>
     </groups>
-    <test name="POC_Test1" duration-ms="80055" started-at="2020-09-18T20:31:52Z" finished-at="2020-09-18T20:33:12Z">
+    <test name="POC_Test1" duration-ms="112260" started-at="2020-09-18T20:51:22Z" finished-at="2020-09-18T20:53:15Z">
       <class name="com.hcl.smartrecruit.testscripts.CreateNewRequisition">
-        <test-method status="PASS" signature="createFiles()[pri:0, instance:com.hcl.smartrecruit.testscripts.CreateNewRequisition@528c868]" name="createFiles" is-config="true" duration-ms="156" started-at="2020-09-18T20:31:52Z" finished-at="2020-09-18T20:31:52Z">
+        <test-method status="PASS" signature="createFiles()[pri:0, instance:com.hcl.smartrecruit.testscripts.CreateNewRequisition@528c868]" name="createFiles" is-config="true" duration-ms="156" started-at="2020-09-18T20:51:22Z" finished-at="2020-09-18T20:51:22Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createFiles -->
-        <test-method status="PASS" signature="launchApp(java.lang.String)[pri:0, instance:com.hcl.smartrecruit.testscripts.CreateNewRequisition@528c868]" name="launchApp" is-config="true" duration-ms="5162" started-at="2020-09-18T20:31:52Z" finished-at="2020-09-18T20:31:57Z">
+        <test-method status="PASS" signature="launchApp(java.lang.String)[pri:0, instance:com.hcl.smartrecruit.testscripts.CreateNewRequisition@528c868]" name="launchApp" is-config="true" duration-ms="5063" started-at="2020-09-18T20:51:22Z" finished-at="2020-09-18T20:51:27Z">
           <params>
             <param index="0">
               <value>
@@ -124,7 +141,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchApp -->
-        <test-method status="PASS" signature="setExtentReport(java.lang.reflect.Method)[pri:0, instance:com.hcl.smartrecruit.testscripts.CreateNewRequisition@528c868]" name="setExtentReport" is-config="true" duration-ms="1" started-at="2020-09-18T20:31:58Z" finished-at="2020-09-18T20:31:58Z">
+        <test-method status="PASS" signature="setExtentReport(java.lang.reflect.Method)[pri:0, instance:com.hcl.smartrecruit.testscripts.CreateNewRequisition@528c868]" name="setExtentReport" is-config="true" duration-ms="2" started-at="2020-09-18T20:51:28Z" finished-at="2020-09-18T20:51:28Z">
           <params>
             <param index="0">
               <value>
@@ -135,7 +152,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setExtentReport -->
-        <test-method status="FAIL" signature="TC_CreateNewRequisitionForm(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.hcl.smartrecruit.testscripts.CreateNewRequisition@528c868]" name="TC_CreateNewRequisitionForm" duration-ms="74203" started-at="2020-09-18T20:31:58Z" description="Create Requisition" data-provider="TestDataProvider" finished-at="2020-09-18T20:33:12Z">
+        <test-method status="FAIL" signature="TC_CreateNewRequisitionForm(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.hcl.smartrecruit.testscripts.CreateNewRequisition@528c868]" name="TC_CreateNewRequisitionForm" duration-ms="106525" started-at="2020-09-18T20:51:28Z" description="Create Requisition" data-provider="TestDataProvider" finished-at="2020-09-18T20:53:14Z">
           <params>
             <param index="0">
               <value>
@@ -250,14 +267,13 @@
           </params>
           <exception class="java.lang.AssertionError">
             <message>
-              <![CDATA[Unable to type in PSA Text box]]>
+              <![CDATA[Unable to performe action on Additional Job Details ]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: Unable to type in PSA Text box
+              <![CDATA[java.lang.AssertionError: Unable to performe action on Additional Job Details 
 at org.testng.Assert.fail(Assert.java:96)
-at com.hcl.smartrecruit.util.WebActionUtil.typeText(WebActionUtil.java:272)
-at com.hcl.smartrecruit.pages.RequisitionRequest_Page.jobDetails(RequisitionRequest_Page.java:379)
-at com.hcl.smartrecruit.testscripts.CreateNewRequisition.TC_CreateNewRequisitionForm(CreateNewRequisition.java:30)
+at com.hcl.smartrecruit.pages.RequisitionRequest_Page.additionaJobDetails(RequisitionRequest_Page.java:457)
+at com.hcl.smartrecruit.testscripts.CreateNewRequisition.TC_CreateNewRequisitionForm(CreateNewRequisition.java:33)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -381,21 +397,38 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
               <![CDATA[Verify SubBand Element dropdown is Clickable or Not]]>
             </line>
             <line>
-              <![CDATA[Unable to click on PSA Drop down]]>
-            </line>
-            <line>
               <![CDATA[Enter the value into PSA Text box]]>
             </line>
             <line>
-              <![CDATA[ User is not able to type ENOIinto PSA Text box]]>
+              <![CDATA[Enter the value into Number of Position text box]]>
+            </line>
+            <line>
+              <![CDATA[Clicking on  Submit button ]]>
+            </line>
+            <line>
+              <![CDATA[Verify Submit button  is Clickable or Not]]>
+            </line>
+            <line>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"(//span[text()='Senior Analyst'])[1]"}
+  (Session info: chrome=85.0.4183.102)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'HCLT-PC5929-1', ip: '10.98.101.172', os.name: 'Windows Server 2016', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_151'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\gupta.ami\AppData\...}, goog:chromeOptions: {debuggerAddress: localhost:53766}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true, webdriver.remote.sessionid: 76082ae06e351f69de3976d0997...}
+Session ID: 76082ae06e351f69de3976d09970539c
+*** Element info: {Using=xpath, value=(//span[text()='Senior Analyst'])[1]}]]>
+            </line>
+            <line>
+              <![CDATA[Unable to performe action Additional Job Details ]]>
             </line>
           </reporter-output>
         </test-method> <!-- TC_CreateNewRequisitionForm -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.hcl.smartrecruit.testscripts.CreateNewRequisition@528c868]" name="closeBrowser" is-config="true" duration-ms="94" started-at="2020-09-18T20:33:12Z" finished-at="2020-09-18T20:33:12Z">
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.hcl.smartrecruit.testscripts.CreateNewRequisition@528c868]" name="closeBrowser" is-config="true" duration-ms="109" started-at="2020-09-18T20:53:14Z" finished-at="2020-09-18T20:53:15Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method status="PASS" signature="killTask(java.lang.String)[pri:0, instance:com.hcl.smartrecruit.testscripts.CreateNewRequisition@528c868]" name="killTask" is-config="true" duration-ms="31" started-at="2020-09-18T20:33:13Z" finished-at="2020-09-18T20:33:13Z">
+        <test-method status="PASS" signature="killTask(java.lang.String)[pri:0, instance:com.hcl.smartrecruit.testscripts.CreateNewRequisition@528c868]" name="killTask" is-config="true" duration-ms="47" started-at="2020-09-18T20:53:15Z" finished-at="2020-09-18T20:53:15Z">
           <params>
             <param index="0">
               <value>
