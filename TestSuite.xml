@@ -10,10 +10,10 @@
       <class name="com.hcl.smartrecruit.testscripts.CreateRequisition"/>
     </classes>
   </test> <!-- POC_Test1 -->
-<!--   <test thread-count="1" name="POC_Test2" parallel="tests">
+  <test thread-count="1" name="POC_Test2" parallel="tests">
     <parameter name="browserName" value="Edge"/>
     <classes>
-      <class name="com.hcl.smartrecruit.testscripts.CreateRequisition"/>
+      <class name="com.hcl.smartrecruit.testscripts.CloseRequisition"/>
     </classes>
-  </test> POC_Test2 -->
+  </test> 
 </suite> <!-- SmartRecruit -->
