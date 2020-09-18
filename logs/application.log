@@ -2555,3 +2555,35 @@ Session ID: 51fc2e237d670eab1605128473891a1c
 [INFO ] 2020-09-19 01:15:25.234 [main] BaseTest - Verify Done button  is Clickable or Not
 [INFO ] 2020-09-19 01:15:25.634 [main] BaseTest - Clicking on  Job tex box detail 
 [INFO ] 2020-09-19 01:15:25.634 [main] BaseTest - Verify Job tex box detail  is Clickable or Not
+[INFO ] 2020-09-19 01:23:54.210 [main] BaseTest - 
+[INFO ] 2020-09-19 01:23:54.227 [main] BaseTest - Running locally HCL Poc 
+[INFO ] 2020-09-19 01:23:54.461 [main] BaseTest - Folder creation for Extent
+[INFO ] 2020-09-19 01:23:54.477 [main] BaseTest - ExtentDir:-C:\Users\aatish.s\Desktop\Tysspoc\HCL_SmartRecruit_POC/reports/HCLAutomation Report- 09_19_2020_01_23_54/HCL Report/09_19_2020_01_23_54
+[INFO ] 2020-09-19 01:23:54.617 [main] BaseTest - Report Initiated
+[INFO ] 2020-09-19 01:23:54.633 [main] BaseTest - Screenshot Folder Created
+[INFO ] 2020-09-19 01:24:27.547 [main] BaseTest - 
+[INFO ] 2020-09-19 01:24:27.562 [main] BaseTest - Running locally HCL Poc 
+[INFO ] 2020-09-19 01:24:27.750 [main] BaseTest - Folder creation for Extent
+[INFO ] 2020-09-19 01:24:27.765 [main] BaseTest - ExtentDir:-C:\Users\aatish.s\Desktop\Tysspoc\HCL_SmartRecruit_POC/reports/HCLAutomation Report- 09_19_2020_01_24_27/HCL Report/09_19_2020_01_24_27
+[INFO ] 2020-09-19 01:24:27.890 [main] BaseTest - Report Initiated
+[INFO ] 2020-09-19 01:24:27.906 [main] BaseTest - Screenshot Folder Created
+[INFO ] 2020-09-19 01:24:33.334 [main] BaseTest - Enter the value into  EmployeeID Text box
+[INFO ] 2020-09-19 01:24:33.539 [main] BaseTest - Enter the value into  Password Text box
+[INFO ] 2020-09-19 01:24:33.661 [main] BaseTest - Clicking on  Login button
+[INFO ] 2020-09-19 01:24:33.661 [main] BaseTest - Verify Login button is Clickable or Not
+[INFO ] 2020-09-19 01:24:49.186 [main] BaseTest - Clicking on  New Requisition option
+[INFO ] 2020-09-19 01:24:49.186 [main] BaseTest - Verify New Requisition option is Clickable or Not
+[INFO ] 2020-09-19 01:24:51.353 [main] BaseTest - Clicking on  RequestType dropdown
+[INFO ] 2020-09-19 01:24:51.353 [main] BaseTest - Verify RequestType dropdown is Clickable or Not
+[INFO ] 2020-09-19 01:24:55.834 [main] BaseTest - Clicking on  New resource request
+[INFO ] 2020-09-19 01:24:55.840 [main] BaseTest - Verify New resource request is Clickable or Not
+[INFO ] 2020-09-19 01:24:56.623 [main] BaseTest - Clicking on  Id skill text box
+[INFO ] 2020-09-19 01:24:56.624 [main] BaseTest - Verify Id skill text box is Clickable or Not
+[INFO ] 2020-09-19 01:24:57.343 [main] BaseTest - Enter the value into SkillDetail text box
+[INFO ] 2020-09-19 01:25:02.694 [main] BaseTest - Clicking on  Plus button under skills
+[INFO ] 2020-09-19 01:25:02.695 [main] BaseTest - Verify Plus button under skills is Clickable or Not
+[INFO ] 2020-09-19 01:25:05.416 [main] BaseTest - Click on Element Primary Radio Button
+[INFO ] 2020-09-19 01:25:05.516 [main] BaseTest - Clicking on  Done button 
+[INFO ] 2020-09-19 01:25:05.517 [main] BaseTest - Verify Done button  is Clickable or Not
+[INFO ] 2020-09-19 01:25:05.980 [main] BaseTest - Clicking on  Job tex box detail 
+[INFO ] 2020-09-19 01:25:05.980 [main] BaseTest - Verify Job tex box detail  is Clickable or Not

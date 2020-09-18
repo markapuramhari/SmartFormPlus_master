@@ -81,7 +81,7 @@ public class RequisitionRequest_Page {
 	private WebElement btnDoneUnderSkill;
 
 	/* Job Text */
-	@FindBy(id = "BulkHiring")
+	@FindBy(id = "ForBulkHiring")
 	private WebElement txtJob;
 
 	/* Job text box */
@@ -226,7 +226,7 @@ public class RequisitionRequest_Page {
 
 	/* Search job element */
 	public void searchJob(String job) {
-		driver.findElement(By.xpath("//div[text()='" + job + "']")).click();
+		driver.findElement(By.xpath("(//strong[text()='"+job+"'])[1]")).click();
 	}
 
 	/* Select bill type */
