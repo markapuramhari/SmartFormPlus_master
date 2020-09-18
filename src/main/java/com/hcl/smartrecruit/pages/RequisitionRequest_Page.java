@@ -209,11 +209,11 @@ public class RequisitionRequest_Page {
 	private WebElement btnEntitySubmit;
 
 	/* Entity Name */
-	@FindBy(xpath = "//button[@class='btn dropdown-toggle btn-default bs-placeholder']")
+	@FindBy(xpath = "//button[@class='btn dropdown-toggle bs-placeholder btn-default' and @data-title='--Select PSA--']")
 	private WebElement ddpsa;
 
 	/* Entity Name */
-	@FindBy(xpath = "//button[@class='btn dropdown-toggle btn-default bs-placeholder']/following-sibling::div/div/input")
+	@FindBy(xpath = "(//div[@class='dropdown-menu open'])[9]/div[@class='bs-searchbox']/input")
 	private WebElement txtpsa;
 
 	/* Search job element */
