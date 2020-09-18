@@ -226,7 +226,7 @@ public class RequisitionRequest_Page {
 
 	/* Search job element */
 	public void searchJob(String job) {
-		driver.findElement(By.xpath("//div[text()='"+ job +"']")).click();
+		driver.findElement(By.xpath("(//div[contains(text(),'"+ job +"')])[1]")).click();
 	}
 
 	/* Select bill type */

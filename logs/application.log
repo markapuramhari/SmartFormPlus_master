@@ -2624,3 +2624,40 @@ Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 8
 Session ID: 271a9bcc3039e7e2dd1caea78c71bb79
 *** Element info: {Using=xpath, value=(//strong[text()='Admin lead'])[1]}
 [INFO ] 2020-09-19 01:38:14.818 [main] BaseTest - Unable to performe action on Job Details 
+[INFO ] 2020-09-19 01:45:55.160 [main] BaseTest - 
+[INFO ] 2020-09-19 01:45:55.170 [main] BaseTest - Running locally HCL Poc 
+[INFO ] 2020-09-19 01:45:55.357 [main] BaseTest - Folder creation for Extent
+[INFO ] 2020-09-19 01:45:55.357 [main] BaseTest - ExtentDir:-C:\Users\aatish.s\Desktop\Tysspoc\HCL_SmartRecruit_POC/reports/HCLAutomation Report- 09_19_2020_01_45_55/HCL Report/09_19_2020_01_45_55
+[INFO ] 2020-09-19 01:45:55.498 [main] BaseTest - Report Initiated
+[INFO ] 2020-09-19 01:45:55.498 [main] BaseTest - Screenshot Folder Created
+[INFO ] 2020-09-19 01:46:00.976 [main] BaseTest - Enter the value into  EmployeeID Text box
+[INFO ] 2020-09-19 01:46:01.165 [main] BaseTest - Enter the value into  Password Text box
+[INFO ] 2020-09-19 01:46:01.329 [main] BaseTest - Clicking on  Login button
+[INFO ] 2020-09-19 01:46:01.330 [main] BaseTest - Verify Login button is Clickable or Not
+[INFO ] 2020-09-19 01:46:16.579 [main] BaseTest - Clicking on  New Requisition option
+[INFO ] 2020-09-19 01:46:16.579 [main] BaseTest - Verify New Requisition option is Clickable or Not
+[INFO ] 2020-09-19 01:46:18.129 [main] BaseTest - Clicking on  RequestType dropdown
+[INFO ] 2020-09-19 01:46:18.130 [main] BaseTest - Verify RequestType dropdown is Clickable or Not
+[INFO ] 2020-09-19 01:46:22.484 [main] BaseTest - Clicking on  New resource request
+[INFO ] 2020-09-19 01:46:22.484 [main] BaseTest - Verify New resource request is Clickable or Not
+[INFO ] 2020-09-19 01:46:23.079 [main] BaseTest - Clicking on  Id skill text box
+[INFO ] 2020-09-19 01:46:23.079 [main] BaseTest - Verify Id skill text box is Clickable or Not
+[INFO ] 2020-09-19 01:46:23.851 [main] BaseTest - Enter the value into SkillDetail text box
+[INFO ] 2020-09-19 01:46:29.118 [main] BaseTest - Clicking on  Plus button under skills
+[INFO ] 2020-09-19 01:46:29.119 [main] BaseTest - Verify Plus button under skills is Clickable or Not
+[INFO ] 2020-09-19 01:46:31.714 [main] BaseTest - Click on Element Primary Radio Button
+[INFO ] 2020-09-19 01:46:31.815 [main] BaseTest - Clicking on  Done button 
+[INFO ] 2020-09-19 01:46:31.816 [main] BaseTest - Verify Done button  is Clickable or Not
+[INFO ] 2020-09-19 01:46:32.257 [main] BaseTest - Clicking on  Job tex box detail 
+[INFO ] 2020-09-19 01:46:32.257 [main] BaseTest - Verify Job tex box detail  is Clickable or Not
+[INFO ] 2020-09-19 01:46:32.653 [main] BaseTest - Enter the value into Job text box 
+[ERROR] 2020-09-19 01:46:42.839 [main] BaseTest - no such element: Unable to locate element: {"method":"xpath","selector":"//div[text()='Admin lead']"}
+  (Session info: chrome=85.0.4183.102)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'HCLT-PC5929-1', ip: '10.98.101.172', os.name: 'Windows Server 2016', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_151'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\gupta.ami\AppData\...}, goog:chromeOptions: {debuggerAddress: localhost:51816}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true, webdriver.remote.sessionid: 0d0b7f0d46d3047e8c84321a133...}
+Session ID: 0d0b7f0d46d3047e8c84321a133d469f
+*** Element info: {Using=xpath, value=//div[text()='Admin lead']}
+[INFO ] 2020-09-19 01:46:42.839 [main] BaseTest - Unable to performe action on Job Details 
