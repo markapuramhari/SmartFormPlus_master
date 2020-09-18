@@ -55,6 +55,10 @@ public class RequisitionRequest_Page {
 	/* New Position */
 	@FindBy(xpath = "//a[text()='New Position']")
 	private WebElement txtNewPosition;
+	
+	/* New Position */
+	@FindBy(xpath = "//a[text()='New Resource Request']")
+	private WebElement txtNewResourceRequest;
 
 	/* Skill text box */
 	@FindBy(id = "Skills")
@@ -314,7 +318,7 @@ public class RequisitionRequest_Page {
 			WebActionUtil.typeText(txtProjectName, projectName, "Project name text box");
 			WebActionUtil.clickOnElement(ddRequestType, "RequestType dropdown");
 			WebActionUtil.actionMouseHover(ddResourceRequest, "NewRequest option");
-			WebActionUtil.clickOnElement(txtNewPosition, "New Position options");
+			WebActionUtil.clickOnElement(txtNewResourceRequest, "New resource request");
 		} catch (Exception e) {
 			WebActionUtil.error(e.getMessage());
 			WebActionUtil.info("Unable to performe action Project Details");
