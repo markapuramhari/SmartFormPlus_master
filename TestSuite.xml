@@ -1,21 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite thread-count="2" configfailurepolicy="continue" name="SmartRecruit" parallel="tests">
+<suite thread-count="1" configfailurepolicy="continue" name="SmartRecruit">
   <listeners>
     <listener class-name="com.hcl.smartrecruit.listners.TestListener"/>
   </listeners>
-  <test thread-count="1" name="POC_Test1" parallel="tests">
+  <test thread-count="1" name="POC_Test1">
     <parameter name="browserName" value="Chrome"/>
     <classes>
-      <class name="com.hcl.smartrecruit.testscripts.ApproveAllRequisition"/>
-      <class name="com.hcl.smartrecruit.testscripts.CloseRequisition"/>
+      <class name="com.hcl.smartrecruit.testscripts.CreateNewRequisition"/>
     </classes>
   </test> <!-- POC_Test1 -->
-  <test thread-count="1" name="POC_Test2" parallel="tests">
-    <parameter name="browserName" value="Chrome"/>
-    <classes>
-      <class name="com.hcl.smartrecruit.testscripts.ApproveAllRequisition"/>
-      <class name="com.hcl.smartrecruit.testscripts.CloseRequisition"/>
-    </classes>
-  </test> <!-- POC_Test2 -->
 </suite> <!-- SmartRecruit -->

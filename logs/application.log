@@ -2525,3 +2525,7 @@ Session ID: 51fc2e237d670eab1605128473891a1c
 [INFO ] 2020-09-18 18:07:42.043 [main] BaseTest - C:\Users\User\Desktop\HCL_Review\ForReview\HCL_SmartRecruit/Controller.xlsx
 [INFO ] 2020-09-18 18:07:42.313 [main] BaseTest - com.hcl.smartrecruit.testscripts.ApproveAllRequisition
 [INFO ] 2020-09-18 18:07:42.313 [main] BaseTest - com.hcl.smartrecruit.testscripts.CloseRequisition
+[INFO ] 2020-09-18 20:37:46.578 [main] BaseTest - C:\Users\User\Desktop\HCL_Review\ForReview\HCL_SmartRecruit/Controller.xlsx
+[INFO ] 2020-09-18 20:37:46.716 [main] BaseTest - com.hcl.smartrecruit.testscripts.CreateNewRequisition
+[INFO ] 2020-09-18 20:39:07.232 [main] BaseTest - C:\Users\User\Desktop\HCL_Review\ForReview\HCL_SmartRecruit/Controller.xlsx
+[INFO ] 2020-09-18 20:39:07.353 [main] BaseTest - com.hcl.smartrecruit.testscripts.CreateNewRequisition
