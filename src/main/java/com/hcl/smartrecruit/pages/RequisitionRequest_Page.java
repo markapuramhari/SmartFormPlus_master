@@ -221,6 +221,12 @@ public class RequisitionRequest_Page {
 	@FindBy(id = "TxtjobDesription")
 	private WebElement taJobDescription;
 	
+	
+	/* Entity Name */
+	@FindBy(id = "OnBoardingDate")
+	private WebElement txtonboarding;
+	
+	
 	/* Search job element */
 	public void selectPSA(String psa) {
 		driver.findElement(
@@ -524,6 +530,7 @@ public class RequisitionRequest_Page {
 			WebActionUtil.clickElementByUsingJS(billingType, "Bill Type dropdown");
 			WebActionUtil.waitForThePresenceOfElement(2);
 			selectBillType(billableType);
+			WebActionUtil.typeText(txtonboarding,"25-Dec-2020", "On boarding date");
 			WebActionUtil.clickOnElement(interviewerOne, "Interviewer one text box");
 			WebActionUtil.typeText(interviewerOne, interviewer1, "Interviewer 1 text box");
 			WebActionUtil.clickOnElement(interviewerTwo, "Interviewer Two TextBox");
