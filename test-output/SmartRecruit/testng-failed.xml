@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite thread-count="2" configfailurepolicy="continue" guice-stage="DEVELOPMENT" name="Failed suite [SmartRecruit]" parallel="tests">
+<suite thread-count="1" configfailurepolicy="continue" guice-stage="DEVELOPMENT" name="Failed suite [SmartRecruit]">
   <listeners>
     <listener class-name="com.hcl.smartrecruit.listners.TestListener"/>
   </listeners>
-  <test thread-count="2" name="POC_Test2(failed)" parallel="tests">
-    <parameter name="browserName" value="Edge"/>
+  <test thread-count="1" name="POC_Test1(failed)">
+    <parameter name="browserName" value="Chrome"/>
     <classes>
-      <class name="com.hcl.smartrecruit.testscripts.CreateRequisition">
+      <class name="com.hcl.smartrecruit.testscripts.CreateNewRequisition">
         <methods>
           <include name="launchApp"/>
           <include name="closeBrowser"/>
           <include name="killTask"/>
           <include name="setExtentReport"/>
-          <include name="createRequisition" invocation-numbers="0 1 2"/>
+          <include name="TC_CreateNewRequisitionForm" invocation-numbers="0"/>
           <include name="createFiles"/>
         </methods>
-      </class> <!-- com.hcl.smartrecruit.testscripts.CreateRequisition -->
+      </class> <!-- com.hcl.smartrecruit.testscripts.CreateNewRequisition -->
     </classes>
-  </test> <!-- POC_Test2(failed) -->
+  </test> <!-- POC_Test1(failed) -->
 </suite> <!-- Failed suite [SmartRecruit] -->
