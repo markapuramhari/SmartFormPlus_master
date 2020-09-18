@@ -17,7 +17,7 @@ public class ApproveAllRequisition extends BaseTest {
 
 	@Test(description = "Approve Requisition", dataProvider = "TestDataProvider", dataProviderClass = ApproveAllRequisitionDataProvider.class)
 
-	public synchronized void TC_CreateNewRequisitionForm(String projectName, String skillvalue, String skill,
+	public synchronized void TC_ApproveAllRequisition(String projectName, String skillvalue, String skill,
 			String jobvalue, String job, String employeeGroup, String band, String subBand,String psa, String secondaryPSA,
 			String experience, String noOfPosition, String designationType, String joiningLocation,
 			String secondaryJoiningLocation, String state, String city, String billtype, String interviewer1,

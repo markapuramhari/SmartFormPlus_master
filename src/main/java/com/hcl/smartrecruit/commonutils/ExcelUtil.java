@@ -16,8 +16,8 @@ import org.apache.poi.ss.usermodel.WorkbookFactory;
 import com.hcl.smartrecruit.baseutil.BaseTest;
 
 /**
+ * Description: Implements generic methods to perform operations on Excel Workbook.
  * @author: Shreya U,Vivek Dogra,Aatish Slathia
- * @description : Implements generic methods to perform operations on Excel Workbook.
  */
 
 public class ExcelUtil {

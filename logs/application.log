@@ -2519,3 +2519,9 @@ Session ID: 51fc2e237d670eab1605128473891a1c
 [INFO ] 2020-09-15 18:45:37.913 [main] BaseTest - Verify Submit button  is Clickable or Not
 [INFO ] 2020-09-15 18:46:05.053 [main] BaseTest - Navigating to the URL
 [INFO ] 2020-09-15 18:46:05.448 [main] BaseTest - Enter the value into  EmployeeID Text box
+[INFO ] 2020-09-18 18:07:41.560 [main] BaseTest - C:\Users\User\Desktop\HCL_Review\ForReview\HCL_SmartRecruit/Controller.xlsx
+[INFO ] 2020-09-18 18:07:41.928 [main] BaseTest - com.hcl.smartrecruit.testscripts.ApproveAllRequisition
+[INFO ] 2020-09-18 18:07:41.930 [main] BaseTest - com.hcl.smartrecruit.testscripts.CloseRequisition
+[INFO ] 2020-09-18 18:07:42.043 [main] BaseTest - C:\Users\User\Desktop\HCL_Review\ForReview\HCL_SmartRecruit/Controller.xlsx
+[INFO ] 2020-09-18 18:07:42.313 [main] BaseTest - com.hcl.smartrecruit.testscripts.ApproveAllRequisition
+[INFO ] 2020-09-18 18:07:42.313 [main] BaseTest - com.hcl.smartrecruit.testscripts.CloseRequisition
