@@ -293,8 +293,8 @@ public class RequisitionRequest_Page {
 		try {
 			WebActionUtil.actionMouseHover(ddinitiatorActions, "Initiator Action dropdown");
 			WebActionUtil.clickOnElement(createaNewRequisitionOption, "New Requisition option");
-			WebActionUtil.selectByText(ddentity, entityname);
-			WebActionUtil.clickOnElement(btnEntitySubmit, "Entity Submit button");
+			//WebActionUtil.selectByText(ddentity, entityname);
+			//WebActionUtil.clickOnElement(btnEntitySubmit, "Entity Submit button");
 			
 			WebActionUtil.clearText(txtProjectName, "Project name text box");
 			WebActionUtil.typeText(txtProjectName, projectName, "Project name text box");
