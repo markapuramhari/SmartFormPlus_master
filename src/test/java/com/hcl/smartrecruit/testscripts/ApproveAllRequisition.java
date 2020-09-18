@@ -17,7 +17,7 @@ public class ApproveAllRequisition extends BaseTest {
 
 	@Test(description = "Approve Requisition", dataProvider = "TestDataProvider", dataProviderClass = ApproveAllRequisitionDataProvider.class)
 
-	public synchronized void TC_ApproveAllRequisition(String projectName, String skillvalue, String skill,
+	public synchronized void TC_ApproveAllRequisition(String entityname,String projectName, String skillvalue, String skill,
 			String jobvalue, String job, String employeeGroup, String band, String subBand,String psa, String secondaryPSA,
 			String experience, String noOfPosition, String designationType, String joiningLocation,
 			String secondaryJoiningLocation, String state, String city, String billtype, String interviewer1,
@@ -28,7 +28,7 @@ public class ApproveAllRequisition extends BaseTest {
 		int indexPassword = ExcelUtil.getColoumIndex(EXCELPATH, "Credentials", "Password");
 		String[] userPass = ExcelUtil.toReadExcelData(EXCELPATH, "Credentials", "Approver_1");
 		pages.loginPage.signToApplication(userData[indexUserName], userPass[indexPassword]);
-		pages.requistionRequest.projectDetail(projectName);
+		pages.requistionRequest.projectDetail(projectName,entityname);
 		pages.requistionRequest.jobDetails(skillvalue, skill, jobvalue, employeeGroup, band, subBand, job,
 				secondaryPSA,psa);
 		pages.requistionRequest.positionAndLocationDetail(noOfPosition);

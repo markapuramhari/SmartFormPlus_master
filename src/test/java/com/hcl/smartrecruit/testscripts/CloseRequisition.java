@@ -20,7 +20,7 @@ public class CloseRequisition extends BaseTest{
 	@Test(description = "Close Requisition", dataProvider = "TestDataProvider", dataProviderClass = CloseRequisitionDataProvider.class)
 
 	
-	public synchronized void TC_CloseRequisitionForm(String projectName,String skillvalue,String skill,String jobvalue,String job,String employeeGroup,String band,String SubBand,String psa,String secondaryPSA,String experience,String noOfPosition,String designationType,
+	public synchronized void TC_CloseRequisitionForm(String entityname,String projectName,String skillvalue,String skill,String jobvalue,String job,String employeeGroup,String band,String SubBand,String psa,String secondaryPSA,String experience,String noOfPosition,String designationType,
 			String joiningLocation,String secondaryJoiningLocation,String state
 			,String city,String billtype,String interviewer1,String interviewer2,String statusRemarks) throws Exception, Exception, AWTException {
 		InitializePages pages = new InitializePages(driver, ETO, WebActionUtil);
@@ -29,7 +29,7 @@ public class CloseRequisition extends BaseTest{
 		int indexPassword = ExcelUtil.getColoumIndex(EXCELPATH, "Credentials", "Password");
 		String[] userPass = ExcelUtil.toReadExcelData(EXCELPATH, "Credentials", "Approver_1");
 		pages.loginPage.signToApplication(userData[indexUserName],userPass[indexPassword]);
-		pages.requistionRequest.projectDetail( projectName);
+		pages.requistionRequest.projectDetail( projectName,entityname);
 		pages.requistionRequest.jobDetails(skillvalue, skill, jobvalue, employeeGroup, band, SubBand, job, secondaryPSA,psa);
 		pages.requistionRequest.positionAndLocationDetail(noOfPosition);
 		pages.requistionRequest.submisitionOfThePage();

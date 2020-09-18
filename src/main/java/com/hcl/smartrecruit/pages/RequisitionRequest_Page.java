@@ -1,5 +1,7 @@
 package com.hcl.smartrecruit.pages;
 
+import static org.testng.Assert.fail;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -190,7 +192,19 @@ public class RequisitionRequest_Page {
 	/* Primary Radio Button */
 	@FindBy(xpath = "//input[@name='primary']/../label")
 	private WebElement rdbtnprimary;
+	
+	/*Entity Name*/
+	@FindBy(xpath = "//select[@id='EntityName']")
+	private WebElement ddentity;
 
+	/* Entity Submit button*/
+	@FindBy(id = "btnEntitySubmit")
+	private WebElement btnEntitySubmit;
+	
+	/*Entity Name*/
+	@FindBy(xpath = "")
+	private WebElement ddpsa;
+	
 	/* Search job element */
 	public void searchJob(String job) {
 		driver.findElement(By.xpath("//div[text()='" + job + "']")).click();
@@ -268,16 +282,20 @@ public class RequisitionRequest_Page {
 				.click();
 
 	}
+	
 	/**
 	 * Description Fills the project details in Requisition Form.
 	 * @author Aatish Slathia
 	 * @param projectName           
 	 */
 
-	public synchronized void projectDetail(String projectName) {
+	public synchronized void projectDetail(String projectName, String entityname) {
 		try {
 			WebActionUtil.actionMouseHover(ddinitiatorActions, "Initiator Action dropdown");
 			WebActionUtil.clickOnElement(createaNewRequisitionOption, "New Requisition option");
+			WebActionUtil.selectByText(ddentity, entityname);
+			WebActionUtil.clickOnElement(btnEntitySubmit, "Entity Submit button");
+			
 			WebActionUtil.clearText(txtProjectName, "Project name text box");
 			WebActionUtil.typeText(txtProjectName, projectName, "Project name text box");
 			WebActionUtil.clickOnElement(ddRequestType, "RequestType dropdown");

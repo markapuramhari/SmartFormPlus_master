@@ -17,7 +17,7 @@ public class CreateNewRequisition extends BaseTest{
 	@Test(description = "Create Requisition", dataProvider = "TestDataProvider", dataProviderClass = CreateRequisitionDataProvider.class)
 
 	
-	public void TC_CreateNewRequisitionForm(String projectName,String skillvalue,String skill,String jobvalue,String job,String employeeGroup,String band,String subBand,String psa,String secondaryPSA,String experience,String noOfPosition,String designationType,
+	public void TC_CreateNewRequisitionForm(String entityname,String projectName,String skillvalue,String skill,String jobvalue,String job,String employeeGroup,String band,String subBand,String psa,String secondaryPSA,String experience,String noOfPosition,String designationType,
 			String joiningLocation,String secondaryJoiningLocation,String state
 			,String city,String billtype,String interviewer1,String interviewer2,String statusRemarks)  {
 		InitializePages pages = new InitializePages(driver, ETO, WebActionUtil);
@@ -26,7 +26,7 @@ public class CreateNewRequisition extends BaseTest{
 		int indexPassword = ExcelUtil.getColoumIndex(EXCELPATH, "Credentials", "Password");
 		String[] userPass = ExcelUtil.toReadExcelData(EXCELPATH, "Credentials", "Approver_1");
 		pages.loginPage.signToApplication(userData[indexUserName],userPass[indexPassword]);
-		pages.requistionRequest.projectDetail( projectName);
+		pages.requistionRequest.projectDetail( projectName,entityname);
 		pages.requistionRequest.jobDetails(skillvalue, skill, jobvalue, employeeGroup, band, subBand, job, secondaryPSA,psa);
 		pages.requistionRequest.positionAndLocationDetail(noOfPosition);
 		pages.requistionRequest.submisitionOfThePage();
