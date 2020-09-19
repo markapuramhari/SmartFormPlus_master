@@ -712,7 +712,9 @@ public class WebActionUtil {
 			System.out.println("JS in NOT Ready!");
 			// Wait for Javascript to load
 			wait.until(jsLoad);
-		} else {
+		}
+		else 
+		{
 			waitForThePresenceOfElement(2);
 		}
 	}

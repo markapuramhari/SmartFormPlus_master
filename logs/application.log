@@ -3076,3 +3076,7 @@ Session ID: 833d318430449c2aadbfb414e0ca7451
 [INFO ] 2020-09-19 03:39:06.611 [main] BaseTest - Clicking on  Submit button 
 [INFO ] 2020-09-19 03:39:06.611 [main] BaseTest - Verify Submit button  is Clickable or Not
 [INFO ] 2020-09-19 03:39:16.950 [main] BaseTest - BTIS/BTIS/2020/3055397
+[INFO ] 2020-09-19 07:52:13.935 [main] BaseTest - C:\Users\aatish\Desktop\New folder\HCL_SmartRecruit_POC/Controller.xlsx
+[INFO ] 2020-09-19 07:52:13.996 [main] BaseTest - com.hcl.smartrecruit.testscripts.CreateNewRequisition
+[INFO ] 2020-09-19 07:52:13.999 [main] BaseTest - C:\Users\aatish\Desktop\New folder\HCL_SmartRecruit_POC/Controller.xlsx
+[INFO ] 2020-09-19 07:52:14.051 [main] BaseTest - com.hcl.smartrecruit.testscripts.CreateNewRequisition

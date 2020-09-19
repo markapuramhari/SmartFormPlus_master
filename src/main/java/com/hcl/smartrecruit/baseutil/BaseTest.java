@@ -54,6 +54,7 @@ public class BaseTest {
 	public static final String CONFIGPATH = sDirPath + "./conf/config.properties";
 	public static Map<String, String> map = new LinkedHashMap<String,String>();
 	public static String name="gupta.ami";
+	public static ChromeOptions chromeOpt;
 	public static final String URL = ExcelUtil.getCellData(EXCELPATH, "AppURL", 1, 0);
 	public String username = ExcelUtil.getCellData(EXCELPATH, "SystemUserName", 1, 0);
 
