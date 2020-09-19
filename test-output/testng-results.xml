@@ -140,22 +140,7 @@
       <![CDATA[Enter the value into On boarding date]]>
     </line>
     <line>
-      <![CDATA[Clicking on  Interviewer one text box]]>
-    </line>
-    <line>
-      <![CDATA[Verify Interviewer one text box is Clickable or Not]]>
-    </line>
-    <line>
-      <![CDATA[Unable to click on Interviewer one text box]]>
-    </line>
-    <line>
       <![CDATA[Enter the value into Interviewer 1 text box]]>
-    </line>
-    <line>
-      <![CDATA[Clicking on  Interviewer Two TextBox]]>
-    </line>
-    <line>
-      <![CDATA[Verify Interviewer Two TextBox is Clickable or Not]]>
     </line>
     <line>
       <![CDATA[Enter the value into Interviewer two text box]]>
@@ -173,16 +158,16 @@
       <![CDATA[Verify Submit button  is Clickable or Not]]>
     </line>
   </reporter-output>
-  <suite name="SmartRecruit" duration-ms="169357" started-at="2020-09-18T21:50:38Z" finished-at="2020-09-18T21:53:28Z">
+  <suite name="SmartRecruit" duration-ms="160526" started-at="2020-09-18T22:07:00Z" finished-at="2020-09-18T22:09:41Z">
     <groups>
     </groups>
-    <test name="POC_Test1" duration-ms="169357" started-at="2020-09-18T21:50:38Z" finished-at="2020-09-18T21:53:28Z">
+    <test name="POC_Test1" duration-ms="160526" started-at="2020-09-18T22:07:00Z" finished-at="2020-09-18T22:09:41Z">
       <class name="com.hcl.smartrecruit.testscripts.CreateNewRequisition">
-        <test-method status="PASS" signature="createFiles()[pri:0, instance:com.hcl.smartrecruit.testscripts.CreateNewRequisition@ab7395e]" name="createFiles" is-config="true" duration-ms="156" started-at="2020-09-18T21:50:38Z" finished-at="2020-09-18T21:50:38Z">
+        <test-method status="PASS" signature="createFiles()[pri:0, instance:com.hcl.smartrecruit.testscripts.CreateNewRequisition@ab7395e]" name="createFiles" is-config="true" duration-ms="172" started-at="2020-09-18T22:07:00Z" finished-at="2020-09-18T22:07:00Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createFiles -->
-        <test-method status="PASS" signature="launchApp(java.lang.String)[pri:0, instance:com.hcl.smartrecruit.testscripts.CreateNewRequisition@ab7395e]" name="launchApp" is-config="true" duration-ms="5029" started-at="2020-09-18T21:50:38Z" finished-at="2020-09-18T21:50:43Z">
+        <test-method status="PASS" signature="launchApp(java.lang.String)[pri:0, instance:com.hcl.smartrecruit.testscripts.CreateNewRequisition@ab7395e]" name="launchApp" is-config="true" duration-ms="5035" started-at="2020-09-18T22:07:00Z" finished-at="2020-09-18T22:07:05Z">
           <params>
             <param index="0">
               <value>
@@ -193,7 +178,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchApp -->
-        <test-method status="PASS" signature="setExtentReport(java.lang.reflect.Method)[pri:0, instance:com.hcl.smartrecruit.testscripts.CreateNewRequisition@ab7395e]" name="setExtentReport" is-config="true" duration-ms="1" started-at="2020-09-18T21:50:44Z" finished-at="2020-09-18T21:50:44Z">
+        <test-method status="PASS" signature="setExtentReport(java.lang.reflect.Method)[pri:0, instance:com.hcl.smartrecruit.testscripts.CreateNewRequisition@ab7395e]" name="setExtentReport" is-config="true" duration-ms="2" started-at="2020-09-18T22:07:05Z" finished-at="2020-09-18T22:07:05Z">
           <params>
             <param index="0">
               <value>
@@ -204,7 +189,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setExtentReport -->
-        <test-method status="PASS" signature="TC_CreateNewRequisitionForm(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.hcl.smartrecruit.testscripts.CreateNewRequisition@ab7395e]" name="TC_CreateNewRequisitionForm" duration-ms="164027" started-at="2020-09-18T21:50:44Z" description="Create Requisition" data-provider="TestDataProvider" finished-at="2020-09-18T21:53:28Z">
+        <test-method status="PASS" signature="TC_CreateNewRequisitionForm(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.hcl.smartrecruit.testscripts.CreateNewRequisition@ab7395e]" name="TC_CreateNewRequisitionForm" duration-ms="155208" started-at="2020-09-18T22:07:05Z" description="Create Requisition" data-provider="TestDataProvider" finished-at="2020-09-18T22:09:40Z">
           <params>
             <param index="0">
               <value>
@@ -457,22 +442,7 @@
               <![CDATA[Enter the value into On boarding date]]>
             </line>
             <line>
-              <![CDATA[Clicking on  Interviewer one text box]]>
-            </line>
-            <line>
-              <![CDATA[Verify Interviewer one text box is Clickable or Not]]>
-            </line>
-            <line>
-              <![CDATA[Unable to click on Interviewer one text box]]>
-            </line>
-            <line>
               <![CDATA[Enter the value into Interviewer 1 text box]]>
-            </line>
-            <line>
-              <![CDATA[Clicking on  Interviewer Two TextBox]]>
-            </line>
-            <line>
-              <![CDATA[Verify Interviewer Two TextBox is Clickable or Not]]>
             </line>
             <line>
               <![CDATA[Enter the value into Interviewer two text box]]>
@@ -491,11 +461,11 @@
             </line>
           </reporter-output>
         </test-method> <!-- TC_CreateNewRequisitionForm -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.hcl.smartrecruit.testscripts.CreateNewRequisition@ab7395e]" name="closeBrowser" is-config="true" duration-ms="75" started-at="2020-09-18T21:53:28Z" finished-at="2020-09-18T21:53:28Z">
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.hcl.smartrecruit.testscripts.CreateNewRequisition@ab7395e]" name="closeBrowser" is-config="true" duration-ms="75" started-at="2020-09-18T22:09:40Z" finished-at="2020-09-18T22:09:41Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method status="PASS" signature="killTask(java.lang.String)[pri:0, instance:com.hcl.smartrecruit.testscripts.CreateNewRequisition@ab7395e]" name="killTask" is-config="true" duration-ms="31" started-at="2020-09-18T21:53:28Z" finished-at="2020-09-18T21:53:28Z">
+        <test-method status="PASS" signature="killTask(java.lang.String)[pri:0, instance:com.hcl.smartrecruit.testscripts.CreateNewRequisition@ab7395e]" name="killTask" is-config="true" duration-ms="47" started-at="2020-09-18T22:09:41Z" finished-at="2020-09-18T22:09:41Z">
           <params>
             <param index="0">
               <value>
