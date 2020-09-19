@@ -119,20 +119,19 @@ public class BaseTest {
 				 } else if(browserName.equalsIgnoreCase("chrome")) { 
                   /*user-data-dir is the standard path for storing the user data and the name parameter is passed to
                    * to support portability*/
-					ChromeOptions chromeOpt = new ChromeOptions(); 
+					 chromeOpt = new ChromeOptions(); 
 					 chromeOpt.addArguments("user-data-dir=" +
 					 "C:\\Users\\"+name+"\\AppData\\Local\\Google\\Chrome\\UserData");
 					DesiredCapabilities cap = new DesiredCapabilities();
 					cap.setBrowserName(BrowserType.CHROME);
 					chromeOpt.merge(cap);
 				 
-					 try { 
+				 } try { 
 						 driver = new RemoteWebDriver(new URL(LOCAL_HUB_URL),chromeOpt); } catch
 					  (MalformedURLException e) {
 					  
 					 logger.info("The given HUB URL is Malformed"); }
 					
-				 }
 				 
 		driver.manage().timeouts().implicitlyWait(ITO, TimeUnit.SECONDS);
 		WebActionUtil = new WebActionUtil(driver, ETO);
