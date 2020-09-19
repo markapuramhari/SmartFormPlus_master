@@ -57,6 +57,7 @@ public class TestListener implements ITestListener {
 	public static String sDirPath = System.getProperty("user.dir");
 	public static final String PDFREPORTPATH = sDirPath + "./docs" + ".pdf";
 	public static final String CONFIGPATH = sDirPath + "./conf/config.properties";
+	BaseTest basetest =new BaseTest();
 	static {
 		BaseTest.logger.info("");
 		profile = System.getProperty("profile");
@@ -121,7 +122,7 @@ public class TestListener implements ITestListener {
 		try {
 			ExtentHCLManager.getTestReport().addScreenCaptureFromPath(
 					WebActionUtil.getScreenShot(System.getProperty("user.dir") + "/reports" + "/ScreenShots-"
-							+ WebActionUtil.getCurrentDateTime() + "/HCL_screenshots/", BaseTest.driver));
+							+ WebActionUtil.getCurrentDateTime() + "/HCL_screenshots/", basetest.driver));
 		} catch (IOException e) {
 			BaseTest.logger.error("Unable to attach the screenshot");
 		}
