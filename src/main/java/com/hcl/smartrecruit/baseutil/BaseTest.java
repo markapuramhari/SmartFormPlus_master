@@ -57,6 +57,7 @@ public class BaseTest {
 	public static ChromeOptions chromeOpt;
 	public static final String URL = ExcelUtil.getCellData(EXCELPATH, "AppURL", 1, 0);
 	public String username = ExcelUtil.getCellData(EXCELPATH, "SystemUserName", 1, 0);
+	public int invocationcount=0;
 
 	/**
 	 * Description : Creates folder structure for Extent reports.
@@ -121,7 +122,7 @@ public class BaseTest {
                    * to support portability*/
 					 chromeOpt = new ChromeOptions(); 
 					 chromeOpt.addArguments("user-data-dir=" +
-					 "C:\\Users\\"+name+"\\AppData\\Local\\Google\\Chrome\\UserData");
+					 "C:\\Users\\"+name+"\\AppData\\Local\\Google\\Chrome\\UserData"+ ++invocationcount);
 					DesiredCapabilities cap = new DesiredCapabilities();
 					cap.setBrowserName(BrowserType.CHROME);
 					chromeOpt.merge(cap);
