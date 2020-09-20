@@ -123,7 +123,7 @@ public class BaseTest {
 					 chromeOpt = new ChromeOptions(); 
 					 chromeOpt.addArguments("user-data-dir=" +
 					 "C:\\Users\\"+name+"\\AppData\\Local\\Google\\Chrome\\UserData"+ ++invocationcount);
-					DesiredCapabilities cap = new DesiredCapabilities();
+					cap = new DesiredCapabilities();
 					cap.setBrowserName(BrowserType.CHROME);
 					chromeOpt.merge(cap);
 				 
@@ -131,14 +131,14 @@ public class BaseTest {
 						 driver = new RemoteWebDriver(new URL(LOCAL_HUB_URL),chromeOpt); } catch
 					  (MalformedURLException e) {
 					  
-					 logger.info("The given HUB URL is Malformed"); }
+					 logger.info("The given HUB URL is Malformed"); 
 					
 				 
 		driver.manage().timeouts().implicitlyWait(ITO, TimeUnit.SECONDS);
 		WebActionUtil = new WebActionUtil(driver, ETO);
 		driver.manage().window().maximize();
 		driver.get(URL);
-
+						 }
 	}
 
 	/**

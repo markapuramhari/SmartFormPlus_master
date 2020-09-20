@@ -19,7 +19,7 @@
   ],
   "proxy": "org.openqa.grid.selenium.proxy.DefaultRemoteProxy",
   "maxSession": 5,
-  "port": 6667,
+  "port": 6687,
   "register": true,
   "registerCycle": 5000,
   "hub": "http://localhost:4444",

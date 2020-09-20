@@ -3080,3 +3080,333 @@ Session ID: 833d318430449c2aadbfb414e0ca7451
 [INFO ] 2020-09-19 07:52:13.996 [main] BaseTest - com.hcl.smartrecruit.testscripts.CreateNewRequisition
 [INFO ] 2020-09-19 07:52:13.999 [main] BaseTest - C:\Users\aatish\Desktop\New folder\HCL_SmartRecruit_POC/Controller.xlsx
 [INFO ] 2020-09-19 07:52:14.051 [main] BaseTest - com.hcl.smartrecruit.testscripts.CreateNewRequisition
+[INFO ] 2020-09-19 20:44:04.435 [main] BaseTest - 
+[INFO ] 2020-09-19 20:44:04.441 [main] BaseTest - Running locally HCL Poc 
+[INFO ] 2020-09-19 20:44:04.688 [main] BaseTest - Folder creation for Extent
+[INFO ] 2020-09-19 20:44:04.695 [main] BaseTest - ExtentDir:-C:\Users\aatish.s\Desktop\Tysspoc\HCL_SmartRecruit_POC/reports/HCLAutomation Report- 09_19_2020_20_44_04/HCL Report/09_19_2020_20_44_04
+[INFO ] 2020-09-19 20:44:04.829 [main] BaseTest - Report Initiated
+[INFO ] 2020-09-19 20:44:04.834 [main] BaseTest - Screenshot Folder Created
+[INFO ] 2020-09-19 20:44:10.691 [TestNG-tests-2] BaseTest - Enter the value into  EmployeeID Text box
+[INFO ] 2020-09-19 20:44:10.841 [TestNG-tests-2] BaseTest - Enter the value into  Password Text box
+[INFO ] 2020-09-19 20:44:10.964 [TestNG-tests-2] BaseTest - Clicking on  Login button
+[INFO ] 2020-09-19 20:44:10.965 [TestNG-tests-2] BaseTest - Verify Login button is Clickable or Not
+[INFO ] 2020-09-19 20:44:24.587 [TestNG-tests-2] BaseTest - Clicking on  New Requisition option
+[INFO ] 2020-09-19 20:44:24.588 [TestNG-tests-2] BaseTest - Verify New Requisition option is Clickable or Not
+[INFO ] 2020-09-19 20:46:32.649 [main] BaseTest - 
+[INFO ] 2020-09-19 20:46:32.659 [main] BaseTest - Running locally HCL Poc 
+[INFO ] 2020-09-19 20:46:33.061 [main] BaseTest - Folder creation for Extent
+[INFO ] 2020-09-19 20:46:33.069 [main] BaseTest - ExtentDir:-C:\Users\aatish.s\Desktop\Tysspoc\HCL_SmartRecruit_POC/reports/HCLAutomation Report- 09_19_2020_20_46_33/HCL Report/09_19_2020_20_46_33
+[INFO ] 2020-09-19 20:46:33.231 [main] BaseTest - Report Initiated
+[INFO ] 2020-09-19 20:46:33.235 [main] BaseTest - Screenshot Folder Created
+[INFO ] 2020-09-19 20:46:38.995 [TestNG-tests-2] BaseTest - Enter the value into  EmployeeID Text box
+[INFO ] 2020-09-19 20:46:39.529 [TestNG-tests-2] BaseTest - Enter the value into  Password Text box
+[INFO ] 2020-09-19 20:46:39.688 [TestNG-tests-1] BaseTest - Enter the value into  EmployeeID Text box
+[INFO ] 2020-09-19 20:46:39.733 [TestNG-tests-2] BaseTest - Clicking on  Login button
+[INFO ] 2020-09-19 20:46:39.734 [TestNG-tests-2] BaseTest - Verify Login button is Clickable or Not
+[INFO ] 2020-09-19 20:46:39.799 [TestNG-tests-1] BaseTest - Enter the value into  Password Text box
+[INFO ] 2020-09-19 20:46:39.939 [TestNG-tests-1] BaseTest - Clicking on  Login button
+[INFO ] 2020-09-19 20:46:40.045 [TestNG-tests-1] BaseTest - Verify Login button is Clickable or Not
+[INFO ] 2020-09-19 20:48:12.951 [main] BaseTest - 
+[INFO ] 2020-09-19 20:48:12.957 [main] BaseTest - Running locally HCL Poc 
+[INFO ] 2020-09-19 20:48:13.190 [main] BaseTest - Folder creation for Extent
+[INFO ] 2020-09-19 20:48:13.200 [main] BaseTest - ExtentDir:-C:\Users\aatish.s\Desktop\Tysspoc\HCL_SmartRecruit_POC/reports/HCLAutomation Report- 09_19_2020_20_48_13/HCL Report/09_19_2020_20_48_13
+[INFO ] 2020-09-19 20:48:13.336 [main] BaseTest - Report Initiated
+[INFO ] 2020-09-19 20:48:13.340 [main] BaseTest - Screenshot Folder Created
+[INFO ] 2020-09-19 20:48:19.220 [TestNG-tests-1] BaseTest - Enter the value into  EmployeeID Text box
+[INFO ] 2020-09-19 20:48:19.413 [TestNG-tests-1] BaseTest - Enter the value into  Password Text box
+[INFO ] 2020-09-19 20:48:19.583 [TestNG-tests-1] BaseTest - Clicking on  Login button
+[INFO ] 2020-09-19 20:48:19.583 [TestNG-tests-1] BaseTest - Verify Login button is Clickable or Not
+[INFO ] 2020-09-19 20:48:33.402 [TestNG-tests-1] BaseTest - Clicking on  New Requisition option
+[INFO ] 2020-09-19 20:48:33.403 [TestNG-tests-1] BaseTest - Verify New Requisition option is Clickable or Not
+[INFO ] 2020-09-19 20:48:35.216 [TestNG-tests-1] BaseTest - Clicking on  RequestType dropdown
+[INFO ] 2020-09-19 20:48:35.216 [TestNG-tests-1] BaseTest - Verify RequestType dropdown is Clickable or Not
+[INFO ] 2020-09-19 20:48:39.930 [TestNG-tests-1] BaseTest - Clicking on  New resource request
+[INFO ] 2020-09-19 20:48:39.930 [TestNG-tests-1] BaseTest - Verify New resource request is Clickable or Not
+[INFO ] 2020-09-19 20:48:40.297 [TestNG-tests-1] BaseTest - Clicking on  Id skill text box
+[INFO ] 2020-09-19 20:48:40.298 [TestNG-tests-1] BaseTest - Verify Id skill text box is Clickable or Not
+[INFO ] 2020-09-19 20:48:40.985 [TestNG-tests-1] BaseTest - Enter the value into SkillDetail text box
+[INFO ] 2020-09-19 20:48:46.217 [TestNG-tests-1] BaseTest - Clicking on  Plus button under skills
+[INFO ] 2020-09-19 20:48:46.217 [TestNG-tests-1] BaseTest - Verify Plus button under skills is Clickable or Not
+[INFO ] 2020-09-19 20:48:48.787 [TestNG-tests-1] BaseTest - Click on Element Primary Radio Button
+[INFO ] 2020-09-19 20:48:48.840 [TestNG-tests-1] BaseTest - Clicking on  Done button 
+[INFO ] 2020-09-19 20:48:48.840 [TestNG-tests-1] BaseTest - Verify Done button  is Clickable or Not
+[INFO ] 2020-09-19 20:48:49.223 [TestNG-tests-1] BaseTest - Clicking on  Job tex box detail 
+[INFO ] 2020-09-19 20:48:49.224 [TestNG-tests-1] BaseTest - Verify Job tex box detail  is Clickable or Not
+[INFO ] 2020-09-19 20:48:49.575 [TestNG-tests-1] BaseTest - Enter the value into Job text box 
+[INFO ] 2020-09-19 20:48:53.519 [TestNG-tests-1] BaseTest - Clicking on  SelectJob tick icon
+[INFO ] 2020-09-19 20:48:53.519 [TestNG-tests-1] BaseTest - Verify SelectJob tick icon is Clickable or Not
+[INFO ] 2020-09-19 20:48:56.001 [TestNG-tests-1] BaseTest - Clicking on  Save button 
+[INFO ] 2020-09-19 20:48:56.001 [TestNG-tests-1] BaseTest - Verify Save button  is Clickable or Not
+[INFO ] 2020-09-19 20:48:58.444 [TestNG-tests-1] BaseTest - Clicking on  Employe group name dropdown
+[INFO ] 2020-09-19 20:48:58.444 [TestNG-tests-1] BaseTest - Verify Employe group name dropdown is Clickable or Not
+[INFO ] 2020-09-19 20:49:01.023 [TestNG-tests-1] BaseTest - Clicking on  Band element dropdown
+[INFO ] 2020-09-19 20:49:01.024 [TestNG-tests-1] BaseTest - Verify Band element dropdown is Clickable or Not
+[INFO ] 2020-09-19 20:49:04.677 [TestNG-tests-1] BaseTest - Clicking on  SubBand Element dropdown
+[INFO ] 2020-09-19 20:49:04.678 [TestNG-tests-1] BaseTest - Verify SubBand Element dropdown is Clickable or Not
+[INFO ] 2020-09-19 20:49:11.337 [TestNG-tests-1] BaseTest - Enter the value into PSA Text box
+[INFO ] 2020-09-19 20:49:18.695 [TestNG-tests-1] BaseTest - Enter the value into Number of Position text box
+[INFO ] 2020-09-19 20:49:25.951 [TestNG-tests-1] BaseTest - Clicking on  Submit button 
+[INFO ] 2020-09-19 20:49:25.952 [TestNG-tests-1] BaseTest - Verify Submit button  is Clickable or Not
+[INFO ] 2020-09-19 20:49:52.220 [TestNG-tests-1] BaseTest - Clear the Text Present inJob description text area 
+[INFO ] 2020-09-19 20:49:52.285 [TestNG-tests-1] BaseTest - Enter the value into Job description text area 
+[INFO ] 2020-09-19 20:49:58.823 [TestNG-tests-1] BaseTest - Enter the value into Location dropdown
+[INFO ] 2020-09-19 20:50:03.082 [TestNG-tests-1] BaseTest - Clicking on  State drop drown
+[INFO ] 2020-09-19 20:50:03.082 [TestNG-tests-1] BaseTest - Verify State drop drown is Clickable or Not
+[INFO ] 2020-09-19 20:50:03.593 [TestNG-tests-1] BaseTest - Clicking on  City dropdown 
+[INFO ] 2020-09-19 20:50:03.593 [TestNG-tests-1] BaseTest - Verify City dropdown  is Clickable or Not
+[INFO ] 2020-09-19 20:50:04.242 [TestNG-tests-1] BaseTest - Click on Element Radio Button 
+[INFO ] 2020-09-19 20:50:09.296 [TestNG-tests-1] BaseTest - Clicking on  Save Draft button
+[INFO ] 2020-09-19 20:50:09.296 [TestNG-tests-1] BaseTest - Verify Save Draft button is Clickable or Not
+[INFO ] 2020-09-19 20:54:12.040 [main] BaseTest - 
+[INFO ] 2020-09-19 20:54:12.046 [main] BaseTest - Running locally HCL Poc 
+[INFO ] 2020-09-19 20:54:12.340 [main] BaseTest - Folder creation for Extent
+[INFO ] 2020-09-19 20:54:12.347 [main] BaseTest - ExtentDir:-C:\Users\aatish.s\Desktop\Tysspoc\HCL_SmartRecruit_POC/reports/HCLAutomation Report- 09_19_2020_20_54_12/HCL Report/09_19_2020_20_54_12
+[INFO ] 2020-09-19 20:54:12.492 [main] BaseTest - Report Initiated
+[INFO ] 2020-09-19 20:54:12.496 [main] BaseTest - Screenshot Folder Created
+[INFO ] 2020-09-19 20:54:19.717 [TestNG-tests-2] BaseTest - Enter the value into  EmployeeID Text box
+[INFO ] 2020-09-19 20:54:20.084 [TestNG-tests-2] BaseTest - Enter the value into  Password Text box
+[INFO ] 2020-09-19 20:54:20.203 [TestNG-tests-1] BaseTest - Enter the value into  EmployeeID Text box
+[INFO ] 2020-09-19 20:54:20.254 [TestNG-tests-2] BaseTest - Clicking on  Login button
+[INFO ] 2020-09-19 20:54:20.255 [TestNG-tests-2] BaseTest - Verify Login button is Clickable or Not
+[INFO ] 2020-09-19 20:54:20.328 [TestNG-tests-1] BaseTest - Enter the value into  Password Text box
+[INFO ] 2020-09-19 20:54:20.457 [TestNG-tests-1] BaseTest - Clicking on  Login button
+[INFO ] 2020-09-19 20:54:20.559 [TestNG-tests-1] BaseTest - Verify Login button is Clickable or Not
+[INFO ] 2020-09-19 20:57:57.491 [main] BaseTest - 
+[INFO ] 2020-09-19 20:57:57.499 [main] BaseTest - Running locally HCL Poc 
+[INFO ] 2020-09-19 20:57:57.743 [main] BaseTest - Folder creation for Extent
+[INFO ] 2020-09-19 20:57:57.750 [main] BaseTest - ExtentDir:-C:\Users\aatish.s\Desktop\Tysspoc\HCL_SmartRecruit_POC/reports/HCLAutomation Report- 09_19_2020_20_57_57/HCL Report/09_19_2020_20_57_57
+[INFO ] 2020-09-19 20:57:57.896 [main] BaseTest - Report Initiated
+[INFO ] 2020-09-19 20:57:57.900 [main] BaseTest - Screenshot Folder Created
+[INFO ] 2020-09-19 20:58:05.240 [TestNG-tests-2] BaseTest - Enter the value into  EmployeeID Text box
+[INFO ] 2020-09-19 20:58:05.388 [TestNG-tests-2] BaseTest - Enter the value into  Password Text box
+[INFO ] 2020-09-19 20:58:05.524 [TestNG-tests-2] BaseTest - Clicking on  Login button
+[INFO ] 2020-09-19 20:58:05.524 [TestNG-tests-2] BaseTest - Verify Login button is Clickable or Not
+[INFO ] 2020-09-19 20:58:19.436 [TestNG-tests-2] BaseTest - Clicking on  New Requisition option
+[INFO ] 2020-09-19 20:58:19.436 [TestNG-tests-2] BaseTest - Verify New Requisition option is Clickable or Not
+[INFO ] 2020-09-19 20:58:20.415 [TestNG-tests-2] BaseTest - Clicking on  RequestType dropdown
+[INFO ] 2020-09-19 20:58:20.415 [TestNG-tests-2] BaseTest - Verify RequestType dropdown is Clickable or Not
+[INFO ] 2020-09-19 20:59:30.832 [main] BaseTest - 
+[INFO ] 2020-09-19 20:59:30.840 [main] BaseTest - Running locally HCL Poc 
+[INFO ] 2020-09-19 20:59:31.073 [main] BaseTest - Folder creation for Extent
+[INFO ] 2020-09-19 20:59:31.080 [main] BaseTest - ExtentDir:-C:\Users\aatish.s\Desktop\Tysspoc\HCL_SmartRecruit_POC/reports/HCLAutomation Report- 09_19_2020_20_59_31/HCL Report/09_19_2020_20_59_31
+[INFO ] 2020-09-19 20:59:31.206 [main] BaseTest - Report Initiated
+[INFO ] 2020-09-19 20:59:31.210 [main] BaseTest - Screenshot Folder Created
+[INFO ] 2020-09-19 20:59:36.920 [TestNG-tests-1] BaseTest - Enter the value into  EmployeeID Text box
+[INFO ] 2020-09-19 20:59:37.579 [TestNG-tests-1] BaseTest - Enter the value into  Password Text box
+[INFO ] 2020-09-19 20:59:37.755 [TestNG-tests-2] BaseTest - Enter the value into  EmployeeID Text box
+[INFO ] 2020-09-19 20:59:37.814 [TestNG-tests-1] BaseTest - Clicking on  Login button
+[INFO ] 2020-09-19 20:59:37.814 [TestNG-tests-1] BaseTest - Verify Login button is Clickable or Not
+[INFO ] 2020-09-19 20:59:37.874 [TestNG-tests-2] BaseTest - Enter the value into  Password Text box
+[INFO ] 2020-09-19 20:59:38.022 [TestNG-tests-2] BaseTest - Clicking on  Login button
+[INFO ] 2020-09-19 20:59:38.163 [TestNG-tests-2] BaseTest - Verify Login button is Clickable or Not
+[INFO ] 2020-09-19 21:00:07.156 [main] BaseTest - 
+[INFO ] 2020-09-19 21:00:07.163 [main] BaseTest - Running locally HCL Poc 
+[INFO ] 2020-09-19 21:00:07.431 [main] BaseTest - Folder creation for Extent
+[INFO ] 2020-09-19 21:00:07.438 [main] BaseTest - ExtentDir:-C:\Users\aatish.s\Desktop\Tysspoc\HCL_SmartRecruit_POC/reports/HCLAutomation Report- 09_19_2020_21_00_07/HCL Report/09_19_2020_21_00_07
+[INFO ] 2020-09-19 21:00:07.571 [main] BaseTest - Report Initiated
+[INFO ] 2020-09-19 21:00:07.576 [main] BaseTest - Screenshot Folder Created
+[INFO ] 2020-09-19 21:00:14.678 [TestNG-tests-1] BaseTest - Enter the value into  EmployeeID Text box
+[INFO ] 2020-09-19 21:00:14.824 [TestNG-tests-1] BaseTest - Enter the value into  Password Text box
+[INFO ] 2020-09-19 21:00:14.963 [TestNG-tests-1] BaseTest - Clicking on  Login button
+[INFO ] 2020-09-19 21:00:14.963 [TestNG-tests-1] BaseTest - Verify Login button is Clickable or Not
+[INFO ] 2020-09-19 21:00:29.577 [TestNG-tests-1] BaseTest - Clicking on  New Requisition option
+[INFO ] 2020-09-19 21:00:29.577 [TestNG-tests-1] BaseTest - Verify New Requisition option is Clickable or Not
+[INFO ] 2020-09-19 21:00:31.111 [TestNG-tests-1] BaseTest - Clicking on  RequestType dropdown
+[INFO ] 2020-09-19 21:00:31.111 [TestNG-tests-1] BaseTest - Verify RequestType dropdown is Clickable or Not
+[INFO ] 2020-09-19 21:01:17.259 [main] BaseTest - 
+[INFO ] 2020-09-19 21:01:17.266 [main] BaseTest - Running locally HCL Poc 
+[INFO ] 2020-09-19 21:01:17.494 [main] BaseTest - Folder creation for Extent
+[INFO ] 2020-09-19 21:01:17.501 [main] BaseTest - ExtentDir:-C:\Users\aatish.s\Desktop\Tysspoc\HCL_SmartRecruit_POC/reports/HCLAutomation Report- 09_19_2020_21_01_17/HCL Report/09_19_2020_21_01_17
+[INFO ] 2020-09-19 21:01:17.634 [main] BaseTest - Report Initiated
+[INFO ] 2020-09-19 21:01:17.638 [main] BaseTest - Screenshot Folder Created
+[INFO ] 2020-09-19 21:01:24.940 [TestNG-tests-2] BaseTest - Enter the value into  EmployeeID Text box
+[INFO ] 2020-09-19 21:01:25.439 [TestNG-tests-2] BaseTest - Enter the value into  Password Text box
+[INFO ] 2020-09-19 21:01:25.601 [TestNG-tests-1] BaseTest - Enter the value into  EmployeeID Text box
+[INFO ] 2020-09-19 21:01:25.653 [TestNG-tests-2] BaseTest - Clicking on  Login button
+[INFO ] 2020-09-19 21:01:25.654 [TestNG-tests-2] BaseTest - Verify Login button is Clickable or Not
+[INFO ] 2020-09-19 21:01:25.806 [TestNG-tests-1] BaseTest - Enter the value into  Password Text box
+[INFO ] 2020-09-19 21:01:25.933 [TestNG-tests-1] BaseTest - Clicking on  Login button
+[INFO ] 2020-09-19 21:01:25.967 [TestNG-tests-1] BaseTest - Verify Login button is Clickable or Not
+[ERROR] 2020-09-19 21:02:00.758 [TestNG-tests-1] BaseTest - chrome not reachable
+  (Session info: chrome=85.0.4183.102)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'HCLT-PC5929-1', ip: '10.98.101.172', os.name: 'Windows Server 2016', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_151'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\gupta.ami\AppData\...}, goog:chromeOptions: {debuggerAddress: localhost:53010}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true, webdriver.remote.sessionid: 834d933fb6f302c44302d003828...}
+Session ID: 834d933fb6f302c44302d0038286c634
+[INFO ] 2020-09-19 21:02:00.759 [TestNG-tests-1] BaseTest - Unable to performe action Project Details
+[INFO ] 2020-09-19 21:02:34.091 [main] BaseTest - 
+[INFO ] 2020-09-19 21:02:34.099 [main] BaseTest - Running locally HCL Poc 
+[INFO ] 2020-09-19 21:02:34.375 [main] BaseTest - Folder creation for Extent
+[INFO ] 2020-09-19 21:02:34.384 [main] BaseTest - ExtentDir:-C:\Users\aatish.s\Desktop\Tysspoc\HCL_SmartRecruit_POC/reports/HCLAutomation Report- 09_19_2020_21_02_34/HCL Report/09_19_2020_21_02_34
+[INFO ] 2020-09-19 21:02:34.526 [main] BaseTest - Report Initiated
+[INFO ] 2020-09-19 21:02:34.530 [main] BaseTest - Screenshot Folder Created
+[INFO ] 2020-09-19 21:02:39.982 [TestNG-tests-1] BaseTest - Enter the value into  EmployeeID Text box
+[INFO ] 2020-09-19 21:02:40.440 [TestNG-tests-1] BaseTest - Enter the value into  Password Text box
+[INFO ] 2020-09-19 21:02:40.536 [TestNG-tests-2] BaseTest - Enter the value into  EmployeeID Text box
+[INFO ] 2020-09-19 21:02:40.618 [TestNG-tests-1] BaseTest - Clicking on  Login button
+[INFO ] 2020-09-19 21:02:40.618 [TestNG-tests-1] BaseTest - Verify Login button is Clickable or Not
+[INFO ] 2020-09-19 21:02:40.712 [TestNG-tests-2] BaseTest - Enter the value into  Password Text box
+[INFO ] 2020-09-19 21:02:40.930 [TestNG-tests-2] BaseTest - Clicking on  Login button
+[INFO ] 2020-09-19 21:02:40.987 [TestNG-tests-2] BaseTest - Verify Login button is Clickable or Not
+[INFO ] 2020-09-19 21:03:53.484 [main] BaseTest - 
+[INFO ] 2020-09-19 21:03:53.490 [main] BaseTest - Running locally HCL Poc 
+[INFO ] 2020-09-19 21:03:53.727 [main] BaseTest - Folder creation for Extent
+[INFO ] 2020-09-19 21:03:53.733 [main] BaseTest - ExtentDir:-C:\Users\aatish.s\Desktop\Tysspoc\HCL_SmartRecruit_POC/reports/HCLAutomation Report- 09_19_2020_21_03_53/HCL Report/09_19_2020_21_03_53
+[INFO ] 2020-09-19 21:03:53.859 [main] BaseTest - Report Initiated
+[INFO ] 2020-09-19 21:03:53.864 [main] BaseTest - Screenshot Folder Created
+[INFO ] 2020-09-19 21:04:00.149 [TestNG-tests-1] BaseTest - Enter the value into  EmployeeID Text box
+[INFO ] 2020-09-19 21:04:00.400 [TestNG-tests-1] BaseTest - Enter the value into  Password Text box
+[INFO ] 2020-09-19 21:04:00.532 [TestNG-tests-1] BaseTest - Clicking on  Login button
+[INFO ] 2020-09-19 21:04:00.532 [TestNG-tests-1] BaseTest - Verify Login button is Clickable or Not
+[INFO ] 2020-09-19 21:04:15.805 [TestNG-tests-1] BaseTest - Clicking on  New Requisition option
+[INFO ] 2020-09-19 21:04:15.805 [TestNG-tests-1] BaseTest - Verify New Requisition option is Clickable or Not
+[INFO ] 2020-09-19 21:04:17.389 [TestNG-tests-1] BaseTest - Clicking on  RequestType dropdown
+[INFO ] 2020-09-19 21:04:17.390 [TestNG-tests-1] BaseTest - Verify RequestType dropdown is Clickable or Not
+[INFO ] 2020-09-19 21:04:21.914 [TestNG-tests-1] BaseTest - Clicking on  New resource request
+[INFO ] 2020-09-19 21:04:21.914 [TestNG-tests-1] BaseTest - Verify New resource request is Clickable or Not
+[INFO ] 2020-09-19 21:04:22.297 [TestNG-tests-1] BaseTest - Clicking on  Id skill text box
+[INFO ] 2020-09-19 21:04:22.297 [TestNG-tests-1] BaseTest - Verify Id skill text box is Clickable or Not
+[INFO ] 2020-09-19 21:04:22.971 [TestNG-tests-1] BaseTest - Enter the value into SkillDetail text box
+[INFO ] 2020-09-19 21:04:28.224 [TestNG-tests-1] BaseTest - Clicking on  Plus button under skills
+[INFO ] 2020-09-19 21:04:28.225 [TestNG-tests-1] BaseTest - Verify Plus button under skills is Clickable or Not
+[INFO ] 2020-09-19 21:04:30.770 [TestNG-tests-1] BaseTest - Click on Element Primary Radio Button
+[INFO ] 2020-09-19 21:04:30.841 [TestNG-tests-1] BaseTest - Clicking on  Done button 
+[INFO ] 2020-09-19 21:04:30.842 [TestNG-tests-1] BaseTest - Verify Done button  is Clickable or Not
+[INFO ] 2020-09-19 21:04:31.258 [TestNG-tests-1] BaseTest - Clicking on  Job tex box detail 
+[INFO ] 2020-09-19 21:04:31.258 [TestNG-tests-1] BaseTest - Verify Job tex box detail  is Clickable or Not
+[INFO ] 2020-09-19 21:04:31.624 [TestNG-tests-1] BaseTest - Enter the value into Job text box 
+[INFO ] 2020-09-19 21:04:34.336 [TestNG-tests-1] BaseTest - Clicking on  SelectJob tick icon
+[INFO ] 2020-09-19 21:04:34.336 [TestNG-tests-1] BaseTest - Verify SelectJob tick icon is Clickable or Not
+[INFO ] 2020-09-19 21:04:36.799 [TestNG-tests-1] BaseTest - Clicking on  Save button 
+[INFO ] 2020-09-19 21:04:36.799 [TestNG-tests-1] BaseTest - Verify Save button  is Clickable or Not
+[INFO ] 2020-09-19 21:04:39.277 [TestNG-tests-1] BaseTest - Clicking on  Employe group name dropdown
+[INFO ] 2020-09-19 21:04:39.277 [TestNG-tests-1] BaseTest - Verify Employe group name dropdown is Clickable or Not
+[INFO ] 2020-09-19 21:04:41.915 [TestNG-tests-1] BaseTest - Clicking on  Band element dropdown
+[INFO ] 2020-09-19 21:04:41.915 [TestNG-tests-1] BaseTest - Verify Band element dropdown is Clickable or Not
+[INFO ] 2020-09-19 21:04:44.608 [TestNG-tests-1] BaseTest - Clicking on  SubBand Element dropdown
+[INFO ] 2020-09-19 21:04:44.608 [TestNG-tests-1] BaseTest - Verify SubBand Element dropdown is Clickable or Not
+[INFO ] 2020-09-19 21:04:51.333 [TestNG-tests-1] BaseTest - Enter the value into PSA Text box
+[INFO ] 2020-09-19 21:04:58.701 [TestNG-tests-1] BaseTest - Enter the value into Number of Position text box
+[INFO ] 2020-09-19 21:05:05.981 [TestNG-tests-1] BaseTest - Clicking on  Submit button 
+[INFO ] 2020-09-19 21:05:05.981 [TestNG-tests-1] BaseTest - Verify Submit button  is Clickable or Not
+[ERROR] 2020-09-19 21:05:52.554 [TestNG-tests-1] BaseTest - Cannot locate an element using xpath=//span[text()='1-3 Years']
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'HCLT-PC5929-1', ip: '10.98.101.172', os.name: 'Windows Server 2016', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_151'
+Driver info: driver.version: RemoteWebDriver
+[INFO ] 2020-09-19 21:05:52.555 [TestNG-tests-1] BaseTest - Unable to performe action Additional Job Details 
+[INFO ] 2020-09-19 21:49:24.825 [main] BaseTest - 
+[INFO ] 2020-09-19 21:49:24.835 [main] BaseTest - Running locally HCL Poc 
+[INFO ] 2020-09-19 21:49:25.132 [main] BaseTest - Folder creation for Extent
+[INFO ] 2020-09-19 21:49:25.147 [main] BaseTest - ExtentDir:-C:\Users\aatish.s\Desktop\Tysspoc\HCL_SmartRecruit_POC/reports/HCLAutomation Report- 09_19_2020_21_49_25/HCL Report/09_19_2020_21_49_25
+[INFO ] 2020-09-19 21:49:25.288 [main] BaseTest - Report Initiated
+[INFO ] 2020-09-19 21:49:25.288 [main] BaseTest - Screenshot Folder Created
+[INFO ] 2020-09-19 21:49:35.392 [TestNG-tests-2] BaseTest - Enter the value into  EmployeeID Text box
+[INFO ] 2020-09-19 21:49:35.612 [TestNG-tests-2] BaseTest - Enter the value into  Password Text box
+[INFO ] 2020-09-19 21:49:35.816 [TestNG-tests-2] BaseTest - Clicking on  Login button
+[INFO ] 2020-09-19 21:49:35.816 [TestNG-tests-2] BaseTest - Verify Login button is Clickable or Not
+[INFO ] 2020-09-19 21:49:52.883 [main] BaseTest - 
+[INFO ] 2020-09-19 21:49:52.898 [main] BaseTest - Running locally HCL Poc 
+[INFO ] 2020-09-19 21:49:53.199 [main] BaseTest - Folder creation for Extent
+[INFO ] 2020-09-19 21:49:53.207 [main] BaseTest - ExtentDir:-C:\Users\aatish.s\Desktop\Tysspoc\HCL_SmartRecruit_POC/reports/HCLAutomation Report- 09_19_2020_21_49_53/HCL Report/09_19_2020_21_49_53
+[INFO ] 2020-09-19 21:49:53.355 [main] BaseTest - Report Initiated
+[INFO ] 2020-09-19 21:49:53.359 [main] BaseTest - Screenshot Folder Created
+[INFO ] 2020-09-19 21:52:47.020 [main] BaseTest - 
+[INFO ] 2020-09-19 21:52:47.037 [main] BaseTest - Running locally HCL Poc 
+[INFO ] 2020-09-19 21:52:47.287 [main] BaseTest - Folder creation for Extent
+[INFO ] 2020-09-19 21:52:47.302 [main] BaseTest - ExtentDir:-C:\Users\aatish.s\Desktop\Tysspoc\HCL_SmartRecruit_POC/reports/HCLAutomation Report- 09_19_2020_21_52_47/HCL Report/09_19_2020_21_52_47
+[INFO ] 2020-09-19 21:52:47.412 [main] BaseTest - Report Initiated
+[INFO ] 2020-09-19 21:52:47.412 [main] BaseTest - Screenshot Folder Created
+[INFO ] 2020-09-19 21:52:53.770 [TestNG-tests-2] BaseTest - Enter the value into  EmployeeID Text box
+[INFO ] 2020-09-19 21:52:53.949 [TestNG-tests-2] BaseTest - Enter the value into  Password Text box
+[INFO ] 2020-09-19 21:52:54.118 [TestNG-tests-2] BaseTest - Clicking on  Login button
+[INFO ] 2020-09-19 21:52:54.118 [TestNG-tests-2] BaseTest - Verify Login button is Clickable or Not
+[INFO ] 2020-09-19 21:53:09.087 [TestNG-tests-2] BaseTest - Clicking on  New Requisition option
+[INFO ] 2020-09-19 21:53:09.087 [TestNG-tests-2] BaseTest - Verify New Requisition option is Clickable or Not
+[INFO ] 2020-09-19 21:53:14.169 [TestNG-tests-2] BaseTest - Clicking on  RequestType dropdown
+[INFO ] 2020-09-19 21:53:14.170 [TestNG-tests-2] BaseTest - Verify RequestType dropdown is Clickable or Not
+[INFO ] 2020-09-19 21:53:18.886 [TestNG-tests-2] BaseTest - Clicking on  New resource request
+[INFO ] 2020-09-19 21:53:18.886 [TestNG-tests-2] BaseTest - Verify New resource request is Clickable or Not
+[INFO ] 2020-09-19 21:53:19.519 [TestNG-tests-2] BaseTest - Clicking on  Id skill text box
+[INFO ] 2020-09-19 21:53:19.520 [TestNG-tests-2] BaseTest - Verify Id skill text box is Clickable or Not
+[INFO ] 2020-09-19 21:53:20.258 [TestNG-tests-2] BaseTest - Enter the value into SkillDetail text box
+[INFO ] 2020-09-19 21:53:25.592 [TestNG-tests-2] BaseTest - Clicking on  Plus button under skills
+[INFO ] 2020-09-19 21:53:25.593 [TestNG-tests-2] BaseTest - Verify Plus button under skills is Clickable or Not
+[INFO ] 2020-09-19 21:53:28.217 [TestNG-tests-2] BaseTest - Click on Element Primary Radio Button
+[INFO ] 2020-09-19 21:53:28.316 [TestNG-tests-2] BaseTest - Clicking on  Done button 
+[INFO ] 2020-09-19 21:53:28.317 [TestNG-tests-2] BaseTest - Verify Done button  is Clickable or Not
+[INFO ] 2020-09-19 21:53:28.755 [TestNG-tests-2] BaseTest - Clicking on  Job tex box detail 
+[INFO ] 2020-09-19 21:53:28.755 [TestNG-tests-2] BaseTest - Verify Job tex box detail  is Clickable or Not
+[INFO ] 2020-09-19 21:53:29.181 [TestNG-tests-2] BaseTest - Enter the value into Job text box 
+[INFO ] 2020-09-19 21:53:31.975 [TestNG-tests-2] BaseTest - Clicking on  SelectJob tick icon
+[INFO ] 2020-09-19 21:53:31.987 [TestNG-tests-2] BaseTest - Verify SelectJob tick icon is Clickable or Not
+[INFO ] 2020-09-19 21:55:10.411 [main] BaseTest - 
+[INFO ] 2020-09-19 21:55:10.417 [main] BaseTest - Running locally HCL Poc 
+[INFO ] 2020-09-19 21:55:10.714 [main] BaseTest - Folder creation for Extent
+[INFO ] 2020-09-19 21:55:10.730 [main] BaseTest - ExtentDir:-C:\Users\aatish.s\Desktop\Tysspoc\HCL_SmartRecruit_POC/reports/HCLAutomation Report- 09_19_2020_21_55_10/HCL Report/09_19_2020_21_55_10
+[INFO ] 2020-09-19 21:55:10.870 [main] BaseTest - Report Initiated
+[INFO ] 2020-09-19 21:55:10.886 [main] BaseTest - Screenshot Folder Created
+[INFO ] 2020-09-19 21:55:17.012 [TestNG-tests-2] BaseTest - Enter the value into  EmployeeID Text box
+[INFO ] 2020-09-19 21:55:17.182 [TestNG-tests-2] BaseTest - Enter the value into  Password Text box
+[INFO ] 2020-09-19 21:55:17.345 [TestNG-tests-2] BaseTest - Clicking on  Login button
+[INFO ] 2020-09-19 21:55:17.345 [TestNG-tests-2] BaseTest - Verify Login button is Clickable or Not
+[INFO ] 2020-09-19 21:55:31.929 [TestNG-tests-2] BaseTest - Clicking on  New Requisition option
+[INFO ] 2020-09-19 21:55:31.929 [TestNG-tests-2] BaseTest - Verify New Requisition option is Clickable or Not
+[INFO ] 2020-09-19 21:55:33.781 [TestNG-tests-2] BaseTest - Clicking on  RequestType dropdown
+[INFO ] 2020-09-19 21:55:33.781 [TestNG-tests-2] BaseTest - Verify RequestType dropdown is Clickable or Not
+[INFO ] 2020-09-19 21:55:38.324 [TestNG-tests-2] BaseTest - Clicking on  New resource request
+[INFO ] 2020-09-19 21:55:38.324 [TestNG-tests-2] BaseTest - Verify New resource request is Clickable or Not
+[INFO ] 2020-09-19 21:55:38.883 [TestNG-tests-2] BaseTest - Clicking on  Id skill text box
+[INFO ] 2020-09-19 21:55:38.884 [TestNG-tests-2] BaseTest - Verify Id skill text box is Clickable or Not
+[INFO ] 2020-09-19 21:55:39.682 [TestNG-tests-2] BaseTest - Enter the value into SkillDetail text box
+[ERROR] 2020-09-19 21:55:54.929 [TestNG-tests-2] BaseTest - element not interactable
+  (Session info: chrome=85.0.4183.102)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'HCLT-PC5929-1', ip: '10.98.101.172', os.name: 'Windows Server 2016', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_151'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\gupta.ami\AppData\...}, goog:chromeOptions: {debuggerAddress: localhost:53935}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true, webdriver.remote.sessionid: 1f59f5871f059a7235be43350b5...}
+Session ID: 1f59f5871f059a7235be43350b50b3b5
+[INFO ] 2020-09-19 21:55:54.929 [TestNG-tests-2] BaseTest - Unable to performe action on Job Details 
+[INFO ] 2020-09-19 22:07:54.997 [main] BaseTest - 
+[INFO ] 2020-09-19 22:07:55.006 [main] BaseTest - Running locally HCL Poc 
+[INFO ] 2020-09-19 22:07:55.303 [main] BaseTest - Folder creation for Extent
+[INFO ] 2020-09-19 22:07:55.303 [main] BaseTest - ExtentDir:-C:\Users\aatish.s\Desktop\Tysspoc\HCL_SmartRecruit_POC/reports/HCLAutomation Report- 09_19_2020_22_07_55/HCL Report/09_19_2020_22_07_55
+[INFO ] 2020-09-19 22:07:55.443 [main] BaseTest - Report Initiated
+[INFO ] 2020-09-19 22:07:55.443 [main] BaseTest - Screenshot Folder Created
+[INFO ] 2020-09-19 22:08:02.644 [TestNG-tests-2] BaseTest - Enter the value into  EmployeeID Text box
+[INFO ] 2020-09-19 22:08:02.793 [TestNG-tests-2] BaseTest - Enter the value into  Password Text box
+[INFO ] 2020-09-19 22:08:02.950 [TestNG-tests-2] BaseTest - Clicking on  Login button
+[INFO ] 2020-09-19 22:08:02.951 [TestNG-tests-2] BaseTest - Verify Login button is Clickable or Not
+[INFO ] 2020-09-19 22:08:17.893 [TestNG-tests-2] BaseTest - Clicking on  New Requisition option
+[INFO ] 2020-09-19 22:08:17.893 [TestNG-tests-2] BaseTest - Verify New Requisition option is Clickable or Not
+[INFO ] 2020-09-19 22:10:28.488 [TestNG-tests-2] BaseTest - Clicking on  RequestType dropdown
+[INFO ] 2020-09-19 22:10:28.488 [TestNG-tests-2] BaseTest - Verify RequestType dropdown is Clickable or Not
+[INFO ] 2020-09-20 11:07:05.616 [main] BaseTest - 
+[INFO ] 2020-09-20 11:07:05.622 [main] BaseTest - Running locally HCL Poc 
+[INFO ] 2020-09-20 11:07:05.979 [main] BaseTest - Folder creation for Extent
+[INFO ] 2020-09-20 11:07:05.986 [main] BaseTest - ExtentDir:-C:\Users\aatish.s\Desktop\Tysspoc\HCL_SmartRecruit_POC/reports/HCLAutomation Report- 09_20_2020_11_07_05/HCL Report/09_20_2020_11_07_05
+[INFO ] 2020-09-20 11:07:06.129 [main] BaseTest - Report Initiated
+[INFO ] 2020-09-20 11:07:06.134 [main] BaseTest - Screenshot Folder Created
+[INFO ] 2020-09-20 11:07:16.770 [TestNG-tests-1] BaseTest - Enter the value into  EmployeeID Text box
+[INFO ] 2020-09-20 11:07:17.015 [TestNG-tests-1] BaseTest - Enter the value into  Password Text box
+[INFO ] 2020-09-20 11:07:17.152 [TestNG-tests-2] BaseTest - Enter the value into  EmployeeID Text box
+[INFO ] 2020-09-20 11:07:17.204 [TestNG-tests-1] BaseTest - Clicking on  Login button
+[INFO ] 2020-09-20 11:07:17.205 [TestNG-tests-1] BaseTest - Verify Login button is Clickable or Not
+[INFO ] 2020-09-20 11:07:17.368 [TestNG-tests-2] BaseTest - Enter the value into  Password Text box
+[INFO ] 2020-09-20 11:07:17.865 [TestNG-tests-2] BaseTest - Clicking on  Login button
+[INFO ] 2020-09-20 11:07:17.865 [TestNG-tests-2] BaseTest - Verify Login button is Clickable or Not
+[INFO ] 2020-09-20 11:33:19.153 [main] BaseTest - 
+[INFO ] 2020-09-20 11:33:19.163 [main] BaseTest - Running locally HCL Poc 
+[INFO ] 2020-09-20 11:33:19.554 [main] BaseTest - Folder creation for Extent
+[INFO ] 2020-09-20 11:33:19.570 [main] BaseTest - ExtentDir:-C:\Users\aatish.s\Desktop\Tysspoc\HCL_SmartRecruit_POC/reports/HCLAutomation Report- 09_20_2020_11_33_19/HCL Report/09_20_2020_11_33_19
+[INFO ] 2020-09-20 11:33:19.695 [main] BaseTest - Report Initiated
+[INFO ] 2020-09-20 11:33:19.695 [main] BaseTest - Screenshot Folder Created
+[INFO ] 2020-09-20 11:33:28.543 [TestNG-tests-1] BaseTest - Enter the value into  EmployeeID Text box
+[INFO ] 2020-09-20 11:33:28.763 [TestNG-tests-1] BaseTest - Enter the value into  Password Text box
+[INFO ] 2020-09-20 11:33:28.859 [TestNG-tests-2] BaseTest - Enter the value into  EmployeeID Text box
+[INFO ] 2020-09-20 11:33:28.910 [TestNG-tests-1] BaseTest - Clicking on  Login button
+[INFO ] 2020-09-20 11:33:28.911 [TestNG-tests-1] BaseTest - Verify Login button is Clickable or Not
+[INFO ] 2020-09-20 11:33:29.010 [TestNG-tests-2] BaseTest - Enter the value into  Password Text box
+[INFO ] 2020-09-20 11:33:29.144 [TestNG-tests-2] BaseTest - Clicking on  Login button
+[INFO ] 2020-09-20 11:33:29.151 [TestNG-tests-2] BaseTest - Verify Login button is Clickable or Not
