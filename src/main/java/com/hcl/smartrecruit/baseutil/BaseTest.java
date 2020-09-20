@@ -128,7 +128,9 @@ public class BaseTest {
 					chromeOpt.merge(cap);
 				 
 				 } try { 
-						 driver = new RemoteWebDriver(new URL(LOCAL_HUB_URL),chromeOpt); } catch
+						// driver = new RemoteWebDriver(new URL(LOCAL_HUB_URL),chromeOpt);
+					 driver=new DriverInitialization().getDriver();
+					 } catch
 					  (MalformedURLException e) {
 					  
 					 logger.info("The given HUB URL is Malformed"); 
