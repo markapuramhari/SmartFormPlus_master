@@ -16,3 +16,4 @@ public class DriverInitialization {
 		return driver =new RemoteWebDriver(new URL(BaseTest.URL),BaseTest.chromeOpt);
 	}
 }
+
