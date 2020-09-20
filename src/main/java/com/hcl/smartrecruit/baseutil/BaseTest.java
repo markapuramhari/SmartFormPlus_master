@@ -122,7 +122,7 @@ public class BaseTest {
                    * to support portability*/
 					 chromeOpt = new ChromeOptions(); 
 					 chromeOpt.addArguments("user-data-dir=" +
-					 "C:\\Users\\"+name+"\\AppData\\Local\\Google\\Chrome\\UserData"+ ++invocationcount);
+					 "C:\\Users\\"+name+"\\AppData\\Local\\Google\\Chrome\\UserData");
 					cap = new DesiredCapabilities();
 					cap.setBrowserName(BrowserType.CHROME);
 					chromeOpt.merge(cap);
