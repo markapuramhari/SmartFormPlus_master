@@ -57,7 +57,7 @@ public class BaseTest {
 	public static ChromeOptions chromeOpt;
 	public static final String URL = ExcelUtil.getCellData(EXCELPATH, "AppURL", 1, 0);
 	public String username = ExcelUtil.getCellData(EXCELPATH, "SystemUserName", 1, 0);
-	public int invocationcount=0;
+	public int invocationcount=1;
 
 	/**
 	 * Description : Creates folder structure for Extent reports.
