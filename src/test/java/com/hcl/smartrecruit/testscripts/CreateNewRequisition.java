@@ -17,7 +17,7 @@ public class CreateNewRequisition extends BaseTest{
 	@Test(description = "Create Requisition", dataProvider = "TestDataProvider", dataProviderClass = CreateRequisitionDataProvider.class)
 
 	
-	public void TC_CreateNewRequisitionForm(String entityname,String projectName,String skillvalue,String skill,String jobvalue,String job,String employeeGroup,String band,String subBand,String psa,String secondaryPSA,String experience,String noOfPosition,String designationType,
+	public synchronized  void TC_CreateNewRequisitionForm(String entityname,String projectName,String skillvalue,String skill,String jobvalue,String job,String employeeGroup,String band,String subBand,String psa,String secondaryPSA,String experience,String noOfPosition,String designationType,
 			String joiningLocation,String secondaryJoiningLocation,String state
 			,String city,String billtype,String interviewer1,String interviewer2,String statusRemarks)  {
 		InitializePages pages = new InitializePages(driver, ETO, WebActionUtil);

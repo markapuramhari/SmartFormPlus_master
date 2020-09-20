@@ -44,7 +44,7 @@ public class Login_Page {
 	 *               
 	 */
 	
-	public void signToApplication(String username, String pwd) {
+	public synchronized void signToApplication(String username, String pwd) {
 		try {
 			WebActionUtil.typeText(txtEmployeeID, username, " EmployeeID Text box");
 			WebActionUtil.typeText(txtPassword, pwd, " Password Text box");

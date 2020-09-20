@@ -228,7 +228,7 @@ public class RequisitionRequest_Page {
 	
 	
 	/* Search job element */
-	public void selectPSA(String psa) {
+	public synchronized void selectPSA(String psa) {
 		driver.findElement(
 				By.xpath("(//li[@class='dropdown-header ng-scope'])[1]/following-sibling::li/descendant::span[text()='"
 						+ psa + "']"))
@@ -236,63 +236,63 @@ public class RequisitionRequest_Page {
 	}
 
 	/* Search job element */
-	public void searchJob(String job) {
+	public synchronized void searchJob(String job) {
 		driver.findElement(By.xpath("(//div[contains(text(),'"+ job +"')])[1]")).click();
 	}
 
 	/* Select bill type */
-	public void selectBillType(String billableType) {
+	public synchronized  void selectBillType(String billableType) {
 		driver.findElement(By.xpath("//span[text()='" + billableType + "']")).click();
 	}
 
 	/* Select desigination */
-	public void desginationdropdown(String desiginationType) {
+	public synchronized void desginationdropdown(String desiginationType) {
 		driver.findElement(By.xpath("(//span[text()='" + desiginationType + "'])[1]")).click();
 	}
 
 	/* Select skill element from table */
-	public void skillSelectOption(String skill) {
+	public synchronized void skillSelectOption(String skill) {
 		WebActionUtil.waitForThePresenceOfElement(5);
 		driver.findElement(By.xpath("//div[text()='" + skill + "']")).click();
 	}
 
 	/* Select Experience */
-	public void selectExperience(String experience) {
+	public synchronized void selectExperience(String experience) {
 		driver.findElement(By.xpath("//span[text()='" + experience + "']")).click();
 	}
 
 	/* Select Employee Group */
-	public void selectEmployeGroupName(String groupName) {
+	public synchronized void selectEmployeGroupName(String groupName) {
 		driver.findElement(By.xpath("//div[@class='dropdown-menu open']//span[text()='" + groupName + "']")).click();
 	}
 
 	/* Select city from the dropdown */
-	public void selectCity(String city) {
+	public synchronized void selectCity(String city) {
 		driver.findElement(By.xpath("//span[text()='" + city + "']")).click();
 	}
 
 	/* Select band */
-	public void selectBandDropdown(String band) {
+	public synchronized void selectBandDropdown(String band) {
 		driver.findElement(By.xpath("//span[text()='" + band + "']")).click();
 	}
 
 	/* Select State element */
-	public void selectState(String selectState) {
+	public synchronized void selectState(String selectState) {
 		driver.findElement(By.xpath("//span[text()='" + selectState + "']")).click();
 	}
 
 	/* Sub band option element */
-	public void selectSubBandOption(String subBand) {
+	public synchronized void selectSubBandOption(String subBand) {
 		driver.findElement(By.xpath("//span[text()='" + subBand + "']")).click();
 	}
 
-	public void selectCWLlocation(String cwllocation) {
+	public synchronized void selectCWLlocation(String cwllocation) {
 		driver.findElement(By.xpath("(//span[text()='" + cwllocation + "'])[1]")).click();
 
 	}
 
 	/* Secondary location */
-	public void selectSecondaryCWLlocation(String seccwllocation) {
+	public synchronized void selectSecondaryCWLlocation(String seccwllocation) {
 		driver.findElement(
 				By.xpath("(//ul[@class='dropdown-menu inner'])[7]/descendant::span[text()='" + seccwllocation + "']"))
 				.click();
@@ -300,13 +300,13 @@ public class RequisitionRequest_Page {
 	}
 
 	/* PSA location */
-	public void selectPSAlocation(String psaLocation) {
+	public synchronized void selectPSAlocation(String psaLocation) {
 		driver.findElement(By.xpath("((//span[text()='" + psaLocation + "'])[3]")).click();
 
 	}
 
 	/* Secondary PSA location */
-	public void selectSecondaryPSAlocation(String secPsaLocation) {
+	public synchronized void selectSecondaryPSAlocation(String secPsaLocation) {
 		driver.findElement(By.xpath("(//span[text()='" + secPsaLocation + "'])[2]")).click();
 
 	}
@@ -405,7 +405,7 @@ public class RequisitionRequest_Page {
 	 * @param value
 	 */
 
-	public void positionAndLocationDetail(String value) {
+	public synchronized void positionAndLocationDetail(String value) {
 		try {
 			WebActionUtil.waitForThePresenceOfElement(5);
 			WebActionUtil.waitForElement(txtNoOfPosition, "Number of position text box", 10);
@@ -423,7 +423,7 @@ public class RequisitionRequest_Page {
 	 * @author Aatish Slathia
 	 */
 
-	public void submisitionOfThePage() {
+	public synchronized void submisitionOfThePage() {
 		try {
 			WebActionUtil.waitTillPageLoad(10);
 			WebActionUtil.waitForThePresenceOfElement(5);

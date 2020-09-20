@@ -64,7 +64,7 @@ public class WebActionUtil {
 	 * @param message
 	 */
 
-	public static void pass(String message) {
+	public synchronized static void pass(String message) {
 		ExtentHCLManager.getTestReport().pass(MarkupHelper.createLabel(message, ExtentColor.GREEN));
 	}
 
@@ -74,7 +74,7 @@ public class WebActionUtil {
 	 * @author Shreya U
 	 * @param message
 	 */
-	public static void info(String message) {
+	public synchronized static void info(String message) {
 		Reporter.log(message, true);
 		BaseTest.logger.info(message);
 		ExtentHCLManager.getTestReport().info(message);
@@ -90,7 +90,7 @@ public class WebActionUtil {
 	 * 
 	 */
 
-	public void warn(String message) {
+	public synchronized void warn(String message) {
 		BaseTest.logger.warn(message);
 		Reporter.log(message, true);
 	}
@@ -103,7 +103,7 @@ public class WebActionUtil {
 	 * @param message
 	 */
 
-	public static void fail(String message) {
+	public synchronized  static void fail(String message) {
 		Reporter.log(message, true);
 		ExtentHCLManager.getTestReport().fail(MarkupHelper.createLabel(message, ExtentColor.RED));
 
@@ -185,7 +185,7 @@ public class WebActionUtil {
 	 * @param elementName
 	 * @param seconds
 	 */
-	public void waitForElement(WebElement element, String eleName, long seconds) {
+	public synchronized void waitForElement(WebElement element, String eleName, long seconds) {
 		try {
 
 			wait = new WebDriverWait(driver, seconds);
@@ -204,7 +204,7 @@ public class WebActionUtil {
 	 * @author Shreya U
 	 * @param pathToDeleteFolder
 	 */
-	public static void deleteDir(String pathToDeleteFolder) {
+	public synchronized static void deleteDir(String pathToDeleteFolder) {
 		File extefolder = new File(pathToDeleteFolder);
 		if ((extefolder.exists())) {
 			deleteFolderDir(extefolder);
@@ -217,7 +217,7 @@ public class WebActionUtil {
 	 * @author Shreya U
 	 * @param folderToDelete
 	 */
-	public static void deleteFolderDir(File folderToDelete) {
+	public synchronized static void deleteFolderDir(File folderToDelete) {
 		File[] folderContents = folderToDelete.listFiles();
 		if (folderContents != null) {
 			for (File folderfile : folderContents) {
@@ -237,7 +237,7 @@ public class WebActionUtil {
 	 * @param path
 	 * @param driver
 	 */
-	public static String getScreenShot(String path, WebDriver driver) {
+	public synchronized static String getScreenShot(String path, WebDriver driver) {
 
 		File src = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
 		String destinationPath = path + getCurrentDateTime() + ".png";
@@ -301,7 +301,7 @@ public class WebActionUtil {
 	 * @param element
 	 * @param elementName
 	 */
-	public static void clickCheckBox(WebElement element, String elementname) {
+	public synchronized static void clickCheckBox(WebElement element, String elementname) {
 
 		if (element.isSelected()) {
 			pass("Already Selected " + elementname);
@@ -319,7 +319,7 @@ public class WebActionUtil {
 	 * @param elementName
 	 * @param element
 	 */
-	public void scrollToElement(WebElement element, String elementName) {
+	public synchronized void scrollToElement(WebElement element, String elementName) {
 		info("-------------Scrolling till the Element------------");
 		try {
 			jsExecutor.executeScript("arguments[0].scrollIntoView(true);", element);
@@ -337,7 +337,7 @@ public class WebActionUtil {
 	 * @param element
 	 * @param elementName
 	 */
-	public void clickOnElementUsingJS(WebElement element, String elementName) {
+	public synchronized void clickOnElementUsingJS(WebElement element, String elementName) {
 		try {
 			if (isElementClickable(element, elementName)) {
 				pass("User is able to click " + " into " + elementName);
@@ -356,7 +356,7 @@ public class WebActionUtil {
 	 * @param element
 	 * @param elementName
 	 */
-	public void doubleClickOnElement(WebElement element, String elementName) {
+	public synchronized void doubleClickOnElement(WebElement element, String elementName) {
 		try {
 			pass("User is able to click " + " into " + elementName);
 			action.doubleClick(element).perform();
@@ -373,7 +373,7 @@ public class WebActionUtil {
 	 * @param element
 	 * @param elementName
 	 */
-	public void clearText(WebElement element, String elementName) {
+	public synchronized void clearText(WebElement element, String elementName) {
 		try {
 			info("Clear the Text Present in" + elementName);
 			element.clear();
@@ -389,7 +389,7 @@ public class WebActionUtil {
 	 * @author Aatish Slathia
 	 * @param millis
 	 */
-	public static String formatDuration(final long millis) {
+	public synchronized static String formatDuration(final long millis) {
 		long seconds = (millis / 1000) % 60;
 		long minutes = (millis / (1000 * 60)) % 60;
 		long hours = millis / (1000 * 60 * 60);
@@ -411,7 +411,7 @@ public class WebActionUtil {
 	 * @param driver
 	 * @param elementName
 	 */
-	public void waitForElement(WebElement element, WebDriver driver, String elementName) {
+	public synchronized void waitForElement(WebElement element, WebDriver driver, String elementName) {
 		waitTillPageLoad(10);
 		long timeout = 60;
 		Wait<WebDriver> wait = new FluentWait<WebDriver>(driver).withTimeout(Duration.ofSeconds(timeout))
@@ -426,7 +426,7 @@ public class WebActionUtil {
 	 * @param message
 	 * 
 	 */
-	public void validationpass(String message) {
+	public synchronized void validationpass(String message) {
 		ExtentHCLManager.getTestReport().pass(MarkupHelper.createLabel(message, ExtentColor.BLUE));
 
 	}
@@ -439,7 +439,7 @@ public class WebActionUtil {
 	 * @param elementName
 	 * 
 	 */
-	public boolean isElementVisible(WebElement element, String elemantName) {
+	public synchronized boolean isElementVisible(WebElement element, String elemantName) {
 
 		try {
 			wait.until(ExpectedConditions.visibilityOf(element));
@@ -457,7 +457,7 @@ public class WebActionUtil {
 	 * @param element
 	 * @param elementName
 	 */
-	public void actionMouseHover(WebElement element, String elementName) {
+	public synchronized void actionMouseHover(WebElement element, String elementName) {
 		waitTillPageLoad(2);
 		if (isElementVisible(element, elementName)) {
 			action.moveToElement(element).build().perform();
@@ -474,7 +474,7 @@ public class WebActionUtil {
 	 * @author Aatish Slathia
 	 */
 
-	public void actionType() {
+	public synchronized void actionType() {
 		try {
 			action.sendKeys(Keys.TAB).build().perform();
 			pass("Tab Press action completed");
@@ -489,7 +489,7 @@ public class WebActionUtil {
 	 * @param element
 	 * @param  elementName
 	 */
-	public void clickOnElement(WebElement element, String elementName) {
+	public synchronized void clickOnElement(WebElement element, String elementName) {
 
 		try {
 			info("Clicking on  " + elementName);
@@ -511,7 +511,7 @@ public class WebActionUtil {
 	 * @param tabindex
 	 * 
 	 */
-	public void switchToTab(int tabindex) {
+	public synchronized void switchToTab(int tabindex) {
 		try {
 			ArrayList<String> tabs = new ArrayList<String>(driver.getWindowHandles());
 			driver.switchTo().window(tabs.get(tabindex));
@@ -528,7 +528,7 @@ public class WebActionUtil {
 	 * 
 	 * @author Aatish Slathia
 	 */
-	public void closeTab() {
+	public synchronized void closeTab() {
 		try {
 			driver.close();
 			pass("Closed current Tab");
@@ -544,7 +544,7 @@ public class WebActionUtil {
 	 * 
 	 * @author Aatish Slathia
 	 */
-	public void clickOntabButton() {
+	public synchronized void clickOntabButton() {
 		try {
 			Robot r = new Robot();
 			r.keyPress(KeyEvent.VK_TAB);
@@ -563,7 +563,7 @@ public class WebActionUtil {
 	 * @param element
 	 * @param elementName
 	 */
-	public void clickElementByUsingJS(WebElement element, String elementName) {
+	public synchronized void clickElementByUsingJS(WebElement element, String elementName) {
 		try {
 			pass("User is able to click" + " into " + elementName);
 			jsExecutor.executeScript("arguments[0].click();", element);
@@ -580,7 +580,7 @@ public class WebActionUtil {
 	 * @param driver
 	 */
 
-	public void scrollUp(WebDriver driver) {
+	public synchronized void scrollUp(WebDriver driver) {
 		try {
 			JavascriptExecutor jse = (JavascriptExecutor) driver;
 			jse.executeScript("window.scrollBy(0,-500", "");
@@ -597,7 +597,7 @@ public class WebActionUtil {
 	 * @author Aatish Slathia
 	 * @param driver
 	 */
-	public void scrollDown(WebDriver driver) {
+	public synchronized void scrollDown(WebDriver driver) {
 		try {
 			JavascriptExecutor jse = (JavascriptExecutor) driver;
 			jse.executeScript("window.scrollBy(0,500", "");
@@ -615,7 +615,7 @@ public class WebActionUtil {
 	 * @param element
 	 * @param expectedText
 	 */
-	public void verifyElementText(WebElement element, String expectedText) {
+	public synchronized void verifyElementText(WebElement element, String expectedText) {
 		String actualText = element.getText();
 		try {
 			Assert.assertEquals(actualText, expectedText);
@@ -632,7 +632,7 @@ public class WebActionUtil {
 	 * @author Aatish Slathia
 	 * @param element
 	 */
-	public boolean isElementDisplayedOrNot(WebElement element) {
+	public synchronized boolean isElementDisplayedOrNot(WebElement element) {
 		waitForThePresenceOfElement(3);
 		boolean actual = element.isDisplayed();
 		// Assert.assertEquals(actual, true, "Element is Not Displayed");
@@ -644,7 +644,7 @@ public class WebActionUtil {
 	 * @author Aatish Slathia
 	 * @param seconds
 	 */
-	public void waitForThePresenceOfElement(long seconds) {
+	public synchronized void waitForThePresenceOfElement(long seconds) {
 		try {
 			Thread.sleep(seconds * 1000);
 		} catch (InterruptedException e) {
@@ -660,7 +660,7 @@ public class WebActionUtil {
 	 * @param value
 	 * @param elementName
 	 */
-	public void selectDropDown(WebElement element, String value, String elementName) {
+	public synchronized void selectDropDown(WebElement element, String value, String elementName) {
 		try {
 			if (isElementVisible(element, elementName)) {
 				Select drpDown = new Select(element);
@@ -681,7 +681,7 @@ public class WebActionUtil {
 	 * @param ePageTitle
 	 */
 	@SuppressWarnings("deprecation")
-	public void waitForThePageTitle(long seconds, String ePageTitle) {
+	public synchronized  void waitForThePageTitle(long seconds, String ePageTitle) {
 		try {
 			wait = new WebDriverWait(driver, seconds);
 			wait.until(ExpectedConditions.titleContains(ePageTitle));
@@ -698,7 +698,7 @@ public class WebActionUtil {
 	 * @param seconds
 	 */
 	@SuppressWarnings("deprecation")
-	public void waitTillPageLoad(long seconds) {
+	public synchronized void waitTillPageLoad(long seconds) {
 		WebDriverWait wait = new WebDriverWait(driver, seconds);
 		jsExecutor = (JavascriptExecutor) driver;
 		// Wait for Javascript to load
@@ -728,7 +728,7 @@ public class WebActionUtil {
 	 * @param eleName
 	 */
 	@SuppressWarnings("deprecation")
-	public void waitForElement1(WebElement element, String eleName, long seconds) {
+	public synchronized  void waitForElement1(WebElement element, String eleName, long seconds) {
 		try {
 			wait = new WebDriverWait(driver, seconds);
 			wait.until(ExpectedConditions.visibilityOf(element));
@@ -744,7 +744,7 @@ public class WebActionUtil {
 	 * @author Aatish Slathia
 	 * @param seconds
 	 */
-	public void checkForAlert(long seconds) {
+	public synchronized void checkForAlert(long seconds) {
 		try {
 			wait = new WebDriverWait(driver, seconds);
 
@@ -759,7 +759,7 @@ public class WebActionUtil {
 	 * 
 	 * @author Aatish Slathia
 	 */
-	public void acceptAlert() {
+	public synchronized void acceptAlert() {
 		try {
 			driver.switchTo().alert().accept();
 			driver.switchTo().defaultContent();
@@ -775,7 +775,7 @@ public class WebActionUtil {
 	 * @author Aatish Slathia
 	 * @param tabindex
 	 */
-	public void switchToTabAndClose(int tabindex) {
+	public synchronized void switchToTabAndClose(int tabindex) {
 		try {
 			ArrayList<String> tabs = new ArrayList<String>(driver.getWindowHandles());
 			driver.switchTo().window(tabs.get(tabindex));
@@ -793,7 +793,7 @@ public class WebActionUtil {
 	 * @author Aatish Slathia
 	 * @return text
 	 */
-	public String getText() {
+	public synchronized  String getText() {
 		String alert = driver.switchTo().alert().getText();
 		String text = alert.substring(alert.indexOf("BTIS"), alert.indexOf("."));
 		return text;
@@ -807,7 +807,7 @@ public class WebActionUtil {
 	 * @param element
 	 * @return text2
 	 */
-	public String getApproverIdText(WebElement element) {
+	public synchronized  String getApproverIdText(WebElement element) {
 		String text1 = element.getText();
 		String text = text1.substring(text1.indexOf("["), text1.indexOf("]"));
 		String text2 = text.replace("[", " ").trim();
@@ -854,7 +854,7 @@ public class WebActionUtil {
 	 * @param element
 	 * @param elementname
 	 */
-	public void verifytext(String expected, WebElement element, String elementname) {
+	public synchronized void verifytext(String expected, WebElement element, String elementname) {
 		try {
 			info("Getting text from " + elementname);
 			String actual = element.getText();
@@ -871,7 +871,7 @@ public class WebActionUtil {
 	 * @author Aatish Slathia
 	 * 
 	 */
-	public void clickByJs(WebElement element, String elementName) {
+	public synchronized void clickByJs(WebElement element, String elementName) {
 		info("Click on Element " + elementName);
 		try {
 			JavascriptExecutor jse = (JavascriptExecutor) driver;
@@ -888,7 +888,7 @@ public class WebActionUtil {
 	 * 
 	 * @author Aatish Slathia
 	 */
-	public String getAlertText() {
+	public synchronized String getAlertText() {
 		info("Fetching the Text from the Alert");
 		String text = "";
 		try {
@@ -906,7 +906,7 @@ public class WebActionUtil {
 	 * @author Aatish Slathia
 	 * 
 	 */
-	public void actionSendKeys() {
+	public synchronized void actionSendKeys() {
 		try {
 			action.sendKeys(Keys.CONTROL, Keys.getKeyFromUnicode((char) 87));
 			pass("Entered the keys control and w ");
@@ -924,7 +924,7 @@ public class WebActionUtil {
 	 * @param elementName
 	 * 
 	 */
-	public void actionClick(WebElement element, String elementName) {
+	public synchronized void actionClick(WebElement element, String elementName) {
 		try {
 			action.click(element).build().perform();
 			pass("Clicked on " + elementName);
