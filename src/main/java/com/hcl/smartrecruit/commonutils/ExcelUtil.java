@@ -32,7 +32,7 @@ public class ExcelUtil {
 	 * @param sPath 
 	 * @param sSheet
 	 */
-	public  static synchronized int getRowCount(String sPath, String sSheet) {
+	public static synchronized int getRowCount(String sPath, String sSheet) {
 		int iRowNum = 0;
 		try {
 			FileInputStream fis = new FileInputStream(sPath);
@@ -51,7 +51,7 @@ public class ExcelUtil {
 	 * @param sSheet 
 	 * @parm sPath 
 	 */
-	public synchronized static int getColoumCount(String sPath, String sSheet) {
+	public static synchronized int getColoumCount(String sPath, String sSheet) {
 		int colnum = 0;
 		try {
 			FileInputStream fis = new FileInputStream(sPath);
@@ -72,7 +72,7 @@ public class ExcelUtil {
 	 * @param rowNo 
 	 * @param colNo
 	 */
-	public static synchronized  String getCellData(String xlPAth, String sheetName, int rowNo, int colNo) {
+	public static  synchronized  String getCellData(String xlPAth, String sheetName, int rowNo, int colNo) {
 		DataFormatter dataFormatter = new DataFormatter();
 
 		int iRowNum = 0;
@@ -101,7 +101,7 @@ public class ExcelUtil {
 	 * @param sSheet 
 	 * @param rowNo
 	 */
-	public  static synchronized  String[] getRowData(String sFilePath, String sSheet, int rowNo) {
+	public static synchronized  String[] getRowData(String sFilePath, String sSheet, int rowNo) {
 		DataFormatter dataFormatter = new DataFormatter();
 		String sData[] = null;
 		try {
@@ -173,7 +173,7 @@ public class ExcelUtil {
 	 * @param data 
 	 * @return blank
 	 */
-	public static synchronized  boolean doesArrayContainsBlank(String[] data) {
+	public static  synchronized  boolean doesArrayContainsBlank(String[] data) {
 		boolean blank = false;
 
 		for (int i = 0; i < data.length; i++) {
@@ -230,7 +230,7 @@ public class ExcelUtil {
 	 * @param firstRowName 
 	 * @return index
 	 */
-	public static synchronized  int getColoumIndex(String filepath, String sSheet, String colName, String firstRowName) {
+	public  static synchronized  int getColoumIndex(String filepath, String sSheet, String colName, String firstRowName) {
 		String[] firstRow = ExcelUtil.toReadExcelData(filepath, sSheet, firstRowName);
 		int index = 0;
 		for (int i = 0; i < firstRow.length; i++) {
@@ -250,7 +250,7 @@ public class ExcelUtil {
 	 * @param row 
 	 * @return column
 	 */
-	public static synchronized  int getCellCount(String sPath, String sSheeet, int row) {
+	public static  synchronized  int getCellCount(String sPath, String sSheeet, int row) {
 		int colnum = 0;
 		try {
 			FileInputStream fis = new FileInputStream(sPath);
