@@ -93,81 +93,38 @@ public class BaseTest {
 		ExtentHCLManager.setParentReport(parentExtentTest);
 		
 		  
-/*		 if (browserName.equalsIgnoreCase("firefox")) { 
+		 if (browserName.equalsIgnoreCase("firefox")) { 
 			   cap.setBrowserName(BrowserType.FIREFOX);
 				  
 				  } else if (browserName.equalsIgnoreCase("edge")) { 
 					  
-					  Since Edge Options is not supported in Selenium 3.141.59 hence following
-					   * lines are commented will be removed in Selenium 4 alpha and above version
-//					
-//				  cap.setBrowserName(BrowserType.EDGE);
-					  //System.setProperty("webdriver.edge.driver", "./drivers/msedgedriver.exe");
-					
-//					EdgeOptions edgeOpt = new EdgeOptions(); 
-					
-//				        /*Static Path with User name as a variable
-//						edgeOpt.addArguments(
-//								"user-data-dir=" + "C:\\Users\\"+ username +"\\AppData\\Local\\Microsoft\\Edge\\User Data\\Default");
-//						edgeOpt.addArguments("--start-maximized");
-///
-//						driver = new EdgeDriver();
-//					  cap.setBrowserName(BrowserType.EDGE);
-//					  
-//                      cap.setPlatform(Platform.WINDOWS);
-//                      edgeOpt.merge(cap);
-// 					 try { 
-// 						 driver = new RemoteWebDriver(new URL(LOCAL_HUB_URL),edgeOpt); } catch
-// 					  (MalformedURLException e) {
-// 					  
-// 					 logger.info("The given HUB URL is not proper"); }
-				  
-				 } else if(browserName.equalsIgnoreCase("chrome")) { 
-                  user-data-dir is the standard path for storing the user data and the name parameter is passed to
-                   * to support portability
-					 chromeOpt = new ChromeOptions(); 
-					 chromeOpt.addArguments("user-data-dir=" +
-					 "C:\\Users\\"+name+"\\AppData\\Local\\Google\\Chrome\\UserData");
-					cap = new DesiredCapabilities();
-					cap.setBrowserName(BrowserType.CHROME);
-					chromeOpt.merge(cap);
-				 
-				 } try { 
-						// driver = new RemoteWebDriver(new URL(LOCAL_HUB_URL),chromeOpt);
-					
-					 } catch
-					  (MalformedURLException e) {
-					  
-					 logger.info("The given HUB URL is Malformed"); 
-					
-						 }
-		driver.manage().timeouts().implicitlyWait(ITO, TimeUnit.SECONDS);
-		WebActionUtil = new WebActionUtil(driver, ETO);
-		driver.manage().window().maximize();
-		driver.get(URL);
-						 }*/
-		
-		
-		  if (browserName.equalsIgnoreCase("firefox")) { cap =
-					 DesiredCapabilities.firefox(); cap.setBrowserName("firefox");
+				  }
+				  else if(browserName.equalsIgnoreCase("chrome")) { 
+	                 /* user-data-dir is the standard path for storing the user data and the name parameter is passed to
+	                   to support portability*/
+						 chromeOpt = new ChromeOptions(); 
+						 chromeOpt.addArguments("user-data-dir=" +
+						 "C:\\Users\\"+name+"\\AppData\\Local\\Google\\Chrome\\UserData");
+						cap = new DesiredCapabilities();
+						cap.setBrowserName(BrowserType.CHROME);
+						chromeOpt.merge(cap);
 					 
-					  } else if (browserName.equalsIgnoreCase("MicrosoftEdge")) { cap =
-					  DesiredCapabilities.edge(); cap.setBrowserName(BrowserType.EDGE);
-					  cap.setPlatform(Platform.WIN10);
+					 } try { 
+							 driver = new RemoteWebDriver(new URL(LOCAL_HUB_URL),chromeOpt);
+						
+						 } catch
+						  (MalformedURLException e) {
+						  
+						 logger.info("The given HUB URL is Malformed"); 
+						
+							 }
+			driver.manage().timeouts().implicitlyWait(ITO, TimeUnit.SECONDS);
+			WebActionUtil = new WebActionUtil(driver, ETO);
+			driver.manage().window().maximize();
+			driver.get(URL);
+							 }
 					  
-					  } else if(browserName.equalsIgnoreCase("chrome")) { cap =
-					  DesiredCapabilities.chrome(); cap.setBrowserName("chrome"); } 
-					
-					  try { driver = new RemoteWebDriver(new URL(LOCAL_HUB_URL),cap); } catch
-					  (MalformedURLException e) {
-					  
-					 logger.info("The given HUB URL is not proper"); }
-					  
-					  driver.manage().timeouts().implicitlyWait(ITO, TimeUnit.SECONDS);
-						WebActionUtil = new WebActionUtil(driver, ETO);
-						driver.manage().window().maximize();
-						driver.get(URL);
-	}
+
 
 	/**
 	 * Description: Closes the browser

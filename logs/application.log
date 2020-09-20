@@ -3458,3 +3458,23 @@ Session ID: 1f59f5871f059a7235be43350b50b3b5
 [INFO ] 2020-09-20 11:53:14.869 [main] BaseTest - Screenshot Folder Created
 [INFO ] 2020-09-20 11:53:18.882 [TestNG-tests-2] BaseTest - Enter the value into  EmployeeID Text box
 [INFO ] 2020-09-20 11:53:20.033 [TestNG-tests-1] BaseTest - Enter the value into  EmployeeID Text box
+[INFO ] 2020-09-20 19:17:55.645 [main] BaseTest - C:\Users\User\Desktop\HCL_Review\ForReview\HCL_SmartRecruit/Controller.xlsx
+[INFO ] 2020-09-20 19:17:55.886 [main] BaseTest - com.hcl.smartrecruit.testscripts.CreateNewRequisition
+[INFO ] 2020-09-20 19:22:36.596 [main] BaseTest - C:\Users\User\Desktop\HCL_Review\ForReview\HCL_SmartRecruit/Controller.xlsx
+[INFO ] 2020-09-20 19:22:36.784 [main] BaseTest - com.hcl.smartrecruit.testscripts.CreateNewRequisition
+[INFO ] 2020-09-20 19:23:55.522 [main] BaseTest - C:\Users\User\Desktop\HCL_Review\ForReview\HCL_SmartRecruit/Controller.xlsx
+[INFO ] 2020-09-20 19:23:55.692 [main] BaseTest - com.hcl.smartrecruit.testscripts.CreateNewRequisition
+[INFO ] 2020-09-20 19:24:26.677 [main] BaseTest - 
+[INFO ] 2020-09-20 19:24:26.702 [main] BaseTest - Running locally HCL Poc 
+[INFO ] 2020-09-20 19:24:27.470 [main] BaseTest - Folder creation for Extent
+[INFO ] 2020-09-20 19:24:27.534 [main] BaseTest - ExtentDir:-C:\Users\User\Desktop\HCL_Review\ForReview\HCL_SmartRecruit/reports/HCLAutomation Report- 09_20_2020_19_24_27/HCL Report/09_20_2020_19_24_27
+[INFO ] 2020-09-20 19:24:28.326 [main] BaseTest - Report Initiated
+[INFO ] 2020-09-20 19:24:28.331 [main] BaseTest - Screenshot Folder Created
+[INFO ] 2020-09-20 19:24:44.593 [main] BaseTest - C:\Users\User\Desktop\HCL_Review\ForReview\HCL_SmartRecruit/Controller.xlsx
+[INFO ] 2020-09-20 19:24:44.762 [main] BaseTest - com.hcl.smartrecruit.testscripts.CreateNewRequisition
+[INFO ] 2020-09-20 19:24:49.499 [main] BaseTest - 
+[INFO ] 2020-09-20 19:24:49.514 [main] BaseTest - Running locally HCL Poc 
+[INFO ] 2020-09-20 19:24:50.318 [main] BaseTest - Folder creation for Extent
+[INFO ] 2020-09-20 19:24:50.384 [main] BaseTest - ExtentDir:-C:\Users\User\Desktop\HCL_Review\ForReview\HCL_SmartRecruit/reports/HCLAutomation Report- 09_20_2020_19_24_50/HCL Report/09_20_2020_19_24_50
+[INFO ] 2020-09-20 19:24:50.824 [main] BaseTest - Report Initiated
+[INFO ] 2020-09-20 19:24:50.829 [main] BaseTest - Screenshot Folder Created
