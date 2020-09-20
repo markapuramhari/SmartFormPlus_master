@@ -3434,3 +3434,27 @@ Session ID: 1f59f5871f059a7235be43350b50b3b5
 [INFO ] 2020-09-20 11:45:55.046 [TestNG-tests-2] BaseTest - Enter the value into  Password Text box
 [INFO ] 2020-09-20 11:45:55.199 [TestNG-tests-2] BaseTest - Clicking on  Login button
 [INFO ] 2020-09-20 11:45:55.199 [TestNG-tests-2] BaseTest - Verify Login button is Clickable or Not
+[INFO ] 2020-09-20 11:51:42.318 [main] BaseTest - 
+[INFO ] 2020-09-20 11:51:42.336 [main] BaseTest - Running locally HCL Poc 
+[INFO ] 2020-09-20 11:51:42.601 [main] BaseTest - Folder creation for Extent
+[INFO ] 2020-09-20 11:51:42.601 [main] BaseTest - ExtentDir:-C:\Users\aatish.s\Desktop\Tysspoc\HCL_SmartRecruit_POC/reports/HCLAutomation Report- 09_20_2020_11_51_42/HCL Report/09_20_2020_11_51_42
+[INFO ] 2020-09-20 11:51:42.726 [main] BaseTest - Report Initiated
+[INFO ] 2020-09-20 11:51:42.726 [main] BaseTest - Screenshot Folder Created
+[INFO ] 2020-09-20 11:51:46.934 [TestNG-tests-2] BaseTest - Enter the value into  EmployeeID Text box
+[INFO ] 2020-09-20 11:51:47.169 [TestNG-tests-1] BaseTest - Enter the value into  EmployeeID Text box
+[INFO ] 2020-09-20 11:52:39.272 [main] BaseTest - 
+[INFO ] 2020-09-20 11:52:39.284 [main] BaseTest - Running locally HCL Poc 
+[INFO ] 2020-09-20 11:52:39.565 [main] BaseTest - Folder creation for Extent
+[INFO ] 2020-09-20 11:52:39.581 [main] BaseTest - ExtentDir:-C:\Users\aatish.s\Desktop\Tysspoc\HCL_SmartRecruit_POC/reports/HCLAutomation Report- 09_20_2020_11_52_39/HCL Report/09_20_2020_11_52_39
+[INFO ] 2020-09-20 11:52:39.706 [main] BaseTest - Report Initiated
+[INFO ] 2020-09-20 11:52:39.706 [main] BaseTest - Screenshot Folder Created
+[INFO ] 2020-09-20 11:52:43.621 [TestNG-tests-1] BaseTest - Enter the value into  EmployeeID Text box
+[INFO ] 2020-09-20 11:52:43.940 [TestNG-tests-2] BaseTest - Enter the value into  EmployeeID Text box
+[INFO ] 2020-09-20 11:53:14.379 [main] BaseTest - 
+[INFO ] 2020-09-20 11:53:14.400 [main] BaseTest - Running locally HCL Poc 
+[INFO ] 2020-09-20 11:53:14.728 [main] BaseTest - Folder creation for Extent
+[INFO ] 2020-09-20 11:53:14.728 [main] BaseTest - ExtentDir:-C:\Users\aatish.s\Desktop\Tysspoc\HCL_SmartRecruit_POC/reports/HCLAutomation Report- 09_20_2020_11_53_14/HCL Report/09_20_2020_11_53_14
+[INFO ] 2020-09-20 11:53:14.869 [main] BaseTest - Report Initiated
+[INFO ] 2020-09-20 11:53:14.869 [main] BaseTest - Screenshot Folder Created
+[INFO ] 2020-09-20 11:53:18.882 [TestNG-tests-2] BaseTest - Enter the value into  EmployeeID Text box
+[INFO ] 2020-09-20 11:53:20.033 [TestNG-tests-1] BaseTest - Enter the value into  EmployeeID Text box

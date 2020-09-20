@@ -57,9 +57,9 @@ function toggleAllBoxes() {
 <tr>
 <td>Tests passed/Failed/Skipped:</td><td>0/0/0</td>
 </tr><tr>
-<td>Started on:</td><td>Sun Sep 20 11:07:06 IST 2020</td>
+<td>Started on:</td><td>Sun Sep 20 11:53:14 IST 2020</td>
 </tr>
-<tr><td>Total time:</td><td>103 seconds (103582 ms)</td>
+<tr><td>Total time:</td><td>5 seconds (5181 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -75,33 +75,29 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='com.hcl.smartrecruit.testscripts.CreateNewRequisition.TC_CreateNewRequisitionForm()'><b>TC_CreateNewRequisitionForm</b><br>Test class: com.hcl.smartrecruit.testscripts.CreateNewRequisition<br>Test method: Create Requisition<br>Parameters: TECH/CSW, HCLT - BPR - Smart Recruit (Z/070006), Javascript,  MVC, Admin lead, Admin, Full time FTE, E3, E3.1, ENOI, ENOI, 1-3 Years, 4, (ETS) SPECIALIST, Noida-Sec-16, A-11, CLIENT LOCATION, Andhra Pradesh, Krishna, Non Billable, KEDARNATH BHARADWAJ (40104187), Saravanan Rangamannar (40103492), Approved<br/>
-<a href="#Output-1158057515" onClick='toggleBox("Output-1158057515", this, "Show output", "Hide output");'>Show output</a>
+<td title='com.hcl.smartrecruit.testscripts.CloseRequisition.TC_CloseRequisitionForm()'><b>TC_CloseRequisitionForm</b><br>Test class: com.hcl.smartrecruit.testscripts.CloseRequisition<br>Test method: Close Requisition<br>Parameters: TECH/CSW, HCLT - BPR - Smart Recruit (Z/070006), Javascript,  MVC, Admin lead, Admin, Full time FTE, E3, E3.1, ENOI, ENOI, 1-3 Years, 4, (ETS) SPECIALIST, Noida-Sec-16, A-11, CLIENT LOCATION, Andhra Pradesh, Krishna, Non Billable, KEDARNATH BHARADWAJ (40104187), Saravanan Rangamannar (40103492), Approved<br/>
+<a href="#Output-1056580675" onClick='toggleBox("Output-1056580675", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-1158057515" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-1158057515">
+<a href="#Output-1056580675" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1056580675">
 Enter the value into  EmployeeID Text box<br/>
-Enter the value into  Password Text box<br/>
-Clicking on  Login button<br/>
-Verify Login button is Clickable or Not<br/>
-Login button is not Clickable <br/>
-Mouse Hover is not completed<br/>
+ User is not able to type 40170924into  EmployeeID Text box<br/>
 </div>
 </td>
-<td><div><pre>java.lang.AssertionError: MouseHover is not Completed
-	at com.hcl.smartrecruit.util.WebActionUtil.actionMouseHover(WebActionUtil.java:467)
-	at com.hcl.smartrecruit.pages.RequisitionRequest_Page.projectDetail(RequisitionRequest_Page.java:323)
-	at com.hcl.smartrecruit.testscripts.CreateNewRequisition.TC_CreateNewRequisitionForm(CreateNewRequisition.java:29)
+<td><div><pre>java.lang.AssertionError: Unable to type in  EmployeeID Text box
+	at com.hcl.smartrecruit.util.WebActionUtil.typeText(WebActionUtil.java:272)
+	at com.hcl.smartrecruit.pages.Login_Page.signToApplication(Login_Page.java:49)
+	at com.hcl.smartrecruit.testscripts.CloseRequisition.TC_CloseRequisitionForm(CloseRequisition.java:31)
 	at java.util.concurrent.FutureTask.run(Unknown Source)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
 	at java.lang.Thread.run(Unknown Source)
-... Removed 17 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1158057515", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1158057515'><pre>java.lang.AssertionError: MouseHover is not Completed
+... Removed 17 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1056580675", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1056580675'><pre>java.lang.AssertionError: Unable to type in  EmployeeID Text box
 	at org.testng.Assert.fail(Assert.java:96)
-	at com.hcl.smartrecruit.util.WebActionUtil.actionMouseHover(WebActionUtil.java:467)
-	at com.hcl.smartrecruit.pages.RequisitionRequest_Page.projectDetail(RequisitionRequest_Page.java:323)
-	at com.hcl.smartrecruit.testscripts.CreateNewRequisition.TC_CreateNewRequisitionForm(CreateNewRequisition.java:29)
+	at com.hcl.smartrecruit.util.WebActionUtil.typeText(WebActionUtil.java:272)
+	at com.hcl.smartrecruit.pages.Login_Page.signToApplication(Login_Page.java:49)
+	at com.hcl.smartrecruit.testscripts.CloseRequisition.TC_CloseRequisitionForm(CloseRequisition.java:31)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -123,10 +119,10 @@ Mouse Hover is not completed<br/>
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
 	at java.lang.Thread.run(Unknown Source)
 </pre></div></td>
-<td>93</td>
-<td>com.hcl.smartrecruit.testscripts.CreateNewRequisition@676cf48</td></tr>
+<td>1</td>
+<td>com.hcl.smartrecruit.testscripts.CloseRequisition@335b5620</td></tr>
 <tr>
-<td title='com.hcl.smartrecruit.testscripts.CreateNewRequisition.TC_CreateNewRequisitionForm()'><b>TC_CreateNewRequisitionForm</b><br>Test class: com.hcl.smartrecruit.testscripts.CreateNewRequisition<br>Test method: Create Requisition</td>
+<td title='com.hcl.smartrecruit.testscripts.CloseRequisition.TC_CloseRequisitionForm()'><b>TC_CloseRequisitionForm</b><br>Test class: com.hcl.smartrecruit.testscripts.CloseRequisition<br>Test method: Close Requisition</td>
 <td><div><pre>java.lang.NullPointerException
 	at com.hcl.smartrecruit.util.WebActionUtil.getScreenShot(WebActionUtil.java:242)
 	at com.hcl.smartrecruit.listners.TestListener.onTestFailure(TestListener.java:124)
@@ -134,8 +130,8 @@ Mouse Hover is not completed<br/>
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
 	at java.lang.Thread.run(Unknown Source)
-... Removed 13 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace2079587413", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace2079587413'><pre>java.lang.NullPointerException
+... Removed 13 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace2075095236", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace2075095236'><pre>java.lang.NullPointerException
 	at com.hcl.smartrecruit.util.WebActionUtil.getScreenShot(WebActionUtil.java:242)
 	at com.hcl.smartrecruit.listners.TestListener.onTestFailure(TestListener.java:124)
 	at org.testng.internal.TestListenerHelper.runTestListeners(TestListenerHelper.java:67)
@@ -156,8 +152,8 @@ Mouse Hover is not completed<br/>
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
 	at java.lang.Thread.run(Unknown Source)
 </pre></div></td>
-<td>93</td>
-<td>com.hcl.smartrecruit.testscripts.CreateNewRequisition@676cf48</td></tr>
+<td>1</td>
+<td>com.hcl.smartrecruit.testscripts.CloseRequisition@335b5620</td></tr>
 </table><p>
 </body>
 </html>

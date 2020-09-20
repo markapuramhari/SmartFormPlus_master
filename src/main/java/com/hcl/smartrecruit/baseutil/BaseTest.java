@@ -133,13 +133,13 @@ public class BaseTest {
 					  
 					 logger.info("The given HUB URL is Malformed"); 
 					
-				 
+						 }
 		driver.manage().timeouts().implicitlyWait(ITO, TimeUnit.SECONDS);
 		WebActionUtil = new WebActionUtil(driver, ETO);
 		driver.manage().window().maximize();
 		driver.get(URL);
 						 }
-	}
+	
 
 	/**
 	 * Description: Closes  the browser

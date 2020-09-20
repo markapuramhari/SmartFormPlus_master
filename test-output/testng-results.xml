@@ -5,37 +5,16 @@
       <![CDATA[Enter the value into  EmployeeID Text box]]>
     </line>
     <line>
-      <![CDATA[Enter the value into  Password Text box]]>
+      <![CDATA[ User is not able to type 40170924into  EmployeeID Text box]]>
     </line>
     <line>
       <![CDATA[Enter the value into  EmployeeID Text box]]>
     </line>
     <line>
-      <![CDATA[Clicking on  Login button]]>
-    </line>
-    <line>
-      <![CDATA[Verify Login button is Clickable or Not]]>
-    </line>
-    <line>
-      <![CDATA[Enter the value into  Password Text box]]>
-    </line>
-    <line>
-      <![CDATA[Clicking on  Login button]]>
-    </line>
-    <line>
-      <![CDATA[Verify Login button is Clickable or Not]]>
-    </line>
-    <line>
-      <![CDATA[Login button is not Clickable ]]>
-    </line>
-    <line>
-      <![CDATA[Mouse Hover is not completed]]>
-    </line>
-    <line>
-      <![CDATA[Mouse Hover is not completed]]>
+      <![CDATA[ User is not able to type 40170924into  EmployeeID Text box]]>
     </line>
   </reporter-output>
-  <suite name="SmartRecruit" duration-ms="0" started-at="2020-09-20T05:39:26Z" finished-at="2020-09-20T05:39:26Z">
+  <suite name="SmartRecruit" duration-ms="0" started-at="2020-09-20T06:23:20Z" finished-at="2020-09-20T06:23:20Z">
     <groups>
     </groups>
   </suite> <!-- SmartRecruit -->
