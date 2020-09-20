@@ -11,6 +11,7 @@ import java.util.concurrent.TimeUnit;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
+import org.openqa.selenium.Platform;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.remote.BrowserType;
@@ -32,15 +33,17 @@ import com.hcl.smartrecruit.util.WebActionUtil;
 
 /***********************************************************************
  * Description : Implements Application Precondition and Postcondition.
+ * 
  * @author : Shreya U ,Vivek Dogra, Aatish Slathia
  * @BeforeSuite: Creates all the folder structure for Extent Reports
  * @BeforeClass : Launches the browser according to the browser name specified.
- * @AfterClass : Closes the browser after completion of execution 
- * @AfterSuite:  Kills the driver (example chromedriver.exe) according to browser specified.
+ * @AfterClass : Closes the browser after completion of execution
+ * @AfterSuite: Kills the driver (example chromedriver.exe) according to browser
+ *              specified.
  */
 
 public class BaseTest {
-	public  WebDriver driver;
+	public WebDriver driver;
 	public Properties prop;
 	public static final int ITO = 10;
 	public static final int ETO = 10;
@@ -52,16 +55,17 @@ public class BaseTest {
 	public DesiredCapabilities cap;
 	public static final String LOCAL_HUB_URL = "http://localhost:4444/wd/hub";
 	public static final String CONFIGPATH = sDirPath + "./conf/config.properties";
-	public static Map<String, String> map = new LinkedHashMap<String,String>();
-	public static String name="gupta.ami";
+	public static Map<String, String> map = new LinkedHashMap<String, String>();
+	public static String name = "gupta.ami";
 	public static ChromeOptions chromeOpt;
 	public static final String URL = ExcelUtil.getCellData(EXCELPATH, "AppURL", 1, 0);
 	public String username = ExcelUtil.getCellData(EXCELPATH, "SystemUserName", 1, 0);
-	public int invocationcount=1;
+	public int invocationcount = 1;
 
 	/**
 	 * Description : Creates folder structure for Extent reports.
-	 * @author:Shreya U 
+	 * 
+	 * @author:Shreya U
 	 */
 	@BeforeSuite(alwaysRun = true)
 	public synchronized void createFiles() {
@@ -76,7 +80,8 @@ public class BaseTest {
 	}
 
 	/**
-	 * Description: Launches  the browser as specified in the parameter
+	 * Description: Launches the browser as specified in the parameter
+	 * 
 	 * @author:Shreya U,Vivek Dogra
 	 * @param :browserName
 	 */
@@ -88,13 +93,13 @@ public class BaseTest {
 		ExtentHCLManager.setParentReport(parentExtentTest);
 		
 		  
-		 if (browserName.equalsIgnoreCase("firefox")) { 
+/*		 if (browserName.equalsIgnoreCase("firefox")) { 
 			   cap.setBrowserName(BrowserType.FIREFOX);
 				  
 				  } else if (browserName.equalsIgnoreCase("edge")) { 
 					  
-					  /*Since Edge Options is not supported in Selenium 3.141.59 hence following
-					   * lines are commented will be removed in Selenium 4 alpha and above version*/
+					  Since Edge Options is not supported in Selenium 3.141.59 hence following
+					   * lines are commented will be removed in Selenium 4 alpha and above version
 //					
 //				  cap.setBrowserName(BrowserType.EDGE);
 					  //System.setProperty("webdriver.edge.driver", "./drivers/msedgedriver.exe");
@@ -118,8 +123,8 @@ public class BaseTest {
 // 					 logger.info("The given HUB URL is not proper"); }
 				  
 				 } else if(browserName.equalsIgnoreCase("chrome")) { 
-                  /*user-data-dir is the standard path for storing the user data and the name parameter is passed to
-                   * to support portability*/
+                  user-data-dir is the standard path for storing the user data and the name parameter is passed to
+                   * to support portability
 					 chromeOpt = new ChromeOptions(); 
 					 chromeOpt.addArguments("user-data-dir=" +
 					 "C:\\Users\\"+name+"\\AppData\\Local\\Google\\Chrome\\UserData");
@@ -129,7 +134,7 @@ public class BaseTest {
 				 
 				 } try { 
 						// driver = new RemoteWebDriver(new URL(LOCAL_HUB_URL),chromeOpt);
-					 driver=new DriverInitialization().getDriver(LOCAL_HUB_URL,chromeOpt);
+					
 					 } catch
 					  (MalformedURLException e) {
 					  
@@ -140,12 +145,34 @@ public class BaseTest {
 		WebActionUtil = new WebActionUtil(driver, ETO);
 		driver.manage().window().maximize();
 		driver.get(URL);
-						 }
-	
+						 }*/
+		
+		
+		  if (browserName.equalsIgnoreCase("firefox")) { cap =
+					 DesiredCapabilities.firefox(); cap.setBrowserName("firefox");
+					 
+					  } else if (browserName.equalsIgnoreCase("MicrosoftEdge")) { cap =
+					  DesiredCapabilities.edge(); cap.setBrowserName(BrowserType.EDGE);
+					  cap.setPlatform(Platform.WIN10);
+					  
+					  } else if(browserName.equalsIgnoreCase("chrome")) { cap =
+					  DesiredCapabilities.chrome(); cap.setBrowserName("chrome"); } 
+					
+					  try { driver = new RemoteWebDriver(new URL(LOCAL_HUB_URL),cap); } catch
+					  (MalformedURLException e) {
+					  
+					 logger.info("The given HUB URL is not proper"); }
+					  
+					  driver.manage().timeouts().implicitlyWait(ITO, TimeUnit.SECONDS);
+						WebActionUtil = new WebActionUtil(driver, ETO);
+						driver.manage().window().maximize();
+						driver.get(URL);
+	}
 
 	/**
-	 * Description: Closes  the browser
-	 * @author:Shreya U 
+	 * Description: Closes the browser
+	 * 
+	 * @author:Shreya U
 	 */
 	@AfterClass
 	public synchronized void closeBrowser() {
@@ -166,7 +193,8 @@ public class BaseTest {
 
 	/**
 	 * Description: Kills the driver in Task Manager as specified in the parameter.
-	 * @author:Shreya U              
+	 * 
+	 * @author:Shreya U
 	 * @param :browserName
 	 */
 	@AfterSuite
@@ -192,7 +220,8 @@ public class BaseTest {
 
 	/**
 	 * Description: Creates nodes for the test methods in Extent report.
-	 * @author:Shreya U              
+	 * 
+	 * @author:Shreya U
 	 * @param: methodName
 	 */
 	@BeforeMethod
