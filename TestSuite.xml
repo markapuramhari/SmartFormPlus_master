@@ -13,7 +13,7 @@
   <test thread-count="1" name="POC_Test2" parallel="tests">
     <parameter name="browserName" value="Chrome"/>
     <classes>
-      <class name="com.hcl.smartrecruit.testscripts.CreateNewRequisition"/>
+      <class name="com.hcl.smartrecruit.testscripts.CloseRequisition"/>
     </classes>
   </test> <!-- POC_Test2 -->
 </suite> <!-- SmartRecruit -->
