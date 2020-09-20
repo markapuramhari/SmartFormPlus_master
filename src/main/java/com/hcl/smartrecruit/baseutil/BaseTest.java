@@ -129,7 +129,7 @@ public class BaseTest {
 				 
 				 } try { 
 						// driver = new RemoteWebDriver(new URL(LOCAL_HUB_URL),chromeOpt);
-					 driver=new DriverInitialization().getDriver();
+					 driver=new DriverInitialization().getDriver(LOCAL_HUB_URL,chromeOpt);
 					 } catch
 					  (MalformedURLException e) {
 					  

@@ -4,13 +4,13 @@
   <listeners>
     <listener class-name="com.hcl.smartrecruit.listners.TestListener"/>
   </listeners>
-  <test thread-count="1" name="POC_Test1" parallel="tests">
+  <test thread-count="1" name="POC_Test1" >
     <parameter name="browserName" value="Chrome"/>
     <classes>
       <class name="com.hcl.smartrecruit.testscripts.CreateNewRequisition"/>
     </classes>
   </test> <!-- POC_Test1 -->
-  <test thread-count="1" name="POC_Test2" parallel="tests">
+  <test thread-count="1" name="POC_Test2">
     <parameter name="browserName" value="Chrome"/>
     <classes>
       <class name="com.hcl.smartrecruit.testscripts.CloseRequisition"/>

@@ -5,15 +5,20 @@ import java.net.URL;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.remote.RemoteWebDriver;
 
 public class DriverInitialization {
 	
-	private WebDriver driver = null;
+	private WebDriver driver=null ;
 	
 
-	public  WebDriver getDriver() throws MalformedURLException{
-		return driver =new RemoteWebDriver(new URL(BaseTest.URL),BaseTest.chromeOpt);
+	public  WebDriver getDriver(String URL,ChromeOptions chromeOpt) throws MalformedURLException{
+		
+		if (driver==null) {
+			driver=new RemoteWebDriver(new URL(URL),chromeOpt);
+		} 
+		return driver;
 	}
 }
 
