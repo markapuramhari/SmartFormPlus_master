@@ -115,6 +115,10 @@ public class RequisitionRequest_Page {
 	/* Select Secondary Psa element from excel */
 	@FindBy(xpath = "(//span[text()='ENOI'])[2]")
 	private WebElement selectSecondaryPSA;
+	
+	/* Company name */
+	@FindBy(xpath = "(//span[text()='HCL Technologies Ltd. (1000)'])[1]")
+	private WebElement btnCompanyName;
 
 	/* No of position */
 	@FindBy(id = "VacancyCount")
@@ -406,7 +410,14 @@ public class RequisitionRequest_Page {
 	 */
 
 	public synchronized void positionAndLocationDetail(String value) {
+		
 		try {
+			WebActionUtil.waitForThePresenceOfElement(5);
+			if(WebActionUtil.isElementVisible(btnCompanyName, "Company name")) {
+				WebActionUtil.info("Company name is visble");
+				
+			}
+	
 			WebActionUtil.waitForThePresenceOfElement(5);
 			WebActionUtil.waitForElement(txtNoOfPosition, "Number of position text box", 10);
 			WebActionUtil.typeText(txtNoOfPosition, value, "Number of Position text box");
