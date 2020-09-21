@@ -43,21 +43,26 @@ public class ApproveAllRequisition extends BaseTest {
 
 		pages.approveAllRequisition.approveRequistionStage1(statusRemarks);
 		WebActionUtil.navigateToUrl(BaseTest.URL);
+		//Initiator id have to login again 
+		pages.loginPage.signToApplication(userData[indexUserName], userPass[indexPassword]);
+		pages.closeRequisition.getApproverData2();
+		
 		String approver2Id = BaseTest.map.get("approver2");
 		pages.loginPage.signToApplication(approver2Id, userPass[indexPassword]);
 		pages.approveAllRequisition.approveRequistionStage2(statusRemarks);
 
 		WebActionUtil.navigateToUrl(BaseTest.URL);
-		String approver3Id = BaseTest.map.get("approver3");
-		pages.loginPage.signToApplication(approver3Id, userPass[indexPassword]);
-		pages.approveAllRequisition.approveRequistionStage3(statusRemarks);
-
-		WebActionUtil.navigateToUrl(BaseTest.URL);
 		pages.loginPage.signToApplication(userData[indexUserName], userPass[indexPassword]);
-
-		pages.approveAllRequisition.initiatorStage();
-		String status = ExcelUtil.getCellData(EXCELPATH, "ApproveAllRequisition", 1, 0);
-		pages.approveAllRequisition.verifyapprovaltext(status);
+//		String approver3Id = BaseTest.map.get("approver3");
+//		pages.loginPage.signToApplication(approver3Id, userPass[indexPassword]);
+//		pages.approveAllRequisition.approveRequistionStage3(statusRemarks);
+//
+//		WebActionUtil.navigateToUrl(BaseTest.URL);
+//		pages.loginPage.signToApplication(userData[indexUserName], userPass[indexPassword]);
+//
+//		pages.approveAllRequisition.initiatorStage();
+//		String status = ExcelUtil.getCellData(EXCELPATH, "ApproveAllRequisition", 1, 0);
+//		pages.approveAllRequisition.verifyapprovaltext(status);
 
 	}
 }

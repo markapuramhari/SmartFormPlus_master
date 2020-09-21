@@ -93,7 +93,7 @@ public class ApproveAllRequisition_Page {
 					"Requisiton number serch box ");
 			WebActionUtil.clickOnElement(btnserch, "Serch Button ");
 			WebActionUtil.clickOnElement(icnTick, "Tick icon ");
-			WebActionUtil.clickOnElement(approvelInformation, "Approver ID link");
+//			WebActionUtil.clickOnElement(approvelInformation, "Approver ID link");
 			String approver2 = WebActionUtil.getApproverIdTextOfApprovers(txtapprover2);
 			BaseTest.map.put("approver2", approver2);
 
@@ -122,7 +122,7 @@ public class ApproveAllRequisition_Page {
 					"Requisiton number serch box ");
 			WebActionUtil.clickOnElement(btnserch, "Serch button ");
 			WebActionUtil.clickOnElement(icnTick, "Tick button ");
-			WebActionUtil.clickOnElement(approvelInformation, "Approver ID link");
+//			WebActionUtil.clickOnElement(approvelInformation, "Approver ID link");
 			String approver3 = WebActionUtil.getApproverIdTextOfApprovers(txtApprover3);
 			BaseTest.map.put("approver3", approver3);
 			WebActionUtil.clickOnElement(requisitionActions, "Requisition Actions dropdown");
