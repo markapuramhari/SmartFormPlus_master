@@ -122,7 +122,7 @@ public class TestListener implements ITestListener {
 		try {
 			ExtentHCLManager.getTestReport().addScreenCaptureFromPath(
 					WebActionUtil.getScreenShot(System.getProperty("user.dir") + "/reports" + "/ScreenShots-"
-							+ WebActionUtil.getCurrentDateTime() + "/HCL_screenshots/", basetest.driver));
+							+ WebActionUtil.getCurrentDateTime() + "/HCL_screenshots/", BaseTest.driver));
 		} catch (IOException e) {
 			BaseTest.logger.error("Unable to attach the screenshot");
 		}

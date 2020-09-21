@@ -7,7 +7,7 @@
   <test thread-count="1" name="POC_Test1">
     <parameter name="browserName" value="Chrome"/>
     <classes>
-      <class name="com.hcl.smartrecruit.testscripts.CreateNewRequisition"/>
+      <class name="com.hcl.smartrecruit.testscripts.ApproveAllRequisition"/>
     </classes>
   </test> <!-- POC_Test1 -->
 </suite> <!-- SmartRecruit -->

@@ -43,7 +43,7 @@ import com.hcl.smartrecruit.util.WebActionUtil;
  */
 
 public class BaseTest {
-	public WebDriver driver;
+	public static WebDriver driver;
 	public Properties prop;
 	public static final int ITO = 10;
 	public static final int ETO = 10;
