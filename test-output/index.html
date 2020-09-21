@@ -24,7 +24,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -34,10 +34,130 @@
           </img> <!-- collapse-all-icon -->
         </a> <!-- collapse-all-link -->
       </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-SmartRecruit">
+              <span class="suite-name border-failed">SmartRecruit</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-SmartRecruit">
+                    <span>C:\Users\aatish.s\Desktop\Tysspoc\HCL_SmartRecruit_POC\TestSuite.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-SmartRecruit">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-SmartRecruit">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-SmartRecruit">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-SmartRecruit">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-SmartRecruit">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-SmartRecruit">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">1 method, 1 failed,   </span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-SmartRecruit" class="hide-methods failed suite-SmartRecruit"> (hide)</a> <!-- hide-methods failed suite-SmartRecruit -->
+                      <a href="#" panel-name="suite-SmartRecruit" class="show-methods failed suite-SmartRecruit"> (show)</a> <!-- show-methods failed suite-SmartRecruit -->
+                    </span>
+                    <div class="method-list-content failed suite-SmartRecruit">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-SmartRecruit" title="com.hcl.smartrecruit.testscripts.ApproveAllRequisition" hash-for-method="TC_ApproveAllRequisition(TECH/CSW, HCLT - BPR - Smart Recruit (Z/070006), Javascript,  MVC, Admin lead, Admin, Full time FTE,...)">TC_ApproveAllRequisition(TECH/CSW, HCLT - BPR - Smart Recruit (Z/070006), Javascript,  MVC, Admin lead, Admin, Full time FTE,...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-SmartRecruit -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
     </div> <!-- navigator-root -->
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-SmartRecruit" class="panel SmartRecruit">
+          <div class="suite-SmartRecruit-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.hcl.smartrecruit.testscripts.ApproveAllRequisition</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC_ApproveAllRequisition(TECH/CSW, HCLT - BPR - Smart Recruit (Z/070006), Javascript,  MVC, Admin lead, Admin, Full time FTE,...)">
+                  </a> <!-- TC_ApproveAllRequisition(TECH/CSW, HCLT - BPR - Smart Recruit (Z/070006), Javascript,  MVC, Admin lead, Admin, Full time FTE,...) -->
+                  <span class="method-name">TC_ApproveAllRequisition</span>
+                  <span class="parameters">(TECH/CSW, HCLT - BPR - Smart Recruit (Z/070006), Javascript,  MVC, Admin lead, Admin, Full time FTE, E3, E3.1, ENOI, ENOI, 1-3 Years, 4, (ETS) SPECIALIST, Noida-Sec-16, A-11, CLIENT LOCATION, Andhra Pradesh, Krishna, Non Billable, KEDARNATH BHARADWAJ (40104187), Saravanan Rangamannar (40103492), Approved)</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//a[text()=&apos;BTIS/BTIS/2020/3055411&apos;]/../following-sibling::td[6]//a[.=&apos;Initiator/Approver&apos;]&quot;}
+  (Session info: chrome=85.0.4183.102)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:25:53&apos;
+System info: host: &apos;HCLT-PC5929-1&apos;, ip: &apos;10.98.101.172&apos;, os.name: &apos;Windows Server 2016&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_151&apos;
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\gupta.ami\AppData\...}, goog:chromeOptions: {debuggerAddress: localhost:55333}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true, webdriver.remote.sessionid: 3f5b3dc3f0bc87cc7f36ed2c64d...}
+Session ID: 3f5b3dc3f0bc87cc7f36ed2c64da6a4d
+*** Element info: {Using=xpath, value=//a[text()=&apos;BTIS/BTIS/2020/3055411&apos;]/../following-sibling::td[6]//a[.=&apos;Initiator/Approver&apos;]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at com.hcl.smartrecruit.pages.CloseRequisition_Page.approverLink(CloseRequisition_Page.java:102)
+	at com.hcl.smartrecruit.pages.CloseRequisition_Page.getApproverData(CloseRequisition_Page.java:114)
+	at com.hcl.smartrecruit.testscripts.ApproveAllRequisition.TC_ApproveAllRequisition(ApproveAllRequisition.java:43)
+... Removed 29 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Approve Requisition)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-SmartRecruit-class-failed -->
         </div> <!-- panel SmartRecruit -->
         <div panel-name="test-xml-SmartRecruit" class="panel">
           <div class="main-panel-header rounded-window-top">
@@ -47,22 +167,16 @@
             <pre>
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
-&lt;suite thread-count=&quot;2&quot; configfailurepolicy=&quot;continue&quot; guice-stage=&quot;DEVELOPMENT&quot; name=&quot;SmartRecruit&quot; parallel=&quot;tests&quot;&gt;
+&lt;suite thread-count=&quot;1&quot; configfailurepolicy=&quot;continue&quot; guice-stage=&quot;DEVELOPMENT&quot; name=&quot;SmartRecruit&quot;&gt;
   &lt;listeners&gt;
     &lt;listener class-name=&quot;com.hcl.smartrecruit.listners.TestListener&quot;/&gt;
   &lt;/listeners&gt;
-  &lt;test thread-count=&quot;1&quot; name=&quot;POC_Test1&quot; parallel=&quot;tests&quot;&gt;
+  &lt;test thread-count=&quot;1&quot; name=&quot;POC_Test1&quot;&gt;
     &lt;parameter name=&quot;browserName&quot; value=&quot;Chrome&quot;/&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;com.hcl.smartrecruit.testscripts.CreateNewRequisition&quot;/&gt;
+      &lt;class name=&quot;com.hcl.smartrecruit.testscripts.ApproveAllRequisition&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- POC_Test1 --&gt;
-  &lt;test thread-count=&quot;1&quot; name=&quot;POC_Test2&quot; parallel=&quot;tests&quot;&gt;
-    &lt;parameter name=&quot;browserName&quot; value=&quot;Chrome&quot;/&gt;
-    &lt;classes&gt;
-      &lt;class name=&quot;com.hcl.smartrecruit.testscripts.CloseRequisition&quot;/&gt;
-    &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- POC_Test2 --&gt;
 &lt;/suite&gt; &lt;!-- SmartRecruit --&gt;
             </pre>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -75,9 +189,6 @@
             <ul>
               <li>
                 <span class="test-name">POC_Test1 (1 class)</span>
-              </li>
-              <li>
-                <span class="test-name">POC_Test2 (1 class)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -103,11 +214,16 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(0);
+data.addRows(1);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'TC_ApproveAllRequisition')
+data.setCell(0, 2, 'com.hcl.smartrecruit.testscripts.ApproveAllRequisition')
+data.setCell(0, 3, 194939);
 window.suiteTableData['SmartRecruit']= { tableData: data, tableDiv: 'times-div-SmartRecruit'}
 return data;
 }
               </script>
+              <span class="suite-total-time">Total running time: 3 minutes</span>
               <div id="times-div-SmartRecruit">
               </div> <!-- times-div-SmartRecruit -->
             </div> <!-- times-div -->
@@ -118,6 +234,70 @@ return data;
             <span class="header-content">Reporter output for SmartRecruit</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">TC_ApproveAllRequisition(TECH/CSW, HCLT - BPR - Smart Recruit (Z/070006), Javascript,  MVC, Admin lead, Admin, Full time FTE,...)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Enter the value into  EmployeeID Text box</span>
+                <span class="reporter-method-output">Enter the value into  Password Text box</span>
+                <span class="reporter-method-output">Clicking on  Login button</span>
+                <span class="reporter-method-output">Verify Login button is Clickable or Not</span>
+                <span class="reporter-method-output">Clicking on  New Requisition option</span>
+                <span class="reporter-method-output">Verify New Requisition option is Clickable or Not</span>
+                <span class="reporter-method-output">Clicking on  RequestType dropdown</span>
+                <span class="reporter-method-output">Verify RequestType dropdown is Clickable or Not</span>
+                <span class="reporter-method-output">Clicking on  New resource request</span>
+                <span class="reporter-method-output">Verify New resource request is Clickable or Not</span>
+                <span class="reporter-method-output">Clicking on  Id skill text box</span>
+                <span class="reporter-method-output">Verify Id skill text box is Clickable or Not</span>
+                <span class="reporter-method-output">Enter the value into SkillDetail text box</span>
+                <span class="reporter-method-output">Clicking on  Plus button under skills</span>
+                <span class="reporter-method-output">Verify Plus button under skills is Clickable or Not</span>
+                <span class="reporter-method-output">Click on Element Primary Radio Button</span>
+                <span class="reporter-method-output">Clicking on  Done button </span>
+                <span class="reporter-method-output">Verify Done button  is Clickable or Not</span>
+                <span class="reporter-method-output">Clicking on  Job tex box detail </span>
+                <span class="reporter-method-output">Verify Job tex box detail  is Clickable or Not</span>
+                <span class="reporter-method-output">Enter the value into Job text box </span>
+                <span class="reporter-method-output">Clicking on  SelectJob tick icon</span>
+                <span class="reporter-method-output">Verify SelectJob tick icon is Clickable or Not</span>
+                <span class="reporter-method-output">Clicking on  Save button </span>
+                <span class="reporter-method-output">Verify Save button  is Clickable or Not</span>
+                <span class="reporter-method-output">Clicking on  Employe group name dropdown</span>
+                <span class="reporter-method-output">Verify Employe group name dropdown is Clickable or Not</span>
+                <span class="reporter-method-output">Clicking on  Band element dropdown</span>
+                <span class="reporter-method-output">Verify Band element dropdown is Clickable or Not</span>
+                <span class="reporter-method-output">Clicking on  SubBand Element dropdown</span>
+                <span class="reporter-method-output">Verify SubBand Element dropdown is Clickable or Not</span>
+                <span class="reporter-method-output">Enter the value into PSA Text box</span>
+                <span class="reporter-method-output">Enter the value into Number of Position text box</span>
+                <span class="reporter-method-output">Clicking on  Submit button </span>
+                <span class="reporter-method-output">Verify Submit button  is Clickable or Not</span>
+                <span class="reporter-method-output">Clear the Text Present inJob description text area </span>
+                <span class="reporter-method-output">Enter the value into Job description text area </span>
+                <span class="reporter-method-output">Enter the value into Location dropdown</span>
+                <span class="reporter-method-output">Clicking on  State drop drown</span>
+                <span class="reporter-method-output">Verify State drop drown is Clickable or Not</span>
+                <span class="reporter-method-output">Clicking on  City dropdown </span>
+                <span class="reporter-method-output">Verify City dropdown  is Clickable or Not</span>
+                <span class="reporter-method-output">Click on Element Radio Button </span>
+                <span class="reporter-method-output">Clicking on  Save Draft button</span>
+                <span class="reporter-method-output">Verify Save Draft button is Clickable or Not</span>
+                <span class="reporter-method-output">Enter the value into On boarding date</span>
+                <span class="reporter-method-output">Enter the value into Interviewer 1 text box</span>
+                <span class="reporter-method-output">Enter the value into Interviewer two text box</span>
+                <span class="reporter-method-output">Clicking on  Submit button </span>
+                <span class="reporter-method-output">Verify Submit button  is Clickable or Not</span>
+                <span class="reporter-method-output">Clicking on  Submit button </span>
+                <span class="reporter-method-output">Verify Submit button  is Clickable or Not</span>
+                <span class="reporter-method-output">Clicking on  Approver link </span>
+                <span class="reporter-method-output">Verify Approver link  is Clickable or Not</span>
+                <span class="reporter-method-output">Navigating to the URL</span>
+                <span class="reporter-method-output">Enter the value into  EmployeeID Text box</span>
+                <span class="reporter-method-output">Enter the value into  Password Text box</span>
+                <span class="reporter-method-output">Clicking on  Login button</span>
+                <span class="reporter-method-output">Verify Login button is Clickable or Not</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
         <div panel-name="ignored-methods-SmartRecruit" class="panel">
@@ -133,68 +313,32 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">com.hcl.smartrecruit.testscripts.CloseRequisition</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">com.hcl.smartrecruit.testscripts.ApproveAllRequisition</div> <!-- chronological-class-name -->
               <div class="configuration-suite before">
                 <span class="method-name">createFiles</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-suite before -->
               <div class="configuration-class before">
                 <span class="method-name">launchApp(Chrome)</span>
-                <span class="method-start">172 ms</span>
+                <span class="method-start">188 ms</span>
               </div> <!-- configuration-class before -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">com.hcl.smartrecruit.testscripts.CreateNewRequisition</div> <!-- chronological-class-name -->
-              <div class="configuration-class before">
-                <span class="method-name">launchApp(Chrome)</span>
-                <span class="method-start">172 ms</span>
-              </div> <!-- configuration-class before -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">com.hcl.smartrecruit.testscripts.CloseRequisition</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
-                <span class="method-name">setExtentReport(public synchronized void com.hcl.smartrecruit.testscripts.CloseRequisition.TC_CloseRequisitionForm(j...)</span>
-                <span class="method-start">4001 ms</span>
+                <span class="method-name">setExtentReport(public synchronized void com.hcl.smartrecruit.testscripts.ApproveAllRequisition.TC_ApproveAllRequisi...)</span>
+                <span class="method-start">6109 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
-                <span class="method-name">TC_CloseRequisitionForm(TECH/CSW, HCLT - BPR - Smart Recruit (Z/070006), Javascript,  MVC, Admin lead, Admin, Full time FTE,...)</span>
-                <span class="method-start">4003 ms</span>
+                <span class="method-name">TC_ApproveAllRequisition(TECH/CSW, HCLT - BPR - Smart Recruit (Z/070006), Javascript,  MVC, Admin lead, Admin, Full time FTE,...)</span>
+                <span class="method-start">6111 ms</span>
               </div> <!-- test-method -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">com.hcl.smartrecruit.testscripts.CreateNewRequisition</div> <!-- chronological-class-name -->
-              <div class="configuration-method before">
-                <span class="method-name">setExtentReport(public void com.hcl.smartrecruit.testscripts.CreateNewRequisition.TC_CreateNewRequisitionForm(java.l...)</span>
-                <span class="method-start">4220 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <img src="failed.png">
-                </img>
-                <span class="method-name">TC_CreateNewRequisitionForm(TECH/CSW, HCLT - BPR - Smart Recruit (Z/070006), Javascript,  MVC, Admin lead, Admin, Full time FTE,...)</span>
-                <span class="method-start">4221 ms</span>
-              </div> <!-- test-method -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">com.hcl.smartrecruit.testscripts.CloseRequisition</div> <!-- chronological-class-name -->
               <div class="configuration-class after">
                 <span class="method-name">closeBrowser</span>
-                <span class="method-start">5321 ms</span>
+                <span class="method-start">201453 ms</span>
               </div> <!-- configuration-class after -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">com.hcl.smartrecruit.testscripts.CreateNewRequisition</div> <!-- chronological-class-name -->
-              <div class="configuration-class after">
-                <span class="method-name">closeBrowser</span>
-                <span class="method-start">5663 ms</span>
-              </div> <!-- configuration-class after -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">com.hcl.smartrecruit.testscripts.CloseRequisition</div> <!-- chronological-class-name -->
               <div class="configuration-suite after">
                 <span class="method-name">killTask(Chrome)</span>
-                <span class="method-start">5975 ms</span>
+                <span class="method-start">201843 ms</span>
               </div> <!-- configuration-suite after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
