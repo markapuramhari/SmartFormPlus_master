@@ -94,10 +94,11 @@ public class ApproveAllRequisition_Page {
 			WebActionUtil.clickOnElement(btnserch, "Serch Button ");
 			WebActionUtil.clickOnElement(icnTick, "Tick icon ");
 //			WebActionUtil.clickOnElement(approvelInformation, "Approver ID link");
-			String approver2 = WebActionUtil.getApproverIdTextOfApprovers(txtapprover2);
-			BaseTest.map.put("approver2", approver2);
-
-			WebActionUtil.clickOnElement(requisitionActions, "Requisition actions d ropdown");
+			/*
+			 * String approver2 = WebActionUtil.getApproverIdTextOfApprovers(txtapprover2);
+			 * BaseTest.map.put("approver2", approver2);
+			 */
+			WebActionUtil.clickOnElement(requisitionActions, "Requisition actions dropdown");
 			WebActionUtil.typeText(txtRemarks, statusRemarks, "Remarks textbox");
 			WebActionUtil.clickOnElement(btnSubmit, "Submit button");
 		} catch (Exception e) {
@@ -123,8 +124,10 @@ public class ApproveAllRequisition_Page {
 			WebActionUtil.clickOnElement(btnserch, "Serch button ");
 			WebActionUtil.clickOnElement(icnTick, "Tick button ");
 //			WebActionUtil.clickOnElement(approvelInformation, "Approver ID link");
-			String approver3 = WebActionUtil.getApproverIdTextOfApprovers(txtApprover3);
-			BaseTest.map.put("approver3", approver3);
+			/*
+			 * String approver3 = WebActionUtil.getApproverIdTextOfApprovers(txtApprover3);
+			 * BaseTest.map.put("approver3", approver3);
+			 */
 			WebActionUtil.clickOnElement(requisitionActions, "Requisition Actions dropdown");
 			WebActionUtil.typeText(txtRemarks, statusRemarks, "Remarks text box");
 			WebActionUtil.clickOnElement(btnSubmit, "Submit button");

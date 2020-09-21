@@ -2,6 +2,9 @@
 <testng-results skipped="0" failed="1" ignored="0" total="1" passed="0">
   <reporter-output>
     <line>
+      <![CDATA[URL of the application is https://qa1.myhcl.com/SmartRecruit_CBT/]]>
+    </line>
+    <line>
       <![CDATA[Enter the value into  EmployeeID Text box]]>
     </line>
     <line>
@@ -170,6 +173,9 @@
       <![CDATA[Navigating to the URL]]>
     </line>
     <line>
+      <![CDATA[URL of the application is https://qa1.myhcl.com/SmartRecruit_CBT/]]>
+    </line>
+    <line>
       <![CDATA[Enter the value into  EmployeeID Text box]]>
     </line>
     <line>
@@ -209,151 +215,22 @@
       <![CDATA[Verify Tick icon  is Clickable or Not]]>
     </line>
     <line>
-      <![CDATA[Clicking on  Approver ID link]]>
+      <![CDATA[String index out of range: -1]]>
     </line>
     <line>
-      <![CDATA[Verify Approver ID link is Clickable or Not]]>
-    </line>
-    <line>
-      <![CDATA[Clicking on  Requisition actions d ropdown]]>
-    </line>
-    <line>
-      <![CDATA[Verify Requisition actions d ropdown is Clickable or Not]]>
-    </line>
-    <line>
-      <![CDATA[Enter the value into Remarks textbox]]>
-    </line>
-    <line>
-      <![CDATA[Clicking on  Submit button]]>
-    </line>
-    <line>
-      <![CDATA[Verify Submit button is Clickable or Not]]>
-    </line>
-    <line>
-      <![CDATA[Navigating to the URL]]>
-    </line>
-    <line>
-      <![CDATA[Enter the value into  EmployeeID Text box]]>
-    </line>
-    <line>
-      <![CDATA[Enter the value into  Password Text box]]>
-    </line>
-    <line>
-      <![CDATA[Clicking on  Login button]]>
-    </line>
-    <line>
-      <![CDATA[Verify Login button is Clickable or Not]]>
-    </line>
-    <line>
-      <![CDATA[Clicking on  Approve text]]>
-    </line>
-    <line>
-      <![CDATA[Verify Approve text is Clickable or Not]]>
-    </line>
-    <line>
-      <![CDATA[Clicking on  Pending Approver text]]>
-    </line>
-    <line>
-      <![CDATA[Verify Pending Approver text is Clickable or Not]]>
-    </line>
-    <line>
-      <![CDATA[Enter the value into Requisiton number serch box ]]>
-    </line>
-    <line>
-      <![CDATA[Clicking on  Serch button ]]>
-    </line>
-    <line>
-      <![CDATA[Verify Serch button  is Clickable or Not]]>
-    </line>
-    <line>
-      <![CDATA[Clicking on  Tick button ]]>
-    </line>
-    <line>
-      <![CDATA[Verify Tick button  is Clickable or Not]]>
-    </line>
-    <line>
-      <![CDATA[Clicking on  Approver ID link]]>
-    </line>
-    <line>
-      <![CDATA[Verify Approver ID link is Clickable or Not]]>
-    </line>
-    <line>
-      <![CDATA[Clicking on  Requisition Actions dropdown]]>
-    </line>
-    <line>
-      <![CDATA[Verify Requisition Actions dropdown is Clickable or Not]]>
-    </line>
-    <line>
-      <![CDATA[Enter the value into Remarks text box]]>
-    </line>
-    <line>
-      <![CDATA[Clicking on  Submit button]]>
-    </line>
-    <line>
-      <![CDATA[Verify Submit button is Clickable or Not]]>
-    </line>
-    <line>
-      <![CDATA[Navigating to the URL]]>
-    </line>
-    <line>
-      <![CDATA[Enter the value into  EmployeeID Text box]]>
-    </line>
-    <line>
-      <![CDATA[Enter the value into  Password Text box]]>
-    </line>
-    <line>
-      <![CDATA[Clicking on  Login button]]>
-    </line>
-    <line>
-      <![CDATA[Verify Login button is Clickable or Not]]>
-    </line>
-    <line>
-      <![CDATA[Clicking on  Approve text]]>
-    </line>
-    <line>
-      <![CDATA[Verify Approve text is Clickable or Not]]>
-    </line>
-    <line>
-      <![CDATA[Clicking on  Pending Approver text]]>
-    </line>
-    <line>
-      <![CDATA[Verify Pending Approver text is Clickable or Not]]>
-    </line>
-    <line>
-      <![CDATA[Enter the value into Requisiton Number Serch Box ]]>
-    </line>
-    <line>
-      <![CDATA[Clicking on  Serch Button ]]>
-    </line>
-    <line>
-      <![CDATA[Verify Serch Button  is Clickable or Not]]>
-    </line>
-    <line>
-      <![CDATA[Clicking on  Tick button ]]>
-    </line>
-    <line>
-      <![CDATA[Verify Tick button  is Clickable or Not]]>
-    </line>
-    <line>
-      <![CDATA[Tick button  is not Clickable ]]>
-    </line>
-    <line>
-      <![CDATA[Enter the value into Remarks text box]]>
-    </line>
-    <line>
-      <![CDATA[ User is not able to type Approvedinto Remarks text box]]>
+      <![CDATA[Unable to performe action on Approve Requistion Stage1]]>
     </line>
   </reporter-output>
-  <suite name="SmartRecruit" duration-ms="526626" started-at="2020-09-21T09:43:05Z" finished-at="2020-09-21T09:51:51Z">
+  <suite name="SmartRecruit" duration-ms="219075" started-at="2020-09-21T14:52:46Z" finished-at="2020-09-21T14:56:25Z">
     <groups>
     </groups>
-    <test name="POC_Test1" duration-ms="526626" started-at="2020-09-21T09:43:05Z" finished-at="2020-09-21T09:51:51Z">
+    <test name="POC_Test1" duration-ms="219075" started-at="2020-09-21T14:52:46Z" finished-at="2020-09-21T14:56:25Z">
       <class name="com.hcl.smartrecruit.testscripts.ApproveAllRequisition">
-        <test-method status="PASS" signature="createFiles()[pri:0, instance:com.hcl.smartrecruit.testscripts.ApproveAllRequisition@609db546]" name="createFiles" is-config="true" duration-ms="188" started-at="2020-09-21T09:43:05Z" finished-at="2020-09-21T09:43:05Z">
+        <test-method status="PASS" signature="createFiles()[pri:0, instance:com.hcl.smartrecruit.testscripts.ApproveAllRequisition@466276d8]" name="createFiles" is-config="true" duration-ms="140" started-at="2020-09-21T14:52:46Z" finished-at="2020-09-21T14:52:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createFiles -->
-        <test-method status="PASS" signature="launchApp(java.lang.String)[pri:0, instance:com.hcl.smartrecruit.testscripts.ApproveAllRequisition@609db546]" name="launchApp" is-config="true" duration-ms="4955" started-at="2020-09-21T09:43:05Z" finished-at="2020-09-21T09:43:10Z">
+        <test-method status="PASS" signature="launchApp(java.lang.String)[pri:0, instance:com.hcl.smartrecruit.testscripts.ApproveAllRequisition@466276d8]" name="launchApp" is-config="true" duration-ms="5046" started-at="2020-09-21T14:52:46Z" finished-at="2020-09-21T14:52:51Z">
           <params>
             <param index="0">
               <value>
@@ -364,7 +241,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchApp -->
-        <test-method status="PASS" signature="setExtentReport(java.lang.reflect.Method)[pri:0, instance:com.hcl.smartrecruit.testscripts.ApproveAllRequisition@609db546]" name="setExtentReport" is-config="true" duration-ms="2" started-at="2020-09-21T09:43:10Z" finished-at="2020-09-21T09:43:10Z">
+        <test-method status="PASS" signature="setExtentReport(java.lang.reflect.Method)[pri:0, instance:com.hcl.smartrecruit.testscripts.ApproveAllRequisition@466276d8]" name="setExtentReport" is-config="true" duration-ms="2" started-at="2020-09-21T14:52:51Z" finished-at="2020-09-21T14:52:51Z">
           <params>
             <param index="0">
               <value>
@@ -375,7 +252,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setExtentReport -->
-        <test-method status="FAIL" signature="TC_ApproveAllRequisition(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.hcl.smartrecruit.testscripts.ApproveAllRequisition@609db546]" name="TC_ApproveAllRequisition" duration-ms="520659" started-at="2020-09-21T09:43:10Z" description="Approve Requisition" data-provider="TestDataProvider" finished-at="2020-09-21T09:51:50Z">
+        <test-method status="FAIL" signature="TC_ApproveAllRequisition(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.hcl.smartrecruit.testscripts.ApproveAllRequisition@466276d8]" name="TC_ApproveAllRequisition" duration-ms="213379" started-at="2020-09-21T14:52:51Z" description="Approve Requisition" data-provider="TestDataProvider" finished-at="2020-09-21T14:56:25Z">
           <params>
             <param index="0">
               <value>
@@ -490,14 +367,13 @@
           </params>
           <exception class="java.lang.AssertionError">
             <message>
-              <![CDATA[Unable to type in Remarks text box]]>
+              <![CDATA[Unable to performe action on Approve Requistion Stage1]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: Unable to type in Remarks text box
+              <![CDATA[java.lang.AssertionError: Unable to performe action on Approve Requistion Stage1
 at org.testng.Assert.fail(Assert.java:96)
-at com.hcl.smartrecruit.util.WebActionUtil.typeText(WebActionUtil.java:272)
-at com.hcl.smartrecruit.pages.ApproveAllRequisition_Page.approveRequistionStage3(ApproveAllRequisition_Page.java:154)
-at com.hcl.smartrecruit.testscripts.ApproveAllRequisition.TC_ApproveAllRequisition(ApproveAllRequisition.java:53)
+at com.hcl.smartrecruit.pages.ApproveAllRequisition_Page.approveRequistionStage1(ApproveAllRequisition_Page.java:106)
+at com.hcl.smartrecruit.testscripts.ApproveAllRequisition.TC_ApproveAllRequisition(ApproveAllRequisition.java:44)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -520,12 +396,16 @@ at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
 at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
 at org.testng.TestNG.runSuites(TestNG.java:1049)
 at org.testng.TestNG.run(TestNG.java:1017)
-at org.testng.TestNG.privateMain(TestNG.java:1354)
-at org.testng.TestNG.main(TestNG.java:1323)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
 ]]>
             </full-stacktrace>
           </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
+            <line>
+              <![CDATA[URL of the application is https://qa1.myhcl.com/SmartRecruit_CBT/]]>
+            </line>
             <line>
               <![CDATA[Enter the value into  EmployeeID Text box]]>
             </line>
@@ -695,6 +575,9 @@ at org.testng.TestNG.main(TestNG.java:1323)
               <![CDATA[Navigating to the URL]]>
             </line>
             <line>
+              <![CDATA[URL of the application is https://qa1.myhcl.com/SmartRecruit_CBT/]]>
+            </line>
+            <line>
               <![CDATA[Enter the value into  EmployeeID Text box]]>
             </line>
             <line>
@@ -734,147 +617,18 @@ at org.testng.TestNG.main(TestNG.java:1323)
               <![CDATA[Verify Tick icon  is Clickable or Not]]>
             </line>
             <line>
-              <![CDATA[Clicking on  Approver ID link]]>
+              <![CDATA[String index out of range: -1]]>
             </line>
             <line>
-              <![CDATA[Verify Approver ID link is Clickable or Not]]>
-            </line>
-            <line>
-              <![CDATA[Clicking on  Requisition actions d ropdown]]>
-            </line>
-            <line>
-              <![CDATA[Verify Requisition actions d ropdown is Clickable or Not]]>
-            </line>
-            <line>
-              <![CDATA[Enter the value into Remarks textbox]]>
-            </line>
-            <line>
-              <![CDATA[Clicking on  Submit button]]>
-            </line>
-            <line>
-              <![CDATA[Verify Submit button is Clickable or Not]]>
-            </line>
-            <line>
-              <![CDATA[Navigating to the URL]]>
-            </line>
-            <line>
-              <![CDATA[Enter the value into  EmployeeID Text box]]>
-            </line>
-            <line>
-              <![CDATA[Enter the value into  Password Text box]]>
-            </line>
-            <line>
-              <![CDATA[Clicking on  Login button]]>
-            </line>
-            <line>
-              <![CDATA[Verify Login button is Clickable or Not]]>
-            </line>
-            <line>
-              <![CDATA[Clicking on  Approve text]]>
-            </line>
-            <line>
-              <![CDATA[Verify Approve text is Clickable or Not]]>
-            </line>
-            <line>
-              <![CDATA[Clicking on  Pending Approver text]]>
-            </line>
-            <line>
-              <![CDATA[Verify Pending Approver text is Clickable or Not]]>
-            </line>
-            <line>
-              <![CDATA[Enter the value into Requisiton number serch box ]]>
-            </line>
-            <line>
-              <![CDATA[Clicking on  Serch button ]]>
-            </line>
-            <line>
-              <![CDATA[Verify Serch button  is Clickable or Not]]>
-            </line>
-            <line>
-              <![CDATA[Clicking on  Tick button ]]>
-            </line>
-            <line>
-              <![CDATA[Verify Tick button  is Clickable or Not]]>
-            </line>
-            <line>
-              <![CDATA[Clicking on  Approver ID link]]>
-            </line>
-            <line>
-              <![CDATA[Verify Approver ID link is Clickable or Not]]>
-            </line>
-            <line>
-              <![CDATA[Clicking on  Requisition Actions dropdown]]>
-            </line>
-            <line>
-              <![CDATA[Verify Requisition Actions dropdown is Clickable or Not]]>
-            </line>
-            <line>
-              <![CDATA[Enter the value into Remarks text box]]>
-            </line>
-            <line>
-              <![CDATA[Clicking on  Submit button]]>
-            </line>
-            <line>
-              <![CDATA[Verify Submit button is Clickable or Not]]>
-            </line>
-            <line>
-              <![CDATA[Navigating to the URL]]>
-            </line>
-            <line>
-              <![CDATA[Enter the value into  EmployeeID Text box]]>
-            </line>
-            <line>
-              <![CDATA[Enter the value into  Password Text box]]>
-            </line>
-            <line>
-              <![CDATA[Clicking on  Login button]]>
-            </line>
-            <line>
-              <![CDATA[Verify Login button is Clickable or Not]]>
-            </line>
-            <line>
-              <![CDATA[Clicking on  Approve text]]>
-            </line>
-            <line>
-              <![CDATA[Verify Approve text is Clickable or Not]]>
-            </line>
-            <line>
-              <![CDATA[Clicking on  Pending Approver text]]>
-            </line>
-            <line>
-              <![CDATA[Verify Pending Approver text is Clickable or Not]]>
-            </line>
-            <line>
-              <![CDATA[Enter the value into Requisiton Number Serch Box ]]>
-            </line>
-            <line>
-              <![CDATA[Clicking on  Serch Button ]]>
-            </line>
-            <line>
-              <![CDATA[Verify Serch Button  is Clickable or Not]]>
-            </line>
-            <line>
-              <![CDATA[Clicking on  Tick button ]]>
-            </line>
-            <line>
-              <![CDATA[Verify Tick button  is Clickable or Not]]>
-            </line>
-            <line>
-              <![CDATA[Tick button  is not Clickable ]]>
-            </line>
-            <line>
-              <![CDATA[Enter the value into Remarks text box]]>
-            </line>
-            <line>
-              <![CDATA[ User is not able to type Approvedinto Remarks text box]]>
+              <![CDATA[Unable to performe action on Approve Requistion Stage1]]>
             </line>
           </reporter-output>
         </test-method> <!-- TC_ApproveAllRequisition -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.hcl.smartrecruit.testscripts.ApproveAllRequisition@609db546]" name="closeBrowser" is-config="true" duration-ms="110" started-at="2020-09-21T09:51:51Z" finished-at="2020-09-21T09:51:51Z">
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.hcl.smartrecruit.testscripts.ApproveAllRequisition@466276d8]" name="closeBrowser" is-config="true" duration-ms="78" started-at="2020-09-21T14:56:25Z" finished-at="2020-09-21T14:56:25Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method status="PASS" signature="killTask(java.lang.String)[pri:0, instance:com.hcl.smartrecruit.testscripts.ApproveAllRequisition@609db546]" name="killTask" is-config="true" duration-ms="32" started-at="2020-09-21T09:51:52Z" finished-at="2020-09-21T09:51:52Z">
+        <test-method status="PASS" signature="killTask(java.lang.String)[pri:0, instance:com.hcl.smartrecruit.testscripts.ApproveAllRequisition@466276d8]" name="killTask" is-config="true" duration-ms="62" started-at="2020-09-21T14:56:25Z" finished-at="2020-09-21T14:56:26Z">
           <params>
             <param index="0">
               <value>
