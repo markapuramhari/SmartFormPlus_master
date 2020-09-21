@@ -53,6 +53,7 @@ public class ApproveAllRequisition extends BaseTest {
 		pages.loginPage.signToApplication(approver2Id, userPass[indexPassword]);
 		pages.approveAllRequisition.approveRequistionStage2(statusRemarks);
 
+		/*Initiator Login to check the status*/
 		WebActionUtil.navigateToUrl(BaseTest.URL);
 		pages.loginPage.signToApplication(userData[indexUserName], userPass[indexPassword]);
       	pages.approveAllRequisition.initiatorStage();

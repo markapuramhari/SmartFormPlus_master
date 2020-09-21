@@ -562,6 +562,7 @@ public class RequisitionRequest_Page {
 			WebActionUtil.waitForThePresenceOfElement(5);
 			WebActionUtil.closeTab();
 			WebActionUtil.switchToTab(0);
+			WebActionUtil.pass(BaseTest.map.get("requisitionNumber")+" Requisition is created succesfully");
 		} catch (Exception e) {
 			WebActionUtil.error(e.getMessage());
 			WebActionUtil.info("Unable to performe action on Billing Details ");
