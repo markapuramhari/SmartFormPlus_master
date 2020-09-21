@@ -3903,3 +3903,586 @@ Session ID: 0d1b9dc4e0d1a058f11668c3148b2b0e
 [INFO ] 2020-09-21 13:47:31.048 [main] BaseTest - Unable to performe action Additional Job Details 
 [INFO ] 2020-09-21 14:12:43.011 [main] BaseTest - C:\Users\User\Desktop\HCL_Review\ForReview\HCL_SmartRecruit/Controller.xlsx
 [INFO ] 2020-09-21 14:12:43.371 [main] BaseTest - com.hcl.smartrecruit.testscripts.ApproveAllRequisition
+[INFO ] 2020-09-21 14:04:45.764 [main] BaseTest - 
+[INFO ] 2020-09-21 14:04:45.782 [main] BaseTest - Running locally HCL Poc 
+[INFO ] 2020-09-21 14:04:46.063 [main] BaseTest - Folder creation for Extent
+[INFO ] 2020-09-21 14:04:46.079 [main] BaseTest - ExtentDir:-C:\Users\aatish.s\Desktop\Tysspoc\HCL_SmartRecruit_POC/reports/HCLAutomation Report- 09_21_2020_14_04_46/HCL Report/09_21_2020_14_04_46
+[INFO ] 2020-09-21 14:04:46.329 [main] BaseTest - Report Initiated
+[INFO ] 2020-09-21 14:04:46.329 [main] BaseTest - Screenshot Folder Created
+[INFO ] 2020-09-21 14:04:52.284 [main] BaseTest - Enter the value into  EmployeeID Text box
+[INFO ] 2020-09-21 14:04:52.455 [main] BaseTest - Enter the value into  Password Text box
+[INFO ] 2020-09-21 14:04:52.599 [main] BaseTest - Clicking on  Login button
+[INFO ] 2020-09-21 14:04:52.599 [main] BaseTest - Verify Login button is Clickable or Not
+[INFO ] 2020-09-21 14:05:09.866 [main] BaseTest - Clicking on  New Requisition option
+[INFO ] 2020-09-21 14:05:09.866 [main] BaseTest - Verify New Requisition option is Clickable or Not
+[INFO ] 2020-09-21 14:05:11.462 [main] BaseTest - Clicking on  RequestType dropdown
+[INFO ] 2020-09-21 14:05:11.463 [main] BaseTest - Verify RequestType dropdown is Clickable or Not
+[INFO ] 2020-09-21 14:05:15.876 [main] BaseTest - Clicking on  New resource request
+[INFO ] 2020-09-21 14:05:15.884 [main] BaseTest - Verify New resource request is Clickable or Not
+[INFO ] 2020-09-21 14:05:16.476 [main] BaseTest - Clicking on  Id skill text box
+[INFO ] 2020-09-21 14:05:16.477 [main] BaseTest - Verify Id skill text box is Clickable or Not
+[INFO ] 2020-09-21 14:05:17.202 [main] BaseTest - Enter the value into SkillDetail text box
+[INFO ] 2020-09-21 14:05:22.498 [main] BaseTest - Clicking on  Plus button under skills
+[INFO ] 2020-09-21 14:05:22.499 [main] BaseTest - Verify Plus button under skills is Clickable or Not
+[INFO ] 2020-09-21 14:05:24.996 [main] BaseTest - Click on Element Primary Radio Button
+[INFO ] 2020-09-21 14:05:25.077 [main] BaseTest - Clicking on  Done button 
+[INFO ] 2020-09-21 14:05:25.078 [main] BaseTest - Verify Done button  is Clickable or Not
+[INFO ] 2020-09-21 14:05:25.473 [main] BaseTest - Clicking on  Job tex box detail 
+[INFO ] 2020-09-21 14:05:25.474 [main] BaseTest - Verify Job tex box detail  is Clickable or Not
+[INFO ] 2020-09-21 14:05:25.817 [main] BaseTest - Enter the value into Job text box 
+[INFO ] 2020-09-21 14:05:28.556 [main] BaseTest - Clicking on  SelectJob tick icon
+[INFO ] 2020-09-21 14:05:28.565 [main] BaseTest - Verify SelectJob tick icon is Clickable or Not
+[INFO ] 2020-09-21 14:05:31.318 [main] BaseTest - Clicking on  Save button 
+[INFO ] 2020-09-21 14:05:31.329 [main] BaseTest - Verify Save button  is Clickable or Not
+[INFO ] 2020-09-21 14:05:34.119 [main] BaseTest - Clicking on  Employe group name dropdown
+[INFO ] 2020-09-21 14:05:34.130 [main] BaseTest - Verify Employe group name dropdown is Clickable or Not
+[INFO ] 2020-09-21 14:05:36.973 [main] BaseTest - Clicking on  Band element dropdown
+[INFO ] 2020-09-21 14:05:36.973 [main] BaseTest - Verify Band element dropdown is Clickable or Not
+[INFO ] 2020-09-21 14:05:39.771 [main] BaseTest - Clicking on  SubBand Element dropdown
+[INFO ] 2020-09-21 14:05:39.777 [main] BaseTest - Verify SubBand Element dropdown is Clickable or Not
+[INFO ] 2020-09-21 14:05:46.788 [main] BaseTest - Enter the value into PSA Text box
+[INFO ] 2020-09-21 14:05:54.282 [main] BaseTest - Company name is visble
+[INFO ] 2020-09-21 14:05:59.506 [main] BaseTest - Enter the value into Number of Position text box
+[INFO ] 2020-09-21 14:06:06.889 [main] BaseTest - Clicking on  Submit button 
+[INFO ] 2020-09-21 14:06:06.901 [main] BaseTest - Verify Submit button  is Clickable or Not
+[INFO ] 2020-09-21 14:06:26.553 [main] BaseTest - Clear the Text Present inJob description text area 
+[INFO ] 2020-09-21 14:06:26.622 [main] BaseTest - Enter the value into Job description text area 
+[INFO ] 2020-09-21 14:06:33.280 [main] BaseTest - Enter the value into Location dropdown
+[INFO ] 2020-09-21 14:06:37.588 [main] BaseTest - Clicking on  State drop drown
+[INFO ] 2020-09-21 14:06:37.588 [main] BaseTest - Verify State drop drown is Clickable or Not
+[INFO ] 2020-09-21 14:06:38.357 [main] BaseTest - Clicking on  City dropdown 
+[INFO ] 2020-09-21 14:06:38.357 [main] BaseTest - Verify City dropdown  is Clickable or Not
+[INFO ] 2020-09-21 14:06:39.015 [main] BaseTest - Click on Element Radio Button 
+[INFO ] 2020-09-21 14:06:44.085 [main] BaseTest - Clicking on  Save Draft button
+[INFO ] 2020-09-21 14:06:44.086 [main] BaseTest - Verify Save Draft button is Clickable or Not
+[INFO ] 2020-09-21 14:06:52.583 [main] BaseTest - Enter the value into On boarding date
+[INFO ] 2020-09-21 14:06:52.967 [main] BaseTest - Enter the value into Interviewer 1 text box
+[INFO ] 2020-09-21 14:06:53.525 [main] BaseTest - Enter the value into Interviewer two text box
+[INFO ] 2020-09-21 14:06:56.858 [main] BaseTest - Clicking on  Submit button 
+[INFO ] 2020-09-21 14:06:56.858 [main] BaseTest - Verify Submit button  is Clickable or Not
+[INFO ] 2020-09-21 14:07:02.570 [main] BaseTest - Clicking on  Submit button 
+[INFO ] 2020-09-21 14:07:02.570 [main] BaseTest - Verify Submit button  is Clickable or Not
+[INFO ] 2020-09-21 14:07:12.983 [main] BaseTest - BTIS/BTIS/2020/3055412
+[INFO ] 2020-09-21 14:07:39.794 [main] BaseTest - Clicking on  Approver link 
+[INFO ] 2020-09-21 14:07:39.806 [main] BaseTest - Verify Approver link  is Clickable or Not
+[INFO ] 2020-09-21 14:07:45.237 [main] BaseTest - Navigating to the URL
+[INFO ] 2020-09-21 14:07:45.475 [main] BaseTest - Enter the value into  EmployeeID Text box
+[INFO ] 2020-09-21 14:07:45.589 [main] BaseTest - Enter the value into  Password Text box
+[INFO ] 2020-09-21 14:07:45.723 [main] BaseTest - Clicking on  Login button
+[INFO ] 2020-09-21 14:07:45.724 [main] BaseTest - Verify Login button is Clickable or Not
+[INFO ] 2020-09-21 14:13:45.012 [main] BaseTest - 
+[INFO ] 2020-09-21 14:13:45.024 [main] BaseTest - Running locally HCL Poc 
+[INFO ] 2020-09-21 14:13:45.321 [main] BaseTest - Folder creation for Extent
+[INFO ] 2020-09-21 14:13:45.336 [main] BaseTest - ExtentDir:-C:\Users\aatish.s\Desktop\Tysspoc\HCL_SmartRecruit_POC/reports/HCLAutomation Report- 09_21_2020_14_13_45/HCL Report/09_21_2020_14_13_45
+[INFO ] 2020-09-21 14:13:45.461 [main] BaseTest - Report Initiated
+[INFO ] 2020-09-21 14:13:45.477 [main] BaseTest - Screenshot Folder Created
+[INFO ] 2020-09-21 14:13:51.434 [main] BaseTest - Enter the value into  EmployeeID Text box
+[INFO ] 2020-09-21 14:13:51.595 [main] BaseTest - Enter the value into  Password Text box
+[INFO ] 2020-09-21 14:13:51.750 [main] BaseTest - Clicking on  Login button
+[INFO ] 2020-09-21 14:13:51.750 [main] BaseTest - Verify Login button is Clickable or Not
+[INFO ] 2020-09-21 14:14:05.642 [main] BaseTest - Clicking on  New Requisition option
+[INFO ] 2020-09-21 14:14:05.642 [main] BaseTest - Verify New Requisition option is Clickable or Not
+[INFO ] 2020-09-21 14:14:07.325 [main] BaseTest - Clicking on  RequestType dropdown
+[INFO ] 2020-09-21 14:14:07.325 [main] BaseTest - Verify RequestType dropdown is Clickable or Not
+[INFO ] 2020-09-21 14:14:12.061 [main] BaseTest - Clicking on  New resource request
+[INFO ] 2020-09-21 14:14:12.068 [main] BaseTest - Verify New resource request is Clickable or Not
+[INFO ] 2020-09-21 14:14:12.708 [main] BaseTest - Clicking on  Id skill text box
+[INFO ] 2020-09-21 14:14:12.709 [main] BaseTest - Verify Id skill text box is Clickable or Not
+[INFO ] 2020-09-21 14:14:13.432 [main] BaseTest - Enter the value into SkillDetail text box
+[INFO ] 2020-09-21 14:14:18.737 [main] BaseTest - Clicking on  Plus button under skills
+[INFO ] 2020-09-21 14:14:18.738 [main] BaseTest - Verify Plus button under skills is Clickable or Not
+[INFO ] 2020-09-21 14:14:21.282 [main] BaseTest - Click on Element Primary Radio Button
+[INFO ] 2020-09-21 14:14:21.368 [main] BaseTest - Clicking on  Done button 
+[INFO ] 2020-09-21 14:14:21.369 [main] BaseTest - Verify Done button  is Clickable or Not
+[INFO ] 2020-09-21 14:14:21.847 [main] BaseTest - Clicking on  Job tex box detail 
+[INFO ] 2020-09-21 14:14:21.847 [main] BaseTest - Verify Job tex box detail  is Clickable or Not
+[INFO ] 2020-09-21 14:14:22.253 [main] BaseTest - Enter the value into Job text box 
+[INFO ] 2020-09-21 14:14:25.080 [main] BaseTest - Clicking on  SelectJob tick icon
+[INFO ] 2020-09-21 14:14:25.094 [main] BaseTest - Verify SelectJob tick icon is Clickable or Not
+[INFO ] 2020-09-21 14:14:27.859 [main] BaseTest - Clicking on  Save button 
+[INFO ] 2020-09-21 14:14:27.875 [main] BaseTest - Verify Save button  is Clickable or Not
+[INFO ] 2020-09-21 14:14:30.676 [main] BaseTest - Clicking on  Employe group name dropdown
+[INFO ] 2020-09-21 14:14:30.692 [main] BaseTest - Verify Employe group name dropdown is Clickable or Not
+[INFO ] 2020-09-21 14:14:33.636 [main] BaseTest - Clicking on  Band element dropdown
+[INFO ] 2020-09-21 14:14:33.636 [main] BaseTest - Verify Band element dropdown is Clickable or Not
+[INFO ] 2020-09-21 14:14:36.506 [main] BaseTest - Clicking on  SubBand Element dropdown
+[INFO ] 2020-09-21 14:14:36.516 [main] BaseTest - Verify SubBand Element dropdown is Clickable or Not
+[INFO ] 2020-09-21 14:14:43.553 [main] BaseTest - Enter the value into PSA Text box
+[INFO ] 2020-09-21 14:14:51.005 [main] BaseTest - Company name is visble
+[INFO ] 2020-09-21 14:14:56.211 [main] BaseTest - Enter the value into Number of Position text box
+[INFO ] 2020-09-21 14:15:03.633 [main] BaseTest - Clicking on  Submit button 
+[INFO ] 2020-09-21 14:15:03.642 [main] BaseTest - Verify Submit button  is Clickable or Not
+[INFO ] 2020-09-21 14:15:22.540 [main] BaseTest - Clear the Text Present inJob description text area 
+[INFO ] 2020-09-21 14:15:22.604 [main] BaseTest - Enter the value into Job description text area 
+[INFO ] 2020-09-21 14:15:29.270 [main] BaseTest - Enter the value into Location dropdown
+[INFO ] 2020-09-21 14:15:33.591 [main] BaseTest - Clicking on  State drop drown
+[INFO ] 2020-09-21 14:15:33.591 [main] BaseTest - Verify State drop drown is Clickable or Not
+[INFO ] 2020-09-21 14:15:34.327 [main] BaseTest - Clicking on  City dropdown 
+[INFO ] 2020-09-21 14:15:34.327 [main] BaseTest - Verify City dropdown  is Clickable or Not
+[INFO ] 2020-09-21 14:15:34.975 [main] BaseTest - Click on Element Radio Button 
+[INFO ] 2020-09-21 14:15:40.038 [main] BaseTest - Clicking on  Save Draft button
+[INFO ] 2020-09-21 14:15:40.039 [main] BaseTest - Verify Save Draft button is Clickable or Not
+[INFO ] 2020-09-21 14:15:47.936 [main] BaseTest - Enter the value into On boarding date
+[INFO ] 2020-09-21 14:15:48.345 [main] BaseTest - Enter the value into Interviewer 1 text box
+[INFO ] 2020-09-21 14:15:48.926 [main] BaseTest - Enter the value into Interviewer two text box
+[INFO ] 2020-09-21 14:15:52.284 [main] BaseTest - Clicking on  Submit button 
+[INFO ] 2020-09-21 14:15:52.285 [main] BaseTest - Verify Submit button  is Clickable or Not
+[INFO ] 2020-09-21 14:15:58.025 [main] BaseTest - Clicking on  Submit button 
+[INFO ] 2020-09-21 14:15:58.025 [main] BaseTest - Verify Submit button  is Clickable or Not
+[INFO ] 2020-09-21 14:16:08.450 [main] BaseTest - BTIS/BTIS/2020/3055413
+[INFO ] 2020-09-21 14:16:38.243 [main] BaseTest - Clicking on  Approver link 
+[INFO ] 2020-09-21 14:16:38.251 [main] BaseTest - Verify Approver link  is Clickable or Not
+[INFO ] 2020-09-21 14:16:43.676 [main] BaseTest - Navigating to the URL
+[INFO ] 2020-09-21 14:16:43.914 [main] BaseTest - Enter the value into  EmployeeID Text box
+[INFO ] 2020-09-21 14:16:44.030 [main] BaseTest - Enter the value into  Password Text box
+[INFO ] 2020-09-21 14:16:44.159 [main] BaseTest - Clicking on  Login button
+[INFO ] 2020-09-21 14:16:44.159 [main] BaseTest - Verify Login button is Clickable or Not
+[INFO ] 2020-09-21 14:17:00.857 [main] BaseTest - Clicking on  Approve text
+[INFO ] 2020-09-21 14:17:00.857 [main] BaseTest - Verify Approve text is Clickable or Not
+[INFO ] 2020-09-21 14:17:01.408 [main] BaseTest - Clicking on  Pending Approver text
+[INFO ] 2020-09-21 14:17:01.408 [main] BaseTest - Verify Pending Approver text is Clickable or Not
+[INFO ] 2020-09-21 14:17:02.107 [main] BaseTest - Enter the value into Requisiton number serch box 
+[INFO ] 2020-09-21 14:17:02.408 [main] BaseTest - Clicking on  Serch Button 
+[INFO ] 2020-09-21 14:17:02.408 [main] BaseTest - Verify Serch Button  is Clickable or Not
+[INFO ] 2020-09-21 14:17:10.261 [main] BaseTest - Clicking on  Tick icon 
+[INFO ] 2020-09-21 14:17:10.261 [main] BaseTest - Verify Tick icon  is Clickable or Not
+[INFO ] 2020-09-21 14:17:17.316 [main] BaseTest - Clicking on  Approver ID link
+[INFO ] 2020-09-21 14:17:17.316 [main] BaseTest - Verify Approver ID link is Clickable or Not
+[INFO ] 2020-09-21 14:17:37.019 [main] BaseTest - Clicking on  Requisition actions d ropdown
+[INFO ] 2020-09-21 14:17:37.021 [main] BaseTest - Verify Requisition actions d ropdown is Clickable or Not
+[INFO ] 2020-09-21 14:17:37.461 [main] BaseTest - Enter the value into Remarks textbox
+[INFO ] 2020-09-21 14:17:37.585 [main] BaseTest - Clicking on  Submit button
+[INFO ] 2020-09-21 14:17:37.585 [main] BaseTest - Verify Submit button is Clickable or Not
+[INFO ] 2020-09-21 14:18:03.774 [main] BaseTest - Navigating to the URL
+[INFO ] 2020-09-21 14:18:12.675 [main] BaseTest - Enter the value into  EmployeeID Text box
+[INFO ] 2020-09-21 14:18:12.781 [main] BaseTest - Enter the value into  Password Text box
+[INFO ] 2020-09-21 14:18:12.899 [main] BaseTest - Clicking on  Login button
+[INFO ] 2020-09-21 14:18:12.899 [main] BaseTest - Verify Login button is Clickable or Not
+[INFO ] 2020-09-21 14:18:23.499 [main] BaseTest - Clicking on  Approve text
+[INFO ] 2020-09-21 14:18:23.500 [main] BaseTest - Verify Approve text is Clickable or Not
+[INFO ] 2020-09-21 14:18:24.182 [main] BaseTest - Clicking on  Pending Approver text
+[INFO ] 2020-09-21 14:18:24.182 [main] BaseTest - Verify Pending Approver text is Clickable or Not
+[INFO ] 2020-09-21 14:18:24.795 [main] BaseTest - Enter the value into Requisiton number serch box 
+[INFO ] 2020-09-21 14:18:25.071 [main] BaseTest - Clicking on  Serch button 
+[INFO ] 2020-09-21 14:18:25.071 [main] BaseTest - Verify Serch button  is Clickable or Not
+[INFO ] 2020-09-21 14:18:32.426 [main] BaseTest - Clicking on  Tick button 
+[INFO ] 2020-09-21 14:18:32.427 [main] BaseTest - Verify Tick button  is Clickable or Not
+[INFO ] 2020-09-21 14:18:41.006 [main] BaseTest - Clicking on  Approver ID link
+[INFO ] 2020-09-21 14:18:41.006 [main] BaseTest - Verify Approver ID link is Clickable or Not
+[INFO ] 2020-09-21 14:18:50.695 [main] BaseTest - Clicking on  Requisition Actions dropdown
+[INFO ] 2020-09-21 14:18:50.711 [main] BaseTest - Verify Requisition Actions dropdown is Clickable or Not
+[INFO ] 2020-09-21 14:18:51.204 [main] BaseTest - Enter the value into Remarks text box
+[INFO ] 2020-09-21 14:18:51.327 [main] BaseTest - Clicking on  Submit button
+[INFO ] 2020-09-21 14:18:51.327 [main] BaseTest - Verify Submit button is Clickable or Not
+[INFO ] 2020-09-21 14:19:14.978 [main] BaseTest - Navigating to the URL
+[INFO ] 2020-09-21 14:19:22.312 [main] BaseTest - Enter the value into  EmployeeID Text box
+[INFO ] 2020-09-21 14:19:22.433 [main] BaseTest - Enter the value into  Password Text box
+[INFO ] 2020-09-21 14:19:22.575 [main] BaseTest - Clicking on  Login button
+[INFO ] 2020-09-21 14:19:22.575 [main] BaseTest - Verify Login button is Clickable or Not
+[INFO ] 2020-09-21 14:19:34.448 [main] BaseTest - Clicking on  Approve text
+[INFO ] 2020-09-21 14:19:34.449 [main] BaseTest - Verify Approve text is Clickable or Not
+[INFO ] 2020-09-21 14:19:35.047 [main] BaseTest - Clicking on  Pending Approver text
+[INFO ] 2020-09-21 14:19:35.047 [main] BaseTest - Verify Pending Approver text is Clickable or Not
+[INFO ] 2020-09-21 14:19:35.643 [main] BaseTest - Enter the value into Requisiton Number Serch Box 
+[INFO ] 2020-09-21 14:19:35.998 [main] BaseTest - Clicking on  Serch Button 
+[INFO ] 2020-09-21 14:19:35.998 [main] BaseTest - Verify Serch Button  is Clickable or Not
+[INFO ] 2020-09-21 14:19:42.318 [main] BaseTest - Clicking on  Tick button 
+[INFO ] 2020-09-21 14:19:42.319 [main] BaseTest - Verify Tick button  is Clickable or Not
+[INFO ] 2020-09-21 14:21:58.655 [main] BaseTest - Enter the value into Remarks text box
+[INFO ] 2020-09-21 14:22:50.849 [main] BaseTest - 
+[INFO ] 2020-09-21 14:22:50.859 [main] BaseTest - Running locally HCL Poc 
+[INFO ] 2020-09-21 14:22:51.187 [main] BaseTest - Folder creation for Extent
+[INFO ] 2020-09-21 14:22:51.187 [main] BaseTest - ExtentDir:-C:\Users\aatish.s\Desktop\Tysspoc\HCL_SmartRecruit_POC/reports/HCLAutomation Report- 09_21_2020_14_22_51/HCL Report/09_21_2020_14_22_51
+[INFO ] 2020-09-21 14:22:51.344 [main] BaseTest - Report Initiated
+[INFO ] 2020-09-21 14:22:51.344 [main] BaseTest - Screenshot Folder Created
+[INFO ] 2020-09-21 14:22:57.299 [main] BaseTest - Enter the value into  EmployeeID Text box
+[INFO ] 2020-09-21 14:22:57.470 [main] BaseTest - Enter the value into  Password Text box
+[INFO ] 2020-09-21 14:22:57.653 [main] BaseTest - Clicking on  Login button
+[INFO ] 2020-09-21 14:22:57.654 [main] BaseTest - Verify Login button is Clickable or Not
+[INFO ] 2020-09-21 14:23:38.343 [main] BaseTest - Clicking on  New Requisition option
+[INFO ] 2020-09-21 14:23:38.344 [main] BaseTest - Verify New Requisition option is Clickable or Not
+[INFO ] 2020-09-21 14:23:39.893 [main] BaseTest - Clicking on  RequestType dropdown
+[INFO ] 2020-09-21 14:23:39.893 [main] BaseTest - Verify RequestType dropdown is Clickable or Not
+[INFO ] 2020-09-21 14:23:44.197 [main] BaseTest - Clicking on  New resource request
+[INFO ] 2020-09-21 14:23:44.204 [main] BaseTest - Verify New resource request is Clickable or Not
+[INFO ] 2020-09-21 14:23:44.788 [main] BaseTest - Clicking on  Id skill text box
+[INFO ] 2020-09-21 14:23:44.788 [main] BaseTest - Verify Id skill text box is Clickable or Not
+[INFO ] 2020-09-21 14:23:45.462 [main] BaseTest - Enter the value into SkillDetail text box
+[INFO ] 2020-09-21 14:23:50.775 [main] BaseTest - Clicking on  Plus button under skills
+[INFO ] 2020-09-21 14:23:50.776 [main] BaseTest - Verify Plus button under skills is Clickable or Not
+[INFO ] 2020-09-21 14:23:53.261 [main] BaseTest - Click on Element Primary Radio Button
+[INFO ] 2020-09-21 14:23:53.361 [main] BaseTest - Clicking on  Done button 
+[INFO ] 2020-09-21 14:23:53.361 [main] BaseTest - Verify Done button  is Clickable or Not
+[INFO ] 2020-09-21 14:23:53.761 [main] BaseTest - Clicking on  Job tex box detail 
+[INFO ] 2020-09-21 14:23:53.761 [main] BaseTest - Verify Job tex box detail  is Clickable or Not
+[INFO ] 2020-09-21 14:23:54.163 [main] BaseTest - Enter the value into Job text box 
+[INFO ] 2020-09-21 14:23:56.911 [main] BaseTest - Clicking on  SelectJob tick icon
+[INFO ] 2020-09-21 14:23:56.920 [main] BaseTest - Verify SelectJob tick icon is Clickable or Not
+[INFO ] 2020-09-21 14:23:59.635 [main] BaseTest - Clicking on  Save button 
+[INFO ] 2020-09-21 14:23:59.644 [main] BaseTest - Verify Save button  is Clickable or Not
+[INFO ] 2020-09-21 14:24:02.411 [main] BaseTest - Clicking on  Employe group name dropdown
+[INFO ] 2020-09-21 14:24:02.420 [main] BaseTest - Verify Employe group name dropdown is Clickable or Not
+[INFO ] 2020-09-21 14:24:05.275 [main] BaseTest - Clicking on  Band element dropdown
+[INFO ] 2020-09-21 14:24:05.275 [main] BaseTest - Verify Band element dropdown is Clickable or Not
+[INFO ] 2020-09-21 14:24:08.052 [main] BaseTest - Clicking on  SubBand Element dropdown
+[INFO ] 2020-09-21 14:24:08.065 [main] BaseTest - Verify SubBand Element dropdown is Clickable or Not
+[INFO ] 2020-09-21 14:24:15.049 [main] BaseTest - Enter the value into PSA Text box
+[INFO ] 2020-09-21 14:24:22.494 [main] BaseTest - Company name is visble
+[INFO ] 2020-09-21 14:24:27.693 [main] BaseTest - Enter the value into Number of Position text box
+[INFO ] 2020-09-21 14:24:35.124 [main] BaseTest - Clicking on  Submit button 
+[INFO ] 2020-09-21 14:24:35.135 [main] BaseTest - Verify Submit button  is Clickable or Not
+[INFO ] 2020-09-21 14:24:53.996 [main] BaseTest - Clear the Text Present inJob description text area 
+[INFO ] 2020-09-21 14:24:54.065 [main] BaseTest - Enter the value into Job description text area 
+[INFO ] 2020-09-21 14:25:00.725 [main] BaseTest - Enter the value into Location dropdown
+[INFO ] 2020-09-21 14:25:05.033 [main] BaseTest - Clicking on  State drop drown
+[INFO ] 2020-09-21 14:25:05.034 [main] BaseTest - Verify State drop drown is Clickable or Not
+[INFO ] 2020-09-21 14:25:05.776 [main] BaseTest - Clicking on  City dropdown 
+[INFO ] 2020-09-21 14:25:05.777 [main] BaseTest - Verify City dropdown  is Clickable or Not
+[INFO ] 2020-09-21 14:25:06.424 [main] BaseTest - Click on Element Radio Button 
+[INFO ] 2020-09-21 14:25:11.483 [main] BaseTest - Clicking on  Save Draft button
+[INFO ] 2020-09-21 14:25:11.483 [main] BaseTest - Verify Save Draft button is Clickable or Not
+[INFO ] 2020-09-21 14:25:19.385 [main] BaseTest - Enter the value into On boarding date
+[INFO ] 2020-09-21 14:25:19.759 [main] BaseTest - Enter the value into Interviewer 1 text box
+[INFO ] 2020-09-21 14:25:20.311 [main] BaseTest - Enter the value into Interviewer two text box
+[INFO ] 2020-09-21 14:25:23.659 [main] BaseTest - Clicking on  Submit button 
+[INFO ] 2020-09-21 14:25:23.659 [main] BaseTest - Verify Submit button  is Clickable or Not
+[INFO ] 2020-09-21 14:25:29.341 [main] BaseTest - Clicking on  Submit button 
+[INFO ] 2020-09-21 14:25:29.341 [main] BaseTest - Verify Submit button  is Clickable or Not
+[INFO ] 2020-09-21 14:25:39.736 [main] BaseTest - BTIS/BTIS/2020/3055414
+[INFO ] 2020-09-21 14:26:06.872 [main] BaseTest - Clicking on  Approver link 
+[INFO ] 2020-09-21 14:26:06.882 [main] BaseTest - Verify Approver link  is Clickable or Not
+[INFO ] 2020-09-21 14:26:12.311 [main] BaseTest - Navigating to the URL
+[INFO ] 2020-09-21 14:26:12.538 [main] BaseTest - Enter the value into  EmployeeID Text box
+[INFO ] 2020-09-21 14:26:12.646 [main] BaseTest - Enter the value into  Password Text box
+[INFO ] 2020-09-21 14:26:12.770 [main] BaseTest - Clicking on  Login button
+[INFO ] 2020-09-21 14:26:12.770 [main] BaseTest - Verify Login button is Clickable or Not
+[INFO ] 2020-09-21 14:26:30.052 [main] BaseTest - Clicking on  Approve text
+[INFO ] 2020-09-21 14:26:30.053 [main] BaseTest - Verify Approve text is Clickable or Not
+[INFO ] 2020-09-21 14:26:30.574 [main] BaseTest - Clicking on  Pending Approver text
+[INFO ] 2020-09-21 14:26:30.574 [main] BaseTest - Verify Pending Approver text is Clickable or Not
+[INFO ] 2020-09-21 14:26:31.156 [main] BaseTest - Enter the value into Requisiton number serch box 
+[INFO ] 2020-09-21 14:26:31.429 [main] BaseTest - Clicking on  Serch Button 
+[INFO ] 2020-09-21 14:26:31.429 [main] BaseTest - Verify Serch Button  is Clickable or Not
+[INFO ] 2020-09-21 14:26:42.392 [main] BaseTest - Clicking on  Tick icon 
+[INFO ] 2020-09-21 14:26:42.393 [main] BaseTest - Verify Tick icon  is Clickable or Not
+[INFO ] 2020-09-21 14:26:49.906 [main] BaseTest - Clicking on  Approver ID link
+[INFO ] 2020-09-21 14:26:49.907 [main] BaseTest - Verify Approver ID link is Clickable or Not
+[INFO ] 2020-09-21 14:26:59.985 [main] BaseTest - Clicking on  Requisition actions d ropdown
+[INFO ] 2020-09-21 14:26:59.987 [main] BaseTest - Verify Requisition actions d ropdown is Clickable or Not
+[INFO ] 2020-09-21 14:27:00.451 [main] BaseTest - Enter the value into Remarks textbox
+[INFO ] 2020-09-21 14:27:00.575 [main] BaseTest - Clicking on  Submit button
+[INFO ] 2020-09-21 14:27:00.575 [main] BaseTest - Verify Submit button is Clickable or Not
+[INFO ] 2020-09-21 14:27:24.780 [main] BaseTest - Navigating to the URL
+[INFO ] 2020-09-21 14:27:31.616 [main] BaseTest - Enter the value into  EmployeeID Text box
+[INFO ] 2020-09-21 14:27:31.723 [main] BaseTest - Enter the value into  Password Text box
+[INFO ] 2020-09-21 14:27:31.846 [main] BaseTest - Clicking on  Login button
+[INFO ] 2020-09-21 14:27:31.847 [main] BaseTest - Verify Login button is Clickable or Not
+[INFO ] 2020-09-21 14:27:42.834 [main] BaseTest - Clicking on  Approve text
+[INFO ] 2020-09-21 14:27:42.834 [main] BaseTest - Verify Approve text is Clickable or Not
+[INFO ] 2020-09-21 14:27:43.397 [main] BaseTest - Clicking on  Pending Approver text
+[INFO ] 2020-09-21 14:27:43.398 [main] BaseTest - Verify Pending Approver text is Clickable or Not
+[INFO ] 2020-09-21 14:27:43.984 [main] BaseTest - Enter the value into Requisiton number serch box 
+[INFO ] 2020-09-21 14:27:44.265 [main] BaseTest - Clicking on  Serch button 
+[INFO ] 2020-09-21 14:27:44.265 [main] BaseTest - Verify Serch button  is Clickable or Not
+[INFO ] 2020-09-21 14:27:51.166 [main] BaseTest - Clicking on  Tick button 
+[INFO ] 2020-09-21 14:27:51.167 [main] BaseTest - Verify Tick button  is Clickable or Not
+[INFO ] 2020-09-21 14:27:58.144 [main] BaseTest - Clicking on  Approver ID link
+[INFO ] 2020-09-21 14:27:58.144 [main] BaseTest - Verify Approver ID link is Clickable or Not
+[INFO ] 2020-09-21 14:28:08.069 [main] BaseTest - Clicking on  Requisition Actions dropdown
+[INFO ] 2020-09-21 14:28:08.071 [main] BaseTest - Verify Requisition Actions dropdown is Clickable or Not
+[INFO ] 2020-09-21 14:28:08.539 [main] BaseTest - Enter the value into Remarks text box
+[INFO ] 2020-09-21 14:28:08.638 [main] BaseTest - Clicking on  Submit button
+[INFO ] 2020-09-21 14:28:08.638 [main] BaseTest - Verify Submit button is Clickable or Not
+[INFO ] 2020-09-21 14:28:32.354 [main] BaseTest - Navigating to the URL
+[INFO ] 2020-09-21 14:28:39.774 [main] BaseTest - Enter the value into  EmployeeID Text box
+[INFO ] 2020-09-21 14:28:39.886 [main] BaseTest - Enter the value into  Password Text box
+[INFO ] 2020-09-21 14:28:40.020 [main] BaseTest - Clicking on  Login button
+[INFO ] 2020-09-21 14:28:40.021 [main] BaseTest - Verify Login button is Clickable or Not
+[INFO ] 2020-09-21 14:28:51.020 [main] BaseTest - Clicking on  Approve text
+[INFO ] 2020-09-21 14:28:51.021 [main] BaseTest - Verify Approve text is Clickable or Not
+[INFO ] 2020-09-21 14:28:51.701 [main] BaseTest - Clicking on  Pending Approver text
+[INFO ] 2020-09-21 14:28:51.701 [main] BaseTest - Verify Pending Approver text is Clickable or Not
+[INFO ] 2020-09-21 14:28:52.266 [main] BaseTest - Enter the value into Requisiton Number Serch Box 
+[INFO ] 2020-09-21 14:28:52.473 [main] BaseTest - Clicking on  Serch Button 
+[INFO ] 2020-09-21 14:28:52.474 [main] BaseTest - Verify Serch Button  is Clickable or Not
+[INFO ] 2020-09-21 14:28:58.681 [main] BaseTest - Clicking on  Tick button 
+[INFO ] 2020-09-21 14:28:58.682 [main] BaseTest - Verify Tick button  is Clickable or Not
+[INFO ] 2020-09-21 14:31:15.010 [main] BaseTest - Enter the value into Remarks text box
+[INFO ] 2020-09-21 14:41:42.889 [main] BaseTest - C:\Users\aatish.s\Desktop\Tysspoc\HCL_SmartRecruit_POC/Controller.xlsx
+[INFO ] 2020-09-21 14:41:42.936 [main] BaseTest - com.hcl.smartrecruit.testscripts.ApproveAllRequisition
+[INFO ] 2020-09-21 14:41:44.928 [main] BaseTest - 
+[INFO ] 2020-09-21 14:41:44.944 [main] BaseTest - Running locally HCL Poc 
+[INFO ] 2020-09-21 14:41:45.100 [main] BaseTest - Folder creation for Extent
+[INFO ] 2020-09-21 14:41:45.100 [main] BaseTest - ExtentDir:-C:\Users\aatish.s\Desktop\Tysspoc\HCL_SmartRecruit_POC/reports/HCLAutomation Report- 09_21_2020_14_41_45/HCL Report/09_21_2020_14_41_45
+[INFO ] 2020-09-21 14:41:45.288 [main] BaseTest - Report Initiated
+[INFO ] 2020-09-21 14:41:45.288 [main] BaseTest - Screenshot Folder Created
+[INFO ] 2020-09-21 14:41:51.131 [main] BaseTest - Enter the value into  EmployeeID Text box
+[INFO ] 2020-09-21 14:41:51.277 [main] BaseTest - Enter the value into  Password Text box
+[INFO ] 2020-09-21 14:41:51.410 [main] BaseTest - Clicking on  Login button
+[INFO ] 2020-09-21 14:41:51.411 [main] BaseTest - Verify Login button is Clickable or Not
+[INFO ] 2020-09-21 14:42:21.449 [main] BaseTest - Clicking on  New Requisition option
+[INFO ] 2020-09-21 14:42:21.451 [main] BaseTest - Verify New Requisition option is Clickable or Not
+[INFO ] 2020-09-21 14:42:23.000 [main] BaseTest - Clicking on  RequestType dropdown
+[INFO ] 2020-09-21 14:42:23.002 [main] BaseTest - Verify RequestType dropdown is Clickable or Not
+[INFO ] 2020-09-21 14:42:27.575 [main] BaseTest - Clicking on  New resource request
+[INFO ] 2020-09-21 14:42:27.575 [main] BaseTest - Verify New resource request is Clickable or Not
+[INFO ] 2020-09-21 14:42:28.215 [main] BaseTest - Clicking on  Id skill text box
+[INFO ] 2020-09-21 14:42:28.217 [main] BaseTest - Verify Id skill text box is Clickable or Not
+[INFO ] 2020-09-21 14:42:28.994 [main] BaseTest - Enter the value into SkillDetail text box
+[INFO ] 2020-09-21 14:42:34.334 [main] BaseTest - Clicking on  Plus button under skills
+[INFO ] 2020-09-21 14:42:34.335 [main] BaseTest - Verify Plus button under skills is Clickable or Not
+[INFO ] 2020-09-21 14:42:36.961 [main] BaseTest - Click on Element Primary Radio Button
+[INFO ] 2020-09-21 14:42:37.063 [main] BaseTest - Clicking on  Done button 
+[INFO ] 2020-09-21 14:42:37.064 [main] BaseTest - Verify Done button  is Clickable or Not
+[INFO ] 2020-09-21 14:42:37.534 [main] BaseTest - Clicking on  Job tex box detail 
+[INFO ] 2020-09-21 14:42:37.537 [main] BaseTest - Verify Job tex box detail  is Clickable or Not
+[INFO ] 2020-09-21 14:42:38.004 [main] BaseTest - Enter the value into Job text box 
+[INFO ] 2020-09-21 14:42:40.774 [main] BaseTest - Clicking on  SelectJob tick icon
+[INFO ] 2020-09-21 14:42:40.774 [main] BaseTest - Verify SelectJob tick icon is Clickable or Not
+[INFO ] 2020-09-21 14:42:43.590 [main] BaseTest - Clicking on  Save button 
+[INFO ] 2020-09-21 14:42:43.590 [main] BaseTest - Verify Save button  is Clickable or Not
+[INFO ] 2020-09-21 14:42:46.448 [main] BaseTest - Clicking on  Employe group name dropdown
+[INFO ] 2020-09-21 14:42:46.448 [main] BaseTest - Verify Employe group name dropdown is Clickable or Not
+[INFO ] 2020-09-21 14:42:49.421 [main] BaseTest - Clicking on  Band element dropdown
+[INFO ] 2020-09-21 14:42:49.423 [main] BaseTest - Verify Band element dropdown is Clickable or Not
+[INFO ] 2020-09-21 14:42:52.359 [main] BaseTest - Clicking on  SubBand Element dropdown
+[INFO ] 2020-09-21 14:42:52.375 [main] BaseTest - Verify SubBand Element dropdown is Clickable or Not
+[INFO ] 2020-09-21 14:42:59.430 [main] BaseTest - Enter the value into PSA Text box
+[INFO ] 2020-09-21 14:43:06.939 [main] BaseTest - Company name is visble
+[INFO ] 2020-09-21 14:43:12.159 [main] BaseTest - Enter the value into Number of Position text box
+[INFO ] 2020-09-21 14:43:19.656 [main] BaseTest - Clicking on  Submit button 
+[INFO ] 2020-09-21 14:43:19.656 [main] BaseTest - Verify Submit button  is Clickable or Not
+[INFO ] 2020-09-21 14:43:38.655 [main] BaseTest - Clear the Text Present inJob description text area 
+[INFO ] 2020-09-21 14:43:38.730 [main] BaseTest - Enter the value into Job description text area 
+[INFO ] 2020-09-21 14:43:45.434 [main] BaseTest - Enter the value into Location dropdown
+[INFO ] 2020-09-21 14:43:49.787 [main] BaseTest - Clicking on  State drop drown
+[INFO ] 2020-09-21 14:43:49.787 [main] BaseTest - Verify State drop drown is Clickable or Not
+[INFO ] 2020-09-21 14:43:50.591 [main] BaseTest - Clicking on  City dropdown 
+[INFO ] 2020-09-21 14:43:50.592 [main] BaseTest - Verify City dropdown  is Clickable or Not
+[INFO ] 2020-09-21 14:43:51.316 [main] BaseTest - Click on Element Radio Button 
+[INFO ] 2020-09-21 14:43:56.394 [main] BaseTest - Clicking on  Save Draft button
+[INFO ] 2020-09-21 14:43:56.394 [main] BaseTest - Verify Save Draft button is Clickable or Not
+[INFO ] 2020-09-21 14:44:04.341 [main] BaseTest - Enter the value into On boarding date
+[INFO ] 2020-09-21 14:44:04.758 [main] BaseTest - Enter the value into Interviewer 1 text box
+[INFO ] 2020-09-21 14:44:05.312 [main] BaseTest - Enter the value into Interviewer two text box
+[INFO ] 2020-09-21 14:44:08.665 [main] BaseTest - Clicking on  Submit button 
+[INFO ] 2020-09-21 14:44:08.665 [main] BaseTest - Verify Submit button  is Clickable or Not
+[INFO ] 2020-09-21 14:44:14.443 [main] BaseTest - Clicking on  Submit button 
+[INFO ] 2020-09-21 14:44:14.444 [main] BaseTest - Verify Submit button  is Clickable or Not
+[INFO ] 2020-09-21 14:44:24.944 [main] BaseTest - BTIS/BTIS/2020/3055415
+[INFO ] 2020-09-21 14:44:52.758 [main] BaseTest - Clicking on  Approver link 
+[INFO ] 2020-09-21 14:44:52.758 [main] BaseTest - Verify Approver link  is Clickable or Not
+[INFO ] 2020-09-21 14:44:58.217 [main] BaseTest - Navigating to the URL
+[INFO ] 2020-09-21 14:44:58.513 [main] BaseTest - Enter the value into  EmployeeID Text box
+[INFO ] 2020-09-21 14:44:58.631 [main] BaseTest - Enter the value into  Password Text box
+[INFO ] 2020-09-21 14:44:58.762 [main] BaseTest - Clicking on  Login button
+[INFO ] 2020-09-21 14:44:58.765 [main] BaseTest - Verify Login button is Clickable or Not
+[INFO ] 2020-09-21 14:45:17.064 [main] BaseTest - Clicking on  Approve text
+[INFO ] 2020-09-21 14:45:17.064 [main] BaseTest - Verify Approve text is Clickable or Not
+[INFO ] 2020-09-21 14:45:17.694 [main] BaseTest - Clicking on  Pending Approver text
+[INFO ] 2020-09-21 14:45:17.695 [main] BaseTest - Verify Pending Approver text is Clickable or Not
+[INFO ] 2020-09-21 14:45:18.319 [main] BaseTest - Enter the value into Requisiton number serch box 
+[INFO ] 2020-09-21 14:45:18.594 [main] BaseTest - Clicking on  Serch Button 
+[INFO ] 2020-09-21 14:45:18.596 [main] BaseTest - Verify Serch Button  is Clickable or Not
+[INFO ] 2020-09-21 14:45:30.750 [main] BaseTest - Clicking on  Tick icon 
+[INFO ] 2020-09-21 14:45:30.752 [main] BaseTest - Verify Tick icon  is Clickable or Not
+[INFO ] 2020-09-21 14:45:39.409 [main] BaseTest - Clicking on  Approver ID link
+[INFO ] 2020-09-21 14:45:39.412 [main] BaseTest - Verify Approver ID link is Clickable or Not
+[INFO ] 2020-09-21 14:45:49.670 [main] BaseTest - Clicking on  Requisition actions d ropdown
+[INFO ] 2020-09-21 14:45:49.670 [main] BaseTest - Verify Requisition actions d ropdown is Clickable or Not
+[INFO ] 2020-09-21 14:45:50.244 [main] BaseTest - Enter the value into Remarks textbox
+[INFO ] 2020-09-21 14:45:50.383 [main] BaseTest - Clicking on  Submit button
+[INFO ] 2020-09-21 14:45:50.384 [main] BaseTest - Verify Submit button is Clickable or Not
+[INFO ] 2020-09-21 14:46:15.708 [main] BaseTest - Navigating to the URL
+[INFO ] 2020-09-21 14:46:22.548 [main] BaseTest - Enter the value into  EmployeeID Text box
+[INFO ] 2020-09-21 14:46:22.656 [main] BaseTest - Enter the value into  Password Text box
+[INFO ] 2020-09-21 14:46:22.786 [main] BaseTest - Clicking on  Login button
+[INFO ] 2020-09-21 14:46:22.787 [main] BaseTest - Verify Login button is Clickable or Not
+[INFO ] 2020-09-21 14:46:34.583 [main] BaseTest - Clicking on  Approve text
+[INFO ] 2020-09-21 14:46:34.584 [main] BaseTest - Verify Approve text is Clickable or Not
+[INFO ] 2020-09-21 14:46:35.166 [main] BaseTest - Clicking on  Pending Approver text
+[INFO ] 2020-09-21 14:46:35.167 [main] BaseTest - Verify Pending Approver text is Clickable or Not
+[INFO ] 2020-09-21 14:46:35.780 [main] BaseTest - Enter the value into Requisiton number serch box 
+[INFO ] 2020-09-21 14:46:36.044 [main] BaseTest - Clicking on  Serch button 
+[INFO ] 2020-09-21 14:46:36.046 [main] BaseTest - Verify Serch button  is Clickable or Not
+[INFO ] 2020-09-21 14:46:42.448 [main] BaseTest - Clicking on  Tick button 
+[INFO ] 2020-09-21 14:46:42.450 [main] BaseTest - Verify Tick button  is Clickable or Not
+[INFO ] 2020-09-21 14:46:49.341 [main] BaseTest - Clicking on  Approver ID link
+[INFO ] 2020-09-21 14:46:49.342 [main] BaseTest - Verify Approver ID link is Clickable or Not
+[INFO ] 2020-09-21 14:46:58.960 [main] BaseTest - Clicking on  Requisition Actions dropdown
+[INFO ] 2020-09-21 14:46:58.960 [main] BaseTest - Verify Requisition Actions dropdown is Clickable or Not
+[INFO ] 2020-09-21 14:46:59.440 [main] BaseTest - Enter the value into Remarks text box
+[INFO ] 2020-09-21 14:46:59.580 [main] BaseTest - Clicking on  Submit button
+[INFO ] 2020-09-21 14:46:59.581 [main] BaseTest - Verify Submit button is Clickable or Not
+[INFO ] 2020-09-21 14:47:23.290 [main] BaseTest - Navigating to the URL
+[INFO ] 2020-09-21 14:47:31.669 [main] BaseTest - Enter the value into  EmployeeID Text box
+[INFO ] 2020-09-21 14:47:31.783 [main] BaseTest - Enter the value into  Password Text box
+[INFO ] 2020-09-21 14:47:31.916 [main] BaseTest - Clicking on  Login button
+[INFO ] 2020-09-21 14:47:31.917 [main] BaseTest - Verify Login button is Clickable or Not
+[INFO ] 2020-09-21 14:47:44.112 [main] BaseTest - Clicking on  Approve text
+[INFO ] 2020-09-21 14:47:44.113 [main] BaseTest - Verify Approve text is Clickable or Not
+[INFO ] 2020-09-21 14:47:44.829 [main] BaseTest - Clicking on  Pending Approver text
+[INFO ] 2020-09-21 14:47:44.830 [main] BaseTest - Verify Pending Approver text is Clickable or Not
+[INFO ] 2020-09-21 14:47:45.567 [main] BaseTest - Enter the value into Requisiton Number Serch Box 
+[INFO ] 2020-09-21 14:47:45.826 [main] BaseTest - Clicking on  Serch Button 
+[INFO ] 2020-09-21 14:47:45.827 [main] BaseTest - Verify Serch Button  is Clickable or Not
+[INFO ] 2020-09-21 14:47:52.126 [main] BaseTest - Clicking on  Tick button 
+[INFO ] 2020-09-21 14:47:52.127 [main] BaseTest - Verify Tick button  is Clickable or Not
+[INFO ] 2020-09-21 14:50:08.540 [main] BaseTest - Enter the value into Remarks text box
+[INFO ] 2020-09-21 15:01:49.437 [main] BaseTest - C:\Users\aatish.s\Desktop\Tysspoc\HCL_SmartRecruit_POC/Controller.xlsx
+[INFO ] 2020-09-21 15:01:49.484 [main] BaseTest - com.hcl.smartrecruit.testscripts.ApproveAllRequisition
+[INFO ] 2020-09-21 15:01:51.561 [main] BaseTest - 
+[INFO ] 2020-09-21 15:01:51.561 [main] BaseTest - Running locally HCL Poc 
+[INFO ] 2020-09-21 15:01:51.717 [main] BaseTest - Folder creation for Extent
+[INFO ] 2020-09-21 15:01:51.733 [main] BaseTest - ExtentDir:-C:\Users\aatish.s\Desktop\Tysspoc\HCL_SmartRecruit_POC/reports/HCLAutomation Report- 09_21_2020_15_01_51/HCL Report/09_21_2020_15_01_51
+[INFO ] 2020-09-21 15:01:51.920 [main] BaseTest - Report Initiated
+[INFO ] 2020-09-21 15:01:51.920 [main] BaseTest - Screenshot Folder Created
+[INFO ] 2020-09-21 15:01:57.808 [main] BaseTest - Enter the value into  EmployeeID Text box
+[INFO ] 2020-09-21 15:01:57.948 [main] BaseTest - Enter the value into  Password Text box
+[INFO ] 2020-09-21 15:01:58.075 [main] BaseTest - Clicking on  Login button
+[INFO ] 2020-09-21 15:01:58.076 [main] BaseTest - Verify Login button is Clickable or Not
+[INFO ] 2020-09-21 15:02:16.753 [main] BaseTest - Clicking on  New Requisition option
+[INFO ] 2020-09-21 15:02:16.754 [main] BaseTest - Verify New Requisition option is Clickable or Not
+[INFO ] 2020-09-21 15:02:26.505 [main] BaseTest - Clicking on  RequestType dropdown
+[INFO ] 2020-09-21 15:02:26.505 [main] BaseTest - Verify RequestType dropdown is Clickable or Not
+[INFO ] 2020-09-21 15:02:29.238 [main] BaseTest - C:\Users\aatish.s\Desktop\Tysspoc\HCL_SmartRecruit_POC/Controller.xlsx
+[INFO ] 2020-09-21 15:02:29.269 [main] BaseTest - com.hcl.smartrecruit.testscripts.ApproveAllRequisition
+[INFO ] 2020-09-21 15:02:31.339 [main] BaseTest - 
+[INFO ] 2020-09-21 15:02:31.339 [main] BaseTest - Running locally HCL Poc 
+[INFO ] 2020-09-21 15:02:31.526 [main] BaseTest - Folder creation for Extent
+[INFO ] 2020-09-21 15:02:31.542 [main] BaseTest - ExtentDir:-C:\Users\aatish.s\Desktop\Tysspoc\HCL_SmartRecruit_POC/reports/HCLAutomation Report- 09_21_2020_15_02_31/HCL Report/09_21_2020_15_02_31
+[INFO ] 2020-09-21 15:02:31.714 [main] BaseTest - Report Initiated
+[INFO ] 2020-09-21 15:02:31.714 [main] BaseTest - Screenshot Folder Created
+[ERROR] 2020-09-21 15:02:34.783 [main] BaseTest - chrome not reachable
+  (Session info: chrome=85.0.4183.102)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'HCLT-PC5929-1', ip: '10.98.101.172', os.name: 'Windows Server 2016', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_151'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\gupta.ami\AppData\...}, goog:chromeOptions: {debuggerAddress: localhost:59506}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true, webdriver.remote.sessionid: 3c56bdf98888908561db488378e...}
+Session ID: 3c56bdf98888908561db488378e0a434
+[INFO ] 2020-09-21 15:02:34.788 [main] BaseTest - Unable to performe action Project Details
+[INFO ] 2020-09-21 15:02:37.693 [main] BaseTest - Enter the value into  EmployeeID Text box
+[INFO ] 2020-09-21 15:02:37.851 [main] BaseTest - Enter the value into  Password Text box
+[INFO ] 2020-09-21 15:02:37.991 [main] BaseTest - Clicking on  Login button
+[INFO ] 2020-09-21 15:02:37.992 [main] BaseTest - Verify Login button is Clickable or Not
+[INFO ] 2020-09-21 15:13:02.868 [main] BaseTest - C:\Users\aatish.s\Desktop\Tysspoc\HCL_SmartRecruit_POC/Controller.xlsx
+[INFO ] 2020-09-21 15:13:02.899 [main] BaseTest - com.hcl.smartrecruit.testscripts.ApproveAllRequisition
+[INFO ] 2020-09-21 15:13:04.854 [main] BaseTest - 
+[INFO ] 2020-09-21 15:13:04.869 [main] BaseTest - Running locally HCL Poc 
+[INFO ] 2020-09-21 15:13:05.026 [main] BaseTest - Folder creation for Extent
+[INFO ] 2020-09-21 15:13:05.026 [main] BaseTest - ExtentDir:-C:\Users\aatish.s\Desktop\Tysspoc\HCL_SmartRecruit_POC/reports/HCLAutomation Report- 09_21_2020_15_13_05/HCL Report/09_21_2020_15_13_05
+[INFO ] 2020-09-21 15:13:05.198 [main] BaseTest - Report Initiated
+[INFO ] 2020-09-21 15:13:05.198 [main] BaseTest - Screenshot Folder Created
+[INFO ] 2020-09-21 15:13:10.552 [main] BaseTest - Enter the value into  EmployeeID Text box
+[INFO ] 2020-09-21 15:13:10.699 [main] BaseTest - Enter the value into  Password Text box
+[INFO ] 2020-09-21 15:13:10.829 [main] BaseTest - Clicking on  Login button
+[INFO ] 2020-09-21 15:13:10.830 [main] BaseTest - Verify Login button is Clickable or Not
+[INFO ] 2020-09-21 15:13:49.795 [main] BaseTest - Clicking on  New Requisition option
+[INFO ] 2020-09-21 15:13:49.796 [main] BaseTest - Verify New Requisition option is Clickable or Not
+[INFO ] 2020-09-21 15:13:51.407 [main] BaseTest - Clicking on  RequestType dropdown
+[INFO ] 2020-09-21 15:13:51.408 [main] BaseTest - Verify RequestType dropdown is Clickable or Not
+[INFO ] 2020-09-21 15:13:55.909 [main] BaseTest - Clicking on  New resource request
+[INFO ] 2020-09-21 15:13:55.909 [main] BaseTest - Verify New resource request is Clickable or Not
+[INFO ] 2020-09-21 15:13:56.535 [main] BaseTest - Clicking on  Id skill text box
+[INFO ] 2020-09-21 15:13:56.537 [main] BaseTest - Verify Id skill text box is Clickable or Not
+[INFO ] 2020-09-21 15:13:57.301 [main] BaseTest - Enter the value into SkillDetail text box
+[INFO ] 2020-09-21 15:14:02.589 [main] BaseTest - Clicking on  Plus button under skills
+[INFO ] 2020-09-21 15:14:02.590 [main] BaseTest - Verify Plus button under skills is Clickable or Not
+[INFO ] 2020-09-21 15:14:05.182 [main] BaseTest - Click on Element Primary Radio Button
+[INFO ] 2020-09-21 15:14:05.280 [main] BaseTest - Clicking on  Done button 
+[INFO ] 2020-09-21 15:14:05.281 [main] BaseTest - Verify Done button  is Clickable or Not
+[INFO ] 2020-09-21 15:14:05.705 [main] BaseTest - Clicking on  Job tex box detail 
+[INFO ] 2020-09-21 15:14:05.708 [main] BaseTest - Verify Job tex box detail  is Clickable or Not
+[INFO ] 2020-09-21 15:14:06.152 [main] BaseTest - Enter the value into Job text box 
+[INFO ] 2020-09-21 15:14:08.940 [main] BaseTest - Clicking on  SelectJob tick icon
+[INFO ] 2020-09-21 15:14:08.955 [main] BaseTest - Verify SelectJob tick icon is Clickable or Not
+[INFO ] 2020-09-21 15:14:11.782 [main] BaseTest - Clicking on  Save button 
+[INFO ] 2020-09-21 15:14:11.782 [main] BaseTest - Verify Save button  is Clickable or Not
+[INFO ] 2020-09-21 15:14:14.647 [main] BaseTest - Clicking on  Employe group name dropdown
+[INFO ] 2020-09-21 15:14:14.647 [main] BaseTest - Verify Employe group name dropdown is Clickable or Not
+[INFO ] 2020-09-21 15:14:17.578 [main] BaseTest - Clicking on  Band element dropdown
+[INFO ] 2020-09-21 15:14:17.579 [main] BaseTest - Verify Band element dropdown is Clickable or Not
+[INFO ] 2020-09-21 15:14:20.536 [main] BaseTest - Clicking on  SubBand Element dropdown
+[INFO ] 2020-09-21 15:14:20.536 [main] BaseTest - Verify SubBand Element dropdown is Clickable or Not
+[INFO ] 2020-09-21 15:14:27.610 [main] BaseTest - Enter the value into PSA Text box
+[INFO ] 2020-09-21 15:14:35.082 [main] BaseTest - Company name is visble
+[INFO ] 2020-09-21 15:14:40.328 [main] BaseTest - Enter the value into Number of Position text box
+[INFO ] 2020-09-21 15:14:47.802 [main] BaseTest - Clicking on  Submit button 
+[INFO ] 2020-09-21 15:14:47.802 [main] BaseTest - Verify Submit button  is Clickable or Not
+[INFO ] 2020-09-21 15:15:07.005 [main] BaseTest - Clear the Text Present inJob description text area 
+[INFO ] 2020-09-21 15:15:07.076 [main] BaseTest - Enter the value into Job description text area 
+[INFO ] 2020-09-21 15:15:13.749 [main] BaseTest - Enter the value into Location dropdown
+[INFO ] 2020-09-21 15:15:18.072 [main] BaseTest - Clicking on  State drop drown
+[INFO ] 2020-09-21 15:15:18.072 [main] BaseTest - Verify State drop drown is Clickable or Not
+[INFO ] 2020-09-21 15:15:18.862 [main] BaseTest - Clicking on  City dropdown 
+[INFO ] 2020-09-21 15:15:18.863 [main] BaseTest - Verify City dropdown  is Clickable or Not
+[INFO ] 2020-09-21 15:15:19.558 [main] BaseTest - Click on Element Radio Button 
+[INFO ] 2020-09-21 15:15:24.643 [main] BaseTest - Clicking on  Save Draft button
+[INFO ] 2020-09-21 15:15:24.643 [main] BaseTest - Verify Save Draft button is Clickable or Not
+[INFO ] 2020-09-21 15:15:32.923 [main] BaseTest - Enter the value into On boarding date
+[INFO ] 2020-09-21 15:15:33.314 [main] BaseTest - Enter the value into Interviewer 1 text box
+[INFO ] 2020-09-21 15:15:33.860 [main] BaseTest - Enter the value into Interviewer two text box
+[INFO ] 2020-09-21 15:15:37.203 [main] BaseTest - Clicking on  Submit button 
+[INFO ] 2020-09-21 15:15:37.203 [main] BaseTest - Verify Submit button  is Clickable or Not
+[INFO ] 2020-09-21 15:15:43.110 [main] BaseTest - Clicking on  Submit button 
+[INFO ] 2020-09-21 15:15:43.112 [main] BaseTest - Verify Submit button  is Clickable or Not
+[INFO ] 2020-09-21 15:15:53.592 [main] BaseTest - BTIS/BTIS/2020/3055417
+[INFO ] 2020-09-21 15:16:22.826 [main] BaseTest - Clicking on  Approver link 
+[INFO ] 2020-09-21 15:16:22.826 [main] BaseTest - Verify Approver link  is Clickable or Not
+[INFO ] 2020-09-21 15:16:28.333 [main] BaseTest - Navigating to the URL
+[INFO ] 2020-09-21 15:16:28.560 [main] BaseTest - Enter the value into  EmployeeID Text box
+[INFO ] 2020-09-21 15:16:28.669 [main] BaseTest - Enter the value into  Password Text box
+[INFO ] 2020-09-21 15:16:28.791 [main] BaseTest - Clicking on  Login button
+[INFO ] 2020-09-21 15:16:28.792 [main] BaseTest - Verify Login button is Clickable or Not
+[INFO ] 2020-09-21 15:16:46.039 [main] BaseTest - Clicking on  Approve text
+[INFO ] 2020-09-21 15:16:46.039 [main] BaseTest - Verify Approve text is Clickable or Not
+[INFO ] 2020-09-21 15:16:46.659 [main] BaseTest - Clicking on  Pending Approver text
+[INFO ] 2020-09-21 15:16:46.660 [main] BaseTest - Verify Pending Approver text is Clickable or Not
+[INFO ] 2020-09-21 15:16:47.232 [main] BaseTest - Enter the value into Requisiton number serch box 
+[INFO ] 2020-09-21 15:16:47.452 [main] BaseTest - Clicking on  Serch Button 
+[INFO ] 2020-09-21 15:16:47.453 [main] BaseTest - Verify Serch Button  is Clickable or Not
+[INFO ] 2020-09-21 15:16:54.370 [main] BaseTest - Clicking on  Tick icon 
+[INFO ] 2020-09-21 15:16:54.372 [main] BaseTest - Verify Tick icon  is Clickable or Not
+[INFO ] 2020-09-21 15:17:01.459 [main] BaseTest - Clicking on  Approver ID link
+[INFO ] 2020-09-21 15:17:01.462 [main] BaseTest - Verify Approver ID link is Clickable or Not
+[INFO ] 2020-09-21 15:17:13.249 [main] BaseTest - Clicking on  Requisition actions d ropdown
+[INFO ] 2020-09-21 15:17:13.249 [main] BaseTest - Verify Requisition actions d ropdown is Clickable or Not
+[INFO ] 2020-09-21 15:17:13.799 [main] BaseTest - Enter the value into Remarks textbox
+[INFO ] 2020-09-21 15:17:13.929 [main] BaseTest - Clicking on  Submit button
+[INFO ] 2020-09-21 15:17:13.930 [main] BaseTest - Verify Submit button is Clickable or Not
+[INFO ] 2020-09-21 15:17:38.101 [main] BaseTest - Navigating to the URL
+[INFO ] 2020-09-21 15:17:58.450 [main] BaseTest - Enter the value into  EmployeeID Text box
+[INFO ] 2020-09-21 15:17:58.566 [main] BaseTest - Enter the value into  Password Text box
+[INFO ] 2020-09-21 15:17:58.705 [main] BaseTest - Clicking on  Login button
+[INFO ] 2020-09-21 15:17:58.706 [main] BaseTest - Verify Login button is Clickable or Not
+[INFO ] 2020-09-21 15:18:09.116 [main] BaseTest - Clicking on  Approve text
+[INFO ] 2020-09-21 15:18:09.118 [main] BaseTest - Verify Approve text is Clickable or Not
+[INFO ] 2020-09-21 15:18:09.850 [main] BaseTest - Clicking on  Pending Approver text
+[INFO ] 2020-09-21 15:18:09.851 [main] BaseTest - Verify Pending Approver text is Clickable or Not
+[INFO ] 2020-09-21 15:18:10.511 [main] BaseTest - Enter the value into Requisiton number serch box 
+[INFO ] 2020-09-21 15:18:10.707 [main] BaseTest - Clicking on  Serch button 
+[INFO ] 2020-09-21 15:18:10.708 [main] BaseTest - Verify Serch button  is Clickable or Not
+[INFO ] 2020-09-21 15:18:17.075 [main] BaseTest - Clicking on  Tick button 
+[INFO ] 2020-09-21 15:18:17.076 [main] BaseTest - Verify Tick button  is Clickable or Not
+[INFO ] 2020-09-21 15:18:24.095 [main] BaseTest - Clicking on  Approver ID link
+[INFO ] 2020-09-21 15:18:24.096 [main] BaseTest - Verify Approver ID link is Clickable or Not
+[INFO ] 2020-09-21 15:18:33.791 [main] BaseTest - Clicking on  Requisition Actions dropdown
+[INFO ] 2020-09-21 15:18:33.806 [main] BaseTest - Verify Requisition Actions dropdown is Clickable or Not
+[INFO ] 2020-09-21 15:18:34.399 [main] BaseTest - Enter the value into Remarks text box
+[INFO ] 2020-09-21 15:18:34.556 [main] BaseTest - Clicking on  Submit button
+[INFO ] 2020-09-21 15:18:34.557 [main] BaseTest - Verify Submit button is Clickable or Not
+[INFO ] 2020-09-21 15:18:58.279 [main] BaseTest - Navigating to the URL
+[INFO ] 2020-09-21 15:19:05.079 [main] BaseTest - Enter the value into  EmployeeID Text box
+[INFO ] 2020-09-21 15:19:05.190 [main] BaseTest - Enter the value into  Password Text box
+[INFO ] 2020-09-21 15:19:05.315 [main] BaseTest - Clicking on  Login button
+[INFO ] 2020-09-21 15:19:05.316 [main] BaseTest - Verify Login button is Clickable or Not
+[INFO ] 2020-09-21 15:19:16.843 [main] BaseTest - Clicking on  Approve text
+[INFO ] 2020-09-21 15:19:16.844 [main] BaseTest - Verify Approve text is Clickable or Not
+[INFO ] 2020-09-21 15:19:17.541 [main] BaseTest - Clicking on  Pending Approver text
+[INFO ] 2020-09-21 15:19:17.543 [main] BaseTest - Verify Pending Approver text is Clickable or Not
+[INFO ] 2020-09-21 15:19:18.205 [main] BaseTest - Enter the value into Requisiton Number Serch Box 
+[INFO ] 2020-09-21 15:19:18.363 [main] BaseTest - Clicking on  Serch Button 
+[INFO ] 2020-09-21 15:19:18.364 [main] BaseTest - Verify Serch Button  is Clickable or Not
+[INFO ] 2020-09-21 15:19:24.423 [main] BaseTest - Clicking on  Tick button 
+[INFO ] 2020-09-21 15:19:24.425 [main] BaseTest - Verify Tick button  is Clickable or Not
+[INFO ] 2020-09-21 15:21:40.911 [main] BaseTest - Enter the value into Remarks text box

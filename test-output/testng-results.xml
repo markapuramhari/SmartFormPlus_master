@@ -98,6 +98,9 @@
       <![CDATA[Enter the value into PSA Text box]]>
     </line>
     <line>
+      <![CDATA[Company name is visble]]>
+    </line>
+    <line>
       <![CDATA[Enter the value into Number of Position text box]]>
     </line>
     <line>
@@ -107,36 +110,250 @@
       <![CDATA[Verify Submit button  is Clickable or Not]]>
     </line>
     <line>
-      <![CDATA[Element is not visible---------Experience dropdown]]>
+      <![CDATA[Clear the Text Present inJob description text area ]]>
     </line>
     <line>
-      <![CDATA[Unable to click on Experience drop down]]>
+      <![CDATA[Enter the value into Job description text area ]]>
     </line>
     <line>
-      <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//span[text()='1-3 Years']"}
-  (Session info: chrome=85.0.4183.102)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
-System info: host: 'HCLT-PC5929-1', ip: '10.98.101.172', os.name: 'Windows Server 2016', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_151'
-Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\gupta.ami\AppData\...}, goog:chromeOptions: {debuggerAddress: localhost:58511}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true, webdriver.remote.sessionid: 0d1b9dc4e0d1a058f11668c3148...}
-Session ID: 0d1b9dc4e0d1a058f11668c3148b2b0e
-*** Element info: {Using=xpath, value=//span[text()='1-3 Years']}]]>
+      <![CDATA[Enter the value into Location dropdown]]>
     </line>
     <line>
-      <![CDATA[Unable to performe action Additional Job Details ]]>
+      <![CDATA[Clicking on  State drop drown]]>
+    </line>
+    <line>
+      <![CDATA[Verify State drop drown is Clickable or Not]]>
+    </line>
+    <line>
+      <![CDATA[Clicking on  City dropdown ]]>
+    </line>
+    <line>
+      <![CDATA[Verify City dropdown  is Clickable or Not]]>
+    </line>
+    <line>
+      <![CDATA[Click on Element Radio Button ]]>
+    </line>
+    <line>
+      <![CDATA[Clicking on  Save Draft button]]>
+    </line>
+    <line>
+      <![CDATA[Verify Save Draft button is Clickable or Not]]>
+    </line>
+    <line>
+      <![CDATA[Enter the value into On boarding date]]>
+    </line>
+    <line>
+      <![CDATA[Enter the value into Interviewer 1 text box]]>
+    </line>
+    <line>
+      <![CDATA[Enter the value into Interviewer two text box]]>
+    </line>
+    <line>
+      <![CDATA[Clicking on  Submit button ]]>
+    </line>
+    <line>
+      <![CDATA[Verify Submit button  is Clickable or Not]]>
+    </line>
+    <line>
+      <![CDATA[Clicking on  Submit button ]]>
+    </line>
+    <line>
+      <![CDATA[Verify Submit button  is Clickable or Not]]>
+    </line>
+    <line>
+      <![CDATA[Clicking on  Approver link ]]>
+    </line>
+    <line>
+      <![CDATA[Verify Approver link  is Clickable or Not]]>
+    </line>
+    <line>
+      <![CDATA[Navigating to the URL]]>
+    </line>
+    <line>
+      <![CDATA[Enter the value into  EmployeeID Text box]]>
+    </line>
+    <line>
+      <![CDATA[Enter the value into  Password Text box]]>
+    </line>
+    <line>
+      <![CDATA[Clicking on  Login button]]>
+    </line>
+    <line>
+      <![CDATA[Verify Login button is Clickable or Not]]>
+    </line>
+    <line>
+      <![CDATA[Clicking on  Approve text]]>
+    </line>
+    <line>
+      <![CDATA[Verify Approve text is Clickable or Not]]>
+    </line>
+    <line>
+      <![CDATA[Clicking on  Pending Approver text]]>
+    </line>
+    <line>
+      <![CDATA[Verify Pending Approver text is Clickable or Not]]>
+    </line>
+    <line>
+      <![CDATA[Enter the value into Requisiton number serch box ]]>
+    </line>
+    <line>
+      <![CDATA[Clicking on  Serch Button ]]>
+    </line>
+    <line>
+      <![CDATA[Verify Serch Button  is Clickable or Not]]>
+    </line>
+    <line>
+      <![CDATA[Clicking on  Tick icon ]]>
+    </line>
+    <line>
+      <![CDATA[Verify Tick icon  is Clickable or Not]]>
+    </line>
+    <line>
+      <![CDATA[Clicking on  Approver ID link]]>
+    </line>
+    <line>
+      <![CDATA[Verify Approver ID link is Clickable or Not]]>
+    </line>
+    <line>
+      <![CDATA[Clicking on  Requisition actions d ropdown]]>
+    </line>
+    <line>
+      <![CDATA[Verify Requisition actions d ropdown is Clickable or Not]]>
+    </line>
+    <line>
+      <![CDATA[Enter the value into Remarks textbox]]>
+    </line>
+    <line>
+      <![CDATA[Clicking on  Submit button]]>
+    </line>
+    <line>
+      <![CDATA[Verify Submit button is Clickable or Not]]>
+    </line>
+    <line>
+      <![CDATA[Navigating to the URL]]>
+    </line>
+    <line>
+      <![CDATA[Enter the value into  EmployeeID Text box]]>
+    </line>
+    <line>
+      <![CDATA[Enter the value into  Password Text box]]>
+    </line>
+    <line>
+      <![CDATA[Clicking on  Login button]]>
+    </line>
+    <line>
+      <![CDATA[Verify Login button is Clickable or Not]]>
+    </line>
+    <line>
+      <![CDATA[Clicking on  Approve text]]>
+    </line>
+    <line>
+      <![CDATA[Verify Approve text is Clickable or Not]]>
+    </line>
+    <line>
+      <![CDATA[Clicking on  Pending Approver text]]>
+    </line>
+    <line>
+      <![CDATA[Verify Pending Approver text is Clickable or Not]]>
+    </line>
+    <line>
+      <![CDATA[Enter the value into Requisiton number serch box ]]>
+    </line>
+    <line>
+      <![CDATA[Clicking on  Serch button ]]>
+    </line>
+    <line>
+      <![CDATA[Verify Serch button  is Clickable or Not]]>
+    </line>
+    <line>
+      <![CDATA[Clicking on  Tick button ]]>
+    </line>
+    <line>
+      <![CDATA[Verify Tick button  is Clickable or Not]]>
+    </line>
+    <line>
+      <![CDATA[Clicking on  Approver ID link]]>
+    </line>
+    <line>
+      <![CDATA[Verify Approver ID link is Clickable or Not]]>
+    </line>
+    <line>
+      <![CDATA[Clicking on  Requisition Actions dropdown]]>
+    </line>
+    <line>
+      <![CDATA[Verify Requisition Actions dropdown is Clickable or Not]]>
+    </line>
+    <line>
+      <![CDATA[Enter the value into Remarks text box]]>
+    </line>
+    <line>
+      <![CDATA[Clicking on  Submit button]]>
+    </line>
+    <line>
+      <![CDATA[Verify Submit button is Clickable or Not]]>
+    </line>
+    <line>
+      <![CDATA[Navigating to the URL]]>
+    </line>
+    <line>
+      <![CDATA[Enter the value into  EmployeeID Text box]]>
+    </line>
+    <line>
+      <![CDATA[Enter the value into  Password Text box]]>
+    </line>
+    <line>
+      <![CDATA[Clicking on  Login button]]>
+    </line>
+    <line>
+      <![CDATA[Verify Login button is Clickable or Not]]>
+    </line>
+    <line>
+      <![CDATA[Clicking on  Approve text]]>
+    </line>
+    <line>
+      <![CDATA[Verify Approve text is Clickable or Not]]>
+    </line>
+    <line>
+      <![CDATA[Clicking on  Pending Approver text]]>
+    </line>
+    <line>
+      <![CDATA[Verify Pending Approver text is Clickable or Not]]>
+    </line>
+    <line>
+      <![CDATA[Enter the value into Requisiton Number Serch Box ]]>
+    </line>
+    <line>
+      <![CDATA[Clicking on  Serch Button ]]>
+    </line>
+    <line>
+      <![CDATA[Verify Serch Button  is Clickable or Not]]>
+    </line>
+    <line>
+      <![CDATA[Clicking on  Tick button ]]>
+    </line>
+    <line>
+      <![CDATA[Verify Tick button  is Clickable or Not]]>
+    </line>
+    <line>
+      <![CDATA[Tick button  is not Clickable ]]>
+    </line>
+    <line>
+      <![CDATA[Enter the value into Remarks text box]]>
+    </line>
+    <line>
+      <![CDATA[ User is not able to type Approvedinto Remarks text box]]>
     </line>
   </reporter-output>
-  <suite name="SmartRecruit" duration-ms="136929" started-at="2020-09-21T08:15:14Z" finished-at="2020-09-21T08:17:31Z">
+  <suite name="SmartRecruit" duration-ms="526626" started-at="2020-09-21T09:43:05Z" finished-at="2020-09-21T09:51:51Z">
     <groups>
     </groups>
-    <test name="POC_Test1" duration-ms="136929" started-at="2020-09-21T08:15:14Z" finished-at="2020-09-21T08:17:31Z">
+    <test name="POC_Test1" duration-ms="526626" started-at="2020-09-21T09:43:05Z" finished-at="2020-09-21T09:51:51Z">
       <class name="com.hcl.smartrecruit.testscripts.ApproveAllRequisition">
-        <test-method status="PASS" signature="createFiles()[pri:0, instance:com.hcl.smartrecruit.testscripts.ApproveAllRequisition@466276d8]" name="createFiles" is-config="true" duration-ms="188" started-at="2020-09-21T08:15:14Z" finished-at="2020-09-21T08:15:14Z">
+        <test-method status="PASS" signature="createFiles()[pri:0, instance:com.hcl.smartrecruit.testscripts.ApproveAllRequisition@609db546]" name="createFiles" is-config="true" duration-ms="188" started-at="2020-09-21T09:43:05Z" finished-at="2020-09-21T09:43:05Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createFiles -->
-        <test-method status="PASS" signature="launchApp(java.lang.String)[pri:0, instance:com.hcl.smartrecruit.testscripts.ApproveAllRequisition@466276d8]" name="launchApp" is-config="true" duration-ms="7582" started-at="2020-09-21T08:15:14Z" finished-at="2020-09-21T08:15:22Z">
+        <test-method status="PASS" signature="launchApp(java.lang.String)[pri:0, instance:com.hcl.smartrecruit.testscripts.ApproveAllRequisition@609db546]" name="launchApp" is-config="true" duration-ms="4955" started-at="2020-09-21T09:43:05Z" finished-at="2020-09-21T09:43:10Z">
           <params>
             <param index="0">
               <value>
@@ -147,7 +364,7 @@ Session ID: 0d1b9dc4e0d1a058f11668c3148b2b0e
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchApp -->
-        <test-method status="PASS" signature="setExtentReport(java.lang.reflect.Method)[pri:0, instance:com.hcl.smartrecruit.testscripts.ApproveAllRequisition@466276d8]" name="setExtentReport" is-config="true" duration-ms="2" started-at="2020-09-21T08:15:22Z" finished-at="2020-09-21T08:15:22Z">
+        <test-method status="PASS" signature="setExtentReport(java.lang.reflect.Method)[pri:0, instance:com.hcl.smartrecruit.testscripts.ApproveAllRequisition@609db546]" name="setExtentReport" is-config="true" duration-ms="2" started-at="2020-09-21T09:43:10Z" finished-at="2020-09-21T09:43:10Z">
           <params>
             <param index="0">
               <value>
@@ -158,7 +375,7 @@ Session ID: 0d1b9dc4e0d1a058f11668c3148b2b0e
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setExtentReport -->
-        <test-method status="FAIL" signature="TC_ApproveAllRequisition(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.hcl.smartrecruit.testscripts.ApproveAllRequisition@466276d8]" name="TC_ApproveAllRequisition" duration-ms="128676" started-at="2020-09-21T08:15:22Z" description="Approve Requisition" data-provider="TestDataProvider" finished-at="2020-09-21T08:17:31Z">
+        <test-method status="FAIL" signature="TC_ApproveAllRequisition(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.hcl.smartrecruit.testscripts.ApproveAllRequisition@609db546]" name="TC_ApproveAllRequisition" duration-ms="520659" started-at="2020-09-21T09:43:10Z" description="Approve Requisition" data-provider="TestDataProvider" finished-at="2020-09-21T09:51:50Z">
           <params>
             <param index="0">
               <value>
@@ -273,13 +490,14 @@ Session ID: 0d1b9dc4e0d1a058f11668c3148b2b0e
           </params>
           <exception class="java.lang.AssertionError">
             <message>
-              <![CDATA[Unable to performe action on Additional Job Details ]]>
+              <![CDATA[Unable to type in Remarks text box]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: Unable to performe action on Additional Job Details 
+              <![CDATA[java.lang.AssertionError: Unable to type in Remarks text box
 at org.testng.Assert.fail(Assert.java:96)
-at com.hcl.smartrecruit.pages.RequisitionRequest_Page.additionaJobDetails(RequisitionRequest_Page.java:471)
-at com.hcl.smartrecruit.testscripts.ApproveAllRequisition.TC_ApproveAllRequisition(ApproveAllRequisition.java:36)
+at com.hcl.smartrecruit.util.WebActionUtil.typeText(WebActionUtil.java:272)
+at com.hcl.smartrecruit.pages.ApproveAllRequisition_Page.approveRequistionStage3(ApproveAllRequisition_Page.java:154)
+at com.hcl.smartrecruit.testscripts.ApproveAllRequisition.TC_ApproveAllRequisition(ApproveAllRequisition.java:53)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -302,9 +520,8 @@ at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
 at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
 at org.testng.TestNG.runSuites(TestNG.java:1049)
 at org.testng.TestNG.run(TestNG.java:1017)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+at org.testng.TestNG.privateMain(TestNG.java:1354)
+at org.testng.TestNG.main(TestNG.java:1323)
 ]]>
             </full-stacktrace>
           </exception> <!-- java.lang.AssertionError -->
@@ -406,6 +623,9 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
               <![CDATA[Enter the value into PSA Text box]]>
             </line>
             <line>
+              <![CDATA[Company name is visble]]>
+            </line>
+            <line>
               <![CDATA[Enter the value into Number of Position text box]]>
             </line>
             <line>
@@ -415,32 +635,246 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
               <![CDATA[Verify Submit button  is Clickable or Not]]>
             </line>
             <line>
-              <![CDATA[Element is not visible---------Experience dropdown]]>
+              <![CDATA[Clear the Text Present inJob description text area ]]>
             </line>
             <line>
-              <![CDATA[Unable to click on Experience drop down]]>
+              <![CDATA[Enter the value into Job description text area ]]>
             </line>
             <line>
-              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//span[text()='1-3 Years']"}
-  (Session info: chrome=85.0.4183.102)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
-System info: host: 'HCLT-PC5929-1', ip: '10.98.101.172', os.name: 'Windows Server 2016', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_151'
-Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\gupta.ami\AppData\...}, goog:chromeOptions: {debuggerAddress: localhost:58511}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true, webdriver.remote.sessionid: 0d1b9dc4e0d1a058f11668c3148...}
-Session ID: 0d1b9dc4e0d1a058f11668c3148b2b0e
-*** Element info: {Using=xpath, value=//span[text()='1-3 Years']}]]>
+              <![CDATA[Enter the value into Location dropdown]]>
             </line>
             <line>
-              <![CDATA[Unable to performe action Additional Job Details ]]>
+              <![CDATA[Clicking on  State drop drown]]>
+            </line>
+            <line>
+              <![CDATA[Verify State drop drown is Clickable or Not]]>
+            </line>
+            <line>
+              <![CDATA[Clicking on  City dropdown ]]>
+            </line>
+            <line>
+              <![CDATA[Verify City dropdown  is Clickable or Not]]>
+            </line>
+            <line>
+              <![CDATA[Click on Element Radio Button ]]>
+            </line>
+            <line>
+              <![CDATA[Clicking on  Save Draft button]]>
+            </line>
+            <line>
+              <![CDATA[Verify Save Draft button is Clickable or Not]]>
+            </line>
+            <line>
+              <![CDATA[Enter the value into On boarding date]]>
+            </line>
+            <line>
+              <![CDATA[Enter the value into Interviewer 1 text box]]>
+            </line>
+            <line>
+              <![CDATA[Enter the value into Interviewer two text box]]>
+            </line>
+            <line>
+              <![CDATA[Clicking on  Submit button ]]>
+            </line>
+            <line>
+              <![CDATA[Verify Submit button  is Clickable or Not]]>
+            </line>
+            <line>
+              <![CDATA[Clicking on  Submit button ]]>
+            </line>
+            <line>
+              <![CDATA[Verify Submit button  is Clickable or Not]]>
+            </line>
+            <line>
+              <![CDATA[Clicking on  Approver link ]]>
+            </line>
+            <line>
+              <![CDATA[Verify Approver link  is Clickable or Not]]>
+            </line>
+            <line>
+              <![CDATA[Navigating to the URL]]>
+            </line>
+            <line>
+              <![CDATA[Enter the value into  EmployeeID Text box]]>
+            </line>
+            <line>
+              <![CDATA[Enter the value into  Password Text box]]>
+            </line>
+            <line>
+              <![CDATA[Clicking on  Login button]]>
+            </line>
+            <line>
+              <![CDATA[Verify Login button is Clickable or Not]]>
+            </line>
+            <line>
+              <![CDATA[Clicking on  Approve text]]>
+            </line>
+            <line>
+              <![CDATA[Verify Approve text is Clickable or Not]]>
+            </line>
+            <line>
+              <![CDATA[Clicking on  Pending Approver text]]>
+            </line>
+            <line>
+              <![CDATA[Verify Pending Approver text is Clickable or Not]]>
+            </line>
+            <line>
+              <![CDATA[Enter the value into Requisiton number serch box ]]>
+            </line>
+            <line>
+              <![CDATA[Clicking on  Serch Button ]]>
+            </line>
+            <line>
+              <![CDATA[Verify Serch Button  is Clickable or Not]]>
+            </line>
+            <line>
+              <![CDATA[Clicking on  Tick icon ]]>
+            </line>
+            <line>
+              <![CDATA[Verify Tick icon  is Clickable or Not]]>
+            </line>
+            <line>
+              <![CDATA[Clicking on  Approver ID link]]>
+            </line>
+            <line>
+              <![CDATA[Verify Approver ID link is Clickable or Not]]>
+            </line>
+            <line>
+              <![CDATA[Clicking on  Requisition actions d ropdown]]>
+            </line>
+            <line>
+              <![CDATA[Verify Requisition actions d ropdown is Clickable or Not]]>
+            </line>
+            <line>
+              <![CDATA[Enter the value into Remarks textbox]]>
+            </line>
+            <line>
+              <![CDATA[Clicking on  Submit button]]>
+            </line>
+            <line>
+              <![CDATA[Verify Submit button is Clickable or Not]]>
+            </line>
+            <line>
+              <![CDATA[Navigating to the URL]]>
+            </line>
+            <line>
+              <![CDATA[Enter the value into  EmployeeID Text box]]>
+            </line>
+            <line>
+              <![CDATA[Enter the value into  Password Text box]]>
+            </line>
+            <line>
+              <![CDATA[Clicking on  Login button]]>
+            </line>
+            <line>
+              <![CDATA[Verify Login button is Clickable or Not]]>
+            </line>
+            <line>
+              <![CDATA[Clicking on  Approve text]]>
+            </line>
+            <line>
+              <![CDATA[Verify Approve text is Clickable or Not]]>
+            </line>
+            <line>
+              <![CDATA[Clicking on  Pending Approver text]]>
+            </line>
+            <line>
+              <![CDATA[Verify Pending Approver text is Clickable or Not]]>
+            </line>
+            <line>
+              <![CDATA[Enter the value into Requisiton number serch box ]]>
+            </line>
+            <line>
+              <![CDATA[Clicking on  Serch button ]]>
+            </line>
+            <line>
+              <![CDATA[Verify Serch button  is Clickable or Not]]>
+            </line>
+            <line>
+              <![CDATA[Clicking on  Tick button ]]>
+            </line>
+            <line>
+              <![CDATA[Verify Tick button  is Clickable or Not]]>
+            </line>
+            <line>
+              <![CDATA[Clicking on  Approver ID link]]>
+            </line>
+            <line>
+              <![CDATA[Verify Approver ID link is Clickable or Not]]>
+            </line>
+            <line>
+              <![CDATA[Clicking on  Requisition Actions dropdown]]>
+            </line>
+            <line>
+              <![CDATA[Verify Requisition Actions dropdown is Clickable or Not]]>
+            </line>
+            <line>
+              <![CDATA[Enter the value into Remarks text box]]>
+            </line>
+            <line>
+              <![CDATA[Clicking on  Submit button]]>
+            </line>
+            <line>
+              <![CDATA[Verify Submit button is Clickable or Not]]>
+            </line>
+            <line>
+              <![CDATA[Navigating to the URL]]>
+            </line>
+            <line>
+              <![CDATA[Enter the value into  EmployeeID Text box]]>
+            </line>
+            <line>
+              <![CDATA[Enter the value into  Password Text box]]>
+            </line>
+            <line>
+              <![CDATA[Clicking on  Login button]]>
+            </line>
+            <line>
+              <![CDATA[Verify Login button is Clickable or Not]]>
+            </line>
+            <line>
+              <![CDATA[Clicking on  Approve text]]>
+            </line>
+            <line>
+              <![CDATA[Verify Approve text is Clickable or Not]]>
+            </line>
+            <line>
+              <![CDATA[Clicking on  Pending Approver text]]>
+            </line>
+            <line>
+              <![CDATA[Verify Pending Approver text is Clickable or Not]]>
+            </line>
+            <line>
+              <![CDATA[Enter the value into Requisiton Number Serch Box ]]>
+            </line>
+            <line>
+              <![CDATA[Clicking on  Serch Button ]]>
+            </line>
+            <line>
+              <![CDATA[Verify Serch Button  is Clickable or Not]]>
+            </line>
+            <line>
+              <![CDATA[Clicking on  Tick button ]]>
+            </line>
+            <line>
+              <![CDATA[Verify Tick button  is Clickable or Not]]>
+            </line>
+            <line>
+              <![CDATA[Tick button  is not Clickable ]]>
+            </line>
+            <line>
+              <![CDATA[Enter the value into Remarks text box]]>
+            </line>
+            <line>
+              <![CDATA[ User is not able to type Approvedinto Remarks text box]]>
             </line>
           </reporter-output>
         </test-method> <!-- TC_ApproveAllRequisition -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.hcl.smartrecruit.testscripts.ApproveAllRequisition@466276d8]" name="closeBrowser" is-config="true" duration-ms="93" started-at="2020-09-21T08:17:31Z" finished-at="2020-09-21T08:17:31Z">
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.hcl.smartrecruit.testscripts.ApproveAllRequisition@609db546]" name="closeBrowser" is-config="true" duration-ms="110" started-at="2020-09-21T09:51:51Z" finished-at="2020-09-21T09:51:51Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method status="PASS" signature="killTask(java.lang.String)[pri:0, instance:com.hcl.smartrecruit.testscripts.ApproveAllRequisition@466276d8]" name="killTask" is-config="true" duration-ms="31" started-at="2020-09-21T08:17:31Z" finished-at="2020-09-21T08:17:31Z">
+        <test-method status="PASS" signature="killTask(java.lang.String)[pri:0, instance:com.hcl.smartrecruit.testscripts.ApproveAllRequisition@609db546]" name="killTask" is-config="true" duration-ms="32" started-at="2020-09-21T09:51:52Z" finished-at="2020-09-21T09:51:52Z">
           <params>
             <param index="0">
               <value>

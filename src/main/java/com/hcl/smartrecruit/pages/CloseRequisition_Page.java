@@ -117,6 +117,20 @@ public class CloseRequisition_Page {
 		BaseTest.map.put("approver1", approverIdText);
 		
 	}
+	
+	/**
+	 * Description : Method to get approver2 data 
+	 * @author Aatish Slathia 
+	 */
+	public  synchronized void getApproverData2() {
+		WebActionUtil.waitForThePresenceOfElement(5);
+		String value = BaseTest.map.get("requisitionNumber");
+		WebActionUtil.clickOnElement(approverLink(value), "Approver link ");
+		WebActionUtil.waitForThePresenceOfElement(5);
+		String approverIdText = WebActionUtil.getApproverIdText(txtapproverId);
+		BaseTest.map.put("approver2", approverIdText);
+		
+	}
 
 	/**
 	 * Description : Method for closing the requisition
