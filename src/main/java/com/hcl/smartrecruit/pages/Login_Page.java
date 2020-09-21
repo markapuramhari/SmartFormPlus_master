@@ -6,6 +6,7 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.Assert;
 
+import com.hcl.smartrecruit.baseutil.BaseTest;
 import com.hcl.smartrecruit.util.WebActionUtil;
 /**
  * Description: This class implements the method for Login in to the application.
@@ -46,6 +47,7 @@ public class Login_Page {
 	
 	public synchronized void signToApplication(String username, String pwd) {
 		try {
+			WebActionUtil.info("URL of the application is "+BaseTest.URL);
 			WebActionUtil.typeText(txtEmployeeID, username, " EmployeeID Text box");
 			WebActionUtil.typeText(txtPassword, pwd, " Password Text box");
 			WebActionUtil.actionType();
