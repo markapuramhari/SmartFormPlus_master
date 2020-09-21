@@ -86,6 +86,7 @@ public class ApproveAllRequisition_Page {
 
 	public synchronized void approveRequistionStage1(String statusRemarks) {
 		try {
+			WebActionUtil.waitForThePresenceOfElement(3);
 			WebActionUtil.clickOnElement(txrapprover, "Approve text");
 			WebActionUtil.clickOnElement(pendingApprovals, "Pending Approver text");
 			WebActionUtil.typeText(searchBxRequNumber, BaseTest.map.get("requisitionNumber"),
