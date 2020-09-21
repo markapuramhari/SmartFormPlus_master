@@ -37,16 +37,18 @@ public class ApproveAllRequisition extends BaseTest {
 		pages.requistionRequest.joiningDetails(state, city, joiningLocation, secondaryJoiningLocation);
 		pages.requistionRequest.billingDetails(interviewer1, interviewer2, billtype);
 		pages.closeRequisition.getApproverData();
+		/*Approver one login*/
 		WebActionUtil.navigateToUrl(BaseTest.URL);
 		String approver1Id = BaseTest.map.get("approver1");
 		pages.loginPage.signToApplication(approver1Id, userPass[indexPassword]);
-
 		pages.approveAllRequisition.approveRequistionStage1(statusRemarks);
 		WebActionUtil.navigateToUrl(BaseTest.URL);
-		//Initiator id have to login again 
+		/*Initiator id have to login again */
 		pages.loginPage.signToApplication(userData[indexUserName], userPass[indexPassword]);
 		pages.closeRequisition.getApproverData2();
 		
+		/*Approver two login*/
+		WebActionUtil.navigateToUrl(BaseTest.URL);
 		String approver2Id = BaseTest.map.get("approver2");
 		pages.loginPage.signToApplication(approver2Id, userPass[indexPassword]);
 		pages.approveAllRequisition.approveRequistionStage2(statusRemarks);

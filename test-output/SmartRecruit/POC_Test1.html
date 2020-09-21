@@ -57,9 +57,9 @@ function toggleAllBoxes() {
 <tr>
 <td>Tests passed/Failed/Skipped:</td><td>0/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Mon Sep 21 20:22:46 IST 2020</td>
+<td>Started on:</td><td>Mon Sep 21 21:00:01 IST 2020</td>
 </tr>
-<tr><td>Total time:</td><td>219 seconds (219075 ms)</td>
+<tr><td>Total time:</td><td>288 seconds (288268 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -151,18 +151,34 @@ Clicking on  Serch Button <br/>
 Verify Serch Button  is Clickable or Not<br/>
 Clicking on  Tick icon <br/>
 Verify Tick icon  is Clickable or Not<br/>
-String index out of range: -1<br/>
-Unable to performe action on Approve Requistion Stage1<br/>
+Clicking on  Requisition actions dropdown<br/>
+Verify Requisition actions dropdown is Clickable or Not<br/>
+Enter the value into Remarks textbox<br/>
+Clicking on  Submit button<br/>
+Verify Submit button is Clickable or Not<br/>
+Navigating to the URL<br/>
+URL of the application is https://qa1.myhcl.com/SmartRecruit_CBT/<br/>
+Enter the value into  EmployeeID Text box<br/>
+Enter the value into  Password Text box<br/>
+Clicking on  Login button<br/>
+Verify Login button is Clickable or Not<br/>
+Clicking on  Approver link <br/>
+Verify Approver link  is Clickable or Not<br/>
+URL of the application is https://qa1.myhcl.com/SmartRecruit_CBT/<br/>
+Enter the value into  EmployeeID Text box<br/>
+ User is not able to type 51585061into  EmployeeID Text box<br/>
 </div>
 </td>
-<td><div><pre>java.lang.AssertionError: Unable to performe action on Approve Requistion Stage1
-	at com.hcl.smartrecruit.pages.ApproveAllRequisition_Page.approveRequistionStage1(ApproveAllRequisition_Page.java:106)
-	at com.hcl.smartrecruit.testscripts.ApproveAllRequisition.TC_ApproveAllRequisition(ApproveAllRequisition.java:44)
+<td><div><pre>java.lang.AssertionError: Unable to type in  EmployeeID Text box
+	at com.hcl.smartrecruit.util.WebActionUtil.typeText(WebActionUtil.java:272)
+	at com.hcl.smartrecruit.pages.Login_Page.signToApplication(Login_Page.java:51)
+	at com.hcl.smartrecruit.testscripts.ApproveAllRequisition.TC_ApproveAllRequisition(ApproveAllRequisition.java:51)
 ... Removed 26 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace2097361633", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace2097361633'><pre>java.lang.AssertionError: Unable to performe action on Approve Requistion Stage1
+<div class='stack-trace' id='stack-trace2097361633'><pre>java.lang.AssertionError: Unable to type in  EmployeeID Text box
 	at org.testng.Assert.fail(Assert.java:96)
-	at com.hcl.smartrecruit.pages.ApproveAllRequisition_Page.approveRequistionStage1(ApproveAllRequisition_Page.java:106)
-	at com.hcl.smartrecruit.testscripts.ApproveAllRequisition.TC_ApproveAllRequisition(ApproveAllRequisition.java:44)
+	at com.hcl.smartrecruit.util.WebActionUtil.typeText(WebActionUtil.java:272)
+	at com.hcl.smartrecruit.pages.Login_Page.signToApplication(Login_Page.java:51)
+	at com.hcl.smartrecruit.testscripts.ApproveAllRequisition.TC_ApproveAllRequisition(ApproveAllRequisition.java:51)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -189,7 +205,7 @@ Unable to performe action on Approve Requistion Stage1<br/>
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
 </pre></div></td>
-<td>213</td>
+<td>282</td>
 <td>com.hcl.smartrecruit.testscripts.ApproveAllRequisition@466276d8</td></tr>
 </table><p>
 </body>

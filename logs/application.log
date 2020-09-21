@@ -4757,3 +4757,346 @@ Session ID: 3c56bdf98888908561db488378e0a434
 [INFO ] 2020-09-21 20:26:08.760 [main] BaseTest - Verify Tick icon  is Clickable or Not
 [ERROR] 2020-09-21 20:26:25.201 [main] BaseTest - String index out of range: -1
 [INFO ] 2020-09-21 20:26:25.202 [main] BaseTest - Unable to performe action on Approve Requistion Stage1
+[INFO ] 2020-09-21 20:40:41.225 [main] BaseTest - 
+[INFO ] 2020-09-21 20:40:41.232 [main] BaseTest - Running locally HCL Poc 
+[INFO ] 2020-09-21 20:40:41.512 [main] BaseTest - Folder creation for Extent
+[INFO ] 2020-09-21 20:40:41.521 [main] BaseTest - ExtentDir:-C:\Users\aatish.s\Desktop\Tysspoc\HCL_SmartRecruit_POC/reports/HCLAutomation Report- 09_21_2020_20_40_41/HCL Report/09_21_2020_20_40_41
+[INFO ] 2020-09-21 20:40:41.657 [main] BaseTest - Report Initiated
+[INFO ] 2020-09-21 20:40:41.661 [main] BaseTest - Screenshot Folder Created
+[INFO ] 2020-09-21 20:40:47.447 [main] BaseTest - URL of the application is https://qa1.myhcl.com/SmartRecruit_CBT/
+[INFO ] 2020-09-21 20:40:47.452 [main] BaseTest - Enter the value into  EmployeeID Text box
+[INFO ] 2020-09-21 20:40:47.601 [main] BaseTest - Enter the value into  Password Text box
+[INFO ] 2020-09-21 20:40:47.761 [main] BaseTest - Clicking on  Login button
+[INFO ] 2020-09-21 20:40:47.761 [main] BaseTest - Verify Login button is Clickable or Not
+[INFO ] 2020-09-21 20:41:02.381 [main] BaseTest - Clicking on  New Requisition option
+[INFO ] 2020-09-21 20:41:02.381 [main] BaseTest - Verify New Requisition option is Clickable or Not
+[INFO ] 2020-09-21 20:41:04.226 [main] BaseTest - Clicking on  RequestType dropdown
+[INFO ] 2020-09-21 20:41:04.226 [main] BaseTest - Verify RequestType dropdown is Clickable or Not
+[INFO ] 2020-09-21 20:41:08.383 [main] BaseTest - Clicking on  New resource request
+[INFO ] 2020-09-21 20:41:08.384 [main] BaseTest - Verify New resource request is Clickable or Not
+[INFO ] 2020-09-21 20:41:08.743 [main] BaseTest - Clicking on  Id skill text box
+[INFO ] 2020-09-21 20:41:08.744 [main] BaseTest - Verify Id skill text box is Clickable or Not
+[INFO ] 2020-09-21 20:41:09.365 [main] BaseTest - Enter the value into SkillDetail text box
+[INFO ] 2020-09-21 20:41:14.592 [main] BaseTest - Clicking on  Plus button under skills
+[INFO ] 2020-09-21 20:41:14.593 [main] BaseTest - Verify Plus button under skills is Clickable or Not
+[INFO ] 2020-09-21 20:41:17.062 [main] BaseTest - Click on Element Primary Radio Button
+[INFO ] 2020-09-21 20:41:17.112 [main] BaseTest - Clicking on  Done button 
+[INFO ] 2020-09-21 20:41:17.113 [main] BaseTest - Verify Done button  is Clickable or Not
+[INFO ] 2020-09-21 20:41:17.524 [main] BaseTest - Clicking on  Job tex box detail 
+[INFO ] 2020-09-21 20:41:17.525 [main] BaseTest - Verify Job tex box detail  is Clickable or Not
+[INFO ] 2020-09-21 20:41:17.892 [main] BaseTest - Enter the value into Job text box 
+[INFO ] 2020-09-21 20:41:20.627 [main] BaseTest - Clicking on  SelectJob tick icon
+[INFO ] 2020-09-21 20:41:20.627 [main] BaseTest - Verify SelectJob tick icon is Clickable or Not
+[INFO ] 2020-09-21 20:41:23.102 [main] BaseTest - Clicking on  Save button 
+[INFO ] 2020-09-21 20:41:23.103 [main] BaseTest - Verify Save button  is Clickable or Not
+[INFO ] 2020-09-21 20:41:25.577 [main] BaseTest - Clicking on  Employe group name dropdown
+[INFO ] 2020-09-21 20:41:25.577 [main] BaseTest - Verify Employe group name dropdown is Clickable or Not
+[INFO ] 2020-09-21 20:41:28.161 [main] BaseTest - Clicking on  Band element dropdown
+[INFO ] 2020-09-21 20:41:28.162 [main] BaseTest - Verify Band element dropdown is Clickable or Not
+[INFO ] 2020-09-21 20:41:30.810 [main] BaseTest - Clicking on  SubBand Element dropdown
+[INFO ] 2020-09-21 20:41:30.810 [main] BaseTest - Verify SubBand Element dropdown is Clickable or Not
+[INFO ] 2020-09-21 20:41:37.512 [main] BaseTest - Enter the value into PSA Text box
+[INFO ] 2020-09-21 20:43:02.563 [main] BaseTest - 
+[INFO ] 2020-09-21 20:43:02.570 [main] BaseTest - Running locally HCL Poc 
+[INFO ] 2020-09-21 20:43:02.894 [main] BaseTest - Folder creation for Extent
+[INFO ] 2020-09-21 20:43:02.902 [main] BaseTest - ExtentDir:-C:\Users\aatish.s\Desktop\Tysspoc\HCL_SmartRecruit_POC/reports/HCLAutomation Report- 09_21_2020_20_43_02/HCL Report/09_21_2020_20_43_02
+[INFO ] 2020-09-21 20:43:03.040 [main] BaseTest - Report Initiated
+[INFO ] 2020-09-21 20:43:03.044 [main] BaseTest - Screenshot Folder Created
+[INFO ] 2020-09-21 20:43:08.908 [main] BaseTest - URL of the application is https://qa1.myhcl.com/SmartRecruit_CBT/
+[INFO ] 2020-09-21 20:43:08.914 [main] BaseTest - Enter the value into  EmployeeID Text box
+[INFO ] 2020-09-21 20:43:09.058 [main] BaseTest - Enter the value into  Password Text box
+[INFO ] 2020-09-21 20:43:09.207 [main] BaseTest - Clicking on  Login button
+[INFO ] 2020-09-21 20:43:09.208 [main] BaseTest - Verify Login button is Clickable or Not
+[INFO ] 2020-09-21 20:43:23.444 [main] BaseTest - Clicking on  New Requisition option
+[INFO ] 2020-09-21 20:43:23.445 [main] BaseTest - Verify New Requisition option is Clickable or Not
+[INFO ] 2020-09-21 20:43:25.329 [main] BaseTest - Clicking on  RequestType dropdown
+[INFO ] 2020-09-21 20:43:25.330 [main] BaseTest - Verify RequestType dropdown is Clickable or Not
+[INFO ] 2020-09-21 20:43:29.477 [main] BaseTest - Clicking on  New resource request
+[INFO ] 2020-09-21 20:43:29.477 [main] BaseTest - Verify New resource request is Clickable or Not
+[INFO ] 2020-09-21 20:43:29.825 [main] BaseTest - Clicking on  Id skill text box
+[INFO ] 2020-09-21 20:43:29.826 [main] BaseTest - Verify Id skill text box is Clickable or Not
+[INFO ] 2020-09-21 20:43:30.493 [main] BaseTest - Enter the value into SkillDetail text box
+[INFO ] 2020-09-21 20:43:35.747 [main] BaseTest - Clicking on  Plus button under skills
+[INFO ] 2020-09-21 20:43:35.747 [main] BaseTest - Verify Plus button under skills is Clickable or Not
+[INFO ] 2020-09-21 20:43:38.235 [main] BaseTest - Click on Element Primary Radio Button
+[INFO ] 2020-09-21 20:43:38.281 [main] BaseTest - Clicking on  Done button 
+[INFO ] 2020-09-21 20:43:38.281 [main] BaseTest - Verify Done button  is Clickable or Not
+[INFO ] 2020-09-21 20:43:38.678 [main] BaseTest - Clicking on  Job tex box detail 
+[INFO ] 2020-09-21 20:43:38.679 [main] BaseTest - Verify Job tex box detail  is Clickable or Not
+[INFO ] 2020-09-21 20:43:39.028 [main] BaseTest - Enter the value into Job text box 
+[INFO ] 2020-09-21 20:43:41.716 [main] BaseTest - Clicking on  SelectJob tick icon
+[INFO ] 2020-09-21 20:43:41.716 [main] BaseTest - Verify SelectJob tick icon is Clickable or Not
+[INFO ] 2020-09-21 20:43:44.211 [main] BaseTest - Clicking on  Save button 
+[INFO ] 2020-09-21 20:43:44.211 [main] BaseTest - Verify Save button  is Clickable or Not
+[INFO ] 2020-09-21 20:43:46.687 [main] BaseTest - Clicking on  Employe group name dropdown
+[INFO ] 2020-09-21 20:43:46.688 [main] BaseTest - Verify Employe group name dropdown is Clickable or Not
+[INFO ] 2020-09-21 20:43:49.290 [main] BaseTest - Clicking on  Band element dropdown
+[INFO ] 2020-09-21 20:43:49.291 [main] BaseTest - Verify Band element dropdown is Clickable or Not
+[INFO ] 2020-09-21 20:43:51.951 [main] BaseTest - Clicking on  SubBand Element dropdown
+[INFO ] 2020-09-21 20:43:51.951 [main] BaseTest - Verify SubBand Element dropdown is Clickable or Not
+[INFO ] 2020-09-21 20:43:58.624 [main] BaseTest - Enter the value into PSA Text box
+[INFO ] 2020-09-21 20:44:40.789 [main] BaseTest - 
+[INFO ] 2020-09-21 20:44:40.802 [main] BaseTest - Running locally HCL Poc 
+[INFO ] 2020-09-21 20:44:41.021 [main] BaseTest - Folder creation for Extent
+[INFO ] 2020-09-21 20:44:41.036 [main] BaseTest - ExtentDir:-C:\Users\aatish.s\Desktop\Tysspoc\HCL_SmartRecruit_POC/reports/HCLAutomation Report- 09_21_2020_20_44_41/HCL Report/09_21_2020_20_44_41
+[INFO ] 2020-09-21 20:44:41.161 [main] BaseTest - Report Initiated
+[INFO ] 2020-09-21 20:44:41.161 [main] BaseTest - Screenshot Folder Created
+[INFO ] 2020-09-21 20:44:46.425 [main] BaseTest - URL of the application is https://qa1.myhcl.com/SmartRecruit_CBT/
+[INFO ] 2020-09-21 20:44:46.431 [main] BaseTest - Enter the value into  EmployeeID Text box
+[INFO ] 2020-09-21 20:44:46.592 [main] BaseTest - Enter the value into  Password Text box
+[INFO ] 2020-09-21 20:44:46.753 [main] BaseTest - Clicking on  Login button
+[INFO ] 2020-09-21 20:44:46.753 [main] BaseTest - Verify Login button is Clickable or Not
+[INFO ] 2020-09-21 20:45:01.188 [main] BaseTest - Clicking on  New Requisition option
+[INFO ] 2020-09-21 20:45:01.189 [main] BaseTest - Verify New Requisition option is Clickable or Not
+[INFO ] 2020-09-21 20:45:02.708 [main] BaseTest - Clicking on  RequestType dropdown
+[INFO ] 2020-09-21 20:45:02.709 [main] BaseTest - Verify RequestType dropdown is Clickable or Not
+[INFO ] 2020-09-21 20:45:06.941 [main] BaseTest - Clicking on  New resource request
+[INFO ] 2020-09-21 20:45:06.948 [main] BaseTest - Verify New resource request is Clickable or Not
+[INFO ] 2020-09-21 20:45:07.533 [main] BaseTest - Clicking on  Id skill text box
+[INFO ] 2020-09-21 20:45:07.533 [main] BaseTest - Verify Id skill text box is Clickable or Not
+[INFO ] 2020-09-21 20:45:08.185 [main] BaseTest - Enter the value into SkillDetail text box
+[INFO ] 2020-09-21 20:45:13.473 [main] BaseTest - Clicking on  Plus button under skills
+[INFO ] 2020-09-21 20:45:13.473 [main] BaseTest - Verify Plus button under skills is Clickable or Not
+[INFO ] 2020-09-21 20:45:16.046 [main] BaseTest - Click on Element Primary Radio Button
+[INFO ] 2020-09-21 20:45:16.130 [main] BaseTest - Clicking on  Done button 
+[INFO ] 2020-09-21 20:45:16.131 [main] BaseTest - Verify Done button  is Clickable or Not
+[INFO ] 2020-09-21 20:45:16.556 [main] BaseTest - Clicking on  Job tex box detail 
+[INFO ] 2020-09-21 20:45:16.556 [main] BaseTest - Verify Job tex box detail  is Clickable or Not
+[INFO ] 2020-09-21 20:45:16.944 [main] BaseTest - Enter the value into Job text box 
+[INFO ] 2020-09-21 20:45:19.666 [main] BaseTest - Clicking on  SelectJob tick icon
+[INFO ] 2020-09-21 20:45:19.666 [main] BaseTest - Verify SelectJob tick icon is Clickable or Not
+[INFO ] 2020-09-21 20:45:22.405 [main] BaseTest - Clicking on  Save button 
+[INFO ] 2020-09-21 20:45:22.414 [main] BaseTest - Verify Save button  is Clickable or Not
+[INFO ] 2020-09-21 20:45:25.172 [main] BaseTest - Clicking on  Employe group name dropdown
+[INFO ] 2020-09-21 20:45:25.181 [main] BaseTest - Verify Employe group name dropdown is Clickable or Not
+[INFO ] 2020-09-21 20:45:28.063 [main] BaseTest - Clicking on  Band element dropdown
+[INFO ] 2020-09-21 20:45:28.063 [main] BaseTest - Verify Band element dropdown is Clickable or Not
+[INFO ] 2020-09-21 20:45:30.858 [main] BaseTest - Clicking on  SubBand Element dropdown
+[INFO ] 2020-09-21 20:45:30.869 [main] BaseTest - Verify SubBand Element dropdown is Clickable or Not
+[INFO ] 2020-09-21 20:45:37.885 [main] BaseTest - Enter the value into PSA Text box
+[INFO ] 2020-09-21 20:46:05.081 [main] BaseTest - Enter the value into Number of Position text box
+[INFO ] 2020-09-21 20:48:29.883 [main] BaseTest - 
+[INFO ] 2020-09-21 20:48:29.895 [main] BaseTest - Running locally HCL Poc 
+[INFO ] 2020-09-21 20:48:30.177 [main] BaseTest - Folder creation for Extent
+[INFO ] 2020-09-21 20:48:30.192 [main] BaseTest - ExtentDir:-C:\Users\aatish.s\Desktop\Tysspoc\HCL_SmartRecruit_POC/reports/HCLAutomation Report- 09_21_2020_20_48_30/HCL Report/09_21_2020_20_48_30
+[INFO ] 2020-09-21 20:48:30.333 [main] BaseTest - Report Initiated
+[INFO ] 2020-09-21 20:48:30.333 [main] BaseTest - Screenshot Folder Created
+[INFO ] 2020-09-21 20:48:35.673 [main] BaseTest - URL of the application is https://qa1.myhcl.com/SmartRecruit_CBT/
+[INFO ] 2020-09-21 20:48:35.678 [main] BaseTest - Enter the value into  EmployeeID Text box
+[INFO ] 2020-09-21 20:48:35.801 [main] BaseTest - Enter the value into  Password Text box
+[INFO ] 2020-09-21 20:48:35.939 [main] BaseTest - Clicking on  Login button
+[INFO ] 2020-09-21 20:48:35.939 [main] BaseTest - Verify Login button is Clickable or Not
+[INFO ] 2020-09-21 20:48:50.742 [main] BaseTest - Clicking on  New Requisition option
+[INFO ] 2020-09-21 20:48:50.742 [main] BaseTest - Verify New Requisition option is Clickable or Not
+[INFO ] 2020-09-21 20:48:52.230 [main] BaseTest - Clicking on  RequestType dropdown
+[INFO ] 2020-09-21 20:48:52.231 [main] BaseTest - Verify RequestType dropdown is Clickable or Not
+[INFO ] 2020-09-21 20:48:56.461 [main] BaseTest - Clicking on  New resource request
+[INFO ] 2020-09-21 20:48:56.466 [main] BaseTest - Verify New resource request is Clickable or Not
+[INFO ] 2020-09-21 20:48:57.079 [main] BaseTest - Clicking on  Id skill text box
+[INFO ] 2020-09-21 20:48:57.079 [main] BaseTest - Verify Id skill text box is Clickable or Not
+[INFO ] 2020-09-21 20:48:57.755 [main] BaseTest - Enter the value into SkillDetail text box
+[INFO ] 2020-09-21 20:49:03.039 [main] BaseTest - Clicking on  Plus button under skills
+[INFO ] 2020-09-21 20:49:03.039 [main] BaseTest - Verify Plus button under skills is Clickable or Not
+[INFO ] 2020-09-21 20:49:05.553 [main] BaseTest - Click on Element Primary Radio Button
+[INFO ] 2020-09-21 20:49:05.653 [main] BaseTest - Clicking on  Done button 
+[INFO ] 2020-09-21 20:49:05.654 [main] BaseTest - Verify Done button  is Clickable or Not
+[INFO ] 2020-09-21 20:49:06.070 [main] BaseTest - Clicking on  Job tex box detail 
+[INFO ] 2020-09-21 20:49:06.070 [main] BaseTest - Verify Job tex box detail  is Clickable or Not
+[INFO ] 2020-09-21 20:49:06.456 [main] BaseTest - Enter the value into Job text box 
+[INFO ] 2020-09-21 20:49:09.230 [main] BaseTest - Clicking on  SelectJob tick icon
+[INFO ] 2020-09-21 20:49:09.231 [main] BaseTest - Verify SelectJob tick icon is Clickable or Not
+[INFO ] 2020-09-21 20:49:11.965 [main] BaseTest - Clicking on  Save button 
+[INFO ] 2020-09-21 20:49:11.976 [main] BaseTest - Verify Save button  is Clickable or Not
+[INFO ] 2020-09-21 20:49:14.802 [main] BaseTest - Clicking on  Employe group name dropdown
+[INFO ] 2020-09-21 20:49:14.815 [main] BaseTest - Verify Employe group name dropdown is Clickable or Not
+[INFO ] 2020-09-21 20:49:17.730 [main] BaseTest - Clicking on  Band element dropdown
+[INFO ] 2020-09-21 20:49:17.731 [main] BaseTest - Verify Band element dropdown is Clickable or Not
+[INFO ] 2020-09-21 20:49:20.592 [main] BaseTest - Clicking on  SubBand Element dropdown
+[INFO ] 2020-09-21 20:49:20.605 [main] BaseTest - Verify SubBand Element dropdown is Clickable or Not
+[INFO ] 2020-09-21 20:49:27.620 [main] BaseTest - Enter the value into PSA Text box
+[INFO ] 2020-09-21 20:51:24.579 [main] BaseTest - 
+[INFO ] 2020-09-21 20:51:24.588 [main] BaseTest - Running locally HCL Poc 
+[INFO ] 2020-09-21 20:51:24.869 [main] BaseTest - Folder creation for Extent
+[INFO ] 2020-09-21 20:51:24.885 [main] BaseTest - ExtentDir:-C:\Users\aatish.s\Desktop\Tysspoc\HCL_SmartRecruit_POC/reports/HCLAutomation Report- 09_21_2020_20_51_24/HCL Report/09_21_2020_20_51_24
+[INFO ] 2020-09-21 20:51:25.010 [main] BaseTest - Report Initiated
+[INFO ] 2020-09-21 20:51:25.026 [main] BaseTest - Screenshot Folder Created
+[INFO ] 2020-09-21 20:51:30.520 [main] BaseTest - URL of the application is https://qa1.myhcl.com/SmartRecruit_CBT/
+[INFO ] 2020-09-21 20:51:30.527 [main] BaseTest - Enter the value into  EmployeeID Text box
+[INFO ] 2020-09-21 20:51:30.669 [main] BaseTest - Enter the value into  Password Text box
+[INFO ] 2020-09-21 20:51:30.819 [main] BaseTest - Clicking on  Login button
+[INFO ] 2020-09-21 20:51:30.820 [main] BaseTest - Verify Login button is Clickable or Not
+[INFO ] 2020-09-21 20:51:45.748 [main] BaseTest - Clicking on  New Requisition option
+[INFO ] 2020-09-21 20:51:45.749 [main] BaseTest - Verify New Requisition option is Clickable or Not
+[INFO ] 2020-09-21 20:51:47.368 [main] BaseTest - Clicking on  RequestType dropdown
+[INFO ] 2020-09-21 20:51:47.368 [main] BaseTest - Verify RequestType dropdown is Clickable or Not
+[INFO ] 2020-09-21 20:51:51.799 [main] BaseTest - Clicking on  New resource request
+[INFO ] 2020-09-21 20:51:51.804 [main] BaseTest - Verify New resource request is Clickable or Not
+[INFO ] 2020-09-21 20:51:52.368 [main] BaseTest - Clicking on  Id skill text box
+[INFO ] 2020-09-21 20:51:52.368 [main] BaseTest - Verify Id skill text box is Clickable or Not
+[INFO ] 2020-09-21 20:51:53.034 [main] BaseTest - Enter the value into SkillDetail text box
+[INFO ] 2020-09-21 20:51:58.319 [main] BaseTest - Clicking on  Plus button under skills
+[INFO ] 2020-09-21 20:51:58.319 [main] BaseTest - Verify Plus button under skills is Clickable or Not
+[INFO ] 2020-09-21 20:52:00.863 [main] BaseTest - Click on Element Primary Radio Button
+[INFO ] 2020-09-21 20:52:00.960 [main] BaseTest - Clicking on  Done button 
+[INFO ] 2020-09-21 20:52:00.960 [main] BaseTest - Verify Done button  is Clickable or Not
+[INFO ] 2020-09-21 20:52:01.339 [main] BaseTest - Clicking on  Job tex box detail 
+[INFO ] 2020-09-21 20:52:01.339 [main] BaseTest - Verify Job tex box detail  is Clickable or Not
+[INFO ] 2020-09-21 20:52:01.698 [main] BaseTest - Enter the value into Job text box 
+[INFO ] 2020-09-21 20:52:04.471 [main] BaseTest - Clicking on  SelectJob tick icon
+[INFO ] 2020-09-21 20:52:04.478 [main] BaseTest - Verify SelectJob tick icon is Clickable or Not
+[INFO ] 2020-09-21 20:52:07.197 [main] BaseTest - Clicking on  Save button 
+[INFO ] 2020-09-21 20:52:07.197 [main] BaseTest - Verify Save button  is Clickable or Not
+[INFO ] 2020-09-21 20:52:09.983 [main] BaseTest - Clicking on  Employe group name dropdown
+[INFO ] 2020-09-21 20:52:09.983 [main] BaseTest - Verify Employe group name dropdown is Clickable or Not
+[INFO ] 2020-09-21 20:52:12.818 [main] BaseTest - Clicking on  Band element dropdown
+[INFO ] 2020-09-21 20:52:12.818 [main] BaseTest - Verify Band element dropdown is Clickable or Not
+[INFO ] 2020-09-21 20:52:15.521 [main] BaseTest - Clicking on  SubBand Element dropdown
+[INFO ] 2020-09-21 20:52:15.527 [main] BaseTest - Verify SubBand Element dropdown is Clickable or Not
+[INFO ] 2020-09-21 20:52:22.549 [main] BaseTest - Enter the value into PSA Text box
+[INFO ] 2020-09-21 20:52:29.967 [main] BaseTest - Company name is visble
+[INFO ] 2020-09-21 20:52:35.187 [main] BaseTest - Enter the value into Number of Position text box
+[INFO ] 2020-09-21 20:52:42.585 [main] BaseTest - Clicking on  Submit button 
+[INFO ] 2020-09-21 20:52:42.594 [main] BaseTest - Verify Submit button  is Clickable or Not
+[INFO ] 2020-09-21 20:53:03.407 [main] BaseTest - Clear the Text Present inJob description text area 
+[INFO ] 2020-09-21 20:53:03.468 [main] BaseTest - Enter the value into Job description text area 
+[INFO ] 2020-09-21 20:53:10.084 [main] BaseTest - Enter the value into Location dropdown
+[INFO ] 2020-09-21 20:53:14.380 [main] BaseTest - Clicking on  State drop drown
+[INFO ] 2020-09-21 20:53:14.380 [main] BaseTest - Verify State drop drown is Clickable or Not
+[INFO ] 2020-09-21 20:53:15.080 [main] BaseTest - Clicking on  City dropdown 
+[INFO ] 2020-09-21 20:53:15.081 [main] BaseTest - Verify City dropdown  is Clickable or Not
+[INFO ] 2020-09-21 20:53:15.695 [main] BaseTest - Click on Element Radio Button 
+[INFO ] 2020-09-21 20:53:20.761 [main] BaseTest - Clicking on  Save Draft button
+[INFO ] 2020-09-21 20:53:20.762 [main] BaseTest - Verify Save Draft button is Clickable or Not
+[INFO ] 2020-09-21 20:53:28.616 [main] BaseTest - Enter the value into On boarding date
+[INFO ] 2020-09-21 20:53:28.978 [main] BaseTest - Enter the value into Interviewer 1 text box
+[INFO ] 2020-09-21 20:53:29.486 [main] BaseTest - Enter the value into Interviewer two text box
+[INFO ] 2020-09-21 20:53:32.779 [main] BaseTest - Clicking on  Submit button 
+[INFO ] 2020-09-21 20:53:32.779 [main] BaseTest - Verify Submit button  is Clickable or Not
+[INFO ] 2020-09-21 20:53:38.434 [main] BaseTest - Clicking on  Submit button 
+[INFO ] 2020-09-21 20:53:38.435 [main] BaseTest - Verify Submit button  is Clickable or Not
+[INFO ] 2020-09-21 20:53:48.815 [main] BaseTest - BTIS/BTIS/2020/3055430
+[INFO ] 2020-09-21 20:54:16.419 [main] BaseTest - Clicking on  Approver link 
+[INFO ] 2020-09-21 20:54:16.424 [main] BaseTest - Verify Approver link  is Clickable or Not
+[INFO ] 2020-09-21 20:54:21.809 [main] BaseTest - Navigating to the URL
+[INFO ] 2020-09-21 20:54:22.033 [main] BaseTest - URL of the application is https://qa1.myhcl.com/SmartRecruit_CBT/
+[INFO ] 2020-09-21 20:54:22.033 [main] BaseTest - Enter the value into  EmployeeID Text box
+[INFO ] 2020-09-21 20:54:22.126 [main] BaseTest - Enter the value into  Password Text box
+[INFO ] 2020-09-21 20:54:22.230 [main] BaseTest - Clicking on  Login button
+[INFO ] 2020-09-21 20:54:22.230 [main] BaseTest - Verify Login button is Clickable or Not
+[INFO ] 2020-09-21 20:54:40.264 [main] BaseTest - Clicking on  Approve text
+[INFO ] 2020-09-21 20:54:40.264 [main] BaseTest - Verify Approve text is Clickable or Not
+[INFO ] 2020-09-21 20:54:40.774 [main] BaseTest - Clicking on  Pending Approver text
+[INFO ] 2020-09-21 20:54:40.774 [main] BaseTest - Verify Pending Approver text is Clickable or Not
+[INFO ] 2020-09-21 20:54:41.349 [main] BaseTest - Enter the value into Requisiton number serch box 
+[INFO ] 2020-09-21 20:54:41.628 [main] BaseTest - Clicking on  Serch Button 
+[INFO ] 2020-09-21 20:54:41.628 [main] BaseTest - Verify Serch Button  is Clickable or Not
+[INFO ] 2020-09-21 20:54:48.531 [main] BaseTest - Clicking on  Tick icon 
+[INFO ] 2020-09-21 20:54:48.531 [main] BaseTest - Verify Tick icon  is Clickable or Not
+[INFO ] 2020-09-21 20:54:55.697 [main] BaseTest - Clicking on  Requisition actions dropdown
+[INFO ] 2020-09-21 20:54:55.698 [main] BaseTest - Verify Requisition actions dropdown is Clickable or Not
+[INFO ] 2020-09-21 20:55:15.323 [main] BaseTest - Enter the value into Remarks textbox
+[INFO ] 2020-09-21 20:55:15.416 [main] BaseTest - Clicking on  Submit button
+[INFO ] 2020-09-21 20:55:15.416 [main] BaseTest - Verify Submit button is Clickable or Not
+[INFO ] 2020-09-21 20:55:41.025 [main] BaseTest - Navigating to the URL
+[INFO ] 2020-09-21 20:55:48.804 [main] BaseTest - URL of the application is https://qa1.myhcl.com/SmartRecruit_CBT/
+[INFO ] 2020-09-21 20:55:48.804 [main] BaseTest - Enter the value into  EmployeeID Text box
+[INFO ] 2020-09-21 20:55:48.897 [main] BaseTest - Enter the value into  Password Text box
+[INFO ] 2020-09-21 20:55:49.009 [main] BaseTest - Clicking on  Login button
+[INFO ] 2020-09-21 20:55:49.010 [main] BaseTest - Verify Login button is Clickable or Not
+[INFO ] 2020-09-21 20:56:06.854 [main] BaseTest - Clicking on  Approver link 
+[INFO ] 2020-09-21 20:56:06.854 [main] BaseTest - Verify Approver link  is Clickable or Not
+[INFO ] 2020-09-21 20:56:12.204 [main] BaseTest - URL of the application is https://qa1.myhcl.com/SmartRecruit_CBT/
+[INFO ] 2020-09-21 20:56:12.212 [main] BaseTest - Enter the value into  EmployeeID Text box
+[INFO ] 2020-09-21 21:00:01.431 [main] BaseTest - 
+[INFO ] 2020-09-21 21:00:01.441 [main] BaseTest - Running locally HCL Poc 
+[INFO ] 2020-09-21 21:00:01.660 [main] BaseTest - Folder creation for Extent
+[INFO ] 2020-09-21 21:00:01.676 [main] BaseTest - ExtentDir:-C:\Users\aatish.s\Desktop\Tysspoc\HCL_SmartRecruit_POC/reports/HCLAutomation Report- 09_21_2020_21_00_01/HCL Report/09_21_2020_21_00_01
+[INFO ] 2020-09-21 21:00:01.817 [main] BaseTest - Report Initiated
+[INFO ] 2020-09-21 21:00:01.817 [main] BaseTest - Screenshot Folder Created
+[INFO ] 2020-09-21 21:00:07.686 [main] BaseTest - URL of the application is https://qa1.myhcl.com/SmartRecruit_CBT/
+[INFO ] 2020-09-21 21:00:07.695 [main] BaseTest - Enter the value into  EmployeeID Text box
+[INFO ] 2020-09-21 21:00:07.844 [main] BaseTest - Enter the value into  Password Text box
+[INFO ] 2020-09-21 21:00:07.977 [main] BaseTest - Clicking on  Login button
+[INFO ] 2020-09-21 21:00:07.978 [main] BaseTest - Verify Login button is Clickable or Not
+[INFO ] 2020-09-21 21:00:22.423 [main] BaseTest - Clicking on  New Requisition option
+[INFO ] 2020-09-21 21:00:22.423 [main] BaseTest - Verify New Requisition option is Clickable or Not
+[INFO ] 2020-09-21 21:00:23.952 [main] BaseTest - Clicking on  RequestType dropdown
+[INFO ] 2020-09-21 21:00:23.953 [main] BaseTest - Verify RequestType dropdown is Clickable or Not
+[INFO ] 2020-09-21 21:00:28.292 [main] BaseTest - Clicking on  New resource request
+[INFO ] 2020-09-21 21:00:28.296 [main] BaseTest - Verify New resource request is Clickable or Not
+[INFO ] 2020-09-21 21:00:28.862 [main] BaseTest - Clicking on  Id skill text box
+[INFO ] 2020-09-21 21:00:28.862 [main] BaseTest - Verify Id skill text box is Clickable or Not
+[INFO ] 2020-09-21 21:00:29.464 [main] BaseTest - Enter the value into SkillDetail text box
+[INFO ] 2020-09-21 21:00:34.818 [main] BaseTest - Clicking on  Plus button under skills
+[INFO ] 2020-09-21 21:00:34.819 [main] BaseTest - Verify Plus button under skills is Clickable or Not
+[INFO ] 2020-09-21 21:00:37.425 [main] BaseTest - Click on Element Primary Radio Button
+[INFO ] 2020-09-21 21:00:37.525 [main] BaseTest - Clicking on  Done button 
+[INFO ] 2020-09-21 21:00:37.526 [main] BaseTest - Verify Done button  is Clickable or Not
+[INFO ] 2020-09-21 21:00:37.898 [main] BaseTest - Clicking on  Job tex box detail 
+[INFO ] 2020-09-21 21:00:37.899 [main] BaseTest - Verify Job tex box detail  is Clickable or Not
+[INFO ] 2020-09-21 21:00:38.299 [main] BaseTest - Enter the value into Job text box 
+[INFO ] 2020-09-21 21:00:41.070 [main] BaseTest - Clicking on  SelectJob tick icon
+[INFO ] 2020-09-21 21:00:41.070 [main] BaseTest - Verify SelectJob tick icon is Clickable or Not
+[INFO ] 2020-09-21 21:00:43.806 [main] BaseTest - Clicking on  Save button 
+[INFO ] 2020-09-21 21:00:43.814 [main] BaseTest - Verify Save button  is Clickable or Not
+[INFO ] 2020-09-21 21:00:46.565 [main] BaseTest - Clicking on  Employe group name dropdown
+[INFO ] 2020-09-21 21:00:46.572 [main] BaseTest - Verify Employe group name dropdown is Clickable or Not
+[INFO ] 2020-09-21 21:00:49.392 [main] BaseTest - Clicking on  Band element dropdown
+[INFO ] 2020-09-21 21:00:49.392 [main] BaseTest - Verify Band element dropdown is Clickable or Not
+[INFO ] 2020-09-21 21:00:52.147 [main] BaseTest - Clicking on  SubBand Element dropdown
+[INFO ] 2020-09-21 21:00:52.155 [main] BaseTest - Verify SubBand Element dropdown is Clickable or Not
+[INFO ] 2020-09-21 21:00:59.153 [main] BaseTest - Enter the value into PSA Text box
+[INFO ] 2020-09-21 21:01:06.584 [main] BaseTest - Company name is visble
+[INFO ] 2020-09-21 21:01:11.785 [main] BaseTest - Enter the value into Number of Position text box
+[INFO ] 2020-09-21 21:01:19.174 [main] BaseTest - Clicking on  Submit button 
+[INFO ] 2020-09-21 21:01:19.180 [main] BaseTest - Verify Submit button  is Clickable or Not
+[INFO ] 2020-09-21 21:01:37.945 [main] BaseTest - Clear the Text Present inJob description text area 
+[INFO ] 2020-09-21 21:01:38.009 [main] BaseTest - Enter the value into Job description text area 
+[INFO ] 2020-09-21 21:01:44.706 [main] BaseTest - Enter the value into Location dropdown
+[INFO ] 2020-09-21 21:01:49.010 [main] BaseTest - Clicking on  State drop drown
+[INFO ] 2020-09-21 21:01:49.010 [main] BaseTest - Verify State drop drown is Clickable or Not
+[INFO ] 2020-09-21 21:01:49.735 [main] BaseTest - Clicking on  City dropdown 
+[INFO ] 2020-09-21 21:01:49.735 [main] BaseTest - Verify City dropdown  is Clickable or Not
+[INFO ] 2020-09-21 21:01:50.364 [main] BaseTest - Click on Element Radio Button 
+[INFO ] 2020-09-21 21:01:55.431 [main] BaseTest - Clicking on  Save Draft button
+[INFO ] 2020-09-21 21:01:55.432 [main] BaseTest - Verify Save Draft button is Clickable or Not
+[INFO ] 2020-09-21 21:02:03.328 [main] BaseTest - Enter the value into On boarding date
+[INFO ] 2020-09-21 21:02:03.728 [main] BaseTest - Enter the value into Interviewer 1 text box
+[INFO ] 2020-09-21 21:02:04.283 [main] BaseTest - Enter the value into Interviewer two text box
+[INFO ] 2020-09-21 21:02:07.625 [main] BaseTest - Clicking on  Submit button 
+[INFO ] 2020-09-21 21:02:07.626 [main] BaseTest - Verify Submit button  is Clickable or Not
+[INFO ] 2020-09-21 21:02:13.352 [main] BaseTest - Clicking on  Submit button 
+[INFO ] 2020-09-21 21:02:13.353 [main] BaseTest - Verify Submit button  is Clickable or Not
+[INFO ] 2020-09-21 21:02:23.737 [main] BaseTest - BTIS/BTIS/2020/3055431
+[INFO ] 2020-09-21 21:02:51.725 [main] BaseTest - Clicking on  Approver link 
+[INFO ] 2020-09-21 21:02:51.734 [main] BaseTest - Verify Approver link  is Clickable or Not
+[INFO ] 2020-09-21 21:02:57.139 [main] BaseTest - Navigating to the URL
+[INFO ] 2020-09-21 21:02:57.368 [main] BaseTest - URL of the application is https://qa1.myhcl.com/SmartRecruit_CBT/
+[INFO ] 2020-09-21 21:02:57.369 [main] BaseTest - Enter the value into  EmployeeID Text box
+[INFO ] 2020-09-21 21:02:57.479 [main] BaseTest - Enter the value into  Password Text box
+[INFO ] 2020-09-21 21:02:57.602 [main] BaseTest - Clicking on  Login button
+[INFO ] 2020-09-21 21:02:57.602 [main] BaseTest - Verify Login button is Clickable or Not
+[INFO ] 2020-09-21 21:03:15.945 [main] BaseTest - Clicking on  Approve text
+[INFO ] 2020-09-21 21:03:15.945 [main] BaseTest - Verify Approve text is Clickable or Not
+[INFO ] 2020-09-21 21:03:16.514 [main] BaseTest - Clicking on  Pending Approver text
+[INFO ] 2020-09-21 21:03:16.515 [main] BaseTest - Verify Pending Approver text is Clickable or Not
+[INFO ] 2020-09-21 21:03:17.105 [main] BaseTest - Enter the value into Requisiton number serch box 
+[INFO ] 2020-09-21 21:03:17.317 [main] BaseTest - Clicking on  Serch Button 
+[INFO ] 2020-09-21 21:03:17.318 [main] BaseTest - Verify Serch Button  is Clickable or Not
+[INFO ] 2020-09-21 21:03:25.743 [main] BaseTest - Clicking on  Tick icon 
+[INFO ] 2020-09-21 21:03:25.743 [main] BaseTest - Verify Tick icon  is Clickable or Not
+[INFO ] 2020-09-21 21:03:33.849 [main] BaseTest - Clicking on  Requisition actions dropdown
+[INFO ] 2020-09-21 21:03:33.849 [main] BaseTest - Verify Requisition actions dropdown is Clickable or Not
+[INFO ] 2020-09-21 21:03:43.929 [main] BaseTest - Enter the value into Remarks textbox
+[INFO ] 2020-09-21 21:03:44.021 [main] BaseTest - Clicking on  Submit button
+[INFO ] 2020-09-21 21:03:44.021 [main] BaseTest - Verify Submit button is Clickable or Not
+[INFO ] 2020-09-21 21:04:08.490 [main] BaseTest - Navigating to the URL
+[INFO ] 2020-09-21 21:04:15.870 [main] BaseTest - URL of the application is https://qa1.myhcl.com/SmartRecruit_CBT/
+[INFO ] 2020-09-21 21:04:15.870 [main] BaseTest - Enter the value into  EmployeeID Text box
+[INFO ] 2020-09-21 21:04:15.970 [main] BaseTest - Enter the value into  Password Text box
+[INFO ] 2020-09-21 21:04:16.097 [main] BaseTest - Clicking on  Login button
+[INFO ] 2020-09-21 21:04:16.098 [main] BaseTest - Verify Login button is Clickable or Not
+[INFO ] 2020-09-21 21:04:34.091 [main] BaseTest - Clicking on  Approver link 
+[INFO ] 2020-09-21 21:04:34.091 [main] BaseTest - Verify Approver link  is Clickable or Not
+[INFO ] 2020-09-21 21:04:39.498 [main] BaseTest - URL of the application is https://qa1.myhcl.com/SmartRecruit_CBT/
+[INFO ] 2020-09-21 21:04:39.499 [main] BaseTest - Enter the value into  EmployeeID Text box

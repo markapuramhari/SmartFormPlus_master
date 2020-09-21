@@ -129,9 +129,10 @@
                   </a> <!-- TC_ApproveAllRequisition(TECH/CSW, HCLT - BPR - Smart Recruit (Z/070006), Javascript,  MVC, Admin lead, Admin, Full time FTE,...) -->
                   <span class="method-name">TC_ApproveAllRequisition</span>
                   <span class="parameters">(TECH/CSW, HCLT - BPR - Smart Recruit (Z/070006), Javascript,  MVC, Admin lead, Admin, Full time FTE, E3, E3.1, ENOI, ENOI, 1-3 Years, 4, (ETS) SPECIALIST, Noida-Sec-16, A-11, CLIENT LOCATION, Andhra Pradesh, Krishna, Non Billable, KEDARNATH BHARADWAJ (40104187), Saravanan Rangamannar (40103492), Approved)</span>
-                  <div class="stack-trace">java.lang.AssertionError: Unable to performe action on Approve Requistion Stage1
-	at com.hcl.smartrecruit.pages.ApproveAllRequisition_Page.approveRequistionStage1(ApproveAllRequisition_Page.java:106)
-	at com.hcl.smartrecruit.testscripts.ApproveAllRequisition.TC_ApproveAllRequisition(ApproveAllRequisition.java:44)
+                  <div class="stack-trace">java.lang.AssertionError: Unable to type in  EmployeeID Text box
+	at com.hcl.smartrecruit.util.WebActionUtil.typeText(WebActionUtil.java:272)
+	at com.hcl.smartrecruit.pages.Login_Page.signToApplication(Login_Page.java:51)
+	at com.hcl.smartrecruit.testscripts.ApproveAllRequisition.TC_ApproveAllRequisition(ApproveAllRequisition.java:51)
 ... Removed 26 stack frames
 </div> <!-- stack-trace -->
                   <em>
@@ -200,12 +201,12 @@ data.addRows(1);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'TC_ApproveAllRequisition')
 data.setCell(0, 2, 'com.hcl.smartrecruit.testscripts.ApproveAllRequisition')
-data.setCell(0, 3, 213379);
+data.setCell(0, 3, 282052);
 window.suiteTableData['SmartRecruit']= { tableData: data, tableDiv: 'times-div-SmartRecruit'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 3 minutes</span>
+              <span class="suite-total-time">Total running time: 4 minutes</span>
               <div id="times-div-SmartRecruit">
               </div> <!-- times-div-SmartRecruit -->
             </div> <!-- times-div -->
@@ -290,8 +291,22 @@ return data;
                 <span class="reporter-method-output">Verify Serch Button  is Clickable or Not</span>
                 <span class="reporter-method-output">Clicking on  Tick icon </span>
                 <span class="reporter-method-output">Verify Tick icon  is Clickable or Not</span>
-                <span class="reporter-method-output">String index out of range: -1</span>
-                <span class="reporter-method-output">Unable to performe action on Approve Requistion Stage1</span>
+                <span class="reporter-method-output">Clicking on  Requisition actions dropdown</span>
+                <span class="reporter-method-output">Verify Requisition actions dropdown is Clickable or Not</span>
+                <span class="reporter-method-output">Enter the value into Remarks textbox</span>
+                <span class="reporter-method-output">Clicking on  Submit button</span>
+                <span class="reporter-method-output">Verify Submit button is Clickable or Not</span>
+                <span class="reporter-method-output">Navigating to the URL</span>
+                <span class="reporter-method-output">URL of the application is https://qa1.myhcl.com/SmartRecruit_CBT/</span>
+                <span class="reporter-method-output">Enter the value into  EmployeeID Text box</span>
+                <span class="reporter-method-output">Enter the value into  Password Text box</span>
+                <span class="reporter-method-output">Clicking on  Login button</span>
+                <span class="reporter-method-output">Verify Login button is Clickable or Not</span>
+                <span class="reporter-method-output">Clicking on  Approver link </span>
+                <span class="reporter-method-output">Verify Approver link  is Clickable or Not</span>
+                <span class="reporter-method-output">URL of the application is https://qa1.myhcl.com/SmartRecruit_CBT/</span>
+                <span class="reporter-method-output">Enter the value into  EmployeeID Text box</span>
+                <span class="reporter-method-output"> User is not able to type 51585061into  EmployeeID Text box</span>
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -316,25 +331,25 @@ return data;
               </div> <!-- configuration-suite before -->
               <div class="configuration-class before">
                 <span class="method-name">launchApp(Chrome)</span>
-                <span class="method-start">156 ms</span>
+                <span class="method-start">157 ms</span>
               </div> <!-- configuration-class before -->
               <div class="configuration-method before">
                 <span class="method-name">setExtentReport(public synchronized void com.hcl.smartrecruit.testscripts.ApproveAllRequisition.TC_ApproveAllRequisi...)</span>
-                <span class="method-start">5338 ms</span>
+                <span class="method-start">5848 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">TC_ApproveAllRequisition(TECH/CSW, HCLT - BPR - Smart Recruit (Z/070006), Javascript,  MVC, Admin lead, Admin, Full time FTE,...)</span>
-                <span class="method-start">5340 ms</span>
+                <span class="method-start">5849 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">closeBrowser</span>
-                <span class="method-start">219137 ms</span>
+                <span class="method-start">288332 ms</span>
               </div> <!-- configuration-class after -->
               <div class="configuration-suite after">
                 <span class="method-name">killTask(Chrome)</span>
-                <span class="method-start">219506 ms</span>
+                <span class="method-start">288709 ms</span>
               </div> <!-- configuration-suite after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

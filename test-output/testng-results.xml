@@ -215,22 +215,64 @@
       <![CDATA[Verify Tick icon  is Clickable or Not]]>
     </line>
     <line>
-      <![CDATA[String index out of range: -1]]>
+      <![CDATA[Clicking on  Requisition actions dropdown]]>
     </line>
     <line>
-      <![CDATA[Unable to performe action on Approve Requistion Stage1]]>
+      <![CDATA[Verify Requisition actions dropdown is Clickable or Not]]>
+    </line>
+    <line>
+      <![CDATA[Enter the value into Remarks textbox]]>
+    </line>
+    <line>
+      <![CDATA[Clicking on  Submit button]]>
+    </line>
+    <line>
+      <![CDATA[Verify Submit button is Clickable or Not]]>
+    </line>
+    <line>
+      <![CDATA[Navigating to the URL]]>
+    </line>
+    <line>
+      <![CDATA[URL of the application is https://qa1.myhcl.com/SmartRecruit_CBT/]]>
+    </line>
+    <line>
+      <![CDATA[Enter the value into  EmployeeID Text box]]>
+    </line>
+    <line>
+      <![CDATA[Enter the value into  Password Text box]]>
+    </line>
+    <line>
+      <![CDATA[Clicking on  Login button]]>
+    </line>
+    <line>
+      <![CDATA[Verify Login button is Clickable or Not]]>
+    </line>
+    <line>
+      <![CDATA[Clicking on  Approver link ]]>
+    </line>
+    <line>
+      <![CDATA[Verify Approver link  is Clickable or Not]]>
+    </line>
+    <line>
+      <![CDATA[URL of the application is https://qa1.myhcl.com/SmartRecruit_CBT/]]>
+    </line>
+    <line>
+      <![CDATA[Enter the value into  EmployeeID Text box]]>
+    </line>
+    <line>
+      <![CDATA[ User is not able to type 51585061into  EmployeeID Text box]]>
     </line>
   </reporter-output>
-  <suite name="SmartRecruit" duration-ms="219075" started-at="2020-09-21T14:52:46Z" finished-at="2020-09-21T14:56:25Z">
+  <suite name="SmartRecruit" duration-ms="288268" started-at="2020-09-21T15:30:01Z" finished-at="2020-09-21T15:34:50Z">
     <groups>
     </groups>
-    <test name="POC_Test1" duration-ms="219075" started-at="2020-09-21T14:52:46Z" finished-at="2020-09-21T14:56:25Z">
+    <test name="POC_Test1" duration-ms="288268" started-at="2020-09-21T15:30:01Z" finished-at="2020-09-21T15:34:50Z">
       <class name="com.hcl.smartrecruit.testscripts.ApproveAllRequisition">
-        <test-method status="PASS" signature="createFiles()[pri:0, instance:com.hcl.smartrecruit.testscripts.ApproveAllRequisition@466276d8]" name="createFiles" is-config="true" duration-ms="140" started-at="2020-09-21T14:52:46Z" finished-at="2020-09-21T14:52:46Z">
+        <test-method status="PASS" signature="createFiles()[pri:0, instance:com.hcl.smartrecruit.testscripts.ApproveAllRequisition@466276d8]" name="createFiles" is-config="true" duration-ms="157" started-at="2020-09-21T15:30:01Z" finished-at="2020-09-21T15:30:01Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createFiles -->
-        <test-method status="PASS" signature="launchApp(java.lang.String)[pri:0, instance:com.hcl.smartrecruit.testscripts.ApproveAllRequisition@466276d8]" name="launchApp" is-config="true" duration-ms="5046" started-at="2020-09-21T14:52:46Z" finished-at="2020-09-21T14:52:51Z">
+        <test-method status="PASS" signature="launchApp(java.lang.String)[pri:0, instance:com.hcl.smartrecruit.testscripts.ApproveAllRequisition@466276d8]" name="launchApp" is-config="true" duration-ms="5523" started-at="2020-09-21T15:30:01Z" finished-at="2020-09-21T15:30:07Z">
           <params>
             <param index="0">
               <value>
@@ -241,7 +283,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchApp -->
-        <test-method status="PASS" signature="setExtentReport(java.lang.reflect.Method)[pri:0, instance:com.hcl.smartrecruit.testscripts.ApproveAllRequisition@466276d8]" name="setExtentReport" is-config="true" duration-ms="2" started-at="2020-09-21T14:52:51Z" finished-at="2020-09-21T14:52:51Z">
+        <test-method status="PASS" signature="setExtentReport(java.lang.reflect.Method)[pri:0, instance:com.hcl.smartrecruit.testscripts.ApproveAllRequisition@466276d8]" name="setExtentReport" is-config="true" duration-ms="1" started-at="2020-09-21T15:30:07Z" finished-at="2020-09-21T15:30:07Z">
           <params>
             <param index="0">
               <value>
@@ -252,7 +294,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setExtentReport -->
-        <test-method status="FAIL" signature="TC_ApproveAllRequisition(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.hcl.smartrecruit.testscripts.ApproveAllRequisition@466276d8]" name="TC_ApproveAllRequisition" duration-ms="213379" started-at="2020-09-21T14:52:51Z" description="Approve Requisition" data-provider="TestDataProvider" finished-at="2020-09-21T14:56:25Z">
+        <test-method status="FAIL" signature="TC_ApproveAllRequisition(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.hcl.smartrecruit.testscripts.ApproveAllRequisition@466276d8]" name="TC_ApproveAllRequisition" duration-ms="282052" started-at="2020-09-21T15:30:07Z" description="Approve Requisition" data-provider="TestDataProvider" finished-at="2020-09-21T15:34:49Z">
           <params>
             <param index="0">
               <value>
@@ -367,13 +409,14 @@
           </params>
           <exception class="java.lang.AssertionError">
             <message>
-              <![CDATA[Unable to performe action on Approve Requistion Stage1]]>
+              <![CDATA[Unable to type in  EmployeeID Text box]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: Unable to performe action on Approve Requistion Stage1
+              <![CDATA[java.lang.AssertionError: Unable to type in  EmployeeID Text box
 at org.testng.Assert.fail(Assert.java:96)
-at com.hcl.smartrecruit.pages.ApproveAllRequisition_Page.approveRequistionStage1(ApproveAllRequisition_Page.java:106)
-at com.hcl.smartrecruit.testscripts.ApproveAllRequisition.TC_ApproveAllRequisition(ApproveAllRequisition.java:44)
+at com.hcl.smartrecruit.util.WebActionUtil.typeText(WebActionUtil.java:272)
+at com.hcl.smartrecruit.pages.Login_Page.signToApplication(Login_Page.java:51)
+at com.hcl.smartrecruit.testscripts.ApproveAllRequisition.TC_ApproveAllRequisition(ApproveAllRequisition.java:51)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -617,18 +660,60 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
               <![CDATA[Verify Tick icon  is Clickable or Not]]>
             </line>
             <line>
-              <![CDATA[String index out of range: -1]]>
+              <![CDATA[Clicking on  Requisition actions dropdown]]>
             </line>
             <line>
-              <![CDATA[Unable to performe action on Approve Requistion Stage1]]>
+              <![CDATA[Verify Requisition actions dropdown is Clickable or Not]]>
+            </line>
+            <line>
+              <![CDATA[Enter the value into Remarks textbox]]>
+            </line>
+            <line>
+              <![CDATA[Clicking on  Submit button]]>
+            </line>
+            <line>
+              <![CDATA[Verify Submit button is Clickable or Not]]>
+            </line>
+            <line>
+              <![CDATA[Navigating to the URL]]>
+            </line>
+            <line>
+              <![CDATA[URL of the application is https://qa1.myhcl.com/SmartRecruit_CBT/]]>
+            </line>
+            <line>
+              <![CDATA[Enter the value into  EmployeeID Text box]]>
+            </line>
+            <line>
+              <![CDATA[Enter the value into  Password Text box]]>
+            </line>
+            <line>
+              <![CDATA[Clicking on  Login button]]>
+            </line>
+            <line>
+              <![CDATA[Verify Login button is Clickable or Not]]>
+            </line>
+            <line>
+              <![CDATA[Clicking on  Approver link ]]>
+            </line>
+            <line>
+              <![CDATA[Verify Approver link  is Clickable or Not]]>
+            </line>
+            <line>
+              <![CDATA[URL of the application is https://qa1.myhcl.com/SmartRecruit_CBT/]]>
+            </line>
+            <line>
+              <![CDATA[Enter the value into  EmployeeID Text box]]>
+            </line>
+            <line>
+              <![CDATA[ User is not able to type 51585061into  EmployeeID Text box]]>
             </line>
           </reporter-output>
         </test-method> <!-- TC_ApproveAllRequisition -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.hcl.smartrecruit.testscripts.ApproveAllRequisition@466276d8]" name="closeBrowser" is-config="true" duration-ms="78" started-at="2020-09-21T14:56:25Z" finished-at="2020-09-21T14:56:25Z">
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.hcl.smartrecruit.testscripts.ApproveAllRequisition@466276d8]" name="closeBrowser" is-config="true" duration-ms="93" started-at="2020-09-21T15:34:49Z" finished-at="2020-09-21T15:34:50Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method status="PASS" signature="killTask(java.lang.String)[pri:0, instance:com.hcl.smartrecruit.testscripts.ApproveAllRequisition@466276d8]" name="killTask" is-config="true" duration-ms="62" started-at="2020-09-21T14:56:25Z" finished-at="2020-09-21T14:56:26Z">
+        <test-method status="PASS" signature="killTask(java.lang.String)[pri:0, instance:com.hcl.smartrecruit.testscripts.ApproveAllRequisition@466276d8]" name="killTask" is-config="true" duration-ms="47" started-at="2020-09-21T15:34:50Z" finished-at="2020-09-21T15:34:50Z">
           <params>
             <param index="0">
               <value>
