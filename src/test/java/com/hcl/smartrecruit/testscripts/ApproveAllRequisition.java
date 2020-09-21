@@ -40,7 +40,6 @@ public class ApproveAllRequisition extends BaseTest {
 		WebActionUtil.navigateToUrl(BaseTest.URL);
 		String approver1Id = BaseTest.map.get("approver1");
 		pages.loginPage.signToApplication(approver1Id, userPass[indexPassword]);
-		pages.closeRequisition.getApproverData();
 
 		pages.approveAllRequisition.approveRequistionStage1(statusRemarks);
 		WebActionUtil.navigateToUrl(BaseTest.URL);
