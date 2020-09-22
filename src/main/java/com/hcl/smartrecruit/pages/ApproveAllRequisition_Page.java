@@ -1,5 +1,6 @@
 package com.hcl.smartrecruit.pages;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -75,6 +76,12 @@ public class ApproveAllRequisition_Page {
 	/* Approve status */
 	@FindBy(xpath = "//table[@id='entry-grid']//descendant::td[text()='Approved']")
 	private WebElement txtapprovedstatus;
+	
+	/*TPG manager pool*/
+	/* Search job element */
+	public synchronized String searchTpg(String requisitionNo) {
+		return driver.findElement(By.xpath("//a[text()='"+requisitionNo+"']/../following-sibling::td[6]/a[@id='pendWith']")).getText();
+	}
 
 	/**
 	 * Description :Method to approve the Requisition for first approver
@@ -198,6 +205,21 @@ public class ApproveAllRequisition_Page {
 			WebActionUtil.error(e.getMessage());
 			WebActionUtil.info("Unable to verify Approval Text");
 			Assert.fail("Unable to verify Approval Text");
+		}
+	}
+	/**
+	 * Description : Method to verify if the approval reached TPG pool
+	 * @author Aatish Slathia
+	 */
+	
+	public synchronized void verifyapprovalwithTPG() {
+		try {
+			String text=searchTpg(BaseTest.map.get("requisitionNumber"));
+			WebActionUtil.validationpass("Approval pending with"+text);
+		} catch (Exception e) {
+		
+			WebActionUtil.info("Unable to verify the Approval Pool");
+			Assert.fail("Unable to verify Approval Pool");
 		}
 	}
 }

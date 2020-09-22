@@ -59,16 +59,8 @@ public class ApproveAllRequisition extends BaseTest {
         String status = ExcelUtil.getCellData(EXCELPATH, "ApproveAllRequisition", 1, 0);
     	pages.approveAllRequisition.verifyapprovaltext(status);
 		
-//		String approver3Id = BaseTest.map.get("approver3");
-//		pages.loginPage.signToApplication(approver3Id, userPass[indexPassword]);
-//		pages.approveAllRequisition.approveRequistionStage3(statusRemarks);
-//
-//		WebActionUtil.navigateToUrl(BaseTest.URL);
-//		pages.loginPage.signToApplication(userData[indexUserName], userPass[indexPassword]);
-//
-//		pages.approveAllRequisition.initiatorStage();
-//		String status = ExcelUtil.getCellData(EXCELPATH, "ApproveAllRequisition", 1, 0);
-//		pages.approveAllRequisition.verifyapprovaltext(status);
+        /*Check the approval status with TPG manager*/
+    	pages.approveAllRequisition.verifyapprovalwithTPG();
 
 	}
 }

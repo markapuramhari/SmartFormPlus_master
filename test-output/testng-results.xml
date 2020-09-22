@@ -332,16 +332,16 @@
       <![CDATA[Verify Login button is Clickable or Not]]>
     </line>
   </reporter-output>
-  <suite name="SmartRecruit" duration-ms="373113" started-at="2020-09-21T15:48:10Z" finished-at="2020-09-21T15:54:23Z">
+  <suite name="SmartRecruit" duration-ms="353258" started-at="2020-09-22T04:55:42Z" finished-at="2020-09-22T05:01:35Z">
     <groups>
     </groups>
-    <test name="POC_Test1" duration-ms="373113" started-at="2020-09-21T15:48:10Z" finished-at="2020-09-21T15:54:23Z">
+    <test name="POC_Test1" duration-ms="353258" started-at="2020-09-22T04:55:42Z" finished-at="2020-09-22T05:01:35Z">
       <class name="com.hcl.smartrecruit.testscripts.ApproveAllRequisition">
-        <test-method status="PASS" signature="createFiles()[pri:0, instance:com.hcl.smartrecruit.testscripts.ApproveAllRequisition@466276d8]" name="createFiles" is-config="true" duration-ms="156" started-at="2020-09-21T15:48:10Z" finished-at="2020-09-21T15:48:10Z">
+        <test-method status="PASS" signature="createFiles()[pri:0, instance:com.hcl.smartrecruit.testscripts.ApproveAllRequisition@609db546]" name="createFiles" is-config="true" duration-ms="192" started-at="2020-09-22T04:55:42Z" finished-at="2020-09-22T04:55:42Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createFiles -->
-        <test-method status="PASS" signature="launchApp(java.lang.String)[pri:0, instance:com.hcl.smartrecruit.testscripts.ApproveAllRequisition@466276d8]" name="launchApp" is-config="true" duration-ms="5898" started-at="2020-09-21T15:48:10Z" finished-at="2020-09-21T15:48:16Z">
+        <test-method status="PASS" signature="launchApp(java.lang.String)[pri:0, instance:com.hcl.smartrecruit.testscripts.ApproveAllRequisition@609db546]" name="launchApp" is-config="true" duration-ms="4763" started-at="2020-09-22T04:55:42Z" finished-at="2020-09-22T04:55:47Z">
           <params>
             <param index="0">
               <value>
@@ -352,7 +352,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchApp -->
-        <test-method status="PASS" signature="setExtentReport(java.lang.reflect.Method)[pri:0, instance:com.hcl.smartrecruit.testscripts.ApproveAllRequisition@466276d8]" name="setExtentReport" is-config="true" duration-ms="2" started-at="2020-09-21T15:48:16Z" finished-at="2020-09-21T15:48:16Z">
+        <test-method status="PASS" signature="setExtentReport(java.lang.reflect.Method)[pri:0, instance:com.hcl.smartrecruit.testscripts.ApproveAllRequisition@609db546]" name="setExtentReport" is-config="true" duration-ms="1" started-at="2020-09-22T04:55:47Z" finished-at="2020-09-22T04:55:47Z">
           <params>
             <param index="0">
               <value>
@@ -363,7 +363,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setExtentReport -->
-        <test-method status="PASS" signature="TC_ApproveAllRequisition(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.hcl.smartrecruit.testscripts.ApproveAllRequisition@466276d8]" name="TC_ApproveAllRequisition" duration-ms="366954" started-at="2020-09-21T15:48:16Z" description="Approve Requisition" data-provider="TestDataProvider" finished-at="2020-09-21T15:54:23Z">
+        <test-method status="PASS" signature="TC_ApproveAllRequisition(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.hcl.smartrecruit.testscripts.ApproveAllRequisition@609db546]" name="TC_ApproveAllRequisition" duration-ms="348256" started-at="2020-09-22T04:55:47Z" description="Approve Requisition" data-provider="TestDataProvider" finished-at="2020-09-22T05:01:35Z">
           <params>
             <param index="0">
               <value>
@@ -809,11 +809,11 @@
             </line>
           </reporter-output>
         </test-method> <!-- TC_ApproveAllRequisition -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.hcl.smartrecruit.testscripts.ApproveAllRequisition@466276d8]" name="closeBrowser" is-config="true" duration-ms="86" started-at="2020-09-21T15:54:23Z" finished-at="2020-09-21T15:54:23Z">
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.hcl.smartrecruit.testscripts.ApproveAllRequisition@609db546]" name="closeBrowser" is-config="true" duration-ms="87" started-at="2020-09-22T05:01:35Z" finished-at="2020-09-22T05:01:35Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method status="PASS" signature="killTask(java.lang.String)[pri:0, instance:com.hcl.smartrecruit.testscripts.ApproveAllRequisition@466276d8]" name="killTask" is-config="true" duration-ms="32" started-at="2020-09-21T15:54:23Z" finished-at="2020-09-21T15:54:23Z">
+        <test-method status="PASS" signature="killTask(java.lang.String)[pri:0, instance:com.hcl.smartrecruit.testscripts.ApproveAllRequisition@609db546]" name="killTask" is-config="true" duration-ms="32" started-at="2020-09-22T05:01:36Z" finished-at="2020-09-22T05:01:36Z">
           <params>
             <param index="0">
               <value>
