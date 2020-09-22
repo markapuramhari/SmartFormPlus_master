@@ -27,11 +27,11 @@ public class FileOperations {
 		fileVariables.setsStartTime(fileVariables.getsDate());
 		fileVariables.setExtentReportFolderPath(System.getProperty("user.dir") + "/reports");
 
-		fileVariables.setExtentDir(System.getProperty("user.dir") + "/reports" + "/HCLAutomation Report- "
+		fileVariables.setExtentDir(System.getProperty("user.dir") + "/reports" + "/Automation Report- "
 
-				+ WebActionUtil.getCurrentDateTime() + "/HCL Report/" + WebActionUtil.getCurrentDateTime());
+				+ WebActionUtil.getCurrentDateTime() + "/ExecutionReport/" + WebActionUtil.getCurrentDateTime());
 		fileVariables.setScreenShotPath(System.getProperty("user.dir") + "/reports" + "/ScreenShots-"
-				+ WebActionUtil.getCurrentDateTime() + "/HCL_screenshots/");
+				+ WebActionUtil.getCurrentDateTime() + "/Execution_screenshots/");
 
 
 		BaseTest.logger.info("ExtentDir:-" + fileVariables.getExtentDir());
