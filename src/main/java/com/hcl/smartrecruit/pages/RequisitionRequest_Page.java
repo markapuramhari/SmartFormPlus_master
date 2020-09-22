@@ -413,8 +413,9 @@ public class RequisitionRequest_Page {
 		
 		try {
 			WebActionUtil.waitForThePresenceOfElement(5);
-			if(WebActionUtil.isElementVisible(btnCompanyName, "Company name")) {
-				WebActionUtil.info("Company name is visble");
+			if(WebActionUtil.isElementVisible(btnCompanyName, "Company name")==false) {
+				WebActionUtil.fail("Company name is not visble");
+				Assert.fail();
 				
 			}
 	
