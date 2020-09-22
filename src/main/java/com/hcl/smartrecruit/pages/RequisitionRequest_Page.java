@@ -329,8 +329,8 @@ public class RequisitionRequest_Page {
 			// WebActionUtil.selectByText(ddentity, entityname);
 			// WebActionUtil.clickOnElement(btnEntitySubmit, "Entity Submit button");
 
-			//WebActionUtil.clearText(txtProjectName, "Project name text box");
-			//WebActionUtil.typeText(txtProjectName, projectName, "Project name text box");
+			WebActionUtil.clearText(txtProjectName, "Project name text box");
+			WebActionUtil.typeText(txtProjectName, projectName, "Project name text box");
 			WebActionUtil.clickOnElement(ddRequestType, "RequestType dropdown");
 			WebActionUtil.actionMouseHover(ddResourceRequest, "NewRequest option");
 			WebActionUtil.clickOnElement(txtNewResourceRequest, "New resource request");
