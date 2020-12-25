@@ -1,0 +1,419 @@
+<html>
+<head>
+<title>TestNG:  Cropin_Test1</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Cropin_Test1</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>30/2/0</td>
+</tr><tr>
+<td>Started on:</td><td>Thu Dec 03 14:53:37 IST 2020</td>
+</tr>
+<tr><td>Total time:</td><td>1937 seconds (1937253 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.cropin.testscripts.TC_Crop_01.testCreateCropVariety()'><b>testCreateCropVariety</b><br>Test class: com.cropin.testscripts.TC_Crop_01<br/>
+<a href="#Output-838227686" onClick='toggleBox("Output-838227686", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-838227686" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-838227686">
+Getting Bug<br/>
+</div>
+</td>
+<td><div><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//table/tbody/tr[*]/td[2][text()=&apos; Wheat &apos;]/../../tr[*]/td[2]/span/span/a[text()=&apos;WhiteWheat20&apos;]&quot;}
+  (Session info: chrome=87.0.4280.66)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:25:53&apos;
+System info: host: &apos;VINAY&apos;, ip: &apos;192.168.0.102&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_241&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.66, chrome: {chromedriverVersion: 87.0.4280.20 (c99e81631faa0..., userDataDir: C:\Users\VINAYS~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:62743}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: bfe858e816acaf5ec1990b87dc6afd25
+*** Element info: {Using=xpath, value=//table/tbody/tr[*]/td[2][text()=&apos; Wheat &apos;]/../../tr[*]/td[2]/span/span/a[text()=&apos;WhiteWheat20&apos;]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at com.cropin.pages.CropPage.actualCropVariety(CropPage.java:304)
+	at com.cropin.pages.CropPage.validateCropVariety(CropPage.java:315)
+	at com.cropin.testscripts.TC_Crop_01.testCreateCropVariety(TC_Crop_01.java:59)
+... Removed 29 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace838227686", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace838227686'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//table/tbody/tr[*]/td[2][text()=&apos; Wheat &apos;]/../../tr[*]/td[2]/span/span/a[text()=&apos;WhiteWheat20&apos;]&quot;}
+  (Session info: chrome=87.0.4280.66)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:25:53&apos;
+System info: host: &apos;VINAY&apos;, ip: &apos;192.168.0.102&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_241&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.66, chrome: {chromedriverVersion: 87.0.4280.20 (c99e81631faa0..., userDataDir: C:\Users\VINAYS~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:62743}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: bfe858e816acaf5ec1990b87dc6afd25
+*** Element info: {Using=xpath, value=//table/tbody/tr[*]/td[2][text()=&apos; Wheat &apos;]/../../tr[*]/td[2]/span/span/a[text()=&apos;WhiteWheat20&apos;]}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at com.cropin.pages.CropPage.actualCropVariety(CropPage.java:304)
+	at com.cropin.pages.CropPage.validateCropVariety(CropPage.java:315)
+	at com.cropin.testscripts.TC_Crop_01.testCreateCropVariety(TC_Crop_01.java:59)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>63</td>
+<td>com.cropin.testscripts.TC_Crop_01@3caa4757</td></tr>
+<tr>
+<td title='com.cropin.testscripts.TC_Crop_04.testCreateCropVariety()'><b>testCreateCropVariety</b><br>Test class: com.cropin.testscripts.TC_Crop_04<br/>
+<a href="#Output-722365839" onClick='toggleBox("Output-722365839", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-722365839" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-722365839">
+no such element: Unable to locate element: {"method":"xpath","selector":"//table/tbody/tr[*]/td[2][text()=' Ginger ']/../../tr[*]/td[2]/span/span/a[text()='LocalGinger']/../../../../../tr[*]/td[5]/span/button/span/mat-icon[text()='assignment ']"}
+  (Session info: chrome=87.0.4280.66)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'VINAY', ip: '192.168.0.102', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_241'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.66, chrome: {chromedriverVersion: 87.0.4280.20 (c99e81631faa0..., userDataDir: C:\Users\VINAYS~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:62996}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 5068a73a806ebc8d6ecd8e15e3bdac9d
+*** Element info: {Using=xpath, value=//table/tbody/tr[*]/td[2][text()=' Ginger ']/../../tr[*]/td[2]/span/span/a[text()='LocalGinger']/../../../../../tr[*]/td[5]/span/button/span/mat-icon[text()='assignment ']}<br/>
+</div>
+</td>
+<td><div><pre>java.lang.AssertionError: Unable to perform action to navigate Plans Icon under Actions
+	at com.cropin.pages.CropPage.navigateToAddPlan(CropPage.java:484)
+	at com.cropin.testscripts.TC_Crop_04.testCreateCropVariety(TC_Crop_04.java:40)
+... Removed 26 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace722365839", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace722365839'><pre>java.lang.AssertionError: Unable to perform action to navigate Plans Icon under Actions
+	at org.testng.Assert.fail(Assert.java:96)
+	at com.cropin.pages.CropPage.navigateToAddPlan(CropPage.java:484)
+	at com.cropin.testscripts.TC_Crop_04.testCreateCropVariety(TC_Crop_04.java:40)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>33</td>
+<td>com.cropin.testscripts.TC_Crop_04@1804f60d</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.cropin.testscripts.TC_Alerts_01.testAddAlert()'><b>testAddAlert</b><br>Test class: com.cropin.testscripts.TC_Alerts_01</td>
+<td></td>
+<td>55</td>
+<td>com.cropin.testscripts.TC_Alerts_01@238b521e</td></tr>
+<tr>
+<td title='com.cropin.testscripts.TC_Alerts_02.testAddAlert()'><b>testAddAlert</b><br>Test class: com.cropin.testscripts.TC_Alerts_02<br/>
+<a href="#Output-2077102882" onClick='toggleBox("Output-2077102882", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2077102882" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2077102882">
+Alert is not deleted<br/>
+</div>
+</td>
+<td></td>
+<td>45</td>
+<td>com.cropin.testscripts.TC_Alerts_02@1b39fd82</td></tr>
+<tr>
+<td title='com.cropin.testscripts.TC_Alerts_03.testAddAlert()'><b>testAddAlert</b><br>Test class: com.cropin.testscripts.TC_Alerts_03</td>
+<td></td>
+<td>34</td>
+<td>com.cropin.testscripts.TC_Alerts_03@3e2fc448</td></tr>
+<tr>
+<td title='com.cropin.testscripts.TC_Asset_01.testAddAsset()'><b>testAddAsset</b><br>Test class: com.cropin.testscripts.TC_Asset_01</td>
+<td></td>
+<td>68</td>
+<td>com.cropin.testscripts.TC_Asset_01@3a80515c</td></tr>
+<tr>
+<td title='com.cropin.testscripts.TC_Asset_05.testAddAsset()'><b>testAddAsset</b><br>Test class: com.cropin.testscripts.TC_Asset_05</td>
+<td></td>
+<td>97</td>
+<td>com.cropin.testscripts.TC_Asset_05@1c807b1d</td></tr>
+<tr>
+<td title='com.cropin.testscripts.TC_Contractor_01.testAddContractor()'><b>testAddContractor</b><br>Test class: com.cropin.testscripts.TC_Contractor_01</td>
+<td></td>
+<td>64</td>
+<td>com.cropin.testscripts.TC_Contractor_01@2575f671</td></tr>
+<tr>
+<td title='com.cropin.testscripts.TC_Resource_01.testAddFarmResource()'><b>testAddFarmResource</b><br>Test class: com.cropin.testscripts.TC_Resource_01</td>
+<td></td>
+<td>62</td>
+<td>com.cropin.testscripts.TC_Resource_01@27f9e982</td></tr>
+<tr>
+<td title='com.cropin.testscripts.TC_Farmer_01.testAddFarmer()'><b>testAddFarmer</b><br>Test class: com.cropin.testscripts.TC_Farmer_01</td>
+<td></td>
+<td>68</td>
+<td>com.cropin.testscripts.TC_Farmer_01@46cf05f7</td></tr>
+<tr>
+<td title='com.cropin.testscripts.TC_User_01.testAddUser()'><b>testAddUser</b><br>Test class: com.cropin.testscripts.TC_User_01</td>
+<td></td>
+<td>108</td>
+<td>com.cropin.testscripts.TC_User_01@72bca894</td></tr>
+<tr>
+<td title='com.cropin.testscripts.TC_Farmer_04.testAssignmentFarmer()'><b>testAssignmentFarmer</b><br>Test class: com.cropin.testscripts.TC_Farmer_04</td>
+<td></td>
+<td>31</td>
+<td>com.cropin.testscripts.TC_Farmer_04@5851bd4f</td></tr>
+<tr>
+<td title='com.cropin.testscripts.TC_Plantype_05.testCalculatedAttribute()'><b>testCalculatedAttribute</b><br>Test class: com.cropin.testscripts.TC_Plantype_05</td>
+<td></td>
+<td>72</td>
+<td>com.cropin.testscripts.TC_Plantype_05@29caf222</td></tr>
+<tr>
+<td title='com.cropin.testscripts.TC_Plantype_04.testConditionalAttribute()'><b>testConditionalAttribute</b><br>Test class: com.cropin.testscripts.TC_Plantype_04</td>
+<td></td>
+<td>27</td>
+<td>com.cropin.testscripts.TC_Plantype_04@1d572e62</td></tr>
+<tr>
+<td title='com.cropin.testscripts.TC_Crop_03.testCreateCropSubVariety()'><b>testCreateCropSubVariety</b><br>Test class: com.cropin.testscripts.TC_Crop_03<br/>
+<a href="#Output-830920770" onClick='toggleBox("Output-830920770", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-830920770" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-830920770">
+Getting Bug<br/>
+</div>
+</td>
+<td></td>
+<td>68</td>
+<td>com.cropin.testscripts.TC_Crop_03@69c43e48</td></tr>
+<tr>
+<td title='com.cropin.testscripts.TC_Plantype_01.testCreatePlan()'><b>testCreatePlan</b><br>Test class: com.cropin.testscripts.TC_Plantype_01</td>
+<td></td>
+<td>89</td>
+<td>com.cropin.testscripts.TC_Plantype_01@581d969c</td></tr>
+<tr>
+<td title='com.cropin.testscripts.TC_Farmer_05.testDownloadBulkTemp()'><b>testDownloadBulkTemp</b><br>Test class: com.cropin.testscripts.TC_Farmer_05</td>
+<td></td>
+<td>24</td>
+<td>com.cropin.testscripts.TC_Farmer_05@7cd1ac19</td></tr>
+<tr>
+<td title='com.cropin.testscripts.TC_Asset_04.testDownloadBulkTemp()'><b>testDownloadBulkTemp</b><br>Test class: com.cropin.testscripts.TC_Asset_04</td>
+<td></td>
+<td>25</td>
+<td>com.cropin.testscripts.TC_Asset_04@547e29a4</td></tr>
+<tr>
+<td title='com.cropin.testscripts.TC_Contractor_02.testDownloadTemplate()'><b>testDownloadTemplate</b><br>Test class: com.cropin.testscripts.TC_Contractor_02</td>
+<td></td>
+<td>26</td>
+<td>com.cropin.testscripts.TC_Contractor_02@329a1243</td></tr>
+<tr>
+<td title='com.cropin.testscripts.TC_Resource_02.testDownloadTemplate()'><b>testDownloadTemplate</b><br>Test class: com.cropin.testscripts.TC_Resource_02</td>
+<td></td>
+<td>24</td>
+<td>com.cropin.testscripts.TC_Resource_02@4593ff34</td></tr>
+<tr>
+<td title='com.cropin.testscripts.TC_Plantype_02.testEditPlan()'><b>testEditPlan</b><br>Test class: com.cropin.testscripts.TC_Plantype_02</td>
+<td></td>
+<td>35</td>
+<td>com.cropin.testscripts.TC_Plantype_02@22db8f4</td></tr>
+<tr>
+<td title='com.cropin.testscripts.TC_Plantype_03.testEnableToggle()'><b>testEnableToggle</b><br>Test class: com.cropin.testscripts.TC_Plantype_03</td>
+<td></td>
+<td>51</td>
+<td>com.cropin.testscripts.TC_Plantype_03@2b46a8c1</td></tr>
+<tr>
+<td title='com.cropin.testscripts.TC_Role_03.testSearchAndDelete()'><b>testSearchAndDelete</b><br>Test class: com.cropin.testscripts.TC_Role_03</td>
+<td></td>
+<td>37</td>
+<td>com.cropin.testscripts.TC_Role_03@503d56b5</td></tr>
+<tr>
+<td title='com.cropin.testscripts.TC_User_02.testSearchAndDelete()'><b>testSearchAndDelete</b><br>Test class: com.cropin.testscripts.TC_User_02</td>
+<td></td>
+<td>28</td>
+<td>com.cropin.testscripts.TC_User_02@433ffad1</td></tr>
+<tr>
+<td title='com.cropin.testscripts.TC_SubCompany_02.testSearchSubCompany()'><b>testSearchSubCompany</b><br>Test class: com.cropin.testscripts.TC_SubCompany_02</td>
+<td></td>
+<td>29</td>
+<td>com.cropin.testscripts.TC_SubCompany_02@1fc793c2</td></tr>
+<tr>
+<td title='com.cropin.testscripts.TC_Contractor_04.testSearch_And_Delete()'><b>testSearch_And_Delete</b><br>Test class: com.cropin.testscripts.TC_Contractor_04<br/>
+<a href="#Output-530498535" onClick='toggleBox("Output-530498535", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-530498535" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-530498535">
+Contractor is not deleted<br/>
+</div>
+</td>
+<td></td>
+<td>40</td>
+<td>com.cropin.testscripts.TC_Contractor_04@2d35442b</td></tr>
+<tr>
+<td title='com.cropin.testscripts.TC_Farmer_06.testUploadBulkTemp()'><b>testUploadBulkTemp</b><br>Test class: com.cropin.testscripts.TC_Farmer_06</td>
+<td></td>
+<td>99</td>
+<td>com.cropin.testscripts.TC_Farmer_06@2f40a43</td></tr>
+<tr>
+<td title='com.cropin.testscripts.TC_Contractor_03.testUploadTemplate()'><b>testUploadTemplate</b><br>Test class: com.cropin.testscripts.TC_Contractor_03<br/>
+<a href="#Output-47690007" onClick='toggleBox("Output-47690007", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-47690007" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-47690007">
+Getting Bug<br/>
+</div>
+</td>
+<td></td>
+<td>82</td>
+<td>com.cropin.testscripts.TC_Contractor_03@ecf9fb3</td></tr>
+<tr>
+<td title='com.cropin.testscripts.TC_Resource_03.testUploadTemplate()'><b>testUploadTemplate</b><br>Test class: com.cropin.testscripts.TC_Resource_03<br/>
+<a href="#Output-619958792" onClick='toggleBox("Output-619958792", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-619958792" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-619958792">
+Getting Bug<br/>
+Getting Bug<br/>
+</div>
+</td>
+<td></td>
+<td>79</td>
+<td>com.cropin.testscripts.TC_Resource_03@37d3d232</td></tr>
+<tr>
+<td title='com.cropin.testscripts.TC_Resource_04.testUploadTemplate()'><b>testUploadTemplate</b><br>Test class: com.cropin.testscripts.TC_Resource_04<br/>
+<a href="#Output-463177561" onClick='toggleBox("Output-463177561", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-463177561" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-463177561">
+Resource is not deleted<br/>
+</div>
+</td>
+<td></td>
+<td>37</td>
+<td>com.cropin.testscripts.TC_Resource_04@30c0ccff</td></tr>
+<tr>
+<td title='com.cropin.testscripts.TC_Role_01.testUserRole()'><b>testUserRole</b><br>Test class: com.cropin.testscripts.TC_Role_01</td>
+<td></td>
+<td>34</td>
+<td>com.cropin.testscripts.TC_Role_01@39c11e6c</td></tr>
+<tr>
+<td title='com.cropin.testscripts.TC_Role_02.testWebAndMobileToggle()'><b>testWebAndMobileToggle</b><br>Test class: com.cropin.testscripts.TC_Role_02</td>
+<td></td>
+<td>35</td>
+<td>com.cropin.testscripts.TC_Role_02@324dcd31</td></tr>
+</table><p>
+</body>
+</html>

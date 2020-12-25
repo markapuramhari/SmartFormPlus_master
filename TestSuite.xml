@@ -1,13 +1,57 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite thread-count="1" configfailurepolicy="continue" name="SmartRecruit">
+<suite thread-count="1" configfailurepolicy="continue" name="Cropin">
   <listeners>
-    <listener class-name="com.hcl.smartrecruit.listners.TestListener"/>
+  		<listener class-name="com.cropin.listeners.TestListener"></listener>
   </listeners>
-  <test thread-count="1" name="POC_Test1">
+  <test thread-count="1" name="Cropin_Test1">
     <parameter name="browserName" value="Chrome"/>
     <classes>
-      <class name="com.hcl.smartrecruit.testscripts.ApproveAllRequisition"/>
+    <class name="com.cropin.testscripts.TC_Role_01" />
+    <class name="com.cropin.testscripts.TC_Role_02" />
+    <class name="com.cropin.testscripts.TC_Role_03" />
+    
+    <class name="com.cropin.testscripts.TC_User_01" />
+     <class name="com.cropin.testscripts.TC_User_02" />
+     
+    
+    <class name="com.cropin.testscripts.TC_SubCompany_02" />
+       
+   	<class name="com.cropin.testscripts.TC_Contractor_01" />
+   	<class name="com.cropin.testscripts.TC_Contractor_02" />
+   	<class name="com.cropin.testscripts.TC_Contractor_03" />
+   	<class name="com.cropin.testscripts.TC_Contractor_04" />
+   	
+   	<class name="com.cropin.testscripts.TC_Resource_01" />
+   	<class name="com.cropin.testscripts.TC_Resource_02" />
+   	<class name="com.cropin.testscripts.TC_Resource_03" />
+   	<class name="com.cropin.testscripts.TC_Resource_04" />
+   	
+   	<class name="com.cropin.testscripts.TC_Plantype_01" />
+   	<class name="com.cropin.testscripts.TC_Plantype_02" />
+   	<class name="com.cropin.testscripts.TC_Plantype_03" />
+   	<class name="com.cropin.testscripts.TC_Plantype_04" />
+   	<class name="com.cropin.testscripts.TC_Plantype_05" />
+   	
+   	<class name="com.cropin.testscripts.TC_Farmer_01" />
+   	<class name="com.cropin.testscripts.TC_Farmer_04" />
+   	<class name="com.cropin.testscripts.TC_Farmer_05" />
+   	<class name="com.cropin.testscripts.TC_Farmer_06" />
+   	
+   	<class name="com.cropin.testscripts.TC_Crop_01" />
+ 
+   	<class name="com.cropin.testscripts.TC_Crop_03" />
+   	<class name="com.cropin.testscripts.TC_Crop_04" />
+   	
+   	<class name="com.cropin.testscripts.TC_Asset_01" />
+   	<class name="com.cropin.testscripts.TC_Asset_04" />
+   	<class name="com.cropin.testscripts.TC_Asset_05" />
+   	
+   	<class name="com.cropin.testscripts.TC_Alerts_01" />
+   	<class name="com.cropin.testscripts.TC_Alerts_02" />
+   	<class name="com.cropin.testscripts.TC_Alerts_03" />
+   	
+   
     </classes>
-  </test> <!-- POC_Test1 -->
-</suite> <!-- SmartRecruit -->
+  </test> 
+</suite> 

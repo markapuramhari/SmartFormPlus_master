@@ -2,21 +2,21 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite thread-count="1" configfailurepolicy="continue" guice-stage="DEVELOPMENT" name="Failed suite [SmartRecruit]">
   <listeners>
-    <listener class-name="com.hcl.smartrecruit.listners.TestListener"/>
+    <listener class-name="com.cropin.listeners.TestListener"/>
   </listeners>
-  <test thread-count="1" name="POC_Test1(failed)">
+  <test thread-count="1" name="Cropin_Test1(failed)">
     <parameter name="browserName" value="Chrome"/>
     <classes>
-      <class name="com.hcl.smartrecruit.testscripts.ApproveAllRequisition">
+      <class name="com.cropin.testscripts.TC_Role_03">
         <methods>
           <include name="launchApp"/>
+          <include name="setExtentReport"/>
           <include name="closeBrowser"/>
           <include name="killTask"/>
-          <include name="setExtentReport"/>
-          <include name="TC_ApproveAllRequisition" invocation-numbers="0"/>
           <include name="createFiles"/>
+          <include name="testSearchAndDelete"/>
         </methods>
-      </class> <!-- com.hcl.smartrecruit.testscripts.ApproveAllRequisition -->
+      </class> <!-- com.cropin.testscripts.TC_Role_03 -->
     </classes>
-  </test> <!-- POC_Test1(failed) -->
+  </test> <!-- Cropin_Test1(failed) -->
 </suite> <!-- Failed suite [SmartRecruit] -->

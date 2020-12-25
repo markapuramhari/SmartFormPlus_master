@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite thread-count="1" configfailurepolicy="continue" guice-stage="DEVELOPMENT" name="Failed suite [SmartRecruit]">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
   <listeners>
-    <listener class-name="com.hcl.smartrecruit.listners.TestListener"/>
+    <listener class-name="com.cropin.listeners.TestListener"/>
   </listeners>
-  <test thread-count="1" name="POC_Test1(failed)">
+  <test thread-count="5" name="Cropin_Test(failed)">
     <parameter name="browserName" value="Chrome"/>
     <classes>
-      <class name="com.hcl.smartrecruit.testscripts.ApproveAllRequisition">
+      <class name="com.cropin.testscripts.TC_SubCompany_01">
         <methods>
+          <include name="testCreateSubCompany"/>
           <include name="launchApp"/>
+          <include name="setExtentReport"/>
           <include name="closeBrowser"/>
           <include name="killTask"/>
-          <include name="setExtentReport"/>
-          <include name="TC_ApproveAllRequisition" invocation-numbers="0"/>
           <include name="createFiles"/>
         </methods>
-      </class> <!-- com.hcl.smartrecruit.testscripts.ApproveAllRequisition -->
+      </class> <!-- com.cropin.testscripts.TC_SubCompany_01 -->
     </classes>
-  </test> <!-- POC_Test1(failed) -->
-</suite> <!-- Failed suite [SmartRecruit] -->
+  </test> <!-- Cropin_Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

@@ -13,7 +13,7 @@
 		<!-- defaults to https -->
 		<protocol>https</protocol>
 		<!-- title of the document -->
-		<documentTitle>Smart Recruit Poc</documentTitle>
+		<documentTitle>Cropin-SmartFarmPlus</documentTitle>
 
 		<!-- report name - displayed at top-nav -->
 		<!-- report name - displayed at top-nav -->
@@ -23,7 +23,7 @@
 		
 		 		 <![CDATA[
          
-          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTU_TXbrxso5wQykQaeb_PNtT9Eve5a5mKZ6_6XuCAGcCQbKeme&s"/>
+          <img src="data:image/png;base64,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"/>
           
         ]]>   
 			
@@ -63,7 +63,7 @@
         <js>
         <![CDATA[
         var element=document.getElementsByClassName("left panel-name")[0];
-        element.innerHTML='<font size="5">Smart Recruit POC</font>';
+        element.innerHTML='<font size="5">Cropin-SmartFarmPlus</font>';
         element.style.fontSize = "18px";
         element.style.color = "#8bff00";
         ]]>
